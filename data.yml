@@ -1,3 +1,8 @@
+profiles:
+  - name: telegram
+    link: https://t.me/orsinium
+  - name: github
+    link: https://github.com/orsinium
 open source:
   - name: TextDistance
     link: https://github.com/orsinium/textdistance
@@ -120,13 +125,20 @@ pull requests:
     link: https://github.com/sarugaku/requirementslib/pull/9
 videos:
   - name: UfaPy
-    link: https://www.youtube.com/watch?v=Htg3FE3GbJ4
+    link: https://youtu.be/Htg3FE3GbJ4
     date: 2018-02
   - name: UfaDevConf
-    link: https://www.youtube.com/watch?v=uSVu1Z7fKw4
+    link: https://youtu.be/uSVu1Z7fKw4
     date: 2017-10
 artcles:
   - name: About iterators and iterables
     link: https://github.com/orsinium/notes/blob/master/notes-en/python-iterators.md
   - name: Python packaging for your team
     link: https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
+media:
+  - name: All about blockchain
+    type: podcast
+    link: https://t.me/itgram_channel/21
+other:
+  - name: CTF Team
+    link: https://ctftime.org/team/24077
