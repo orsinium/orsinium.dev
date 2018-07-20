@@ -3,7 +3,7 @@ profiles:
     link: https://t.me/orsinium
   - name: github
     link: https://github.com/orsinium
-open source:
+open_source:
   - name: TextDistance
     link: https://github.com/orsinium/textdistance
     info: >
@@ -56,7 +56,7 @@ open source:
       - python
       - zabbix
       - monitoring
-little projects:
+little_projects:
   - name: poetry-setup
     link: https://github.com/orsinium/poetry-setup
     tags:
