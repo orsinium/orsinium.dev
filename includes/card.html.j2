@@ -1,10 +1,25 @@
-<div class="card col-sm">
+<div class="card col-sm-12 col-md-6 col-lg-4">
   <div class="card-body">
     <h5 class="card-title">{{ item['name'] }}</h5>
-    <h6 class="card-subtitle mb-2 text-muted">github.com</h6>
-    <p class="card-text">{{ item['info'] }}</p>
-    <a href="{{ item['link'] }}" class="card-link" target="_blank">
-      explore
-    </a>
+
+    {% if 'tags' in item %}
+      <h6 class="card-subtitle mb-2 text-muted">
+        {% for tag in item['tags'] %}
+          #{{ tag }}
+        {% endfor %}
+        </h6>
+    {% endif %}
+
+    {% if 'info' in item %}
+      <p class="card-text">
+        {{ item['info'] }}
+      </p>
+    {% endif %}
+
+    {% if 'link' in item %}
+      <a href="{{ item['link'] }}" class="card-link btn btn-primary" target="_blank">
+        explore
+      </a>
+    {% endif %}
   </div>
 </div>

@@ -116,7 +116,7 @@ channels:
     link: https://t.me/rpgdump
   - name: Default City 2
     link: https://t.me/default_city2
-pull requests:
+pull_requests:
   - name: choosealicense.com
     link: https://github.com/github/choosealicense.com/pull/583
   - name: hello-world

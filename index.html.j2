@@ -4,22 +4,57 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="This is a boilerplate for a Bootstrap 4.1.1 project">
-    <meta name="keywords" content="HTML, CSS, JS, Sass, JavaScript, framework, bootstrap, front-end, frontend, web development">
-    <meta name="author" content="Henrik H. Boelsmand">
-    <title>Bootstrap 4 boilerplate</title>
+    <meta name="description" content="Gram's projects">
+    <meta name="keywords" content="developer, portfolio">
+    <meta name="author" content="Gram Orsinium">
+    <title>Gram's projects</title>
     <link rel="shortcut icon" href="favicon.ico">
 
-    <!-- build:css -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <!-- endbuild -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <h1>Open Source</h1>
-    {% for item in open_source %}
-      {% include "includes/card.html.j2" with context %}
-    {% endfor %}
+    <div class="container">
+
+      <h2>Telegram channels</h2>
+      <div class="row">
+        {% for item in channels %}
+          {% include "includes/card.html.j2" with context %}
+        {% endfor %}
+      </div>
+
+      <h2>Open Source</h2>
+      <div class="row">
+        {% for item in open_source %}
+          {% include "includes/card.html.j2" with context %}
+        {% endfor %}
+      </div>
+
+      <h2>Some little projects</h2>
+      <div class="row">
+        {% for item in little_projects %}
+          {% include "includes/card.html.j2" with context %}
+        {% endfor %}
+      </div>
+
+
+      <h2>Pull Requests to other Open Source projects</h2>
+      <div class="row">
+        {% for item in pull_requests %}
+          {% include "includes/card.html.j2" with context %}
+        {% endfor %}
+      </div>
+
+
+      <h2>Presentations</h2>
+      <div class="row">
+        {% for item in videos %}
+          {% include "includes/card.html.j2" with context %}
+        {% endfor %}
+      </div>
+
+    </div>
   </body>
 
 </html>
