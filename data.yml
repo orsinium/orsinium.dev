@@ -1,0 +1,132 @@
+open source:
+  - name: TextDistance
+    link: https://github.com/orsinium/textdistance
+    info: >
+      Compute distance between sequences.
+      30+ algorithms, pure python implementation,
+      common interface, optional external libs usage.
+    tags:
+      - python
+  - name: DjBurger
+    link: https://github.com/orsinium/djburger
+    info: Framework for safe and maintainable web-projects.
+    tags:
+      - python
+      - django
+  - name: RuTimeParser
+    link: https://github.com/orsinium/rutimeparser
+    info: Recognize date and time in russian text and return datetime.datetime.
+    tags:
+      - python
+  - name: Deal
+    link: https://github.com/orsinium/deal
+    info: Design by contract for Python with many validators support.
+    tags:
+      - python
+  - name: DjBrut
+    link: https://github.com/orsinium/django-bruteforce-protection
+    info: Bruteforce protection for Django projects based on Redis.
+    tags:
+      - python
+      - django
+  - name: Homoglyphs
+    link: https://github.com/orsinium/homoglyphs
+    info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
+    tags:
+      - python
+  - name: Awesome Generator
+    link: https://github.com/orsinium/awesome-generator
+    tags:
+      - go
+  - name: Generated Awesomeness
+    link: https://github.com/orsinium/generated-awesomeness
+  - name: Send File Bot
+    link: https://github.com/orsinium/send-file-bot
+    tags:
+      - python
+      - telegram
+  - name: Zabbix Healthcheck
+    link: https://github.com/orsinium/zabbix-healthcheck
+    tags:
+      - python
+      - zabbix
+      - monitoring
+little projects:
+  - name: poetry-setup
+    link: https://github.com/orsinium/poetry-setup
+    tags:
+      - python
+      - packaging
+  - name: install-requires
+    link: https://github.com/orsinium/install-requires
+    tags:
+      - python
+      - packaging
+  - name: ElastAlert Configuring
+    link: https://github.com/orsinium/elastalert-configuring
+    tags:
+      - elasic
+      - monitoring
+  - name: python-syslog-logstash
+    link: https://github.com/orsinium/python-syslog-logstash
+    tags:
+      - python
+      - docker
+      - rsyslog
+      - elastic
+  - name: Django Google Play permissions
+    link: https://github.com/orsinium/django-google-play-permissions
+    tags:
+      - python
+      - docker
+  - name: hh.ru
+    link: https://github.com/orsinium/hh
+    tags:
+      - python
+      - jupyter
+  - name: Swag
+    link: https://github.com/orsinium/swag
+    tags:
+      - python
+  - name: Pathfinder Dice
+    link: https://github.com/orsinium/pathfinder_dice
+    tags:
+      - python
+  - name: DjChoices
+    link: https://github.com/orsinium/djchoices
+    tags:
+      - python
+      - django
+  - name: USATU CTF
+    link: https://github.com/orsinium/usatu-ctf
+    tags:
+      - security
+projects:
+  - name: Dipper3
+    link: https://dipper3.life4web.ru/
+channels:
+  - name: ITGram
+    link: https://t.me/itgram_channel
+  - name: RPG Dump
+    link: https://t.me/rpgdump
+  - name: Default City 2
+    link: https://t.me/default_city2
+pull requests:
+  - name: choosealicense.com
+    link: https://github.com/github/choosealicense.com/pull/583
+  - name: hello-world
+    link: https://github.com/leachim6/hello-world/pull/453
+  - name: requirementslib
+    link: https://github.com/sarugaku/requirementslib/pull/9
+videos:
+  - name: UfaPy
+    link: https://www.youtube.com/watch?v=Htg3FE3GbJ4
+    date: 2018-02
+  - name: UfaDevConf
+    link: https://www.youtube.com/watch?v=uSVu1Z7fKw4
+    date: 2017-10
+artcles:
+  - name: About iterators and iterables
+    link: https://github.com/orsinium/notes/blob/master/notes-en/python-iterators.md
+  - name: Python packaging for your team
+    link: https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
