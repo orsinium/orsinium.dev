@@ -135,9 +135,8 @@ artcles:
     link: https://github.com/orsinium/notes/blob/master/notes-en/python-iterators.md
   - name: Python packaging for your team
     link: https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
-media:
+podcasts:
   - name: All about blockchain
-    type: podcast
     link: https://t.me/itgram_channel/21
 other:
   - name: CTF Team
