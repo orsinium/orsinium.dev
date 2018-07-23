@@ -3,7 +3,7 @@
     <h5 class="card-title">{{ item['name'] }}</h5>
 
     {% if 'tags' in item %}
-      <h6 class="card-subtitle mb-2 text-muted">
+      <h6 class="card-subtitle text-muted">
         {% for tag in item['tags'] %}
           #{{ tag }}
         {% endfor %}
@@ -16,25 +16,34 @@
       </p>
     {% endif %}
 
-    {% if 'link' in item %}
-      <a href="{{ item['link'] }}" class="card-link btn btn-primary" target="_blank">
-        {% if '/pull/' in item['link'] %}
+    {% for link in item['links'] %}
+      <a href="{{ link }}" class="card-link btn btn-light" target="_blank">
+        {% if '/pull/' in link %}
           <i class="fab fa-github"></i>
           pull request
-        {% elif 'github.com' in item['link'] %}
+        {% elif 'github.com' in link %}
           <i class="fab fa-github"></i>
           repository
-        {% elif 't.me/' in item['link'] %}
+        {% elif '/itgram_channel/' in link %}
+          <i class="fab fa-telegram"></i>
+          post
+        {% elif 't.me/' in link %}
           <i class="fab fa-telegram"></i>
           channel
-        {% elif 'youtu.be/' in item['link'] %}
+        {% elif 'youtu.be/' in link %}
           <i class="fab fa-youtube"></i>
           video
-        {% else %}
-          <i class="fab fa-info-circle"></i>
+        {% elif 'canva.com/' in link %}
+          <i class="fas fa-eye"></i>
+          slides
+        {% elif 'life4web.ru/' in link %}
+          <i class="fas fa-info-circle"></i>
           info
+        {% else %}
+          <i class="fas fa-globe-americas"></i>
+          page
         {% endif %}
       </a>
-    {% endif %}
+    {% endfor %}
   </div>
 </div>

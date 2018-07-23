@@ -1,11 +1,14 @@
 profiles:
   - name: telegram
-    link: https://t.me/orsinium
+    links:
+      - https://t.me/orsinium
   - name: github
-    link: https://github.com/orsinium
+    links:
+      - https://github.com/orsinium
 open_source:
   - name: TextDistance
-    link: https://github.com/orsinium/textdistance
+    links:
+      - https://github.com/orsinium/textdistance
     info: >
       Compute distance between sequences.
       30+ algorithms, pure python implementation,
@@ -13,105 +16,122 @@ open_source:
     tags:
       - python
   - name: DjBurger
-    link: https://github.com/orsinium/djburger
+    links:
+      - https://github.com/orsinium/djburger
     info: Framework for safe and maintainable web-projects.
     tags:
       - python
       - django
   - name: RuTimeParser
-    link: https://github.com/orsinium/rutimeparser
+    links:
+      - https://github.com/orsinium/rutimeparser
     info: Recognize date and time in russian text and return datetime.datetime.
     tags:
       - python
   - name: Deal
-    link: https://github.com/orsinium/deal
+    links:
+      - https://github.com/orsinium/deal
     info: Design by contract for Python with many validators support.
     tags:
       - python
   - name: DjBrut
-    link: https://github.com/orsinium/django-bruteforce-protection
+    links:
+      - https://github.com/orsinium/django-bruteforce-protection
     info: Bruteforce protection for Django projects based on Redis.
     tags:
       - python
       - django
   - name: Homoglyphs
-    link: https://github.com/orsinium/homoglyphs
+    links:
+      - https://github.com/orsinium/homoglyphs
     info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
     tags:
       - python
   - name: Awesome Generator
-    link: https://github.com/orsinium/awesome-generator
+    links:
+      - https://github.com/orsinium/awesome-generator
     tags:
       - go
   - name: Generated Awesomeness
-    link: https://github.com/orsinium/generated-awesomeness
+    links:
+      - https://github.com/orsinium/generated-awesomeness
   - name: Send File Bot
-    link: https://github.com/orsinium/send-file-bot
+    links:
+      - https://github.com/orsinium/send-file-bot
     tags:
       - python
       - telegram
   - name: Zabbix Healthcheck
-    link: https://github.com/orsinium/zabbix-healthcheck
+    links:
+      - https://github.com/orsinium/zabbix-healthcheck
     tags:
       - python
       - zabbix
       - monitoring
 little_projects:
   - name: poetry-setup
-    link: https://github.com/orsinium/poetry-setup
+    links:
+      - https://github.com/orsinium/poetry-setup
     tags:
       - python
       - packaging
   - name: install-requires
-    link: https://github.com/orsinium/install-requires
+    links:
+      - https://github.com/orsinium/install-requires
     tags:
       - python
       - packaging
   - name: ElastAlert Configuring
-    link: https://github.com/orsinium/elastalert-configuring
+    links:
+      - https://github.com/orsinium/elastalert-configuring
     tags:
       - elasic
       - monitoring
   - name: python-syslog-logstash
-    link: https://github.com/orsinium/python-syslog-logstash
+    links:
+      - https://github.com/orsinium/python-syslog-logstash
     tags:
       - python
       - docker
       - rsyslog
       - elastic
   - name: Django Google Play permissions
-    link: https://github.com/orsinium/django-google-play-permissions
+    links:
+      - https://github.com/orsinium/django-google-play-permissions
     tags:
       - python
       - docker
   - name: hh.ru
-    link: https://github.com/orsinium/hh
+    links:
+      - https://github.com/orsinium/hh
     tags:
       - python
       - jupyter
   - name: Swag
-    link: https://github.com/orsinium/swag
+    links:
+      - https://github.com/orsinium/swag
     tags:
       - python
   - name: Pathfinder Dice
-    link: https://github.com/orsinium/pathfinder_dice
+    links:
+      - https://github.com/orsinium/pathfinder_dice
     tags:
       - python
   - name: DjChoices
-    link: https://github.com/orsinium/djchoices
+    links:
+      - https://github.com/orsinium/djchoices
     tags:
       - python
       - django
   - name: USATU CTF
-    link: https://github.com/orsinium/usatu-ctf
+    links:
+      - https://github.com/orsinium/usatu-ctf
     tags:
       - security
-projects:
-  - name: Dipper3
-    link: https://dipper3.life4web.ru/
 channels:
   - name: ITGram
-    link: https://t.me/itgram_channel
+    links:
+      - https://t.me/itgram_channel
     info: "All about development: best practice, articles, useful tools and libs etc."
     tags:
       - python
@@ -119,33 +139,65 @@ channels:
       - monitoring
       - security
   - name: RPG Dump
-    link: https://t.me/rpgdump
+    links:
+      - https://t.me/rpgdump
     info: Pathfinder, board games
   - name: Default City 2
-    link: https://t.me/default_city2
+    links:
+      - https://t.me/default_city2
     info: Saint Petersburg and people around me
 pull_requests:
   - name: choosealicense.com
-    link: https://github.com/github/choosealicense.com/pull/583
+    links:
+      - https://github.com/github/choosealicense.com/pull/583
   - name: hello-world
-    link: https://github.com/leachim6/hello-world/pull/453
+    links:
+      - https://github.com/leachim6/hello-world/pull/453
   - name: requirementslib
-    link: https://github.com/sarugaku/requirementslib/pull/9
+    links:
+      - https://github.com/sarugaku/requirementslib/pull/9
 videos:
   - name: UfaPy
-    link: https://youtu.be/Htg3FE3GbJ4
     date: 2018-02
+    info: Code, Burgers & Magic.
+    tags:
+      - python
+    links:
+      - https://youtu.be/Htg3FE3GbJ4
+      - https://www.canva.com/design/DACstli23Jk/JRUrOHV6sY3jX4QsZR8TOg/view
   - name: UfaDevConf
-    link: https://youtu.be/uSVu1Z7fKw4
     date: 2017-10
+    info: Farfor Monitoring
+    tags:
+      - monitoring
+    links:
+      - https://youtu.be/uSVu1Z7fKw4
+  - name: Vulner
+    date: 2016-07
+    tags:
+      - security
+    links:
+      - https://www.canva.com/design/DAB2LyB3Pi8/DBb-0AxC0s7-SUn5YERQ2w/view
+  - name: Blockchain
+    date: 2017-07
+    tags:
+      - crypto
+    links:
+      - https://www.canva.com/design/DACc9aAGyTw/SlVeFsCFODCv6LsmPUx98A/view
 artcles:
   - name: About iterators and iterables
-    link: https://github.com/orsinium/notes/blob/master/notes-en/python-iterators.md
+    links:
+      - https://github.com/orsinium/notes/blob/master/notes-en/python-iterators.md
   - name: Python packaging for your team
-    link: https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
-podcasts:
-  - name: All about blockchain
-    link: https://t.me/itgram_channel/21
+    links:
+      - https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
 other:
+  - name: Podcast about blockchain
+    links:
+      - https://t.me/itgram_channel/21
+  - name: Dipper3
+    links:
+      - https://dipper3.life4web.ru/
   - name: CTF Team
-    link: https://ctftime.org/team/24077
+    links:
+      - https://ctftime.org/team/24077
