@@ -112,10 +112,18 @@ projects:
 channels:
   - name: ITGram
     link: https://t.me/itgram_channel
+    info: "All about development: best practice, articles, useful tools and libs etc."
+    tags:
+      - python
+      - go
+      - monitoring
+      - security
   - name: RPG Dump
     link: https://t.me/rpgdump
+    info: Pathfinder, board games
   - name: Default City 2
     link: https://t.me/default_city2
+    info: Saint Petersburg and people around me
 pull_requests:
   - name: choosealicense.com
     link: https://github.com/github/choosealicense.com/pull/583

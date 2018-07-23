@@ -18,7 +18,22 @@
 
     {% if 'link' in item %}
       <a href="{{ item['link'] }}" class="card-link btn btn-primary" target="_blank">
-        explore
+        {% if '/pull/' in item['link'] %}
+          <i class="fab fa-github"></i>
+          pull request
+        {% elif 'github.com' in item['link'] %}
+          <i class="fab fa-github"></i>
+          repository
+        {% elif 't.me/' in item['link'] %}
+          <i class="fab fa-telegram"></i>
+          channel
+        {% elif 'youtu.be/' in item['link'] %}
+          <i class="fab fa-youtube"></i>
+          video
+        {% else %}
+          <i class="fab fa-info-circle"></i>
+          info
+        {% endif %}
       </a>
     {% endif %}
   </div>
