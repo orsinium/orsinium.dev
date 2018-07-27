@@ -173,6 +173,10 @@ pull_requests:
     info: Improved Pipfile.lock parsing.
     links:
       - https://github.com/sarugaku/requirementslib/pull/9
+  - name: mongoengine
+    info: Added DateField support
+    links:
+      - https://github.com/MongoEngine/mongoengine/pull/1825
 videos:
   - name: Code, Burgers & Magic
     date: 2018-01-18
