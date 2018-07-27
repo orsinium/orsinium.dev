@@ -16,6 +16,13 @@
       </p>
     {% endif %}
 
+    {% if item['date'] %}
+      <p>
+        <i class="far fa-calendar-alt"></i>
+        {{ item['date'] }}
+      </p>
+    {% endif %}
+
     {% for link in item['links'] %}
       <a href="{{ link }}" class="card-link btn btn-light" target="_blank">
         {% if '/pull/' in link %}
