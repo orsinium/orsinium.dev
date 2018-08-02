@@ -24,32 +24,14 @@
     {% endif %}
 
     {% for link in item['links'] %}
-      <a href="{{ link }}" class="card-link btn btn-light" target="_blank">
-        {% if '/pull/' in link %}
-          <i class="fab fa-github"></i>
-          pull request
-        {% elif 'github.com' in link %}
-          <i class="fab fa-github"></i>
-          repository
-        {% elif '/itgram_channel/' in link %}
-          <i class="fab fa-telegram"></i>
-          post
-        {% elif 't.me/' in link %}
-          <i class="fab fa-telegram"></i>
-          channel
-        {% elif 'youtu.be/' in link %}
-          <i class="fab fa-youtube"></i>
-          video
-        {% elif 'canva.com/' in link %}
-          <i class="fas fa-eye"></i>
-          slides
-        {% elif 'life4web.ru/' in link %}
-          <i class="fas fa-info-circle"></i>
-          info
-        {% else %}
-          <i class="fas fa-globe-americas"></i>
-          page
-        {% endif %}
+      <a href="{{ link }}" class="btn btn-light" target="_blank">
+        {% for button in buttons %}
+          {% if button['trigger'] in link %}
+            <i class="{{ button['icon'] }}"></i>
+            {{ button['text'] }}
+            {% break %}
+          {% endif %}
+        {% endfor %}
       </a>
     {% endfor %}
   </div>

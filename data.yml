@@ -211,6 +211,7 @@ videos:
       - monitoring
     links:
       - https://youtu.be/uSVu1Z7fKw4
+      - http://dc.ufacoder.com/
   - name: Vulner
     date: 2016-07-22
     info: >
@@ -238,6 +239,9 @@ artcles:
       - https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
 other:
   - name: Podcast about blockchain
+    info: >
+      About blockchain technology, cryptocurrencies,
+      history and future of decentralized systems.
     links:
       - https://t.me/itgram_channel/21
   - name: Dipper3
@@ -248,3 +252,45 @@ other:
     info: My CTF team. CTF (Capture The Flag) — information security contests.
     links:
       - https://ctftime.org/team/24077
+
+
+buttons:
+  - trigger: "/pull/"
+    icon: fab fa-github
+    text: pull request
+
+  - trigger: "github.com/orsinium/notes"
+    icon: far fa-newspaper
+    text: article
+
+  - trigger: "github.com"
+    icon: fab fa-github
+    text: repository
+
+  - trigger: "/itgram_channel/"
+    icon: fab fa-telegram
+    text: post
+
+  - trigger: "t.me/"
+    icon: fab fa-telegram
+    text: channel
+
+  - trigger: "youtu.be/"
+    icon: fab fa-youtube
+    text: video
+
+  - trigger: "canva.com/"
+    icon: fas fa-eye
+    text: slides
+
+  - trigger: "life4web.ru/"
+    icon: fas fa-info-circle
+    text: info
+
+  - trigger: "timepad.ru/"
+    icon: fas fa-map-marker-alt
+    text: event
+
+  - trigger: ""
+    icon: fas fa-globe-americas
+    text: page
