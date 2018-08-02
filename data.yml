@@ -187,6 +187,15 @@ pull_requests:
     links:
       - https://github.com/github/choosealicense.com/pull/583
 videos:
+  - name: Python packaging
+    date: 2018-06-29
+    info: "Presentation from PiterPy Meetup #6."
+    tags:
+      - python
+    links:
+      - https://www.canva.com/design/DAC7K2hLOBE/F2qhLJ1TFh1WghlH2PyZXQ/view
+      - https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
+      - https://piterpy.timepad.ru/event/666491/
   - name: Code, Burgers & Magic
     date: 2018-01-18
     info: Presentation from UfaPy.
