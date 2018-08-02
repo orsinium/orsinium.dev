@@ -161,6 +161,10 @@ channels:
       - https://t.me/default_city2
     info: Saint Petersburg and people around me
 pull_requests:
+  - name: luigi
+    info: Project configuring via TOML format.
+    links:
+      - https://github.com/spotify/luigi/pull/2457
   - name: choosealicense.com
     info: Updated CC-BY license name.
     links:
