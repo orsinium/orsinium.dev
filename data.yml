@@ -161,6 +161,11 @@ channels:
       - https://t.me/default_city2
     info: Saint Petersburg and people around me
 pull_requests:
+  - name: isort
+    info: Added requirements.txt and Pipfile support
+    date: 2018-07-22
+    links:
+      - https://github.com/timothycrosley/isort/pull/715
   - name: mongoengine
     info: Added DateField support
     date: 2018-07-20
