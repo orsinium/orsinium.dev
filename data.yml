@@ -176,6 +176,11 @@ pull_requests:
     date: 2018-07-13
     links:
       - https://github.com/spotify/luigi/pull/2457
+  - name: mixer
+    info: Added unregister_middleware function.
+    date: 2018-07-04
+    links:
+      - https://github.com/klen/mixer/pull/101
   - name: requirementslib
     info: Improved Pipfile.lock parsing.
     date: 2018-06-16
