@@ -161,6 +161,11 @@ channels:
       - https://t.me/default_city2
     info: Saint Petersburg and people around me
 pull_requests:
+  - name: pylama
+    info: Eradicate support and Python 3.7 compatibility.
+    date: 2018-09-28
+    links:
+      - https://github.com/klen/pylama/pull/129
   - name: isort
     info: Added requirements.txt and Pipfile support
     date: 2018-07-22
