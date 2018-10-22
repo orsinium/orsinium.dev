@@ -205,8 +205,6 @@ videos:
   - name: "OSS: why and how?"
     date: 2018-10-20
     info: "Presentation about Open Source from Hacktoberfest 2018."
-    tags:
-      - python
     links:
       - https://www.canva.com/design/DADGaghkaAQ/akZAdzE6mBEh6xTfsMrTDw/view
       - https://piterpy.timepad.ru/event/826118/
