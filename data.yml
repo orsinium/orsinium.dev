@@ -202,6 +202,12 @@ pull_requests:
     links:
       - https://github.com/github/choosealicense.com/pull/583
 videos:
+  - name: "Luigi: let's build perfect pipeline"
+    date: 2018-10-27
+    info: "Presentation about Spotify's framework Luigi."
+    links:
+      - https://www.canva.com/design/DADG59zIK2E/gQMnnLb_xW3zQ0BVuHDN8w/view
+      - https://www.meetup.com/PyData-SPb/events/255421042/
   - name: "OSS: why and how?"
     date: 2018-10-20
     info: "Presentation about Open Source from Hacktoberfest 2018."
@@ -292,6 +298,10 @@ buttons:
     icon: fab fa-telegram
     text: post
 
+  - trigger: "t.me/orsinium"
+    icon: fab fa-telegram
+    text: text me!
+
   - trigger: "t.me/"
     icon: fab fa-telegram
     text: channel
@@ -309,6 +319,10 @@ buttons:
     text: info
 
   - trigger: "timepad.ru/"
+    icon: fas fa-map-marker-alt
+    text: event
+
+  - trigger: "meetup.com/"
     icon: fas fa-map-marker-alt
     text: event
 
