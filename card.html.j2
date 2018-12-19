@@ -1,6 +1,15 @@
 <div class="card col-sm-12 col-md-6 col-lg-4">
   <div class="card-body">
-    <h5 class="card-title">{{ item['name'] }}</h5>
+    <h5 class="card-title">
+      {% if 'lang' in item %}
+        {% for lang in ('rus', 'eng') %}
+          {% if lang in item['lang'] %}
+            <img src="./assets/{{ lang }}.svg" class="lang" />
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {{ item['name'] }}
+    </h5>
 
     {% if 'tags' in item %}
       <h6 class="card-subtitle text-muted">

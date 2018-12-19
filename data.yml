@@ -144,6 +144,7 @@ little_projects:
       - security
 channels:
   - name: ITGram
+    lang: rus
     links:
       - https://t.me/itgram_channel
     info: "All about development: best practice, articles, useful tools and libs etc."
@@ -153,10 +154,12 @@ channels:
       - monitoring
       - security
   - name: RPG Dump
+    lang: ['eng', 'rus']
     links:
       - https://t.me/rpgdump
     info: Pathfinder, board games
   - name: Default City 2
+    lang: rus
     links:
       - https://t.me/default_city2
     info: Saint Petersburg and people around me
@@ -203,20 +206,28 @@ pull_requests:
       - https://github.com/github/choosealicense.com/pull/583
 videos:
   - name: "The bees, the trees, the types, the typing"
+    lang: rus
     date: 2018-12-11
     info: "Interactive presentation about data structures in Python's stdlib."
+    tags:
+      - python
     links:
       - https://youtu.be/zD-qBcvBSik
       - https://piterpy.timepad.ru/event/863647/
   - name: "Logging!"
+    lang: eng
     date: 2018-12-06
     info: "My first English talk. Sorry for that."
+    tags:
+      - python
     links:
       - https://youtu.be/4NEAwhgZkU4
       - https://piterpy.timepad.ru/event/804746/
   - name: "Luigi: let's build perfect pipeline"
     date: 2018-10-27
     info: "Presentation about Spotify's framework Luigi."
+    tags:
+      - python
     links:
       - https://www.canva.com/design/DADG59zIK2E/gQMnnLb_xW3zQ0BVuHDN8w/view
       - https://www.meetup.com/PyData-SPb/events/255421042/
@@ -236,6 +247,7 @@ videos:
       - https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
       - https://piterpy.timepad.ru/event/666491/
   - name: Code, Burgers & Magic
+    lang: rus
     date: 2018-01-18
     info: Presentation from UfaPy.
     tags:
@@ -244,6 +256,7 @@ videos:
       - https://youtu.be/Htg3FE3GbJ4
       - https://www.canva.com/design/DACstli23Jk/JRUrOHV6sY3jX4QsZR8TOg/view
   - name: Farfor Monitoring
+    lang: rus
     date: 2017-10-14
     info: Presentation from UfaDevConf about monitoring ecosystem in Smena Team.
     tags:
@@ -270,20 +283,24 @@ videos:
       - https://www.canva.com/design/DACc9aAGyTw/SlVeFsCFODCv6LsmPUx98A/view
 artcles:
   - name: About iterators and iterables
+    lang: eng
     links:
       - https://github.com/orsinium/notes/blob/master/notes-en/python-iterators.md
   - name: Python packaging for your team
+    lang: eng
     info: Article about Python packaging ecosystem.
     links:
       - https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
 other:
   - name: Podcast about blockchain
+    lang: rus
     info: >
       About blockchain technology, cryptocurrencies,
       history and future of decentralized systems.
     links:
       - https://t.me/itgram_channel/21
   - name: Dipper3
+    lang: rus
     info: Telegram bot with many features and lightweight dialog system
     links:
       - https://dipper3.life4web.ru/
