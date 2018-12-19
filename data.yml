@@ -299,6 +299,11 @@ other:
       history and future of decentralized systems.
     links:
       - https://t.me/itgram_channel/21
+  - name: Stickers
+    lang: ['eng', 'rus']
+    info: I draw and print round vector stickers with programming jokes.
+    links:
+      - https://stickers.life4web.ru
   - name: Dipper3
     lang: rus
     info: Telegram bot with many features and lightweight dialog system

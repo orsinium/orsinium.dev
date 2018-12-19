@@ -2,7 +2,7 @@
   <div class="card-body">
     <h5 class="card-title">
       {% if 'lang' in item %}
-        {% for lang in ('rus', 'eng') %}
+        {% for lang in ('eng', 'rus') %}
           {% if lang in item['lang'] %}
             <img src="./assets/{{ lang }}.svg" class="lang" />
           {% endif %}
