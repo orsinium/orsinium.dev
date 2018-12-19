@@ -37,7 +37,7 @@
         </div>
         <div class="row">
           {% for item in profiles %}
-            {% include "includes/card.html.j2" with context %}
+            {% include "card.html.j2" with context %}
           {% endfor %}
         </div>
       </div>
@@ -48,21 +48,21 @@
       <h2>Telegram channels</h2>
       <div class="row">
         {% for item in channels %}
-          {% include "includes/card.html.j2" with context %}
+          {% include "card.html.j2" with context %}
         {% endfor %}
       </div>
 
       <h2>Open Source</h2>
       <div class="row">
         {% for item in open_source %}
-          {% include "includes/card.html.j2" with context %}
+          {% include "card.html.j2" with context %}
         {% endfor %}
       </div>
 
       <h2>Some little projects</h2>
       <div class="row">
         {% for item in little_projects %}
-          {% include "includes/card.html.j2" with context %}
+          {% include "card.html.j2" with context %}
         {% endfor %}
       </div>
 
@@ -70,7 +70,7 @@
       <h2>Pull Requests to other Open Source projects</h2>
       <div class="row">
         {% for item in pull_requests %}
-          {% include "includes/card.html.j2" with context %}
+          {% include "card.html.j2" with context %}
         {% endfor %}
       </div>
 
@@ -78,7 +78,7 @@
       <h2>Presentations</h2>
       <div class="row">
         {% for item in videos %}
-          {% include "includes/card.html.j2" with context %}
+          {% include "card.html.j2" with context %}
         {% endfor %}
       </div>
 
@@ -86,7 +86,7 @@
       <h2>Other projects</h2>
       <div class="row">
         {% for item in other %}
-          {% include "includes/card.html.j2" with context %}
+          {% include "card.html.j2" with context %}
         {% endfor %}
       </div>
 
