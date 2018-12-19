@@ -202,6 +202,18 @@ pull_requests:
     links:
       - https://github.com/github/choosealicense.com/pull/583
 videos:
+  - name: "The bees, the trees, the types, the typing"
+    date: 2018-12-11
+    info: "Interactive presentation about data structures in Python's stdlib."
+    links:
+      - https://youtu.be/zD-qBcvBSik
+      - https://piterpy.timepad.ru/event/863647/
+  - name: "Logging!"
+    date: 2018-12-06
+    info: "My first English talk. Sorry for that."
+    links:
+      - https://youtu.be/4NEAwhgZkU4
+      - https://piterpy.timepad.ru/event/804746/
   - name: "Luigi: let's build perfect pipeline"
     date: 2018-10-27
     info: "Presentation about Spotify's framework Luigi."
