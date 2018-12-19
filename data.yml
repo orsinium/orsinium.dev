@@ -147,7 +147,7 @@ channels:
     lang: rus
     links:
       - https://t.me/itgram_channel
-    info: "All about development: best practice, articles, useful tools and libs etc."
+    info: "All about development: best practice, articles, useful tools, libs etc."
     tags:
       - python
       - go
