@@ -219,6 +219,11 @@ pull_requests:
     date: 2018-04-18
     links:
       - https://github.com/github/choosealicense.com/pull/583
+  - name: Opened PRs
+    info: "Some of my PRs isn't accepted yet."
+    class: text-white bg-secondary
+    links:
+      - https://github.com/search?q=is%3Apr+author%3Aorsinium+is%3Aopen
 videos:
   - name: "The bees, the trees, the types, the typing"
     lang: rus
@@ -338,6 +343,10 @@ buttons:
   - trigger: "github.com/orsinium/notes"
     icon: far fa-newspaper
     text: article
+
+  - trigger: "github.com/search"
+    icon: fas fa-search
+    text: search
 
   - trigger: "github.com"
     icon: fab fa-github
