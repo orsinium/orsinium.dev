@@ -164,11 +164,26 @@ channels:
       - https://t.me/default_city2
     info: Saint Petersburg and people around me
 pull_requests:
+  - name: delorean
+    info: Fixed ISO date parsing
+    date: 2018-10-08
+    links:
+      - https://github.com/myusuf3/delorean/pull/103
+  - name: python-json-logger
+    info: Fixed and improved setup.py
+    date: 2018-10-08
+    links:
+      - https://github.com/madzak/python-json-logger/pull/71
   - name: pylama
     info: Eradicate support and Python 3.7 compatibility.
     date: 2018-09-28
     links:
       - https://github.com/klen/pylama/pull/129
+  - name: luigi
+    info: Added configuring of logging via TOML config.
+    date: 2018-08-07
+    links:
+      - https://github.com/spotify/luigi/pull/2483
   - name: isort
     info: Added requirements.txt and Pipfile support
     date: 2018-07-22
