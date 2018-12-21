@@ -249,6 +249,7 @@ videos:
     tags:
       - python
     links:
+      - https://youtu.be/VeDXCWTH9j8?t=7590
       - https://www.canva.com/design/DADG59zIK2E/gQMnnLb_xW3zQ0BVuHDN8w/view
       - https://www.meetup.com/PyData-SPb/events/255421042/
   - name: "OSS: why and how?"
@@ -344,7 +345,7 @@ work:
     date: 2017-05 &mdash; 2018-06
     info: Django web developer (Python).
     links:
-      - https://smena.space/
+      - http://smena.space/
   - name: 3. Cindicator
     image: cnd.jpg
     date: 2018-06 &mdash; now
