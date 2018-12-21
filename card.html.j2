@@ -37,16 +37,20 @@
       </p>
     {% endif %}
 
-    {% for link in item['links'] %}
-      <a href="{{ link }}" class="btn btn-light" target="_blank">
-        {% for button in buttons %}
-          {% if button['trigger'] in link %}
-            <i class="{{ button['icon'] }}"></i>
-            {{ button['text'] }}
-            {% break %}
-          {% endif %}
-        {% endfor %}
-      </a>
-    {% endfor %}
   </div>
+  {% if 'links' in item %}
+    <div class="card-footer bg-transparent">
+      {% for link in item['links'] %}
+        <a href="{{ link }}" class="btn btn-light" target="_blank">
+          {% for button in buttons %}
+            {% if button['trigger'] in link %}
+              <i class="{{ button['icon'] }}"></i>
+              {{ button['text'] }}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>
