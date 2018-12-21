@@ -19,7 +19,7 @@
         background: url('./assets/bg.jpg') center;
         background-size: cover;
         padding: 150px 0px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
       }
       .btn {
         margin: 2px 0px;
@@ -34,6 +34,10 @@
       .card {
         padding-left: 0px;
         padding-right: 0px;
+      }
+
+      h2 {
+        margin-top: 20px;
       }
     </style>
   </head>
@@ -54,23 +58,32 @@
       </div>
     </div>
 
+    <ul class="nav nav-pills nav-fill bg-secondary justify-content-center">
+      {% for item in anchors %}
+        <li class="nav-item">
+          <a class="nav-link btn-secondary" href="#{{ item['link'] }}">
+            {{ item['name'] }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
 
     <div class="container">
-      <h2>Telegram channels</h2>
+      <h2 id="channels">Telegram channels</h2>
       <div class="row">
         {% for item in channels %}
           {% include "card.html.j2" with context %}
         {% endfor %}
       </div>
 
-      <h2>Open Source</h2>
+      <h2 id="oss">Open Source</h2>
       <div class="row">
         {% for item in open_source %}
           {% include "card.html.j2" with context %}
         {% endfor %}
       </div>
 
-      <h2>Some little projects</h2>
+      <h2 id="projects">Some little projects</h2>
       <div class="row">
         {% for item in little_projects %}
           {% include "card.html.j2" with context %}
@@ -78,7 +91,7 @@
       </div>
 
 
-      <h2>Pull Requests to other Open Source projects</h2>
+      <h2 id="prs">Pull Requests to other Open Source projects</h2>
       <div class="row">
         {% for item in pull_requests %}
           {% include "card.html.j2" with context %}
@@ -86,7 +99,7 @@
       </div>
 
 
-      <h2>Public talks</h2>
+      <h2 id="talks">Public talks</h2>
       <div class="row">
         {% for item in videos %}
           {% include "card.html.j2" with context %}
@@ -94,7 +107,7 @@
       </div>
 
 
-      <h2>Work</h2>
+      <h2 id="work">Work</h2>
       <div class="row">
         {% for item in work %}
           {% include "card.html.j2" with context %}
@@ -102,7 +115,7 @@
       </div>
 
 
-      <h2>Other projects</h2>
+      <h2 id="other">Other projects</h2>
       <div class="row">
         {% for item in other %}
           {% include "card.html.j2" with context %}
