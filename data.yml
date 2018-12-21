@@ -323,7 +323,7 @@ other:
     lang: ['eng', 'rus']
     info: I draw and print round vector stickers with programming jokes.
     links:
-      - https://stickers.life4web.ru
+      - https://stickers.life4web.ru/
   - name: Dipper3
     lang: rus
     info: Telegram bot with many features and lightweight dialog system
