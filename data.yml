@@ -22,12 +22,6 @@ open_source:
     tags:
       - python
       - django
-  - name: RuTimeParser
-    links:
-      - https://github.com/orsinium/rutimeparser
-    info: Recognize date and time in russian text and return datetime.datetime.
-    tags:
-      - python
   - name: Deal
     links:
       - https://github.com/orsinium/deal
@@ -64,6 +58,12 @@ open_source:
     tags:
       - python
       - telegram
+  - name: RuTimeParser
+    links:
+      - https://github.com/orsinium/rutimeparser
+    info: Recognize date and time in russian text and return datetime.datetime.
+    tags:
+      - python
   - name: Zabbix Healthcheck
     info: Flask HealthCheck support for Zabbix
     links:
