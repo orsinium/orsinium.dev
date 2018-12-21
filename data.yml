@@ -334,6 +334,24 @@ other:
     links:
       - https://ctftime.org/team/24077
 
+work:
+  - name: Cindicator
+    image: cnd.jpg
+    date: 2018-06 &mdash; now
+    info: Senior Python developer, architector.
+    links:
+      - https://cindicator.com/
+  - name: Smena
+    image: smena.jpg
+    date: 2017-05 &mdash; 2018-06
+    info: Django web developer (Python).
+    links:
+      - https://smena.space/
+  - name: Life4Web
+    image: life4.png
+    date: 2016-01 &mdash; 2017-05
+    info: Founder, Django web developer (Python).
+
 
 buttons:
   - trigger: "/pull/"

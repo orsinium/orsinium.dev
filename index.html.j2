@@ -89,6 +89,14 @@
       </div>
 
 
+      <h2>Work</h2>
+      <div class="row">
+        {% for item in work %}
+          {% include "card.html.j2" with context %}
+        {% endfor %}
+      </div>
+
+
       <h2>Other projects</h2>
       <div class="row">
         {% for item in other %}
