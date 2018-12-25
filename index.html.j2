@@ -122,6 +122,16 @@
         {% endfor %}
       </div>
 
+      <h2 id="skills">Skills</h2>
+      {% for group in skills %}
+        <h3 id="{{ group['name'].lower() }}">{{ group['name'] }}</h3>
+        <div class="row">
+          {% for item in group['content'] %}
+            {% include "minicard.html.j2" with context %}
+          {% endfor %}
+        </div>
+      {% endfor %}
+
     </div>
   </body>
 

@@ -1,0 +1,37 @@
+<div class="card col-sm-12 col-md-6 col-lg-4 text-white bg-dark">
+  <div class="card-body">
+    {% if 'image' in item %}
+      <img class="card-img-top" src="./assets/{{ item['image'] }}" />
+    {% endif %}
+
+    <h5 class="card-title">
+      {{ item['name'] }}
+    </h5>
+
+    {% if 'info' in item %}
+      <p class="card-text">
+        {% markdown %}
+          {{ item['info'] }}
+        {% endmarkdown %}
+      </p>
+    {% endif %}
+
+  </div>
+
+  {% if 'links' in item %}
+    <div class="card-footer bg-transparent">
+      {% for link in item['links'] %}
+        <a href="{{ link }}" class="btn btn-light" target="_blank">
+          {% for button in buttons %}
+            {% if button['trigger'] in link %}
+              <i class="{{ button['icon'] }}"></i>
+              {{ button['text'] }}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+
