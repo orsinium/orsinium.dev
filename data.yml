@@ -244,6 +244,7 @@ videos:
       - https://youtu.be/4NEAwhgZkU4
       - https://piterpy.timepad.ru/event/804746/
   - name: "Luigi: let's build perfect pipeline"
+    lang: rus
     date: 2018-10-27
     info: "Presentation about Spotify's framework Luigi."
     tags:
@@ -388,6 +389,21 @@ skills:
           I like this storage for speed and simpicity. For example, my
           [bruteforce protection tool](https://github.com/orsinium/django-bruteforce-protection)
           works on top of it.
+      - name: MySQL
+        info: >
+          Unfortunately, in Smena we lived with MySQL, so I know how to make
+          replication and backups, how to setup server and debug strange
+          behaivor.
+      - name: MongoDB
+        info: >
+          I know how to setup and use it for best security and performance,
+          how to build good documents structure. BTW, I'm 
+          [mongoengine contributor](https://github.com/MongoEngine/mongoengine/pull/1825).
+      - name: ElasticSearch
+        info: >
+          This is very fast storage with cool query syntax. In Smena we use it
+          for data caching in ERP and for 
+          [logs storage](https://github.com/orsinium/python-syslog-logstash).
 
   - name: Frameworks
     content:
@@ -405,6 +421,17 @@ skills:
         info: >
           I have some experience with DRF. This framework has some disadvantages,
           but also it quite simple and popular.
+      - name: Nameko
+        info: >
+          It's framework for RPC based microservices. I've worked with it and know
+          how it works and how to use it for best performance.
+      - name: Luigi
+        info: >
+          I'm [Luigi contributor](https://github.com/spotify/luigi/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Aorsinium)
+          and know everything about how it works.
+          I've made all ML pipeline in Cindicator based on Luigi, and this is
+          working on production without any issues. 
+          Also I have [public talk](#talks) about it.
 
   - name: ORMs
     content:
@@ -433,6 +460,12 @@ skills:
         info: >
           When I write load tests I use Locust. This is simple Python-based
           load testing framework with good performance.
+      - name: Unittest
+        info: >
+          Unittest used almost in all my open source projects. For example, in
+          [textdistance](https://github.com/orsinium/textdistance/blob/master/tests/common.py)
+          and [DjBurger](https://github.com/orsinium/djburger/tree/master/tests).
+          So, it can't frightend me.
 
   - name: Libraries
     content:
@@ -442,7 +475,7 @@ skills:
         info: >
           I know this tool very well. However for dozens of requests I prefer
           asynchronous solutions like aiohttp.
-      - name: attrs
+      - name: Attrs
         info: >
           Dataclasses -- beautiful conception that I use in my projects every day.
           It allows to write beutiful and fast code. So, I know almost everything about this lib
