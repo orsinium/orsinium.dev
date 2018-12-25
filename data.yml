@@ -369,7 +369,7 @@ skills:
           This is my second favorite language. It has quite different philosophy
           rather than Python and it's great. Go gives you superpower
           that allows you to make blazing fast services and tools.
-          I've just started use it, but already has 
+          I've just started use it, but already has
           [some projects](https://github.com/orsinium?tab=repositories&language=go).
       - name: PHP
         info: >
@@ -397,12 +397,12 @@ skills:
       - name: MongoDB
         info: >
           I know how to setup and use it for best security and performance,
-          how to build good documents structure. BTW, I'm 
+          how to build good documents structure. BTW, I'm
           [mongoengine contributor](https://github.com/MongoEngine/mongoengine/pull/1825).
       - name: ElasticSearch
         info: >
           This is very fast storage with cool query syntax. In Smena we use it
-          for data caching in ERP and for 
+          for data caching in ERP and for
           [logs storage](https://github.com/orsinium/python-syslog-logstash).
 
   - name: Frameworks
@@ -430,7 +430,7 @@ skills:
           I'm [Luigi contributor](https://github.com/spotify/luigi/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Aorsinium)
           and know everything about how it works.
           I've made all ML pipeline in Cindicator based on Luigi, and this is
-          working on production without any issues. 
+          working on production without any issues.
           Also I have [public talk](#talks) about it.
 
   - name: ORMs
@@ -506,12 +506,12 @@ anchors:
     link: prs
   - name: Public Talks
     link: talks
-  - name: Work
-    link: work
   - name: Other
     link: other
   - name: Skills
     link: skills
+  - name: Work
+    link: work
 
 
 buttons:

@@ -38,7 +38,7 @@
 
       .container-fluid {
         padding-top: 30px;
-        margin-top: 30px;
+        padding-bottom: 30px;
       }
 
       h2 {
@@ -116,16 +116,10 @@
         {% endfor %}
       </div>
 
-      <h2 id="work">Work</h2>
-      <div class="row">
-        {% for item in work %}
-          {% include "card.html.j2" with context %}
-        {% endfor %}
-      </div>
-
     </div>
 
-    <div class="container-fluid bg-dark text-white">
+
+    <div class="container-fluid bg-dark text-white" style="margin-top: 30px">
       <div class="container">
         <h1 id="skills">Skills and technologies</h1>
 
@@ -150,6 +144,19 @@
 
       </div>
     </div>
+
+
+    <div class="container-fluid">
+      <div class="container">
+        <h1 id="work">Work</h1>
+        <div class="row">
+          {% for item in work %}
+            {% include "card.html.j2" with context %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
   </body>
 
 </html>
