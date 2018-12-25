@@ -126,17 +126,18 @@
 
     <div class="container-fluid bg-dark text-white" style="padding-top: 30px; margin-top: 30px">
       <div class="container">
+        <h1 id="skills">Skills and technologies</h1>
+
         <ul class="nav nav-pills nav-fill bg-dark justify-content-center">
           {% for item in skills %}
             <li class="nav-item">
-              <a class="nav-link btn-secondary" href="#{{ item['name'].lower() }}">
+              <a class="nav-link btn-dark" href="#{{ item['name'].lower() }}">
                 {{ item['name'] }}
               </a>
             </li>
           {% endfor %}
         </ul>
 
-        <h1 id="skills">Skills</h1>
         {% for group in skills %}
           <h2 id="{{ group['name'].lower() }}">{{ group['name'] }}</h2>
           <div class="row">

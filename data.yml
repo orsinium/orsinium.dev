@@ -477,6 +477,8 @@ anchors:
     link: work
   - name: Other
     link: other
+  - name: Skills
+    link: skills
 
 
 buttons:
