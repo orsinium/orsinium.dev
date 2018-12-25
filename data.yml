@@ -376,6 +376,16 @@ skills:
           Ok, I know PHP. And hate it. This is my first web programming language,
           I've known it very well, but I try to avoid it. Also I have public talk
           why PHP is bad. However I know it and can read PHP code.
+      - name: HTML, CSS & LESS
+        info: >
+          Yeah, this is not programming languages, but I know them, of course.
+          I like web so much, so I couldn't miss some frontend basic things.
+          Layout of this site is quite nice, isn't it? This is just Bottstrap 4, but still.
+      - name: SQL
+        info: >
+          Most of time I use ORM or query builders, of course. But SQL knowledges
+          are required for effective queries optimization and debugging.
+          Luckily, huge PHP background gives me this skills (PHP has no good ORM).
 
   - name: Storages
     content:
@@ -465,7 +475,7 @@ skills:
           Unittest used almost in all my open source projects. For example, in
           [textdistance](https://github.com/orsinium/textdistance/blob/master/tests/common.py)
           and [DjBurger](https://github.com/orsinium/djburger/tree/master/tests).
-          So, it can't frightend me.
+          So, it can't scare me.
 
   - name: Libraries
     content:
