@@ -10,7 +10,7 @@ open_source:
     links:
       - https://github.com/orsinium/textdistance
     info: >
-      Compute distance between sequences.
+      Compute the distance between sequences.
       30+ algorithms, pure python implementation,
       common interface, optional external libs usage.
     tags:
@@ -61,7 +61,7 @@ open_source:
   - name: RuTimeParser
     links:
       - https://github.com/orsinium/rutimeparser
-    info: Recognize date and time in russian text and return datetime.datetime.
+    info: Recognize date and time in Russian text and return datetime.datetime.
     tags:
       - python
   - name: Zabbix Healthcheck
@@ -78,7 +78,7 @@ open_source:
       - packaging
     info: >
       Dependency resolution and requirements converter for Python.
-      DepHell in progress yet, but it will be great project! Check it out.
+      DepHell in progress yet, but it will be the great project! Check it out.
     class: text-white bg-dark
     links:
       - https://github.com/orsinium/dephell
@@ -114,14 +114,14 @@ little_projects:
       - rsyslog
       - elastic
   - name: Django Google Play permissions
-    info: Django package for getting permisssions for android app from Google Play
+    info: Django package for getting permissions for Android app from Google Play.
     links:
       - https://github.com/orsinium/django-google-play-permissions
     tags:
       - python
       - docker
   - name: hh.ru
-    info: hh.ru vacancies analize by passed params
+    info: hh.ru vacancies analyze by different params
     links:
       - https://github.com/orsinium/hh
     tags:
@@ -238,7 +238,7 @@ videos:
   - name: "The bees, the trees, the types, the typing"
     lang: rus
     date: 2018-12-11
-    info: "Interactive presentation about data structures in Python's stdlib."
+    info: "An interactive presentation about data structures in Python's stdlib."
     tags:
       - python
     links:
@@ -247,7 +247,7 @@ videos:
   - name: "Logging!"
     lang: eng
     date: 2018-12-06
-    info: "My first English talk. Sorry for that."
+    info: "My first English talk. Sorry about that."
     tags:
       - python
     links:
@@ -302,7 +302,7 @@ videos:
     info: >
       Presentation for FSTEC about my security platform.
       This platform is similar to vulners.com, but more powerful and useful.
-      Project is freezed now.
+      The project is frozen now.
     tags:
       - security
     links:
@@ -377,47 +377,47 @@ skills:
           You can discover them above.
       - name: Go
         info: >
-          This is my second favorite language. It has quite different philosophy
+          This is my second favorite language. It has quite a different philosophy
           rather than Python and it's great. Go gives you superpower
           that allows you to make blazing fast services and tools.
-          I've just started use it, but already has
+          I've just started using it, but already has
           [some projects](https://github.com/orsinium?tab=repositories&language=go).
       - name: PHP
         info: >
           Ok, I know PHP. And hate it. This is my first web programming language,
-          I've known it very well, but I try to avoid it. Also I have public talk
-          why PHP is bad. However I know it and can read PHP code.
+          I've known it very well, but I try to avoid it. Also, I have public talk
+          why PHP is bad. However, I know it and can read PHP code.
       - name: HTML, CSS & LESS
         info: >
           Yeah, this is not programming languages, but I know them, of course.
-          I like web so much, so I couldn't miss some frontend basic things.
-          Layout of this site is quite nice, isn't it? This is just Bottstrap 4, but still.
+          I like the web so much, so I couldn't miss some frontend basic things.
+          The layout of this site is quite nice, isn't it?
+          This is just Bootstrap 4, but still.
       - name: SQL
         info: >
-          Most of time I use ORM or query builders, of course. But SQL knowledges
-          are required for effective queries optimization and debugging.
-          Luckily, huge PHP background gives me this skills (PHP has no good ORM).
+          Most of the time I use ORM or query builders, of course. 
+          But SQL knowledge is required for effective queries optimization and debugging.
+          Luckily, a huge PHP background gives me these skills (PHP has no good ORM).
 
   - name: Storages
     content:
       - name: PostgreSQL
         info: >
-          I've completed [DBA1, DBA2 and DBA3](https://postgrespro.com/education)
-          courses from Postgres Professionals company. So I little bit know how to setup,
+          I've completed [DBA1, DBA2, and DBA3](https://postgrespro.com/education)
+          courses from Postgres Professionals company. So I little bit know how to set up,
           optimize and replicate PostgreSQL database.
       - name: Redis
         info: >
-          I like this storage for speed and simpicity. For example, my
+          I like this storage for speed and simplicity. For example, my
           [bruteforce protection tool](https://github.com/orsinium/django-bruteforce-protection)
           works on top of it.
       - name: MySQL
         info: >
           Unfortunately, in Smena we lived with MySQL, so I know how to make
-          replication and backups, how to setup server and debug strange
-          behaivor.
+          replication and backups, how to set up a server and debug strange behavior.
       - name: MongoDB
         info: >
-          I know how to setup and use it for best security and performance,
+          I know how to set up and use it for the best security and performance,
           how to build good documents structure. BTW, I'm
           [mongoengine contributor](https://github.com/MongoEngine/mongoengine/pull/1825).
       - name: ElasticSearch
@@ -431,12 +431,12 @@ skills:
       - name: Django
         info: >
           I like this framework! It's quite pythonic. I know it's source code
-          better than birthdays of my relatives. However Django has some
+          better than the birthdays of my relatives. However Django has some
           issues for big projects, so I've made [DjBurger](https://github.com/orsinium/djburger).
       - name: Flask
         info: >
-          This is most popular web framework. Old, little bit slow, but beautiful.
-          So I know it very good, but prefer use more fast alternatives like
+          This is the most popular web framework. An old, a little bit slow, but beautiful.
+          So I know it very good, but I prefer to use more fast alternatives like
           [Sanic](https://github.com/huge-success/sanic). It's more modern and fast.
       - name: Django REST Framework
         info: >
@@ -444,7 +444,7 @@ skills:
           but also it quite simple and popular.
       - name: Nameko
         info: >
-          It's framework for RPC based microservices. I've worked with it and know
+          It's the framework for RPC based microservices. I've worked with it and know
           how it works and how to use it for best performance.
       - name: Luigi
         info: >
@@ -452,34 +452,35 @@ skills:
           and know everything about how it works.
           I've made all ML pipeline in Cindicator based on Luigi, and this is
           working on production without any issues.
-          Also I have [public talk](#talks) about it.
+          Also, I have [public talk](#talks) about it.
 
   - name: ORMs
     content:
       - name: Django ORM
         info: >
-          This is best ORM. I know Django ORM source code and how to build and
+          This is the best ORM I've ever used.
+          I know Django ORM source code and how to build and
           optimize queries of any difficulty level.
       - name: SQLAlchemy
         info: >
-          I work so much with it, but a little bit don't like it.
-          This is excessively low-level framework that don't be used directly.
-          I prefer Flask-SQLAlchemy and sqlalchemy-mixins.
+          I work so much with it, but also I a little bit don't like it. 
+          This is an excessively low-level framework that doesn't intend 
+          to be used directly. I prefer Flask-SQLAlchemy and SQLAlchemy-mixins. 
       - name: Peewee
         info: >
-          I use this ORM everytime when I can't use Django ORM, but can avoid
+          I use this ORM every time when I can't use Django ORM, but can avoid
           SQLAlchemy.
 
   - name: Testing
     content:
       - name: PyTest
         info: >
-          This is great tool for fast and beautiful testing. I use it in every
-          project where it is possible. I like write tests because they very-very
-          helpful to me.
+          This is a great tool for fast and beautiful testing. 
+          I use it in every project where it is possible. 
+          I like to write tests because they helps to change the code without fear. 
       - name: Locust
         info: >
-          When I write load tests I use Locust. This is simple Python-based
+          When I write load tests I use Locust. This is a simple Python-based
           load testing framework with good performance.
       - name: Unittest
         info: >
@@ -496,15 +497,16 @@ skills:
           deploy your services faster and simpler. I've packed in Docker all
           infrastructure of Farfor (when I worked in Smena), all ML Pipeline
           and trading system in Cindicator and this all works
-          perfect on all environments from develop to production.
+          perfectly on all environments from development to production.
       - name: Docker-compose
         info: >
-          For development environment I use docker-compose, because it is
-          most simple way to orcestrate docker containers.
+          For the development environment, I use docker-compose, 
+          because it is the most simple way to orchestrate docker containers.
+          This one of the tools that I use every day.
       - name: Elastic Stack
         info: >
           Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
-          logs, messages and state from all parts of system. It includes 
+          logs, messages, and state from all parts of the system. It includes 
           Elastic Search, Logstash, Kibana, MetricBeat, FileBeat etc.
           I can monitor with it all infrastructure.
           You can find my demo stand of this system in
@@ -512,20 +514,37 @@ skills:
           repository.
       - name: Sentry
         info: >
-          Sentry is useful solution for error messages aggregation. 
-          I use it for 4 year and know how to build fast and reliable errors
-          processing pipeline.
+          Sentry is a useful solution for error messages aggregation. 
+          I use it for 4 years and know how to build fast and reliable 
+          errors processing pipeline. Also, I've 
+          [contributed to sentry](https://github.com/getsentry/raven-python/pull/1306) too. 
       - name: Zabbix
         info: >
           Zabbix is one of the most popular tools for servers and services
           monitoring. I have huge (and a little bit painful) experience with it.
-          Also I've written [zabbix-healthcheck](https://github.com/orsinium/zabbix-healthcheck)
-          plugin that allows to monitor Flask applications from Zabbix.
+          Also, I've written [zabbix-healthcheck](https://github.com/orsinium/zabbix-healthcheck)
+          plugin that adds Flask applications monitor into Zabbix.
       - name: New Relic
         info: >
           New Relic is a useful SaaS solution for performance monitoring of
           Python web applications. I know how to integrate it into projects,
-          monitor state of the system and improve perfomance and load.
+          monitor state of the system and improve performance and load.
+
+  - name: Data Analisys
+    content:
+      - name: Pandas
+        info: >
+          This is the secret ingredient that improved the performance of the 
+          report system in Smena team. It has gotten faster from 12 hours to 
+          90 seconds. Also, this is the main instrument of my data researches.
+      - name: NumPy
+        info: .
+      - name: Matplotlib & Seaborn
+        info: .
+      - name: Word2Vec
+        info: .
+      - name: Jupyter
+        info: .
 
   - name: Libraries
     content:
@@ -533,24 +552,19 @@ skills:
         info: This is my favorite template engine. This page generated by Jinja2.
       - name: Requests
         info: >
-          I know this tool very well. However for dozens of requests I prefer
-          asynchronous solutions like aiohttp.
+          I know this tool very well. However, for dozens of requests, 
+          I prefer asynchronous solutions like aiohttp. 
       - name: Attrs
         info: >
-          Dataclasses -- beautiful conception that I use in my projects every day.
-          For example, in
-          [dephell](https://github.com/orsinium/dephell/tree/master/dephell/models).
-          It allows to write beautiful and fast code.
-          So, I know almost everything about this lib
-          (and about dataclasses from Python 3.7 too).
-      - name: Pandas
-        info: >
-          This is secret ingredient that make possible to improve performance of
-          report system in Smena team from 12 hours to 90 seconds.
-          Also this is main instrument of my data researches.
+          Dataclasses -- a beautiful conception that I use in my projects 
+          every day. For example, in 
+          [dephell](https://github.com/orsinium/dephell/tree/master/dephell/models). 
+          It helps to write beautiful and fast code. 
+          So, I know almost everything about this lib 
+          (and about dataclasses from Python 3.7 too). 
       - name: Celery
         info: >
-          I prefer other solutions like rq and huey, but celery is biggest,
+          I prefer other solutions like rq and huey, but celery is the biggest,
           most popular and only one good that can work with RabbitMQ,
           so I have huge experience with it.
       - name: Telethon

@@ -139,7 +139,7 @@
         <ul class="nav nav-pills nav-fill bg-dark justify-content-center">
           {% for item in skills %}
             <li class="nav-item">
-              <a class="nav-link btn-dark" href="#{{ item['name'].lower() }}">
+              <a class="nav-link btn-dark" href="#{{ item['name'].lower().replace(' ', '_') }}">
                 {{ item['name'] }}
               </a>
             </li>
@@ -147,7 +147,9 @@
         </ul>
 
         {% for group in skills %}
-          <h2 id="{{ group['name'].lower() }}">{{ group['name'] }}</h2>
+          <h2 id="{{ group['name'].lower().replace(' ', '_') }}">
+            {{ group['name'] }}
+          </h2>
           <div class="row">
             {% for item in group['content'] %}
               {% include "minicard.html.j2" with context %}
