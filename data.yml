@@ -72,6 +72,16 @@ open_source:
       - python
       - zabbix
       - monitoring
+  - name: DepHell
+    tags:
+      - python
+      - packaging
+    info: >
+      Dependency resolution and requirements converter for Python.
+      DepHell in progress yet, but it will be great project! Check it out.
+    class: text-white bg-dark
+    links:
+      - https://github.com/orsinium/dephell
 little_projects:
   - name: poetry-setup
     info: Generate setup.py (setuptools) from pyproject.toml (poetry)
@@ -221,7 +231,7 @@ pull_requests:
       - https://github.com/github/choosealicense.com/pull/583
   - name: Opened PRs
     info: "Some of my PRs isn't accepted yet."
-    class: text-white bg-secondary
+    class: text-white bg-dark
     links:
       - https://github.com/search?q=is%3Apr+author%3Aorsinium+is%3Aopen
 videos:
@@ -264,6 +274,7 @@ videos:
     info: "Presentation from PiterPy Meetup #6."
     tags:
       - python
+      - packaging
     links:
       - https://www.canva.com/design/DAC7K2hLOBE/F2qhLJ1TFh1WghlH2PyZXQ/view
       - https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
