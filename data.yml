@@ -477,6 +477,39 @@ skills:
           and [DjBurger](https://github.com/orsinium/djburger/tree/master/tests).
           So, it can't scare me.
 
+  - name: DevOps
+    content:
+      - name: Docker 
+        info: >
+          Docker -- most popular container system that allows you to develop and
+          deploy your services faster and simpler. I've packed in Docker all
+          infrastructure of Farfor (when I worked in Smena), all ML Pipeline
+          and trading system in Cindicator and this all works
+          perfect on all environments from develop to production.
+      - name: Docker-compose
+        info: >
+          For development environment I use docker-compose, because it is
+          most simple way to orcestrate docker containers.
+      - name: Elastic Stack
+        info: >
+          Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
+          logs, messages and state from all parts of system. It includes 
+          Elastic Search, Logstash, Kibana, MetricBeat, FileBeat etc.
+          I can monitor with it all infrastructure.
+          You can find my demo stand of this system in
+          [python-syslog-logstash](https://github.com/orsinium/python-syslog-logstash)
+          repository.
+      - name: Sentry
+        info: 
+      - name: Zabbix
+        info: >
+          Zabbix is one of the most popular tools for servers and services
+          monitoring. I have huge (and a little bit painful) experience with it.
+          Also I've written [zabbix-healthcheck](https://github.com/orsinium/zabbix-healthcheck)
+          plugin that allows to monitor Flask applications from Zabbix.
+      - name: New Relic
+        info:
+
   - name: Libraries
     content:
       - name: Jinja2
@@ -488,7 +521,10 @@ skills:
       - name: Attrs
         info: >
           Dataclasses -- beautiful conception that I use in my projects every day.
-          It allows to write beutiful and fast code. So, I know almost everything about this lib
+          For example, in
+          [dephell](https://github.com/orsinium/dephell/tree/master/dephell/models).
+          It allows to write beautiful and fast code.
+          So, I know almost everything about this lib
           (and about dataclasses from Python 3.7 too).
       - name: Pandas
         info: >
