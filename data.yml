@@ -511,7 +511,10 @@ skills:
           [python-syslog-logstash](https://github.com/orsinium/python-syslog-logstash)
           repository.
       - name: Sentry
-        info: 
+        info: >
+          Sentry is useful solution for error messages aggregation. 
+          I use it for 4 year and know how to build fast and reliable errors
+          processing pipeline.
       - name: Zabbix
         info: >
           Zabbix is one of the most popular tools for servers and services
@@ -519,7 +522,10 @@ skills:
           Also I've written [zabbix-healthcheck](https://github.com/orsinium/zabbix-healthcheck)
           plugin that allows to monitor Flask applications from Zabbix.
       - name: New Relic
-        info:
+        info: >
+          New Relic is a useful SaaS solution for performance monitoring of
+          Python web applications. I know how to integrate it into projects,
+          monitor state of the system and improve perfomance and load.
 
   - name: Libraries
     content:
