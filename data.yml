@@ -530,7 +530,7 @@ skills:
           Python web applications. I know how to integrate it into projects,
           monitor state of the system and improve performance and load.
 
-  - name: Data Analisys
+  - name: Data Analysis
     content:
       - name: Pandas
         info: >
@@ -538,13 +538,21 @@ skills:
           report system in Smena team. It has gotten faster from 12 hours to 
           90 seconds. Also, this is the main instrument of my data researches.
       - name: NumPy
-        info: .
+        info: >
+          I use NumPy for some simple statical analysis and matrix operations.
+          It's not so often tasks in my work like tasks where I use Pandas, but still.
       - name: Matplotlib & Seaborn
-        info: .
+        info: >
+          Right visualization is the most important part of effective data analysis.
+          I use for it matplotlib and seaborn (second is more often).
       - name: Word2Vec
-        info: .
+        info: >
+          Word2Vec transforms words into vectors, so you can compare them as vectors.
+          I use this great tool in my [chatbot](https://dipper3.life4web.ru/).
       - name: Jupyter
-        info: .
+        info: >
+          Jupyter is a great stack for research. I use it almost every day
+          and know how to setup Jupyter Hub, work with a remote core and other tricks.
 
   - name: Libraries
     content:
