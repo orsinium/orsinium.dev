@@ -493,7 +493,7 @@ skills:
     content:
       - name: Docker 
         info: >
-          Docker -- most popular container system that allows you to develop and
+          Docker is the most popular container system that allows you to develop and
           deploy your services faster and simpler. I've packed in Docker all
           infrastructure of Farfor (when I worked in Smena), all ML Pipeline
           and trading system in Cindicator and this all works
@@ -609,7 +609,7 @@ skills:
           I prefer asynchronous solutions like aiohttp. 
       - name: Attrs
         info: >
-          Dataclasses -- a beautiful conception that I use in my projects 
+          Dataclasses is a beautiful conception that I use in my projects 
           every day. For example, in 
           [dephell](https://github.com/orsinium/dephell/tree/master/dephell/models). 
           It helps to write beautiful and fast code. 
