@@ -554,6 +554,51 @@ skills:
           Jupyter is a great stack for research. I use it almost every day
           and know how to setup Jupyter Hub, work with a remote core and other tricks.
 
+  - name: Security
+    content:
+      - name: Burp Suite
+        info: >
+          This is my Swiss Army knife for security testing, APIs exploring 
+          and analyzing traffic from web, desktop, and mobile applications. 
+          I use it in my everyday work and like it.
+      - name: nmap
+        info: >
+          This is a very powerful tool for service discovery and network audit.
+          I know how to use it most effectively.
+      - name: Wireshark
+        info: >
+          When I need to analyze raw traffic, I use Wireshark. 
+          This is hard and rare cases, but I like them. 
+          This is the most interesting tasks.
+
+  - name: Soft skills
+    content:
+      - name: English
+        info: >
+          My level is Intermediate (B1+) yet. However, I just started to learn 
+          English 6 months ago, so my skill is growing very fast. 
+          I'll know it very well soon, I hope.
+      - name: Scrum
+        info: >
+          I'm working with it every day, know how to estimate tasks, 
+          make informative descriptions and track progress most effectively. 
+          Also, I'm familiar to Jira and know how to use filters, dashboards, boards,
+          search queries. In my hometown, I was a part of Atlassian User Group.
+      - name: Kanban
+        info: >
+          This is my favorite Agile methodology. I organized processes in my 
+          team by Kanban and use Trello board to order my personal tasks. 
+          And it works great!
+      - name: Leadership
+        info: >
+          .
+      - name: Part of the team
+        info: >
+          .
+      - name: Public talks
+        info: >
+          .
+
   - name: Libraries
     content:
       - name: Jinja2
