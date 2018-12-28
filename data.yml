@@ -92,7 +92,6 @@ open_source:
     info: >
       Dependency resolution and requirements converter for Python.
       DepHell in progress yet, but it will be the great project! Check it out.
-    class: text-white bg-dark
     links:
       - https://github.com/orsinium/dephell
 little_projects:
@@ -453,8 +452,8 @@ skills:
           [Sanic](https://github.com/huge-success/sanic). It's more modern and fast.
       - name: Django REST Framework
         info: >
-          I have some experience with DRF. This framework has some disadvantages,
-          but also it quite simple and popular.
+          I like to work with DRF. This framework has some disadvantages,
+          but also it's quite simple and popular.
       - name: Nameko
         info: >
           It's the framework for RPC based microservices. I've worked with it and know
@@ -553,7 +552,6 @@ skills:
       - name: NumPy
         info: >
           I use NumPy for some simple statical analysis and matrix operations.
-          It's not so often tasks in my work like tasks where I use Pandas, but still.
       - name: Matplotlib & Seaborn
         info: >
           Right visualization is the most important part of effective data analysis.
@@ -582,7 +580,6 @@ skills:
         info: >
           When I need to analyze raw traffic, I use Wireshark.
           This is hard and rare cases, but I like them.
-          This is the most interesting tasks.
 
   - name: Soft skills
     content:
