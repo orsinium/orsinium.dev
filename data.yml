@@ -408,7 +408,7 @@ skills:
           This is just Bootstrap 4, but still.
       - name: SQL
         info: >
-          Most of the time I use ORM or query builders, of course. 
+          Most of the time I use ORM or query builders, of course.
           But SQL knowledge is required for effective queries optimization and debugging.
           Luckily, a huge PHP background gives me these skills (PHP has no good ORM).
 
@@ -476,9 +476,9 @@ skills:
           optimize queries of any difficulty level.
       - name: SQLAlchemy
         info: >
-          I work so much with it, but also I a little bit don't like it. 
-          This is an excessively low-level framework that doesn't intend 
-          to be used directly. I prefer Flask-SQLAlchemy and SQLAlchemy-mixins. 
+          I work so much with it, but also I a little bit don't like it.
+          This is an excessively low-level framework that doesn't intend
+          to be used directly. I prefer Flask-SQLAlchemy and SQLAlchemy-mixins.
       - name: Peewee
         info: >
           I use this ORM every time when I can't use Django ORM, but can avoid
@@ -488,9 +488,9 @@ skills:
     content:
       - name: PyTest
         info: >
-          This is a great tool for fast and beautiful testing. 
-          I use it in every project where it is possible. 
-          I like to write tests because they helps to change the code without fear. 
+          This is a great tool for fast and beautiful testing.
+          I use it in every project where it is possible.
+          I like to write tests because they helps to change the code without fear.
       - name: Locust
         info: >
           When I write load tests I use Locust. This is a simple Python-based
@@ -504,7 +504,7 @@ skills:
 
   - name: DevOps
     content:
-      - name: Docker 
+      - name: Docker
         info: >
           Docker is the most popular container system that allows you to develop and
           deploy your services faster and simpler. I've packed in Docker all
@@ -513,13 +513,13 @@ skills:
           perfectly on all environments from development to production.
       - name: Docker-compose
         info: >
-          For the development environment, I use docker-compose, 
+          For the development environment, I use docker-compose,
           because it is the most simple way to orchestrate docker containers.
           This one of the tools that I use every day.
       - name: Elastic Stack
         info: >
           Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
-          logs, messages, and state from all parts of the system. It includes 
+          logs, messages, and state from all parts of the system. It includes
           Elastic Search, Logstash, Kibana, MetricBeat, FileBeat etc.
           I can monitor with it all infrastructure.
           You can find my demo stand of this system in
@@ -527,10 +527,10 @@ skills:
           repository.
       - name: Sentry
         info: >
-          Sentry is a useful solution for error messages aggregation. 
-          I use it for 4 years and know how to build fast and reliable 
-          errors processing pipeline. Also, I've 
-          [contributed to sentry](https://github.com/getsentry/raven-python/pull/1306) too. 
+          Sentry is a useful solution for error messages aggregation.
+          I use it for 4 years and know how to build fast and reliable
+          errors processing pipeline. Also, I've
+          [contributed to sentry](https://github.com/getsentry/raven-python/pull/1306) too.
       - name: Zabbix
         info: >
           Zabbix is one of the most popular tools for servers and services
@@ -547,8 +547,8 @@ skills:
     content:
       - name: Pandas
         info: >
-          This is the secret ingredient that improved the performance of the 
-          report system in Smena team. It has gotten faster from 12 hours to 
+          This is the secret ingredient that improved the performance of the
+          report system in Smena team. It has gotten faster from 12 hours to
           90 seconds. Also, this is the main instrument of my data researches.
       - name: NumPy
         info: >
@@ -571,8 +571,8 @@ skills:
     content:
       - name: Burp Suite
         info: >
-          This is my Swiss Army knife for security testing, APIs exploring 
-          and analyzing traffic from web, desktop, and mobile applications. 
+          This is my Swiss Army knife for security testing, APIs exploring
+          and analyzing traffic from web, desktop, and mobile applications.
           I use it in my everyday work and like it.
       - name: nmap
         info: >
@@ -580,27 +580,27 @@ skills:
           I know how to use it most effectively.
       - name: Wireshark
         info: >
-          When I need to analyze raw traffic, I use Wireshark. 
-          This is hard and rare cases, but I like them. 
+          When I need to analyze raw traffic, I use Wireshark.
+          This is hard and rare cases, but I like them.
           This is the most interesting tasks.
 
   - name: Soft skills
     content:
       - name: English
         info: >
-          My level is Intermediate (B1+) yet. However, I just started to learn 
-          English 6 months ago, so my skill is growing very fast. 
+          My level is Intermediate (B1+) yet. However, I just started to learn
+          English 6 months ago, so my skill is growing very fast.
           I'll know it very well soon, I hope.
       - name: Scrum
         info: >
-          I'm working with it every day, know how to estimate tasks, 
-          make informative descriptions and track progress most effectively. 
+          I'm working with it every day, know how to estimate tasks,
+          make informative descriptions and track progress most effectively.
           Also, I'm familiar to Jira and know how to use filters, dashboards, boards,
           search queries. In my hometown, I was a part of Atlassian User Group.
       - name: Kanban
         info: >
-          This is my favorite Agile methodology. I organized processes in my 
-          team by Kanban and use Trello board to order my personal tasks. 
+          This is my favorite Agile methodology. I organized processes in my
+          team by Kanban and use Trello board to order my personal tasks.
           And it works great!
       - name: Leadership
         info: >
@@ -618,16 +618,16 @@ skills:
         info: This is my favorite template engine. This page generated by Jinja2.
       - name: Requests
         info: >
-          I know this tool very well. However, for dozens of requests, 
-          I prefer asynchronous solutions like aiohttp. 
+          I know this tool very well. However, for dozens of requests,
+          I prefer asynchronous solutions like aiohttp.
       - name: Attrs
         info: >
-          Dataclasses is a beautiful conception that I use in my projects 
-          every day. For example, in 
-          [dephell](https://github.com/orsinium/dephell/tree/master/dephell/models). 
-          It helps to write beautiful and fast code. 
-          So, I know almost everything about this lib 
-          (and about dataclasses from Python 3.7 too). 
+          Dataclasses is a beautiful conception that I use in my projects
+          every day. For example, in
+          [dephell](https://github.com/orsinium/dephell/tree/master/dephell/models).
+          It helps to write beautiful and fast code.
+          So, I know almost everything about this lib
+          (and about dataclasses from Python 3.7 too).
       - name: Celery
         info: >
           I prefer other solutions like rq and huey, but celery is the biggest,
@@ -651,10 +651,6 @@ anchors:
     link: talks
   - name: Other
     link: other
-  - name: Skills
-    link: skills
-  - name: Work
-    link: work
 
 
 buttons:
