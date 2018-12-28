@@ -604,13 +604,20 @@ skills:
           And it works great!
       - name: Leadership
         info: >
-          .
+          I made my own web studio, CTF team, patronized newbies in Smena.
+          Now I build and coordinate software architecture in Cindicator team.
+          I can create, distribute, delegate, control, and estimate tasks,
+          work with people.
       - name: Part of the team
         info: >
-          .
+          I like to discuss tasks, manage them, organize my work time, estimate
+          and prioritize. I'm always happy to communicate, but avoid spending work time.
+          In Smena I've built perfect standups: fast and informative.
       - name: Public talks
         info: >
-          .
+          I like to talk to people about my tasks and knowledges, spread cool ideas.
+          You can discover some of my talks [above](#talks). Most of them on Russian,
+          but I'm going to change it.
 
   - name: Libraries
     content:
