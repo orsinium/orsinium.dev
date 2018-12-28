@@ -54,6 +54,10 @@
         color: #ffffff;
       }
 
+      .header .btn, .header .alert {
+        border-radius: 0px;
+      }
+
       h2 {
         margin-top: 20px;
       }
@@ -65,28 +69,34 @@
       <div class="container">
         <div class="row">
           <div class="alert alert-light col-lg-8 col-md-12">
-            <h1>Gram's projects</h1>
+            <h1>Hi, I'm Gram</h1>
           </div>
         </div>
-        <div class="row">
-          {% for item in profiles %}
-            {% include "card.html.j2" with context %}
-          {% endfor %}
+        <div class="row ">
+          <div class="col-lg-8 col-md-12">
+            <div class="row">
+              {% for item in header %}
+                {% include "button.html.j2" with context %}
+              {% endfor %}
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <ul class="nav nav-pills nav-fill bg-secondary justify-content-center">
-      {% for item in anchors %}
-        <li class="nav-item">
-          <a class="nav-link btn-secondary" href="#{{ item['link'] }}">
-            {{ item['name'] }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-
     <div class="container">
+      <h1 id="projects">Projects</h1>
+
+      <ul class="nav nav-pills nav-fill bg-light justify-content-center">
+        {% for item in anchors %}
+          <li class="nav-item">
+            <a class="nav-link btn-light" href="#{{ item['link'] }}">
+              {{ item['name'] }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
       <h2 id="channels">Telegram channels</h2>
       <div class="row">
         {% for item in channels %}

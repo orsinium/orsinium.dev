@@ -1,10 +1,23 @@
-profiles:
+header:
   - name: telegram
-    links:
-      - https://t.me/orsinium
+    class: btn-light
+    link: https://t.me/orsinium
   - name: github
-    links:
-      - https://github.com/orsinium
+    class: btn-light
+    link: https://github.com/orsinium
+  - name: CV
+    class: btn-light
+    link: https://cv.life4web.ru/
+  - name: "#projects"
+    class: btn-dark
+    link: "#projects"
+  - name: "#skills"
+    class: btn-dark
+    link: "#skills"
+  - name: "#work"
+    class: btn-dark
+    link: "#work"
+
 open_source:
   - name: TextDistance
     links:

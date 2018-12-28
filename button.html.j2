@@ -1,0 +1,7 @@
+<a
+  class="btn col-lg-4 {{ item['class'] }}"
+  href="{{ item['link'] }}"
+  {% if 'https:' in item['link'] %}target="_blank"{% endif %}
+>
+    {{ item['name'] }}
+</a>
