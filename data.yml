@@ -556,6 +556,11 @@ skills:
         info: >
           Right visualization is the most important part of effective data analysis.
           I use for it matplotlib and seaborn (second is more often).
+      - name: scikit-learn
+        info: >
+          It's Machine Learning! This is the most exciting thing in Data Science.
+          I spend much free time for learning this beautiful domain.
+          And scikit-learn one of the most important tools on this way.
       - name: Word2Vec
         info: >
           Word2Vec transforms words into vectors, so you can compare them as vectors.
