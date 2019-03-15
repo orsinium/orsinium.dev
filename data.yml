@@ -256,6 +256,8 @@ videos:
     links:
       - https://youtu.be/zD-qBcvBSik
       - https://piterpy.timepad.ru/event/863647/
+      - https://www.mentimeter.com/s/524cf910db99dcf99fa10c8f6decce9c/dc4f32062aa8/edit
+      - ./assets/types.pdf
   - name: "Logging!"
     lang: eng
     date: 2018-12-06
