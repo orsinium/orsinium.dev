@@ -27,18 +27,6 @@ channels:
     link: https://t.me/iam_sterdam
     info: How I see Amsterdam
 
-site:
-  - name: "Projects"
-    link: "projects.html"
-  - name: "Pull Requests"
-    link: "/prs.html"
-  - name: "Talks"
-    link: "/talks.html"
-  - name: "Skills"
-    link: "/skills.html"
-  - name: "/work"
-    link: "/work.html"
-
 other:
   - name: Podcast about blockchain
     lang: rus
