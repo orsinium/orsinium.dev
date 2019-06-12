@@ -6,9 +6,10 @@
       <div class="row">
         {% for item in group['items'] %}
           {% if group['info'] %}
-            {% include "minicard.html.j2" with context %}
+            {% include "card.html.j2" with context %}
           {% else %}
             <a class="btn col-lg-2 btn-light" href="{{ item['link'] }}">
+              <i class="{{ item['icon'] }}"></i>
               {{ item['name'] }}
             </a>
           {% endif %}

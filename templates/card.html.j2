@@ -13,7 +13,11 @@
           {% endif %}
         {% endfor %}
       {% endif %}
-      {{ item['name'] }}
+      {% if item['link'] %}
+        <a href="{{ item['link'] }}" target="_blank">{{ item['name'] }}</a>
+      {% else %}
+        {{ item['name'] }}
+      {% endif %}
     </h5>
 
     {% if 'tags' in item %}

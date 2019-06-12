@@ -3,16 +3,22 @@
   info: false
   items:
     - name: articles
+      icon: far fa-newspaper
       link: https://articles.life4web.ru/
     - name: github
+      icon: fab fa-github
       link: https://github.com/orsinium
     - name: CV
+      icon: fas fa-user
       link: https://cv.life4web.ru/
     - name: youtube
+      icon: fab fa-youtube
       link: https://www.youtube.com/channel/UCR0aFxunk1fhbSqbnJuiosA
     - name: telegram
+      icon: fab fa-telegram
       link: https://t.me/orsinium
     - name: email
+      icon: fas fa-envelope
       link: mailto:master_fess@mail.ru
 
 - slug: channels

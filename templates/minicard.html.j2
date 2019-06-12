@@ -5,11 +5,7 @@
     {% endif %}
 
     <h5 class="card-title">
-      {% if item['link'] %}
-        <a href="{{ item['link'] }}" target="_blank">{{ item['name'] }}</a>
-      {% else %}
-        {{ item['name'] }}
-      {% endif %}
+      {{ item['name'] }}
     </h5>
 
     {% if 'info' in item %}
