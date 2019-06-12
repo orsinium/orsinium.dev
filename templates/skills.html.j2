@@ -1,14 +1,14 @@
 {% extends "base.html.j2" %}
 
 {% block content %}
-  <div class="container-fluid bg-dark text-white">
+  <div class="container-fluid">
     <div class="container">
       <h1 id="skills">Skills and technologies</h1>
 
-      <ul class="nav nav-pills nav-fill bg-dark justify-content-center">
+      <ul class="nav nav-pills nav-fill bg-light justify-content-center">
         {% for item in items %}
           <li class="nav-item">
-            <a class="nav-link btn-dark" href="#{{ item['name'].lower().replace(' ', '_') }}">
+            <a class="nav-link btn-light" href="#{{ item['name'].lower().replace(' ', '_') }}">
               {{ item['name'] }}
             </a>
           </li>

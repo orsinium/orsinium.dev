@@ -2,16 +2,18 @@
 
 {% block content %}
   <div class="container-fluid">
-    {% for slug, group in items.items() %}
-      {% for item in group %}
-        <a
-          class="btn col-lg-2 {{ item['class'] or "btn-light" }}"
-          href="{{ item['link'] }}"
-          {% if 'https:' in item['link'] %}target="_blank"{% endif %}
-        >
-            {{ item['name'] }}
-        </a>
-      {% endfor %}
+    {% for group in items %}
+      <div class="row">
+        {% for item in group['items'] %}
+          {% if group['info'] %}
+            {% include "minicard.html.j2" with context %}
+          {% else %}
+            <a class="btn col-lg-2 btn-light" href="{{ item['link'] }}">
+              {{ item['name'] }}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
     {% endfor %}
   </div>
 {% endblock %}

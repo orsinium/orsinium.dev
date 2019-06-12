@@ -1,3 +1,5 @@
+- name: "Links"
+  slug: "index"
 - name: "Projects"
   slug: "projects"
 - name: "Pull Requests"

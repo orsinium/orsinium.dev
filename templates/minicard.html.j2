@@ -1,11 +1,15 @@
-<div class="card col-sm-12 col-md-6 col-lg-4 text-white bg-dark">
+<div class="card col-sm-12 col-md-6 col-lg-4 bg-light">
   <div class="card-body">
     {% if 'image' in item %}
       <img class="card-img-top" src="./assets/{{ item['image'] }}" />
     {% endif %}
 
     <h5 class="card-title">
-      {{ item['name'] }}
+      {% if item['link'] %}
+        <a href="{{ item['link'] }}" target="_blank">{{ item['name'] }}</a>
+      {% else %}
+        {{ item['name'] }}
+      {% endif %}
     </h5>
 
     {% if 'info' in item %}
@@ -34,4 +38,3 @@
     </div>
   {% endif %}
 </div>
-
