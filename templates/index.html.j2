@@ -1,0 +1,17 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+  <div class="container-fluid">
+    {% for slug, group in items.items() %}
+      {% for item in group %}
+        <a
+          class="btn col-lg-2 {{ item['class'] or "btn-light" }}"
+          href="{{ item['link'] }}"
+          {% if 'https:' in item['link'] %}target="_blank"{% endif %}
+        >
+            {{ item['name'] }}
+        </a>
+      {% endfor %}
+    {% endfor %}
+  </div>
+{% endblock %}
