@@ -10,6 +10,8 @@ main:
 contact:
   - name: telegram
     link: https://t.me/orsinium
+  - name: email
+    link: mailto:master_fess@mail.ru
 
 channels:
   - name: ITGram
