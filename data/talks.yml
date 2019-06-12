@@ -1,3 +1,10 @@
+- name: "Be a Rockstar"
+  lang: rus
+  date: 2019-03-12
+  info: "How to hire a Rockstar and be hired in a cool team."
+  links:
+    - https://youtu.be/uEz4p9YjPlo
+    - https://www.meetup.com/piterpy/events/259242277/
 - name: "The bees, the trees, the types, the typing"
   lang: rus
   date: 2018-12-11
@@ -60,6 +67,7 @@
     - monitoring
   links:
     - https://youtu.be/uSVu1Z7fKw4
+    - ./assets/devconf.pdf
     - http://dc.ufacoder.com/
 - name: Vulner
   date: 2016-07-22

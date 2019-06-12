@@ -46,6 +46,10 @@
   icon: fas fa-map-marker-alt
   text: event
 
+- trigger: ".pdf"
+  icon: fas fa-file-pdf
+  text: slides
+
 - trigger: ""
   icon: fas fa-globe-americas
   text: page
