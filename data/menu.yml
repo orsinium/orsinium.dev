@@ -1,0 +1,61 @@
+
+main:
+  - name: articles
+    link: https://articles.life4web.ru/
+  - name: github
+    link: https://github.com/orsinium
+  - name: CV
+    link: https://cv.life4web.ru/
+
+contact:
+  - name: telegram
+    link: https://t.me/orsinium
+
+channels:
+  - name: ITGram
+    lang: rus
+    link: https://t.me/itgram_channel
+    info: "All about development: best practice, articles, useful tools, libs etc."
+  - name: RPG Dump
+    lang: ['eng', 'rus']
+    link: https://t.me/rpgdump
+    info: Pathfinder, board games
+  - name: I am sterdam
+    lang: rus
+    link: https://t.me/iam_sterdam
+    info: How I see Amsterdam
+
+site:
+  - name: "Projects"
+    link: "projects.html"
+  - name: "Pull Requests"
+    link: "/prs.html"
+  - name: "Talks"
+    link: "/talks.html"
+  - name: "Skills"
+    link: "/skills.html"
+  - name: "/work"
+    link: "/work.html"
+
+other:
+  - name: Podcast about blockchain
+    lang: rus
+    info: >
+      About blockchain technology, cryptocurrencies,
+      history and future of decentralized systems.
+    links:
+      - https://t.me/itgram_channel/21
+  - name: Stickers
+    lang: ['eng', 'rus']
+    info: I draw and print round vector stickers with programming jokes.
+    links:
+      - https://stickers.life4web.ru/
+  - name: Dipper3
+    lang: rus
+    info: Telegram bot with many features and lightweight dialog system
+    links:
+      - https://dipper3.life4web.ru/
+  - name: alert1
+    info: My CTF team. CTF (Capture The Flag) — information security contests.
+    links:
+      - https://ctftime.org/team/24077

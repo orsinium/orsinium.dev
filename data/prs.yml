@@ -1,0 +1,60 @@
+- name: delorean
+  info: Fixed ISO date parsing
+  date: 2018-10-08
+  links:
+    - https://github.com/myusuf3/delorean/pull/103
+- name: python-json-logger
+  info: Fixed and improved setup.py
+  date: 2018-10-08
+  links:
+    - https://github.com/madzak/python-json-logger/pull/71
+- name: pylama
+  info: Eradicate support and Python 3.7 compatibility.
+  date: 2018-09-28
+  links:
+    - https://github.com/klen/pylama/pull/129
+- name: luigi
+  info: Added configuring of logging via TOML config.
+  date: 2018-08-07
+  links:
+    - https://github.com/spotify/luigi/pull/2483
+- name: isort
+  info: Added requirements.txt and Pipfile support
+  date: 2018-07-22
+  links:
+    - https://github.com/timothycrosley/isort/pull/715
+- name: mongoengine
+  info: Added DateField support
+  date: 2018-07-20
+  links:
+    - https://github.com/MongoEngine/mongoengine/pull/1825
+- name: luigi
+  info: Project configuring via TOML format.
+  date: 2018-07-13
+  links:
+    - https://github.com/spotify/luigi/pull/2457
+- name: mixer
+  info: Added unregister_middleware function.
+  date: 2018-07-04
+  links:
+    - https://github.com/klen/mixer/pull/101
+- name: requirementslib
+  info: Improved Pipfile.lock parsing.
+  date: 2018-06-16
+  links:
+    - https://github.com/sarugaku/requirementslib/pull/9
+- name: hello-world
+  info: Added esoteric language named YoptaScript.
+  date: 2018-04-25
+  links:
+    - https://github.com/leachim6/hello-world/pull/453
+- name: choosealicense.com
+  info: Updated CC-BY license name.
+  date: 2018-04-18
+  links:
+    - https://github.com/github/choosealicense.com/pull/583
+- name: Opened PRs
+  info: "Some of my PRs isn't accepted yet."
+  class: text-white bg-dark
+  links:
+    - https://github.com/search?q=is%3Apr+author%3Aorsinium+is%3Aopen
