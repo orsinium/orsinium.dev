@@ -1,11 +1,13 @@
 - name: DepHell
+  bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
+  links:
+    - https://github.com/orsinium/dephell
   tags:
     - python
     - packaging
   info: The best Python project manager, all-in-one solution with a smart resolver.
-  links:
-    - https://github.com/orsinium/dephell
 - name: TextDistance
+  bg: https://github.com/orsinium/textdistance/raw/master/logo.png
   links:
     - https://github.com/orsinium/textdistance
   info: >
@@ -15,12 +17,14 @@
   tags:
     - python
 - name: Deal
+  bg: https://github.com/orsinium/deal/raw/master/logo.png
   links:
     - https://github.com/orsinium/deal
   info: Design by contract for Python with many validators support.
   tags:
     - python
 - name: DjBrut
+  bg: https://github.com/orsinium/django-bruteforce-protection/raw/master/logo.png
   links:
     - https://github.com/orsinium/django-bruteforce-protection
   info: Bruteforce protection for Django projects based on Redis.
@@ -28,6 +32,7 @@
     - python
     - django
 - name: Homoglyphs
+  bg: https://github.com/orsinium/homoglyphs/raw/master/logo.png
   links:
     - https://github.com/orsinium/homoglyphs
   info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
@@ -40,6 +45,7 @@
   tags:
     - python
 - name: Awesome Generator
+  bg: https://github.com/orsinium/awesome-generator/raw/master/logo.png
   info: Generate awesome list over Github API
   links:
     - https://github.com/orsinium/awesome-generator
@@ -50,6 +56,7 @@
   links:
     - https://github.com/orsinium/generated-awesomeness
 - name: DjBurger
+  bg: https://github.com/orsinium/djburger/raw/master/wiki/source/imgs/logo.png
   links:
     - https://github.com/orsinium/djburger
   info: Framework for safe and maintainable web-projects.
@@ -78,6 +85,7 @@
     - zabbix
     - monitoring
 - name: poetry-setup
+  bg: https://github.com/orsinium/poetry-setup/raw/master/assets/logo.png
   info: Generate setup.py (setuptools) from pyproject.toml (poetry)
   links:
     - https://github.com/orsinium/poetry-setup
