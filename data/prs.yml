@@ -1,4 +1,5 @@
 - name: delorean
+  bg: https://github.com/myusuf3/delorean/raw/master/docs/_static/delorean.png
   info: Fixed ISO date parsing
   date: 2018-10-08
   links:
@@ -9,16 +10,19 @@
   links:
     - https://github.com/madzak/python-json-logger/pull/71
 - name: pylama
+  bg: https://github.com/klen/pylama/raw/develop/docs/_static/logo.png
   info: Eradicate support and Python 3.7 compatibility.
   date: 2018-09-28
   links:
     - https://github.com/klen/pylama/pull/129
 - name: luigi
+  bg: https://github.com/spotify/luigi/raw/master/doc/luigi.png
   info: Added configuring of logging via TOML config.
   date: 2018-08-07
   links:
     - https://github.com/spotify/luigi/pull/2483
 - name: isort
+  bg: https://github.com/timothycrosley/isort/raw/develop/logo.png
   info: Added requirements.txt and Pipfile support
   date: 2018-07-22
   links:
@@ -34,11 +38,13 @@
   links:
     - https://github.com/spotify/luigi/pull/2457
 - name: mixer
+  bg: https://github.com/klen/mixer/raw/develop/docs/_static/logo.png
   info: Added unregister_middleware function.
   date: 2018-07-04
   links:
     - https://github.com/klen/mixer/pull/101
 - name: requirementslib
+  bg: https://avatars1.githubusercontent.com/u/39783362?s=200&v=4
   info: Improved Pipfile.lock parsing.
   date: 2018-06-16
   links:
