@@ -27,6 +27,7 @@
   date: 2018-07-20
   link: https://github.com/MongoEngine/mongoengine/pull/1825
 - name: luigi
+  bg: https://github.com/spotify/luigi/raw/master/doc/luigi.png
   info: Project configuring via TOML format.
   date: 2018-07-13
   link: https://github.com/spotify/luigi/pull/2457
