@@ -1,3 +1,13 @@
+- name: lefthook
+  # bg: https://raw.githubusercontent.com/Arkweid/lefthook/master/logo_sign.svg
+  info: Flag to force or disable colored output
+  date: 2019-07-31
+  link: https://github.com/Arkweid/lefthook/pull/36
+- name: plotnine
+  bg: https://raw.githubusercontent.com/has2k1/plotnine/master/doc/images/logo-180.png
+  info: Code examples for documentation
+  date: 2019-01-28
+  link: https://github.com/has2k1/plotnine-examples/pulls?q=is%3Apr+is%3Aclosed+author%3Aorsinium
 - name: delorean
   bg: https://github.com/myusuf3/delorean/raw/master/docs/_static/delorean.png
   info: Fixed ISO date parsing
