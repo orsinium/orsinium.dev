@@ -6,8 +6,8 @@
     - packaging
   info: The best Python project manager, all-in-one solution with a smart resolver.
 - name: TextDistance
-  bg: https://github.com/orsinium/textdistance/raw/master/logo.png
-  link: https://github.com/orsinium/textdistance
+  bg: https://github.com/life4/textdistance/raw/master/logo.png
+  link: https://github.com/life4/textdistance
   info: >
     Compute the distance between sequences.
     30+ algorithms, pure python implementation,
@@ -15,8 +15,8 @@
   tags:
     - python
 - name: Deal
-  bg: https://github.com/orsinium/deal/raw/master/logo.png
-  link: https://github.com/orsinium/deal
+  bg: https://github.com/life4/deal/raw/master/logo.png
+  link: https://github.com/life4/deal
   info: Design by contract for Python with many validators support.
   tags:
     - python
@@ -28,8 +28,8 @@
     - python
     - django
 - name: Homoglyphs
-  bg: https://github.com/orsinium/homoglyphs/raw/master/logo.png
-  link: https://github.com/orsinium/homoglyphs
+  bg: https://github.com/life4/homoglyphs/raw/master/logo.png
+  link: https://github.com/life4/homoglyphs
   info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
   tags:
     - python
