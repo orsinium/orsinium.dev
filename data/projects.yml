@@ -14,6 +14,11 @@
     common interface, optional external libs usage.
   tags:
     - python
+- name: FlakeHell
+  link: https://github.com/life4/flakehell
+  tags:
+    - python
+  info: Flake8 wrapper to make it nice, legacy-friendly, configurable.
 - name: Deal
   bg: https://github.com/life4/deal/raw/master/logo.png
   link: https://github.com/life4/deal
