@@ -16,3 +16,6 @@
 - name: email
   icon: fas fa-envelope
   link: mailto:master_fess@mail.ru
+- name: linkedin
+  icon: fab fa-linkedin
+  link: https://www.linkedin.com/in/orsinium/
