@@ -1,27 +1,27 @@
-- name: 4. EclecticIQ
+- name: 5. EclecticIQ
   image: eiq.jpg
   date: 2019-05 &mdash; now
   info: Senior Software Engineer
   link: https://www.eclecticiq.com/
 
-- name: 3. Cindicator
+- name: 4. Cindicator
   image: cnd.jpg
   date: 2018-06 &mdash; 2019-02
   info: Senior Python developer, architector
   link: https://cindicator.com/
 
-- name: 2. Smena
+- name: 3. Smena
   image: smena.jpg
   date: 2017-05 &mdash; 2018-06
   info: Django web developer (Python)
   link: http://smena.space/
 
-- name: 1. Life4Web
+- name: 2. Life4Web
   image: life4.png
   date: 2016-01 &mdash; 2017-05
   info: Founder, Django web developer (Python)
 
-- name: 0. USATU
+- name: 1. USATU
   image: usatu.png
   date: 2015-05 &mdash; 2017-05
   info: Researcher in Department of Linguistic Communication and Psycholinguistics.
