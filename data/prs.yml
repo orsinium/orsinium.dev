@@ -1,5 +1,5 @@
 - name: lefthook
-  # bg: https://raw.githubusercontent.com/Arkweid/lefthook/master/logo_sign.svg
+  bg: ./assets/lefthook.png
   info: Flag to force or disable colored output
   date: 2019-07-31
   link: https://github.com/Arkweid/lefthook/pull/36

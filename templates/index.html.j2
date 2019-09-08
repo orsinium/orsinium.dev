@@ -4,7 +4,7 @@
   <div class="container-fluid">
     <div class="row">
       {% for item in items %}
-        <a class="btn col-lg-4 btn-light" href="{{ item['link'] }}">
+        <a class="btn col-lg-4 btn-light" href="{{ item['link'] }}" target="=_blank">
           <i class="{{ item['icon'] }}"></i>
           {{ item['name'] }}
         </a>
