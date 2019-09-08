@@ -3,8 +3,7 @@
     - name: Python
       info: >
         This is my favorite language. I know source code of almost all stdlib,
-        have many Python-based Open Source projects and public talks.
-        You can discover them above.
+        have many Python-based Open Source [projects](./projects.html) and [public talks](./talks.html).
     - name: Go
       info: >
         This is my second favorite language. It has quite a different philosophy
@@ -82,7 +81,7 @@
         and know everything about how it works.
         I've made all ML pipeline in Cindicator based on Luigi, and this is
         working on production without any issues.
-        Also, I have [public talk](#talks) about it.
+        Also, I have [public talk](./talks.html) about it.
 
 - name: ORMs
   content:
@@ -236,7 +235,7 @@
     - name: Public talks
       info: >
         I like to talk to people about my tasks and knowledges, spread cool ideas.
-        You can discover some of my talks [above](#talks). Most of them on Russian,
+        You can discover some of my talks [above](./talks.html). Most of them on Russian,
         but I'm going to change it.
 
 - name: Libraries
