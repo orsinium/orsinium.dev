@@ -1,0 +1,20 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+  <div class="container-fluid">
+    {% for group in items %}
+      <div class="row">
+        {% for item in group['items'] %}
+          {% if group['info'] %}
+            {% include "card.html.j2" with context %}
+          {% else %}
+            <a class="btn col-lg-2 btn-light" href="{{ item['link'] }}">
+              <i class="{{ item['icon'] }}"></i>
+              {{ item['name'] }}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

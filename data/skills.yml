@@ -1,0 +1,266 @@
+- name: Languages
+  content:
+    - name: Python
+      info: >
+        This is my favorite language. I know source code of almost all stdlib,
+        have many Python-based Open Source projects and public talks.
+        You can discover them above.
+    - name: Go
+      info: >
+        This is my second favorite language. It has quite a different philosophy
+        rather than Python and it's great. Go gives you superpower
+        that allows you to make blazing fast services and tools.
+        I've just started using it, but already has
+        [some projects](https://github.com/orsinium?tab=repositories&language=go).
+    - name: PHP
+      info: >
+        Ok, I know PHP. And hate it. This is my first web programming language,
+        I've known it very well, but I try to avoid it. Also, I have public talk
+        why PHP is bad. However, I know it and can read PHP code.
+    - name: HTML, CSS & LESS
+      info: >
+        Yeah, this is not programming languages, but I know them, of course.
+        I like the web so much, so I couldn't miss some frontend basic things.
+        The layout of this site is quite nice, isn't it?
+        This is just Bootstrap 4, but still.
+    - name: SQL
+      info: >
+        Most of the time I use ORM or query builders, of course.
+        But SQL knowledge is required for effective queries optimization and debugging.
+        Luckily, a huge PHP background gives me these skills (PHP has no good ORM).
+
+- name: Storages
+  content:
+    - name: PostgreSQL
+      info: >
+        I've completed [DBA1, DBA2, and DBA3](https://postgrespro.com/education)
+        courses from Postgres Professionals company. So I little bit know how to set up,
+        optimize and replicate PostgreSQL database.
+    - name: Redis
+      info: >
+        I like this storage for speed and simplicity. For example, my
+        [bruteforce protection tool](https://github.com/orsinium/django-bruteforce-protection)
+        works on top of it.
+    - name: MySQL
+      info: >
+        Unfortunately, in Smena we lived with MySQL, so I know how to make
+        replication and backups, how to set up a server and debug strange behavior.
+    - name: MongoDB
+      info: >
+        I know how to set up and use it for the best security and performance,
+        how to build good documents structure. BTW, I'm
+        [mongoengine contributor](https://github.com/MongoEngine/mongoengine/pull/1825).
+    - name: ElasticSearch
+      info: >
+        This is very fast storage with cool query syntax. In Smena we use it
+        for data caching in ERP and for
+        [logs storage](https://github.com/orsinium/python-syslog-logstash).
+
+- name: Frameworks
+  content:
+    - name: Django
+      info: >
+        I like this framework! It's quite pythonic. I know it's source code
+        better than the birthdays of my relatives. However Django has some
+        issues for big projects, so I've made [DjBurger](https://github.com/orsinium/djburger).
+    - name: Flask
+      info: >
+        This is the most popular web framework. An old, a little bit slow, but beautiful.
+        So I know it very good, but I prefer to use more fast alternatives like
+        [Sanic](https://github.com/huge-success/sanic). It's more modern and fast.
+    - name: Django REST Framework
+      info: >
+        I like to work with DRF. This framework has some disadvantages,
+        but also it's quite simple and popular.
+    - name: Nameko
+      info: >
+        It's the framework for RPC based microservices. I've worked with it and know
+        how it works and how to use it for best performance.
+    - name: Luigi
+      info: >
+        I'm [Luigi contributor](https://github.com/spotify/luigi/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Aorsinium)
+        and know everything about how it works.
+        I've made all ML pipeline in Cindicator based on Luigi, and this is
+        working on production without any issues.
+        Also, I have [public talk](#talks) about it.
+
+- name: ORMs
+  content:
+    - name: Django ORM
+      info: >
+        This is the best ORM I've ever used.
+        I know Django ORM source code and how to build and
+        optimize queries of any difficulty level.
+    - name: SQLAlchemy
+      info: >
+        I work so much with it, but also I a little bit don't like it.
+        This is an excessively low-level framework that doesn't intend
+        to be used directly. I prefer Flask-SQLAlchemy and SQLAlchemy-mixins.
+    - name: Peewee
+      info: >
+        I use this ORM every time when I can't use Django ORM, but can avoid
+        SQLAlchemy.
+
+- name: Testing
+  content:
+    - name: PyTest
+      info: >
+        This is a great tool for fast and beautiful testing.
+        I use it in every project where it is possible.
+        I like to write tests because they helps to change the code without fear.
+    - name: Locust
+      info: >
+        When I write load tests I use Locust. This is a simple Python-based
+        load testing framework with good performance.
+    - name: Unittest
+      info: >
+        Unittest used almost in all my open source projects. For example, in
+        [textdistance](https://github.com/orsinium/textdistance/blob/master/tests/common.py)
+        and [DjBurger](https://github.com/orsinium/djburger/tree/master/tests).
+        So, it can't scare me.
+
+- name: DevOps
+  content:
+    - name: Docker
+      info: >
+        Docker is the most popular container system that allows you to develop and
+        deploy your services faster and simpler. I've packed in Docker all
+        infrastructure of Farfor (when I worked in Smena), all ML Pipeline
+        and trading system in Cindicator and this all works
+        perfectly on all environments from development to production.
+    - name: Docker-compose
+      info: >
+        For the development environment, I use docker-compose,
+        because it is the most simple way to orchestrate docker containers.
+        This one of the tools that I use every day.
+    - name: Elastic Stack
+      info: >
+        Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
+        logs, messages, and state from all parts of the system. It includes
+        Elastic Search, Logstash, Kibana, MetricBeat, FileBeat etc.
+        I can monitor with it all infrastructure.
+        You can find my demo stand of this system in
+        [python-syslog-logstash](https://github.com/orsinium/python-syslog-logstash)
+        repository.
+    - name: Sentry
+      info: >
+        Sentry is a useful solution for error messages aggregation.
+        I use it for 4 years and know how to build fast and reliable
+        errors processing pipeline. Also, I've
+        [contributed to sentry](https://github.com/getsentry/raven-python/pull/1306) too.
+    - name: Zabbix
+      info: >
+        Zabbix is one of the most popular tools for servers and services
+        monitoring. I have huge (and a little bit painful) experience with it.
+        Also, I've written [zabbix-healthcheck](https://github.com/orsinium/zabbix-healthcheck)
+        plugin that adds Flask applications monitor into Zabbix.
+    - name: New Relic
+      info: >
+        New Relic is a useful SaaS solution for performance monitoring of
+        Python web applications. I know how to integrate it into projects,
+        monitor state of the system and improve performance and load.
+
+- name: Data Analysis
+  content:
+    - name: Pandas
+      info: >
+        This is the secret ingredient that improved the performance of the
+        report system in Smena team. It has gotten faster from 12 hours to
+        90 seconds. Also, this is the main instrument of my data researches.
+    - name: NumPy
+      info: >
+        I use NumPy for some simple statical analysis and matrix operations.
+    - name: Matplotlib & Seaborn
+      info: >
+        Right visualization is the most important part of effective data analysis.
+        I use for it matplotlib and seaborn (second is more often).
+    - name: scikit-learn
+      info: >
+        It's Machine Learning! This is the most exciting thing in Data Science.
+        I spend much free time for learning this beautiful domain.
+        And scikit-learn one of the most important tools on this way.
+    - name: Word2Vec
+      info: >
+        Word2Vec transforms words into vectors, so you can compare them as vectors.
+        I use this great tool in my [chatbot](https://dipper3.life4web.ru/).
+    - name: Jupyter
+      info: >
+        Jupyter is a great stack for research. I use it almost every day
+        and know how to setup Jupyter Hub, work with a remote core and other tricks.
+
+- name: Security
+  content:
+    - name: Burp Suite
+      info: >
+        This is my Swiss Army knife for security testing, APIs exploring
+        and analyzing traffic from web, desktop, and mobile applications.
+        I use it in my everyday work and like it.
+    - name: nmap
+      info: >
+        This is a very powerful tool for service discovery and network audit.
+        I know how to use it most effectively.
+    - name: Wireshark
+      info: >
+        When I need to analyze raw traffic, I use Wireshark.
+        This is hard and rare cases, but I like them.
+
+- name: Soft skills
+  content:
+    - name: English
+      info: >
+        My level is Intermediate (B1+) yet. However, I just started to learn
+        English 6 months ago, so my skill is growing very fast.
+        I'll know it very well soon, I hope.
+    - name: Scrum
+      info: >
+        I'm working with it every day, know how to estimate tasks,
+        make informative descriptions and track progress most effectively.
+        Also, I'm familiar to Jira and know how to use filters, dashboards, boards,
+        search queries. In my hometown, I was a part of Atlassian User Group.
+    - name: Kanban
+      info: >
+        This is my favorite Agile methodology. I organized processes in my
+        team by Kanban and use Trello board to order my personal tasks.
+        And it works great!
+    - name: Leadership
+      info: >
+        I made my own web studio, CTF team, patronized newbies in Smena.
+        Now I build and coordinate software architecture in Cindicator team.
+        I can create, distribute, delegate, control, and estimate tasks,
+        work with people.
+    - name: Part of the team
+      info: >
+        I like to discuss tasks, manage them, organize my work time, estimate
+        and prioritize. I'm always happy to communicate, but avoid spending work time.
+        In Smena I've built perfect standups: fast and informative.
+    - name: Public talks
+      info: >
+        I like to talk to people about my tasks and knowledges, spread cool ideas.
+        You can discover some of my talks [above](#talks). Most of them on Russian,
+        but I'm going to change it.
+
+- name: Libraries
+  content:
+    - name: Jinja2
+      info: This is my favorite template engine. This page generated by Jinja2.
+    - name: Requests
+      info: >
+        I know this tool very well. However, for dozens of requests,
+        I prefer asynchronous solutions like aiohttp.
+    - name: Attrs
+      info: >
+        Dataclasses is a beautiful conception that I use in my projects
+        every day. For example, in
+        [dephell](https://github.com/orsinium/dephell/tree/master/dephell/models).
+        It helps to write beautiful and fast code.
+        So, I know almost everything about this lib
+        (and about dataclasses from Python 3.7 too).
+    - name: Celery
+      info: >
+        I prefer other solutions like rq and huey, but celery is the biggest,
+        most popular and only one good that can work with RabbitMQ,
+        so I have huge experience with it.
+    - name: Telethon
+      info: >
+        Telegram messenger is very popular now, so I have experience in
+        writing bots and direct working with telegram's protocol (MTProto).

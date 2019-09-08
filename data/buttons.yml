@@ -1,0 +1,55 @@
+- trigger: "/pull/"
+  icon: fab fa-github
+  text: pull request
+
+- trigger: "github.com/orsinium/notes"
+  icon: far fa-newspaper
+  text: article
+
+- trigger: "github.com/search"
+  icon: fas fa-search
+  text: search
+
+- trigger: "github.com"
+  icon: fab fa-github
+  text: repository
+
+- trigger: "/itgram_channel/"
+  icon: fab fa-telegram
+  text: post
+
+- trigger: "t.me/orsinium"
+  icon: fab fa-telegram
+  text: text me!
+
+- trigger: "t.me/"
+  icon: fab fa-telegram
+  text: channel
+
+- trigger: "youtu.be/"
+  icon: fab fa-youtube
+  text: video
+
+- trigger: "canva.com/"
+  icon: fas fa-eye
+  text: slides
+
+- trigger: "life4web.ru/"
+  icon: fas fa-info-circle
+  text: info
+
+- trigger: "timepad.ru/"
+  icon: fas fa-map-marker-alt
+  text: event
+
+- trigger: "meetup.com/"
+  icon: fas fa-map-marker-alt
+  text: event
+
+- trigger: ".pdf"
+  icon: fas fa-file-pdf
+  text: slides
+
+- trigger: ""
+  icon: fas fa-globe-americas
+  text: page

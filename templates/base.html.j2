@@ -7,7 +7,11 @@
     <meta name="description" content="Hi, I'm Gram">
     <meta name="keywords" content="developer, portfolio, python, golang">
     <meta name="author" content="Gram (@orsinium)">
-    <title>Hi, I'm Gram</title>
+    {% if title %}
+      <title>Gram's {{ title.lower() }}</title>
+    {% else %}
+      <title>Hi, I'm Gram</title>
+    {% endif %}
     <link rel="shortcut icon" href="favicon.ico">
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
@@ -34,6 +38,27 @@
       .card {
         padding-left: 0px;
         padding-right: 0px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 1;
+      }
+
+      .card-bg {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        top: 0;
+        opacity: 0.1;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+        padding: 10px;
+      }
+      .card-bg img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
       }
 
       .container-fluid {
@@ -75,7 +100,7 @@
         <div class="row ">
           <div class="col-lg-8 col-md-12">
             <div class="row">
-              {% for item in header %}
+              {% for item in menu %}
                 {% include "button.html.j2" with context %}
               {% endfor %}
             </div>
@@ -84,104 +109,18 @@
       </div>
     </div>
 
-    <div class="container">
-      <h1 id="projects">Projects</h1>
-
-      <ul class="nav nav-pills nav-fill bg-light justify-content-center">
-        {% for item in anchors %}
-          <li class="nav-item">
-            <a class="nav-link btn-light" href="#{{ item['link'] }}">
-              {{ item['name'] }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-
-      <h2 id="channels">Telegram channels</h2>
-      <div class="row">
-        {% for item in channels %}
-          {% include "card.html.j2" with context %}
-        {% endfor %}
-      </div>
-
-      <h2 id="oss">Open Source</h2>
-      <div class="row">
-        {% for item in open_source %}
-          {% include "card.html.j2" with context %}
-        {% endfor %}
-      </div>
-
-      <h2 id="projects">Some little projects</h2>
-      <div class="row">
-        {% for item in little_projects %}
-          {% include "card.html.j2" with context %}
-        {% endfor %}
-      </div>
-
-      <h2 id="prs">Pull Requests to other Open Source projects</h2>
-      <div class="row">
-        {% for item in pull_requests %}
-          {% include "card.html.j2" with context %}
-        {% endfor %}
-      </div>
-
-      <h2 id="talks">Public talks</h2>
-      <div class="row">
-        {% for item in videos %}
-          {% include "card.html.j2" with context %}
-        {% endfor %}
-      </div>
-
-      <h2 id="other">Other projects</h2>
-      <div class="row">
-        {% for item in other %}
-          {% include "card.html.j2" with context %}
-        {% endfor %}
-      </div>
-
-    </div>
-
-
-    <div class="container-fluid bg-dark text-white" style="margin-top: 30px">
-      <div class="container">
-        <h1 id="skills">Skills and technologies</h1>
-
-        <ul class="nav nav-pills nav-fill bg-dark justify-content-center">
-          {% for item in skills %}
-            <li class="nav-item">
-              <a class="nav-link btn-dark" href="#{{ item['name'].lower().replace(' ', '_') }}">
-                {{ item['name'] }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-
-        {% for group in skills %}
-          <h2 id="{{ group['name'].lower().replace(' ', '_') }}">
-            {{ group['name'] }}
-          </h2>
+    {% block content %}
+      <div class="container-fluid">
+        <div class="container">
+          <h1 id="work">{{ title }}</h1>
           <div class="row">
-            {% for item in group['content'] %}
-              {% include "minicard.html.j2" with context %}
+            {% for item in items %}
+              {% include "card.html.j2" with context %}
             {% endfor %}
           </div>
-        {% endfor %}
-
-      </div>
-    </div>
-
-
-    <div class="container-fluid">
-      <div class="container">
-        <h1 id="work">Work</h1>
-        <div class="row">
-          {% for item in work %}
-            {% include "card.html.j2" with context %}
-          {% endfor %}
         </div>
       </div>
-    </div>
-
+    {% endblock %}
 
     <!-- https://www.bryanbraun.com/anchorjs/ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js"></script>
