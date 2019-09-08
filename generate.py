@@ -8,15 +8,15 @@ env = Environment(
     extensions=['jinja2.ext.loopcontrols', 'jinja2_markdown.MarkdownExtension'],
 )
 
-buttons = yaml.load(Path('data', 'buttons.yml').open())
-menu = yaml.load(Path('data', 'names.yml').open())
+buttons = yaml.safe_load(Path('data', 'buttons.yml').open())
+menu = yaml.safe_load(Path('data', 'names.yml').open())
 titles = {item['slug']: item['name'] for item in menu}
 for item in menu:
     if 'link' not in item:
         item['link'] = './{}.html'.format(item['slug'])
 
 for data_path in Path('data').iterdir():
-    data = yaml.load(data_path.open())
+    data = yaml.safe_load(data_path.open())
     name = data_path.stem
     if name in {'buttons', 'names'}:
         continue

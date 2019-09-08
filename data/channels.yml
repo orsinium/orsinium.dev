@@ -1,0 +1,13 @@
+
+- name: ITGram
+  lang: rus
+  link: https://t.me/itgram_channel
+  info: "All about development: best practice, articles, useful tools, libs etc."
+- name: RPG Dump
+  lang: eng
+  link: https://t.me/rpgdump
+  info: Pathfinder, board games
+- name: I am sterdam
+  lang: rus
+  link: https://t.me/iam_sterdam
+  info: How I see Amsterdam

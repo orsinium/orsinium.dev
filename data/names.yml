@@ -6,6 +6,8 @@
   slug: "prs"
 - name: "Talks"
   slug: "talks"
+- name: "Channels"
+  slug: "channels"
 - name: "Skills"
   slug: "skills"
 - name: "Work"
