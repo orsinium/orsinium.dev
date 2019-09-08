@@ -112,10 +112,20 @@
     {% block content %}
       <div class="container-fluid">
         <div class="container">
-          <h1 id="work">{{ title }}</h1>
+          <h1>{{ title }}</h1>
           <div class="row">
             {% for item in items %}
-              {% include "card.html.j2" with context %}
+              {% if 'items' in item %}
+                </div>
+                <h2>{{ item['name'] }}</h2>
+                <div class="row">
+                {% for subitem in item['items'] %}
+                  {% set item = subitem %}
+                  {% include "card.html.j2" with context %}
+                {% endfor %}
+              {% else %}
+                  {% include "card.html.j2" with context %}
+              {% endif %}
             {% endfor %}
           </div>
         </div>
