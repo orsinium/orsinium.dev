@@ -14,12 +14,13 @@
         30+ algorithms, pure python implementation,
         common interface, optional external libs usage.
     - name: FlakeHell
+      bg: https://raw.githubusercontent.com/life4/flakehell/master/assets/logo.png
       link: https://github.com/life4/flakehell
       info: Flake8 wrapper to make it nice, legacy-friendly, configurable.
     - name: Deal
       bg: https://github.com/life4/deal/raw/master/logo.png
       link: https://github.com/life4/deal
-      info: Design by contract for Python with many validators support.
+      info: Design by contract and property-based testing with static analysis.
     - name: DjBrut
       bg: https://github.com/orsinium/django-bruteforce-protection/raw/master/logo.png
       link: https://github.com/orsinium/django-bruteforce-protection
@@ -31,6 +32,7 @@
       link: https://github.com/life4/homoglyphs
       info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
     - name: python-lambda-calculus
+      bg: https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png
       link: https://github.com/orsinium/python-lambda-calculus
       info: Lambda Calculus functions implementation on Python.
     - name: DjBurger
@@ -98,6 +100,10 @@
 
 - name: Go
   items:
+    - name: Genesis
+      # bg: https://raw.githubusercontent.com/life4/genesis/master/gopher.png
+      info: "Typesafe concurrent generic functions for Go: map, filter, reduce, shuffle etc."
+      link: https://github.com/life4/genesis
     - name: Chameleon
       bg: https://raw.githubusercontent.com/orsinium/chameleon/master/assets/mstile-144x144.png
       info: >
@@ -109,7 +115,7 @@
       info: Telegram bot to have likes and rating in chats.
       link: https://github.com/orsinium/likeforce
     - name: Awesome Generator
-      bg: https://github.com/orsinium/awesome-generator/raw/master/logo.png
+      # bg: https://github.com/orsinium/awesome-generator/raw/master/logo.png
       info: Generate awesome list over Github API
       link: https://github.com/orsinium/awesome-generator
 

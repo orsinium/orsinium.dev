@@ -33,7 +33,9 @@
     {% if 'info' in item %}
       <p class="card-text">
         <div class="card-bg"><img src="{{ item['bg'] }}" /></div>
-        {{ item['info'] }}
+        {% markdown %}
+          {{ item['info'] }}
+        {% endmarkdown %}
       </p>
     {% endif %}
 
