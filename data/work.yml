@@ -41,7 +41,7 @@
   info: Internship
   link: http://www.frodex.ru/index_en
   points:
-    - Integrate PostresXL.
+    - Integrate Postres-XL.
     - Build JS obfuscator on Python (my dark past).
     - Work with phisycal servers on CentOS.
 
