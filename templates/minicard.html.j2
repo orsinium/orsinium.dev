@@ -5,6 +5,12 @@
     {% endif %}
 
     <h5 class="card-title">
+      {% if item['endorsement'] %}
+        <a href="{{ item['endorsement'] }}" title="see endorsement" target="_blank"><i class="fas fa-check"></i></a>
+      {% endif %}
+      {% if item['icon'] %}
+        <i class="text-muted {{ item['icon'] }}"></i>
+      {% endif %}
       {{ item['name'] }}
     </h5>
 

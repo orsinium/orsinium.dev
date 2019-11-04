@@ -1,10 +1,14 @@
 - name: Languages
   content:
     - name: Python
+      icon: fab fa-python
+      endorsement: https://www.testdome.com/cert/4e8bba06a5c1430aa6a15b799ee39933
       info: >
         This is my favorite language. I know source code of almost all stdlib,
         have many Python-based Open Source [projects](./projects.html) and [public talks](./talks.html).
     - name: Go
+      icon: fas fa-running
+      endorsement: https://www.testdome.com/cert/ca9b6d75b87c4be9bda30a00b68c70b7
       info: >
         This is my second favorite language. It has quite a different philosophy
         rather than Python and it's great. Go gives you superpower
@@ -12,11 +16,13 @@
         I've just started using it, but already has
         [some projects](https://github.com/orsinium?tab=repositories&language=go).
     - name: PHP
+      icon: fab fa-php
       info: >
         Ok, I know PHP. And hate it. This is my first web programming language,
         I've known it very well, but I try to avoid it. Also, I have public talk
         why PHP is bad. However, I know it and can read PHP code.
     - name: HTML, CSS & LESS
+      icon: fab fa-html5
       info: >
         Yeah, this is not programming languages, but I know them, of course.
         I like the web so much, so I couldn't miss some frontend basic things.
@@ -121,6 +127,7 @@
 - name: DevOps
   content:
     - name: Docker
+      icon: fab fa-docker
       info: >
         Docker is the most popular container system that allows you to develop and
         deploy your services faster and simpler. I've packed in Docker all
@@ -211,6 +218,7 @@
         English 6 months ago, so my skill is growing very fast.
         I'll know it very well soon, I hope.
     - name: Scrum
+      icon: fab fa-jira
       info: >
         I'm working with it every day, know how to estimate tasks,
         make informative descriptions and track progress most effectively.
