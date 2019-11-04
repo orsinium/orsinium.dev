@@ -3,26 +3,54 @@
   date: 2019-05 &mdash; now
   info: Senior Software Engineer
   link: https://www.eclecticiq.com/
+  points:
+    - Do ML research and code for text processing (OCR, NER).
+    - Apply AWS solution (SageMaker, Textract, Comprehend).
+    - Build OpenAPI system and documentation for all endpoints.
 
 - name: 4. Cindicator
   image: cnd.jpg
   date: 2018-06 &mdash; 2019-02
   info: Senior Python developer, architect
   link: https://cindicator.com/
+  points:
+    - Create Spotify's Luigi based ML pipeline.
+    - >
+      Rewrite trading platform that retrieves information from cryptocurrency
+      exchanges, pass it into strategies, get a prediction
+      about cryptocurrencies prices and make trades.
+    - Make simple trading strategies.
+    - Improve testing practice, write a lot of tests.
+    - Integrate code quality solutions on CI, create style guides.
 
 - name: 3. Smena
   image: smena.jpg
   date: 2017-05 &mdash; 2018-06
   info: Django web developer (Python)
   link: http://smena.space/
+  points:
+    - Build monitoring system.
+    - Refactor report service (performance was increased from 12 hours to 90 seconds).
+    - Develop Flask-based microservices.
+    - Support and improve big Django-based monolith.
+    - Do data analysis for marketing purposes.
 
 - name: 2. Life4Web
   image: life4.png
   date: 2016-01 &mdash; 2017-05
   info: Founder, Django web developer (Python)
+  points:
+    - Organize a team, manage tasks.
+    - Discuss projects details with clients.
+    - Choose technical stack for projects.
+    - Develop Django-based backend.
 
 - name: 1. USATU
   image: usatu.png
   date: 2015-05 &mdash; 2017-05
   info: Researcher in Department of Linguistic Communication and Psycholinguistics.
   link: https://www.ugatu.su/en/
+  points:
+    - Research language influence measurement.
+    - Apply Claude Shannon's information theory to natural language analysis.
+    - Build programs and web services for text analysis.

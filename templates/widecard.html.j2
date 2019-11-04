@@ -1,0 +1,26 @@
+<div class="card col-sm-12 col-md-5 col-lg-3" style="border-radius: .25em 0px 0px .25em">
+  <div class="card-body">
+    <img class="card-img-top" src="./assets/{{ item['image'] }}" />
+  </div>
+</div>
+
+<div class="card col-sm-12 col-md-7 col-lg-9" style="border-radius: 0px .25em .25em 0px">
+  <div class="card-body">
+    <h5 class="card-title">
+      {% if item['link'] %}
+        <a href="{{ item['link'] }}" target="_blank">{{ item['name'] }}</a>
+      {% else %}
+        {{ item['name'] }}
+      {% endif %}
+    </h5>
+    <p class="card-text">
+      {{ item['info'] }}
+    </p>
+  </div>
+
+  <ul class="list-group list-group-flush">
+    {% for point in item['points'] %}
+      <li class="list-group-item bg-light">{{ point }}</li>
+    {% endfor %}
+  </ul>
+</div>
