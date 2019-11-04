@@ -4,7 +4,7 @@
   info: Senior Software Engineer
   link: https://www.eclecticiq.com/
   points:
-    - Do ML research and code for text processing (OCR, NER).
+    - Research and develop text processing solutions (OCR, NER).
     - Apply AWS solution (SageMaker, Textract, Comprehend).
     - Build OpenAPI system and documentation for all endpoints.
 
@@ -30,10 +30,10 @@
   link: http://smena.space/
   points:
     - Build monitoring system.
-    - Refactor report service (performance was increased from 12 hours to 90 seconds).
+    - Refactor report service (performance is increased from 12 hours to 90 seconds).
     - Develop Flask-based microservices.
     - Support and improve big Django-based monolith.
-    - Do data analysis for marketing purposes.
+    - Analyze customers' data for marketing purposes.
 
 - name: 3. Frodex
   image: frodex.png
@@ -41,8 +41,8 @@
   info: Internship
   link: http://www.frodex.ru/index_en
   points:
-    - Integrate PostresXL
-    - Build JS obfuscator on Python
+    - Integrate PostresXL.
+    - Build JS obfuscator on Python (my dark past).
     - Work with phisycal servers on CentOS.
 
 - name: 2. Life4Web
