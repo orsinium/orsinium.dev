@@ -1,4 +1,4 @@
-- name: 5. EclecticIQ
+- name: 6. EclecticIQ
   image: eiq.jpg
   date: 2019-05 &mdash; now
   info: Senior Software Engineer
@@ -8,7 +8,7 @@
     - Apply AWS solution (SageMaker, Textract, Comprehend).
     - Build OpenAPI system and documentation for all endpoints.
 
-- name: 4. Cindicator
+- name: 5. Cindicator
   image: cnd.jpg
   date: 2018-06 &mdash; 2019-02
   info: Senior Python developer, architect
@@ -23,7 +23,7 @@
     - Improve testing practice, write a lot of tests.
     - Integrate code quality solutions on CI, create style guides.
 
-- name: 3. Smena
+- name: 4. Smena
   image: smena.jpg
   date: 2017-05 &mdash; 2018-06
   info: Django web developer (Python)
@@ -34,6 +34,16 @@
     - Develop Flask-based microservices.
     - Support and improve big Django-based monolith.
     - Do data analysis for marketing purposes.
+
+- name: 3. Frodex
+  image: frodex.png
+  date: "2017-04"
+  info: Internship
+  link: http://www.frodex.ru/index_en
+  points:
+    - Integrate PostresXL
+    - Build JS obfuscator on Python
+    - Work with phisycal servers on CentOS.
 
 - name: 2. Life4Web
   image: life4.png

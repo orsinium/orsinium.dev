@@ -12,7 +12,13 @@
       {% else %}
         {{ item['name'] }}
       {% endif %}
+
+      {% if item['date'] %}
+          | <i class="far fa-calendar-alt"></i>
+          {{ item['date'] }}
+      {% endif %}
     </h5>
+
     <p class="card-text">
       {{ item['info'] }}
     </p>
