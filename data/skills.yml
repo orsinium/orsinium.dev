@@ -2,13 +2,13 @@
   content:
     - name: Python
       icon: fab fa-python
-      endorsement: https://www.testdome.com/cert/4e8bba06a5c1430aa6a15b799ee39933
+      cert: https://www.testdome.com/cert/4e8bba06a5c1430aa6a15b799ee39933
       info: >
         This is my favorite language. I know source code of almost all stdlib,
         have many Python-based Open Source [projects](./projects.html) and [public talks](./talks.html).
     - name: Go
       icon: fas fa-running
-      endorsement: https://www.testdome.com/cert/ca9b6d75b87c4be9bda30a00b68c70b7
+      cert: https://www.testdome.com/cert/ca9b6d75b87c4be9bda30a00b68c70b7
       info: >
         I in love with Go. It has quite a different philosophy
         rather than Python, and it's great. I've started to use it about a year ago,
@@ -25,14 +25,20 @@
         Yeah, this is not a programming languages, but so.
         I can make a simple layout, inspect, fix, design.
         And also I can use Bootstrap 4 to make the site you're looking at.
+    - name: More!
+      info: >
+        I like to learn new things and conceptions.
+        I have experience with Haskell, Idris, RPython, Pony,
+        Crystal, Elixir, Clojure, Scala, JS, Ruby. I'm not afraid
+        to read and fix a code on any language.
 
 - name: Hard skills
   content:
     - name: Linux
       icon: fab fa-linux
-      endorsement: https://www.testdome.com/cert/eb426eb5ffe243bab4e78c92c31e531f
+      cert: https://www.testdome.com/cert/eb426eb5ffe243bab4e78c92c31e531f
       info: >
-        I live in Linux for 8 years, can solve any issue from a console.
+        I live in Linux for 8 years, can solve any issue from a terminal.
         I've worked with different Linux distros (Ubuntu, Debian, CentOS),
         set up physical servers, VPS, Raspberry Pi, Orange Pi.
     - name: Security
@@ -43,28 +49,46 @@
         have many publications on different topics,
         visited some security conferences.
         I was a founder and leader of CTF team that have gotten 6th place on
-        international contest (alert1 team).
+        [international contest](https://ctftime.org/event/360)
+        ([alert1](https://ctftime.org/team/24077) team).
         In Smena team I've made global security audit, fixed many security issues,
-        integrated some security systems like bruteforce protection and intrusion detection.
+        integrated some security systems like
+        [bruteforce protection](https://github.com/orsinium/django-bruteforce-protection)
+        and intrusion detection.
+    - name: DS and ML
+      info: >
+        At the university I work in the liguistic department
+        where I researched language and text influence,
+        adopted Claude Shannon's information theory to natural languages.
+        In Cindicator I wrote simple trading strategies that get
+        information from crypto exchanges and makes predictions
+        about cryptocurrencies prices. On free time I learn
+        Machine Learning and build different cool models.
+        See [my projects](projects.html#ds-and-ml) for examples.
     - name: Software Architecture
       info: >
         I know design patterns, antipatterns, refactoring techniques, 12 factors, SOLID principles.
         In Cindicator a was the architect for the trading platform
-        from the first lines to the sucsessful launch.
+        from the first lines of code to the successful launch.
     - name: Logic
       icon: fas fa-brain
-      endorsement: https://www.testdome.com/cert/f0bb94fe82444fc99660bbbe022ae974
+      cert: https://www.testdome.com/cert/f0bb94fe82444fc99660bbbe022ae974
+      info: >
+        I'm familiar with formal logic basics, boolean logic,
+        math logic, a little bit with proof theory.
+        [deal](https://github.com/life4/deal) is my experiment
+        how good you can prove code automatically,
+        without writing proofs at all.
     - name: Math
       icon: fas fa-calculator
-      endorsement: https://www.testdome.com/cert/1eb189d7b92c4390941822ecf2e38ea9
+      cert: https://www.testdome.com/cert/1eb189d7b92c4390941822ecf2e38ea9
+      info: >
+        I <i class="far fa-heart"></i> math! I watch Numberphile,
+        solve riddles and equations for fun, know how to apply
+        math in my work to make code faster and even nicer.
 
 - name: Soft skills
   content:
-    - name: English
-      info: >
-        My level is Intermediate (B1+) yet. However, I just started to learn
-        English 6 months ago, so my skill is growing very fast.
-        I'll know it very well soon, I hope.
     - name: Scrum
       icon: fab fa-jira
       info: >
@@ -73,21 +97,23 @@
         Also, I'm familiar to Jira and know how to use filters, dashboards, boards,
         search queries. In my hometown, I was a part of Atlassian User Group.
     - name: Kanban
+      icon: fab fa-trello
       info: >
         This is my favorite Agile methodology. I organized processes in my
         team by Kanban and use Trello board to order my personal tasks.
         And it works great!
     - name: Leadership
       info: >
-        I made my own web studio, CTF team, patronized newbies in Smena.
-        Now I build and coordinate software architecture in Cindicator team.
+        I made my own web studio, [CTF team](https://ctftime.org/team/24077),
+        patronized newbies in Smena, built and coordinate software
+        architecture in Cindicator team.
         I can create, distribute, delegate, control, and estimate tasks,
         work with people.
     - name: Part of the team
       info: >
         I like to discuss tasks, manage them, organize my work time, estimate
         and prioritize. I'm always happy to communicate, but avoid spending work time.
-        In Smena I've built perfect standups: fast and informative.
+        In Smena and Cindicator I built perfect standups: fast and informative.
     - name: Public talks
       info: >
         I like to talk to people about my tasks and knowledges, spread cool ideas.
@@ -222,31 +248,3 @@
       info: >
         I used it in Smena team to monitor the state of the system,
         improve the project performance, balance load.
-
-- name: Data Analysis
-  content:
-    - name: Pandas
-      info: >
-        This is the secret ingredient that improved the performance of the
-        report system in Smena team. It has gotten faster from 12 hours to
-        90 seconds. Also, this is the main instrument of my data researches.
-    - name: NumPy
-      info: >
-        I use NumPy for some simple statical analysis and matrix operations.
-    - name: Matplotlib & Seaborn
-      info: >
-        Right visualization is the most important part of effective data analysis.
-        I use for it matplotlib and seaborn (second is more often).
-    - name: scikit-learn
-      info: >
-        It's Machine Learning! This is the most exciting thing in Data Science.
-        I spend much free time for learning this beautiful domain.
-        And scikit-learn one of the most important tools on this way.
-    - name: Word2Vec
-      info: >
-        Word2Vec transforms words into vectors, so you can compare them as vectors.
-        I use this great tool in my [chatbot](https://dipper3.life4web.ru/).
-    - name: Jupyter
-      info: >
-        Jupyter is a great stack for research. I use it almost every day
-        and know how to setup Jupyter Hub, work with a remote core and other tricks.

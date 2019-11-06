@@ -64,3 +64,15 @@
     - Research language influence measurement.
     - Apply Claude Shannon's information theory to natural language analysis.
     - Build programs and web services for text analysis.
+
+- name: 0. USATU (education)
+  image: usatu.png
+  date: 2013-09 &mdash; 2017-09
+  info: Bachelor of Information Security.
+  link: https://www.ugatu.su/en/
+  points:
+    - Participate in CTFs as a team lead.
+    - >
+      My graduate thesis is about building automatic vulnerabilities aggregation
+      system and matching them with installed packages on a server.
+    - Have a red diploma (almost all marks is "excellent")
