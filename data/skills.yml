@@ -4,8 +4,9 @@
       icon: fab fa-python
       cert: https://www.testdome.com/cert/4e8bba06a5c1430aa6a15b799ee39933
       info: >
-        This is my favorite language. I know source code of almost all stdlib,
-        have many Python-based Open Source [projects](./projects.html) and [public talks](./talks.html).
+        This is my favorite language, I'm in it about 6 years.
+        I know source code of almost all stdlib, have many Python-based
+        Open Source [projects](./projects.html) and [public talks](./talks.html).
     - name: Go
       icon: fas fa-running
       cert: https://www.testdome.com/cert/ca9b6d75b87c4be9bda30a00b68c70b7
@@ -109,9 +110,10 @@
 - name: Storages
   content:
     - name: PostgreSQL
+      cert: https://www.testdome.com/cert/a2add6d1dbfa45808e8db14b422a5bd8
       info: >
         I've completed [DBA1, DBA2, and DBA3](https://postgrespro.com/education)
-        courses from Postgres Professionals company. So I little bit know how to set up,
+        courses from Postgres Professionals company. So, I little bit know how to set up,
         optimize and replicate the PostgreSQL database.
     - name: Redis
       info: >
@@ -135,11 +137,11 @@
         for data caching in ERP and for
         [logs storage](https://github.com/orsinium/python-syslog-logstash).
 
-- name: Frameworks
+- name: Libraries
   content:
     - name: Django
       info: >
-        I like this framework! It's quite pythonic. I know it's source code
+        In Smena we had a huge Django monolith. I know Django's source code
         better than the birthdays of my relatives. However Django has some
         issues for big projects, so I've made [DjBurger](https://github.com/orsinium/djburger).
     - name: Flask
@@ -151,11 +153,6 @@
       info: >
         I like to work with DRF. This framework has some disadvantages,
         but also it's quite simple and popular.
-    - name: Nameko
-      info: >
-        It's the framework for RPC based microservices. I've worked with it
-        in Cindicator a lotm and know how it works and how to use it
-        for the best performance.
     - name: Luigi
       info: >
         I'm [Luigi contributor](https://github.com/spotify/luigi/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Aorsinium)
@@ -163,22 +160,19 @@
         I've made all ML pipeline in Cindicator based on Luigi, and it still works
         on production without any issues.
         Also, I have [public talk](./talks.html) about it.
-
-- name: ORMs
-  content:
-    - name: Django ORM
-      info: >
-        This is the best ORM I've ever used.
-        I know Django ORM source code and how to build and
-        optimize queries of any difficulty level.
     - name: SQLAlchemy
       info: >
-        It can't scare me. I can debug and optimize queries, manage sessions
-        and connections, familiar with Flask-SQLAlchemy and SQLAlchemy-mixins.
-    - name: Peewee
+        It can't scare me. In Cindicator and EclecticIQ we have tons
+        of queries, requests, sessions management logic.
+        I can handle it, debug and optimize queries, work with
+        Flask-SQLAlchemy and SQLAlchemy-mixins.
+    - name: Pandas
       info: >
-        I use this ORM every time when I can't use Django ORM, but can avoid
-        SQLAlchemy.
+        In Smena I built really fast and effective report system
+        on the top of pandas. In Cindicator I wrote the trading platform
+        and strategies that processes all the data using the pandas power.
+        At my free time I do [data analysis](projects.html#ds-and-ml)
+        and it always first of all means work with pandas and charts.
 
 - name: DevOps
   content:
@@ -192,6 +186,7 @@
       info: >
         When I say "docker" I mean "docker-compose" as well.
         It's a cool tool, and all my dockerized projects have `docker.compose.yml`.
+        And no, I haven't learned k8s yet, stop shaming me.
     - name: Elastic Stack
       info: >
         Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
@@ -201,21 +196,6 @@
         You can find my demo stand of this system in
         [python-syslog-logstash](https://github.com/orsinium/python-syslog-logstash)
         repository.
-    - name: Sentry
-      info: >
-        Sentry is a useful solution for error messages aggregation.
-        I use it for 4 years and know how to build fast and reliable
-        errors processing pipeline. Also, I've
-        [contributed to sentry](https://github.com/getsentry/raven-python/pull/1306) too.
-    - name: Zabbix
-      info: >
-        I have huge (and a little bit painful) experience with Zabbix.
-        Also, I've written [zabbix-healthcheck](https://github.com/orsinium/zabbix-healthcheck)
-        plugin that adds Flask applications monitor into Zabbix.
-    - name: New Relic
-      info: >
-        I used it in Smena team to monitor the state of the system,
-        improve the project performance, balance load.
 
 - name: Soft skills
   content:
