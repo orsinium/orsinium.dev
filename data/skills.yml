@@ -10,8 +10,8 @@
       icon: fas fa-running
       cert: https://www.testdome.com/cert/ca9b6d75b87c4be9bda30a00b68c70b7
       info: >
-        I in love with Go. It has quite a different philosophy
-        rather than Python, and it's great. I've started to use it about a year ago,
+        I'm in love with Go. It has quite a different philosophy
+        rather than Python, and it's great. I've started to use it about a year ago
         but already have [a few projects](projects.html#go).
     - name: PHP
       icon: fab fa-php
@@ -22,15 +22,15 @@
     - name: HTML, CSS & LESS
       icon: fab fa-html5
       info: >
-        Yeah, this is not a programming languages, but so.
+        Yeah, they are not a programming languages but so.
         I can make a simple layout, inspect, fix, design.
         And also I can use Bootstrap 4 to make the site you're looking at.
     - name: More!
       info: >
         I like to learn new things and conceptions.
-        I have experience with Haskell, Idris, RPython, Pony,
+        I have experience with Haskell, Idris, RPython, Pony, Nim,
         Crystal, Elixir, Clojure, Scala, JS, Ruby. I'm not afraid
-        to read and fix a code on any language.
+        to read and fix code on any language.
 
 - name: Hard skills
   content:
@@ -44,24 +44,24 @@
     - name: Security
       icon: fas fa-shield-alt
       info: >
-        I have Information Security red diploma,
+        I have an Information Security red diploma,
         interested in practical aspects of security,
         have many publications on different topics,
         visited some security conferences.
-        I was a founder and leader of CTF team that have gotten 6th place on
-        [international contest](https://ctftime.org/event/360)
+        I was a founder and leader of the CTF team that have gotten
+        6th place on an [international contest](https://ctftime.org/event/360)
         ([alert1](https://ctftime.org/team/24077) team).
         In Smena team I've made global security audit, fixed many security issues,
         integrated some security systems like
-        [bruteforce protection](https://github.com/orsinium/django-bruteforce-protection)
+        [brute force protection](https://github.com/orsinium/django-bruteforce-protection)
         and intrusion detection.
     - name: DS and ML
       info: >
-        At the university I work in the liguistic department
+        At the university, I worked in the linguistic department
         where I researched language and text influence,
         adopted Claude Shannon's information theory to natural languages.
         In Cindicator I wrote simple trading strategies that get
-        information from crypto exchanges and makes predictions
+        information from crypto exchanges and make predictions
         about cryptocurrencies prices. On free time I learn
         Machine Learning and build different cool models.
         See [my projects](projects.html#ds-and-ml) for examples.
@@ -77,7 +77,7 @@
         I'm familiar with formal logic basics, boolean logic,
         math logic, a little bit with proof theory.
         [deal](https://github.com/life4/deal) is my experiment
-        how good you can prove code automatically,
+        on how good you can prove code automatically,
         without writing proofs at all.
     - name: Math
       icon: fas fa-calculator
@@ -87,38 +87,24 @@
         solve riddles and equations for fun, know how to apply
         math in my work to make code faster and even nicer.
 
-- name: Soft skills
+- name: Testing
   content:
-    - name: Scrum
-      icon: fab fa-jira
+    - name: Unit testing
       info: >
-        I'm working with it every day, know how to estimate tasks,
-        make informative descriptions and track progress most effectively.
-        Also, I'm familiar to Jira and know how to use filters, dashboards, boards,
-        search queries. In my hometown, I was a part of Atlassian User Group.
-    - name: Kanban
-      icon: fab fa-trello
+        All my Open Source projects have a lot of tests. For example,
+        [deal](https://github.com/life4/deal) has 100% coverage
+        and has been checked through performance and mutational tests.
+    - name: Load testing
       info: >
-        This is my favorite Agile methodology. I organized processes in my
-        team by Kanban and use Trello board to order my personal tasks.
-        And it works great!
-    - name: Leadership
+        In Smena I did a lot of performance testing with Locust,
+        did continuous system monitoring, and was responsible
+        for the system stability.
+    - name: Regression testing
       info: >
-        I made my own web studio, [CTF team](https://ctftime.org/team/24077),
-        patronized newbies in Smena, built and coordinate software
-        architecture in Cindicator team.
-        I can create, distribute, delegate, control, and estimate tasks,
-        work with people.
-    - name: Part of the team
-      info: >
-        I like to discuss tasks, manage them, organize my work time, estimate
-        and prioritize. I'm always happy to communicate, but avoid spending work time.
-        In Smena and Cindicator I built perfect standups: fast and informative.
-    - name: Public talks
-      info: >
-        I like to talk to people about my tasks and knowledges, spread cool ideas.
-        You can discover some of my talks [here](./talks.html). Most of them on Russian,
-        but I'm going to fix it.
+        In Cindicator it was critical to have a reliable trading
+        platform because of operating with big money. The first
+        version was manually checked, and for every next release,
+        I made hard regression tests on a lot of data and states.
 
 - name: Storages
   content:
@@ -126,22 +112,22 @@
       info: >
         I've completed [DBA1, DBA2, and DBA3](https://postgrespro.com/education)
         courses from Postgres Professionals company. So I little bit know how to set up,
-        optimize and replicate PostgreSQL database.
+        optimize and replicate the PostgreSQL database.
     - name: Redis
       info: >
         I like this storage for speed and simplicity. For example, my
-        [bruteforce protection tool](https://github.com/orsinium/django-bruteforce-protection)
+        [brute force protection tool](https://github.com/orsinium/django-bruteforce-protection)
         works on top of it.
     - name: MySQL
       info: >
-        I worked with MySQL in Smena a lot. Eventually I know how to
+        I worked with MySQL in Smena a lot. Eventually, I know how to
         optimize queries, do replication and backups,
         set up a server, and debug a strange behavior.
     - name: MongoDB
       info: >
         I know how to set up and use it for the best security and performance,
-        how to build good documents structure. In Cindicator we had a ML pipeline
-        heavily tighted with MongoDB. Also, I'm
+        how to build good documents structure. In Cindicator we had an ML pipeline
+        heavily tightened with MongoDB. Also, I'm
         [mongoengine contributor](https://github.com/MongoEngine/mongoengine/pull/1825).
     - name: ElasticSearch
       info: >
@@ -194,24 +180,6 @@
         I use this ORM every time when I can't use Django ORM, but can avoid
         SQLAlchemy.
 
-- name: Testing
-  content:
-    - name: PyTest
-      info: >
-        This is a great tool for fast and beautiful testing.
-        I use it in every project where it is possible.
-        I like to write tests because they helps to change the code without fear.
-    - name: Locust
-      info: >
-        When I write load tests I use Locust. This is a simple Python-based
-        load testing framework with good performance.
-    - name: Unittest
-      info: >
-        Unittest used almost in all my open source projects. For example, in
-        [textdistance](https://github.com/orsinium/textdistance/blob/master/tests/common.py)
-        and [DjBurger](https://github.com/orsinium/djburger/tree/master/tests).
-        So, it can't scare me.
-
 - name: DevOps
   content:
     - name: Docker
@@ -248,3 +216,36 @@
       info: >
         I used it in Smena team to monitor the state of the system,
         improve the project performance, balance load.
+
+- name: Soft skills
+  content:
+    - name: Scrum
+      icon: fab fa-jira
+      info: >
+        I'm working with it every day, know how to estimate tasks,
+        make informative descriptions and track progress most effectively.
+        Also, I'm familiar to Jira and know how to use filters, dashboards, boards,
+        search queries. In my hometown, I was a part of Atlassian User Group.
+    - name: Kanban
+      icon: fab fa-trello
+      info: >
+        This is my favorite Agile methodology. I organized processes in my
+        team by Kanban and use Trello board to order my personal tasks.
+        And it works great!
+    - name: Leadership
+      info: >
+        I made my own web studio, [CTF team](https://ctftime.org/team/24077),
+        patronized newbies in Smena, built and coordinate software
+        architecture in Cindicator team.
+        I can create, distribute, delegate, control, and estimate tasks,
+        work with people.
+    - name: Part of the team
+      info: >
+        I like to discuss tasks, manage them, organize my work time, estimate
+        and prioritize. I'm always happy to communicate, but avoid spending work time.
+        In Smena and Cindicator I built perfect standups: fast and informative.
+    - name: Public talks
+      info: >
+        I like to talk to people about my tasks and knowledges, spread cool ideas.
+        You can discover some of my talks [here](./talks.html). Most of them on Russian,
+        but I'm going to fix it.
