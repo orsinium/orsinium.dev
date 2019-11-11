@@ -53,14 +53,14 @@
       link: https://github.com/orsinium/dcrtrs
       info: Collection of useful Python decorators.
     - name: Zabbix Healthcheck
-      info: Flask HealthCheck support for Zabbix
+      info: Flask HealthCheck support for Zabbix.
       link: https://github.com/orsinium/zabbix-healthcheck
       tags:
         - zabbix
         - monitoring
     - name: poetry-setup
       bg: https://github.com/orsinium/poetry-setup/raw/master/assets/logo.png
-      info: Generate setup.py (setuptools) from pyproject.toml (poetry)
+      info: Generate setup.py (setuptools) from pyproject.toml (poetry).
       link: https://github.com/orsinium/poetry-setup
       tags:
         - packaging
@@ -78,13 +78,46 @@
       info: "ᙏáḱє ‡ɘχτ !η ẃɨŧ¢н-ħ∅υѕé ѕ†ɏƖε (Ɛñ9ĺïś♄ & Řᵾśѕ!áη)"
       link: https://github.com/orsinium/swag
     - name: Pathfinder Dice
-      info: A library for evaluating dice notation for Pathfinder RPG
+      info: A library for evaluating dice notation for Pathfinder RPG.
       link: https://github.com/orsinium/pathfinder_dice
     - name: DjChoices
       info: Good choices for Django
       link: https://github.com/orsinium/djchoices
       tags:
         - django
+
+- name: DepHell ecosystem
+  items:
+    - name: dephell_venvs
+      info: Manage virtual environments.
+      link: https://github.com/dephell/dephell_venvs
+    - name: dephell_versioning
+      info: Bump project version like a pro.
+      link: https://github.com/dephell/dephell_versioning
+    - name: dephell_pythons
+      info: Work with python versions.
+      link: https://github.com/dephell/dephell_pythons
+    - name: dephell_specifier
+      info: Work with version specifiers (can parse PEP-440, SemVer, Ruby, NPM, Maven).
+      link: https://github.com/dephell/dephell_specifier
+    - name: dephell_discover
+      info: Find project modules and data files (packages and package_data for setup.py).
+      link: https://github.com/dephell/dephell_discover
+    - name: dephell_markers
+      info: Work with environment markers (PEP-496).
+      link: https://github.com/dephell/dephell_markers
+    - name: dephell_shells
+      info: Activate virtual environment for current shell.
+      link: https://github.com/dephell/dephell_shells
+    - name: dephell_links
+      info: Parse dependency links.
+      link: https://github.com/dephell/dephell_links
+    - name: dephell_licenses
+      info: Get info about OSS licenses.
+      link: https://github.com/dephell/dephell_licenses
+    - name: dephell_archive
+      info: Pathlib for archives.
+      link: https://github.com/dephell/dephell_archive
 
 - name: Go
   items:
