@@ -41,6 +41,9 @@
       info: Framework for safe and maintainable web-projects.
       tags:
         - django
+    - name: vaa
+      info: Validators Adapter. The common interface for all Python validators.
+      link: https://github.com/life4/vaa
     - name: Send File Bot
       info: Telegram bot for sending files to chat or channel by cron.
       link: https://github.com/orsinium/send-file-bot
@@ -118,6 +121,9 @@
     - name: dephell_archive
       info: Pathlib for archives.
       link: https://github.com/dephell/dephell_archive
+    - name: dephell_setuptools
+      info: Read setup.py (static and dynamic parsers).
+      link: https://github.com/dephell/dephell_setuptools
 
 - name: Go
   items:
