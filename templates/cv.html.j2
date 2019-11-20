@@ -36,7 +36,7 @@
     		<div class="col-md-6">
           <ul class="list-group list-group-horizontal">
             {% for item in index['links'] %}
-              {% if item['cv'] %}
+              {% if 'cv' in item['pages'] %}
                 <li class="list-group-item">
                   <i class="text-muted {{ item['icon'] }}"></i>
                   <a href="{{ item['link'] }}" target="_blank">

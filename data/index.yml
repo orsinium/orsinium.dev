@@ -6,40 +6,58 @@ points:
   - Always smarter than yesterday.
 
 links:
+  - name: homepage
+    icon: fas fa-home
+    link: https://orsinium.dev/
+    short: orsinium.dev
+    pages:
+      - cv
   - name: articles
     icon: far fa-newspaper
     link: https://articles.life4web.ru/
     short: articles.life4web.ru
-    cv: true
+    pages:
+      - cv
+      - home
   - name: github
     icon: fab fa-github
     link: https://github.com/orsinium
     short: github.com/orsinium
-    cv: true
+    pages:
+      - cv
+      - home
   - name: CV
     icon: fas fa-user
     link: https://orsinium.dev/cv.html
-    cv: false
+    pages:
+      - home
   - name: youtube
     icon: fab fa-youtube
     link: https://www.youtube.com/channel/UCR0aFxunk1fhbSqbnJuiosA
-    cv: false
+    pages:
+      - home
   - name: telegram
     icon: fab fa-telegram
     link: https://t.me/orsinium
     short: t.me/orsinium
-    cv: true
+    pages:
+      - home
   - name: email
     icon: fas fa-envelope
     link: mailto:master_fess@mail.ru
     short: master_fess@mail.ru
-    cv: true
+    pages:
+      - cv
+      - home
   - name: linkedin
     icon: fab fa-linkedin
     link: https://www.linkedin.com/in/orsinium/
     short: linkedin.com/in/orsinium
-    cv: true
+    pages:
+      - cv
+      - home
   - name: twitter
     icon: fab fa-twitter
     link: https://twitter.com/orsinium
-    cv: false
+    pages:
+      - home
