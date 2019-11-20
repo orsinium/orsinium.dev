@@ -1,27 +1,35 @@
 - name: Languages
   content:
     - name: Python
-      icon: fab fa-python
+      icon:
+        fa: fab fa-python
+        mn: python
       cert: https://www.testdome.com/cert/4e8bba06a5c1430aa6a15b799ee39933
       info: >
         This is my favorite language, I'm in it about 6 years.
         I know source code of almost all stdlib, have many Python-based
         Open Source [projects](./projects.html) and [public talks](./talks.html).
     - name: Go
-      icon: fas fa-running
+      icon:
+        fa: fas fa-running
+        # mn: go
       cert: https://www.testdome.com/cert/ca9b6d75b87c4be9bda30a00b68c70b7
       info: >
         I'm in love with Go. It has quite a different philosophy
         rather than Python, and it's great. I've started to use it about a year ago
         but already have [a few projects](projects.html#go).
     - name: PHP
-      icon: fab fa-php
+      icon:
+        fa: fab fa-php
+        mn: php
       info: >
         It is my first web programming language.
         I know it well, can read a code, understand what's going on.
         And explain why PHP is bad.
     - name: HTML, CSS & LESS
-      icon: fab fa-html5
+      icon:
+        fa: fab fa-html5
+        mn: html-five
       info: >
         Yeah, they are not a programming languages but so.
         I can make a simple layout, inspect, fix, design.
@@ -36,14 +44,17 @@
 - name: Hard skills
   content:
     - name: Linux
-      icon: fab fa-linux
+      icon:
+        fa: fab fa-linux
+        mn: linux
       cert: https://www.testdome.com/cert/eb426eb5ffe243bab4e78c92c31e531f
       info: >
         I live in Linux for 8 years, can solve any issue from a terminal.
         I've worked with different Linux distros (Ubuntu, Debian, CentOS),
         set up physical servers, VPS, Raspberry Pi, Orange Pi.
     - name: Security
-      icon: fas fa-shield-alt
+      icon:
+        fa: fas fa-shield-alt
       info: >
         I have an Information Security red diploma,
         interested in practical aspects of security,
@@ -72,7 +83,8 @@
         In Cindicator a was the architect for the trading platform
         from the first lines of code to the successful launch.
     - name: Logic
-      icon: fas fa-brain
+      icon:
+        fa: fas fa-brain
       cert: https://www.testdome.com/cert/f0bb94fe82444fc99660bbbe022ae974
       info: >
         I'm familiar with formal logic basics, boolean logic,
@@ -81,7 +93,8 @@
         on how good you can prove code automatically,
         without writing proofs at all.
     - name: Math
-      icon: fas fa-calculator
+      icon:
+        fa: fas fa-calculator
       cert: https://www.testdome.com/cert/1eb189d7b92c4390941822ecf2e38ea9
       info: >
         I <i class="far fa-heart"></i> math! I watch Numberphile,
@@ -110,28 +123,38 @@
 - name: Storages
   content:
     - name: PostgreSQL
+      icon:
+        mn: postgresql
       cert: https://www.testdome.com/cert/a2add6d1dbfa45808e8db14b422a5bd8
       info: >
         I've completed [DBA1, DBA2, and DBA3](https://postgrespro.com/education)
         courses from Postgres Professionals company. So, I little bit know how to set up,
         optimize and replicate the PostgreSQL database.
     - name: Redis
+      icon:
+        mn: redis
       info: >
         I like this storage for speed and simplicity. For example, my
         [brute force protection tool](https://github.com/orsinium/django-bruteforce-protection)
         works on top of it.
     - name: MySQL
+      icon:
+        mn: mysql
       info: >
         I worked with MySQL in Smena a lot. Eventually, I know how to
         optimize queries, do replication and backups,
         set up a server, and debug a strange behavior.
     - name: MongoDB
+      icon:
+        mn: mongodb
       info: >
         I know how to set up and use it for the best security and performance,
         how to build good documents structure. In Cindicator we had an ML pipeline
         heavily tightened with MongoDB. Also, I'm
         [mongoengine contributor](https://github.com/MongoEngine/mongoengine/pull/1825).
     - name: ElasticSearch
+      icon:
+        mn: elasticsearch
       info: >
         This is very fast storage with cool query syntax. In Smena we use it
         for data caching in ERP and for
@@ -140,11 +163,15 @@
 - name: Libraries
   content:
     - name: Django
+      icon:
+        mn: django
       info: >
         In Smena we had a huge Django monolith. I know Django's source code
         better than the birthdays of my relatives. However Django has some
         issues for big projects, so I've made [DjBurger](https://github.com/orsinium/djburger).
     - name: Flask
+      icon:
+        mn: flask
       info: >
         This is the most popular web framework. An old, a little bit slow, but beautiful.
         So I know it very good, but I prefer to use more fast alternatives like
@@ -177,17 +204,24 @@
 - name: DevOps
   content:
     - name: Docker
-      icon: fab fa-docker
+      icon:
+        fa: fab fa-docker
+        mn: docker
       info: >
         I've packed in Docker all infrastructure of Farfor (when I worked in Smena),
         the ML pipeline and the trading platform in Cindicator.
         All it still works perfectly on all environments from development to production.
     - name: Docker-compose
+      icon:
+        fa: fab fa-docker
+        mn: docker
       info: >
         When I say "docker" I mean "docker-compose" as well.
         It's a cool tool, and all my dockerized projects have `docker.compose.yml`.
         And no, I haven't learned k8s yet, stop shaming me.
     - name: Elastic Stack
+      icon:
+        mn: elasticsearch
       info: >
         Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
         logs, messages, and state from all parts of the system. It includes
@@ -200,14 +234,16 @@
 - name: Soft skills
   content:
     - name: Scrum
-      icon: fab fa-jira
+      icon:
+        fa: fab fa-jira
       info: >
         I'm working with it every day, know how to estimate tasks,
         make informative descriptions and track progress most effectively.
         Also, I'm familiar to Jira and know how to use filters, dashboards, boards,
         search queries. In my hometown, I was a part of Atlassian User Group.
     - name: Kanban
-      icon: fab fa-trello
+      icon:
+        fa: fab fa-trello
       info: >
         This is my favorite Agile methodology. I organized processes in my
         team by Kanban and use Trello board to order my personal tasks.

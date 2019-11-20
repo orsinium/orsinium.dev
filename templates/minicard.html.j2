@@ -8,8 +8,10 @@
       {% if item['cert'] %}
         <a href="{{ item['cert'] }}" title="see certificate" target="_blank"><i class="fas fa-check"></i></a>
       {% endif %}
-      {% if item['icon'] %}
-        <i class="text-muted {{ item['icon'] }}"></i>
+      {% if 'mn' in item['icon'] %}
+        <i class="text-muted icon-{{ item['icon']['mn'] }}"></i>
+      {% elif 'fa' in item['icon'] %}
+        <i class="text-muted {{ item['icon']['fa'] }}"></i>
       {% endif %}
       {{ item['name'] }}
     </h5>
