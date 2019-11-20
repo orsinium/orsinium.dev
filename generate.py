@@ -16,7 +16,6 @@ for item in menu:
         item['link'] = './{}.html'.format(item['slug'])
 
 for data_path in Path('data').iterdir():
-    data = yaml.safe_load(data_path.open())
     name = data_path.stem
     if name in {'buttons', 'names'}:
         continue
@@ -24,6 +23,7 @@ for data_path in Path('data').iterdir():
     if not template_path.exists():
         template_path = Path('templates', 'base.html.j2')
     template = env.get_template(template_path.name)
+    data = yaml.safe_load(data_path.open())
     content = template.render(
         items=data,
         buttons=buttons,
@@ -31,3 +31,15 @@ for data_path in Path('data').iterdir():
         title=titles[name] if name != 'index' else None,
     )
     Path('public', name).with_suffix('.html').write_text(content)
+
+
+output_name = 'cv.html'
+template = env.get_template(output_name + '.j2')
+context = dict()
+for data_path in Path('data').iterdir():
+    name = data_path.stem
+    if name in {'buttons', 'names'}:
+        continue
+    context[name] = yaml.safe_load(data_path.open())
+content = template.render(**context)
+Path('public', output_name).write_text(content)
