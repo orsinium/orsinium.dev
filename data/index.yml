@@ -1,24 +1,45 @@
-- name: articles
-  icon: far fa-newspaper
-  link: https://articles.life4web.ru/
-- name: github
-  icon: fab fa-github
-  link: https://github.com/orsinium
-- name: CV
-  icon: fas fa-user
-  link: https://cv.life4web.ru/
-- name: youtube
-  icon: fab fa-youtube
-  link: https://www.youtube.com/channel/UCR0aFxunk1fhbSqbnJuiosA
-- name: telegram
-  icon: fab fa-telegram
-  link: https://t.me/orsinium
-- name: email
-  icon: fas fa-envelope
-  link: mailto:master_fess@mail.ru
-- name: linkedin
-  icon: fab fa-linkedin
-  link: https://www.linkedin.com/in/orsinium/
-- name: twitter
-  icon: fab fa-twitter
-  link: https://twitter.com/orsinium
+points:
+  - An adventurer from Amsterdam.
+  - Python, Go, Security.
+  - Public speaker.
+  - A lot of Open Source.
+  - Always smarter than yesterday.
+
+links:
+  - name: articles
+    icon: far fa-newspaper
+    link: https://articles.life4web.ru/
+    short: articles.life4web.ru
+    cv: true
+  - name: github
+    icon: fab fa-github
+    link: https://github.com/orsinium
+    short: github.com/orsinium
+    cv: true
+  - name: CV
+    icon: fas fa-user
+    link: https://orsinium.dev/cv.html
+    cv: false
+  - name: youtube
+    icon: fab fa-youtube
+    link: https://www.youtube.com/channel/UCR0aFxunk1fhbSqbnJuiosA
+    cv: false
+  - name: telegram
+    icon: fab fa-telegram
+    link: https://t.me/orsinium
+    short: t.me/orsinium
+    cv: true
+  - name: email
+    icon: fas fa-envelope
+    link: mailto:master_fess@mail.ru
+    short: master_fess@mail.ru
+    cv: true
+  - name: linkedin
+    icon: fab fa-linkedin
+    link: https://www.linkedin.com/in/orsinium/
+    short: linkedin.com/in/orsinium
+    cv: true
+  - name: twitter
+    icon: fab fa-twitter
+    link: https://twitter.com/orsinium
+    cv: false

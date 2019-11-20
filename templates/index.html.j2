@@ -3,7 +3,7 @@
 {% block content %}
   <div class="container">
     <div class="row">
-      {% for item in items %}
+      {% for item in items['links'] %}
         <a class="btn col-lg-4 btn-light" href="{{ item['link'] }}" target="=_blank">
           <i class="{{ item['icon'] }}"></i>
           {{ item['name'] }}

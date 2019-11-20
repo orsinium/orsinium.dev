@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="Hi, I'm Gram">
-    <meta name="keywords" content="developer, portfolio, python, golang">
+    <meta name="keywords" content="developer, portfolio, python, golang, go, cv, resume, security, amsterdam">
     <meta name="author" content="Gram (@orsinium)">
-    <title>Hi, I'm Gram</title>
+    <title>Hi, I'm Gram, there is my CV</title>
     <link rel="shortcut icon" href="favicon.ico">
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
 
     <style>
+      .work img {
+        max-width: 100%;
+      }
     </style>
   </head>
 
@@ -22,18 +25,41 @@
     <div class="container">
       <h1>Hi, I'm Gram</h1>
     	<div class="row">
-    		<div class="col-md-12">
+    		<div class="col-md-6">
+          <ul class="list-group list-group-horizontal">
+            {% for point in index['points'] %}
+              <li class="list-group-item">{{ point }}</li>
+            {% endfor %}
+          </ul>
+    		</div>
+    		<div class="col-md-6">
+          <ul class="list-group list-group-horizontal">
+            {% for item in index['links'] %}
+              {% if item['cv'] %}
+                <li class="list-group-item">
+                  <i class="text-muted {{ item['icon'] }}"></i>
+                  <a href="{{ item['link'] }}" target="_blank">
+                    {{ item['short'] }}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
     		</div>
     	</div>
 
+      <hr/>
       <h2>Experience</h2>
-    	<div class="row">
+    	<div class="row work">
         {% for item in work %}
+      		<div class="col-md-1">
+            <img src="./assets/{{ item['image'] }}" />
+      		</div>
       		<div class="col-md-3">
             <h4>{{ item['name'] }}</h4>
             <p>{{ item['date'] }}</p>
       		</div>
-      		<div class="col-md-9">
+      		<div class="col-md-8">
             <ul>
               {% for point in item['points'] %}
                 <li>{{ point }}</li>
@@ -43,17 +69,53 @@
         {% endfor %}
     	</div>
 
+      <hr/>
+      <h2>Projects</h2>
+      <div class="row">
+        {% for group in (projects[0]['items'][:4], projects[2]['items'][:1]) %}
+          {% for item in group %}
+          <div class="col-md-4">
+            <h4>
+              <a href="{{ item['link'] }}" target="_blank">{{ item['name'] }}</a>
+            </h4>
+            <p>{{ item['info'] }}</p>
+          </div>
+          {% endfor %}
+        {% endfor %}
+        <div class="col-md-4">
+          <h4>More!</h4>
+          <p>
+            I have 40+ Open Source projects. Check them out at
+            <a href="https://orsinium.dev/projects.html">orsinium.dev/projects.html</a>.
+          </p>
+        </div>
+      </div>
+
+      <hr/>
       {% for group in skills %}
         <h2>{{ group['name'] }}</h2>
       	<div class="row">
           {% for item in group['content'] %}
         		<div class="col-md-4">
-              <h4>{{ item['name'] }}</h4>
-              <p>{{ item['info'] }}</p>
+              <h4>
+                {% if item['icon'] %}
+                  <i class="text-muted {{ item['icon'] }}"></i>
+                {% endif %}
+                {{ item['name'] }}
+              </h4>
+              <p>
+                {% markdown %}
+                  {{ item['info'] }}
+                {% endmarkdown %}
+              </p>
         		</div>
           {% endfor %}
       	</div>
       {% endfor %}
+
+      <h2 style="text-align: center">
+        <i class="far fa-heart"></i>
+      </h2>
 
     </div>
   </body>
