@@ -131,6 +131,9 @@
       # bg: https://raw.githubusercontent.com/life4/genesis/master/gopher.png
       info: "Typesafe concurrent generic functions for Go: map, filter, reduce, shuffle etc."
       link: https://github.com/life4/genesis
+    - name: TelloWerk
+      info: "Experiments with DJI Tello drone: navigation, voice synthesization and recognition, face detection"
+      link: https://github.com/orsinium/tellowerk
     - name: Chameleon
       bg: https://raw.githubusercontent.com/orsinium/chameleon/master/assets/mstile-144x144.png
       info: >
