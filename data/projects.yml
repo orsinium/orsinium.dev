@@ -124,6 +124,9 @@
     - name: dephell_setuptools
       info: Read setup.py (static and dynamic parsers).
       link: https://github.com/dephell/dephell_setuptools
+    - name: dephell_argparse
+      info: Argparse with groups, commands, colors, and fuzzy matching.
+      link: https://github.com/dephell/dephell_argparse
 
 - name: Go
   items:

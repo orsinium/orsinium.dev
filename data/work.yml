@@ -7,6 +7,8 @@
     - Research and develop text processing solutions (OCR, NER).
     - Apply AWS solution (SageMaker, Textract, Comprehend).
     - Build OpenAPI system and documentation for all endpoints.
+    - Discover, report, and fix vulnerabilities in the platform.
+    - Create CI/CD pipeline on Gitlab CI.
 
 - name: 5. Cindicator
   image: cnd.jpg
