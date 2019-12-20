@@ -44,8 +44,8 @@ links:
       - home
   - name: email
     icon: fas fa-envelope
-    link: mailto:master_fess@mail.ru
-    short: master_fess@mail.ru
+    link: mailto:gram@orsinium.dev
+    short: gram@orsinium.dev
     pages:
       - cv
       - home
