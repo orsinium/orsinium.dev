@@ -144,6 +144,12 @@
       </div>
     {% endblock %}
 
+    <div class="footer container-fluid text-white bg-dark" style="margin-top: 10px">
+      <h2 style="text-align: center">
+        <i class="far fa-heart"></i>
+      </h1>
+    </div>
+
     <!-- https://www.bryanbraun.com/anchorjs/ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js"></script>
     <script>
@@ -154,6 +160,7 @@
       anchors.add('h1');
       anchors.add('h2');
       anchors.remove('.header h1');
+      anchors.remove('.footer h2');
     </script>
 
   </body>
