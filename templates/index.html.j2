@@ -2,15 +2,24 @@
 
 {% block content %}
   <div class="container">
-    <div class="row">
-      {% for item in items['links'] %}
-        {% if 'home' in item['pages'] %}
-          <a class="btn col-lg-4 btn-light" href="{{ item['link'] }}" target="=_blank">
-            <i class="{{ item['icon'] }}"></i>
-            {{ item['name'] }}
-          </a>
-        {% endif %}
-      {% endfor %}
+    <div class="row" style="margin-top: 10px">
+      <div class="col-md-6">
+        <ul class="list-group list-group-horizontal">
+          {% for point in items['points'] %}
+            <li class="list-group-item">{{ point }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-6">
+        {% for item in items['links'] %}
+          {% if 'home' in item['pages'] %}
+            <a class="btn col-md-5 btn-light btn-lg" href="{{ item['link'] }}" target="=_blank">
+              <i class="{{ item['icon'] }}"></i>
+              {{ item['name'] }}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 {% endblock %}
