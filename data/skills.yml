@@ -120,6 +120,36 @@
         version was manually checked, and for every next release,
         I made hard regression tests on a lot of data and states.
 
+- name: DevOps
+  content:
+    - name: Docker
+      icon:
+        fa: fab fa-docker
+        mn: docker
+      info: >
+        I've packed in Docker all infrastructure of Farfor (when I worked in Smena),
+        the ML pipeline and the trading platform in Cindicator.
+        All it still works perfectly on all environments from development to production.
+    - name: Docker-compose
+      icon:
+        fa: fab fa-docker
+        mn: docker
+      info: >
+        When I say "docker" I mean "docker-compose" as well.
+        It's a cool tool, and all my dockerized projects have `docker.compose.yml`.
+        And no, I haven't learned k8s yet, stop shaming me.
+    - name: Elastic Stack
+      icon:
+        mn: elasticsearch
+      info: >
+        Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
+        logs, messages, and state from all parts of the system. It includes
+        Elastic Search, Logstash, Kibana, MetricBeat, FileBeat etc.
+        I can monitor with it all infrastructure.
+        You can find my demo stand of this system in
+        [python-syslog-logstash](https://github.com/orsinium/python-syslog-logstash)
+        repository.
+
 - name: Storages
   content:
     - name: PostgreSQL
@@ -200,36 +230,6 @@
         and strategies that processes all the data using the pandas power.
         At my free time I do [data analysis](projects.html#ds-and-ml)
         and it always first of all means work with pandas and charts.
-
-- name: DevOps
-  content:
-    - name: Docker
-      icon:
-        fa: fab fa-docker
-        mn: docker
-      info: >
-        I've packed in Docker all infrastructure of Farfor (when I worked in Smena),
-        the ML pipeline and the trading platform in Cindicator.
-        All it still works perfectly on all environments from development to production.
-    - name: Docker-compose
-      icon:
-        fa: fab fa-docker
-        mn: docker
-      info: >
-        When I say "docker" I mean "docker-compose" as well.
-        It's a cool tool, and all my dockerized projects have `docker.compose.yml`.
-        And no, I haven't learned k8s yet, stop shaming me.
-    - name: Elastic Stack
-      icon:
-        mn: elasticsearch
-      info: >
-        Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
-        logs, messages, and state from all parts of the system. It includes
-        Elastic Search, Logstash, Kibana, MetricBeat, FileBeat etc.
-        I can monitor with it all infrastructure.
-        You can find my demo stand of this system in
-        [python-syslog-logstash](https://github.com/orsinium/python-syslog-logstash)
-        repository.
 
 - name: Soft skills
   content:
