@@ -141,8 +141,13 @@
       bg: https://raw.githubusercontent.com/orsinium/chameleon/master/assets/mstile-144x144.png
       info: >
         Make blog from markdown files on Github.
-        Powers [articles.life4web.ru](https://articles.life4web.ru/).
+        Powers [articles.orsinium.dev](https://articles.orsinium.dev/).
       link: https://github.com/orsinium/chameleon
+    - name: graphql.orsinium.dev
+      info: >
+        A simple GraphQL API for my website.
+        Powers [graphql.orsinium.dev](https://graphql.orsinium.dev/).
+      link: https://github.com/orsinium/graphql.orsinium.dev
     - name: LikeForce
       bg: https://raw.githubusercontent.com/kmddd59/emojis/master/blob%20Emojis/googleblueheart.png
       info: Telegram bot to have likes and rating in chats.
