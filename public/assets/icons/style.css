@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?2h9f2s');
-  src:  url('fonts/icomoon.eot?2h9f2s#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?2h9f2s') format('truetype'),
-    url('fonts/icomoon.woff?2h9f2s') format('woff'),
-    url('fonts/icomoon.svg?2h9f2s#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?hqwxfa');
+  src:  url('fonts/icomoon.eot?hqwxfa#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hqwxfa') format('truetype'),
+    url('fonts/icomoon.woff?hqwxfa') format('woff'),
+    url('fonts/icomoon.svg?hqwxfa#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -63,4 +63,7 @@
 }
 .icon-html-five:before {
   content: "\eae4";
+}
+.icon-ansible:before {
+  content: "\e90c";
 }

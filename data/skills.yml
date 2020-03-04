@@ -130,25 +130,20 @@
         I've packed in Docker all infrastructure of Farfor (when I worked in Smena),
         the ML pipeline and the trading platform in Cindicator.
         All it still works perfectly on all environments from development to production.
-    - name: Docker-compose
+    - name: Docker Compose
       icon:
         fa: fab fa-docker
         mn: docker
       info: >
         When I say "docker" I mean "docker-compose" as well.
-        It's a cool tool, and all my dockerized projects have `docker.compose.yml`.
+        It's a cool tool, and all my dockerized projects have `docker-compose.yml`.
         And no, I haven't learned k8s yet, stop shaming me.
-    - name: Elastic Stack
+    - name: Ansible
       icon:
-        mn: elasticsearch
+        mn: ansible
       info: >
-        Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
-        logs, messages, and state from all parts of the system. It includes
-        Elastic Search, Logstash, Kibana, MetricBeat, FileBeat etc.
-        I can monitor with it all infrastructure.
-        You can find my demo stand of this system in
-        [python-syslog-logstash](https://github.com/orsinium/python-syslog-logstash)
-        repository.
+        All my websites (including this one) are hosted on my VPS and deployed
+        by Ansible. Also, we had Ansible-based deployment in Smena.
 
 - name: Storages
   content:
@@ -182,13 +177,17 @@
         how to build good documents structure. In Cindicator we had an ML pipeline
         heavily tightened with MongoDB. Also, I'm
         [mongoengine contributor](https://github.com/MongoEngine/mongoengine/pull/1825).
-    - name: ElasticSearch
+    - name: Elastic Stack
       icon:
         mn: elasticsearch
       info: >
-        This is very fast storage with cool query syntax. In Smena we use it
-        for data caching in ERP and for
-        [logs storage](https://github.com/orsinium/python-syslog-logstash).
+        Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
+        logs, messages, and state from all parts of the system. It includes
+        Elastic Search, Logstash, Kibana, MetricBeat, FileBeat etc.
+        I can monitor with it all infrastructure.
+        You can find my demo stand of this system in
+        [python-syslog-logstash](https://github.com/orsinium/python-syslog-logstash)
+        repository.
 
 - name: Libraries
   content:
