@@ -91,6 +91,9 @@
 
 - name: DepHell ecosystem
   items:
+    - name: dephell_changelogs
+      info: Find and parse changelog for a given python package.
+      link: https://github.com/dephell/dephell_changelogs
     - name: dephell_venvs
       info: Manage virtual environments.
       link: https://github.com/dephell/dephell_venvs
