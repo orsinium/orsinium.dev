@@ -14,8 +14,8 @@ links:
       - cv
   - name: articles
     icon: far fa-newspaper
-    link: https://articles.life4web.ru/
-    short: articles.life4web.ru
+    link: https://articles.orsinium.dev/
+    short: articles.orsinium.dev
     pages:
       - cv
       - home
