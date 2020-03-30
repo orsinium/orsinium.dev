@@ -1,3 +1,7 @@
+- name: warehouse
+  info: More stable and maintainable URLs parsing for pypi.org.
+  date: 2020-03-19
+  link: https://github.com/pypa/warehouse/pull/7565
 - name: lefthook
   bg: ./assets/lefthook.png
   info: Flag to force or disable colored output
