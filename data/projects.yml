@@ -133,6 +133,9 @@
 
 - name: Go
   items:
+    - name: GWeb
+      info: "Interact with browser from Go. Manually-crafted WebAPI interoperation library."
+      link: https://github.com/life4/gweb
     - name: Genesis
       # bg: https://raw.githubusercontent.com/life4/genesis/master/gopher.png
       info: "Typesafe concurrent generic functions for Go: map, filter, reduce, shuffle etc."
