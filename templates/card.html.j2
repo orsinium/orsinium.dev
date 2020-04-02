@@ -6,6 +6,7 @@
 
 
     <h5 class="card-title">
+
       {% if 'lang' in item %}
         {% for lang in ('eng', 'rus') %}
           {% if lang in item['lang'] %}
@@ -13,11 +14,18 @@
           {% endif %}
         {% endfor %}
       {% endif %}
+
       {% if item['link'] %}
+        {% if 'orsinium-archive' in item['link'] %}
+          <i class="text-muted fas fa-archive" title="archived"></i>
+        {% elif 'orsinium-labs' in item['link'] %}
+          <i class="text-muted fas fa-flask" title="experimental"></i>
+        {% endif %}
         <a href="{{ item['link'] }}" target="_blank">{{ item['name'] }}</a>
       {% else %}
         {{ item['name'] }}
       {% endif %}
+
     </h5>
 
     {% if 'tags' in item %}
