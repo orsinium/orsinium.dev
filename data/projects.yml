@@ -27,10 +27,13 @@
       info: Bruteforce protection for Django projects based on Redis.
       tags:
         - django
+        - security
     - name: Homoglyphs
       bg: https://github.com/life4/homoglyphs/raw/master/logo.png
       link: https://github.com/life4/homoglyphs
       info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
+      tags:
+        - security
     - name: python-lambda-calculus
       bg: https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png
       link: https://github.com/orsinium-labs/python-lambda-calculus
