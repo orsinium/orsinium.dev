@@ -2,7 +2,7 @@
   items:
     - name: DepHell
       bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
-      link: https://github.com/orsinium/dephell
+      link: https://github.com/dephell/dephell
       tags:
         - packaging
       info: The best Python project manager, all-in-one solution with a smart resolver.
@@ -22,8 +22,8 @@
       link: https://github.com/life4/deal
       info: Design by contract and property-based testing with static analysis.
     - name: DjBrut
-      bg: https://github.com/orsinium/django-bruteforce-protection/raw/master/logo.png
-      link: https://github.com/orsinium/django-bruteforce-protection
+      bg: https://github.com/life4/django-bruteforce-protection/raw/master/logo.png
+      link: https://github.com/life4/django-bruteforce-protection
       info: Bruteforce protection for Django projects based on Redis.
       tags:
         - django
@@ -33,11 +33,11 @@
       info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
     - name: python-lambda-calculus
       bg: https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png
-      link: https://github.com/orsinium/python-lambda-calculus
+      link: https://github.com/orsinium-labs/python-lambda-calculus
       info: Lambda Calculus functions implementation on Python.
     - name: DjBurger
-      bg: https://github.com/orsinium/djburger/raw/master/wiki/source/imgs/logo.png
-      link: https://github.com/orsinium/djburger
+      bg: https://github.com/orsinium-archive/djburger/raw/master/wiki/source/imgs/logo.png
+      link: https://github.com/orsinium-archive/djburger
       info: Framework for safe and maintainable web-projects.
       tags:
         - django
@@ -46,46 +46,46 @@
       link: https://github.com/life4/vaa
     - name: Send File Bot
       info: Telegram bot for sending files to chat or channel by cron.
-      link: https://github.com/orsinium/send-file-bot
+      link: https://github.com/orsinium-labs/send-file-bot
       tags:
         - telegram
     - name: RuTimeParser
-      link: https://github.com/orsinium/rutimeparser
+      link: https://github.com/orsinium-archive/rutimeparser
       info: Recognize date and time in Russian text and return datetime.datetime.
     - name: dcrtrs
-      link: https://github.com/orsinium/dcrtrs
+      link: https://github.com/orsinium-archive/dcrtrs
       info: Collection of useful Python decorators.
     - name: Zabbix Healthcheck
       info: Flask HealthCheck support for Zabbix.
-      link: https://github.com/orsinium/zabbix-healthcheck
+      link: https://github.com/orsinium-labs/zabbix-healthcheck
       tags:
         - zabbix
         - monitoring
     - name: poetry-setup
-      bg: https://github.com/orsinium/poetry-setup/raw/master/assets/logo.png
+      bg: https://github.com/orsinium-archive/poetry-setup/raw/master/assets/logo.png
       info: Generate setup.py (setuptools) from pyproject.toml (poetry).
-      link: https://github.com/orsinium/poetry-setup
+      link: https://github.com/orsinium-archive/poetry-setup
       tags:
         - packaging
     - name: install-requires
       info: Convert requirements between formats.
-      link: https://github.com/orsinium/install-requires
+      link: https://github.com/orsinium-archive/install-requires
       tags:
         - packaging
     - name: Django Google Play permissions
       info: Django package for getting permissions for Android app from Google Play.
-      link: https://github.com/orsinium/django-google-play-permissions
+      link: https://github.com/orsinium-labs/django-google-play-permissions
       tags:
         - docker
     - name: Swag
       info: "ᙏáḱє ‡ɘχτ !η ẃɨŧ¢н-ħ∅υѕé ѕ†ɏƖε (Ɛñ9ĺïś♄ & Řᵾśѕ!áη)"
-      link: https://github.com/orsinium/swag
+      link: https://github.com/orsinium-labs/swag
     - name: Pathfinder Dice
       info: A library for evaluating dice notation for Pathfinder RPG.
-      link: https://github.com/orsinium/pathfinder_dice
+      link: https://github.com/life4/pathfinder_dice
     - name: DjChoices
       info: Good choices for Django
-      link: https://github.com/orsinium/djchoices
+      link: https://github.com/orsinium-archive/djchoices
       tags:
         - django
 
@@ -142,59 +142,59 @@
       link: https://github.com/life4/genesis
     - name: TelloWerk
       info: "Experiments with DJI Tello drone: navigation, voice synthesization and recognition, face detection"
-      link: https://github.com/orsinium/tellowerk
+      link: https://github.com/orsinium-labs/tellowerk
     - name: Chameleon
       bg: https://raw.githubusercontent.com/orsinium/chameleon/master/assets/mstile-144x144.png
       info: >
         Make blog from markdown files on Github.
         Powers [articles.orsinium.dev](https://articles.orsinium.dev/).
-      link: https://github.com/orsinium/chameleon
+      link: https://github.com/life4/chameleon
     - name: graphql.orsinium.dev
       info: >
         A simple GraphQL API for my website.
         Powers [graphql.orsinium.dev](https://graphql.orsinium.dev/).
-      link: https://github.com/orsinium/graphql.orsinium.dev
+      link: https://github.com/orsinium-labs/graphql.orsinium.dev
     - name: LikeForce
       bg: https://raw.githubusercontent.com/kmddd59/emojis/master/blob%20Emojis/googleblueheart.png
       info: Telegram bot to have likes and rating in chats.
-      link: https://github.com/orsinium/likeforce
+      link: https://github.com/orsinium-archive/likeforce
     - name: Awesome Generator
-      # bg: https://github.com/orsinium/awesome-generator/raw/master/logo.png
+      # bg: https://github.com/orsinium-labs/awesome-generator/raw/master/logo.png
       info: Generate awesome list over Github API
-      link: https://github.com/orsinium/awesome-generator
+      link: https://github.com/orsinium-labs/awesome-generator
 
 - name: DS and ML
   items:
     - name: MovieLens
       info: Estimators and selectors for MovieLens dataset.
-      link: https://github.com/orsinium/MovieLens
+      link: https://github.com/orsinium-labs/MovieLens
     - name: nobel
       info: Analyze Nobel Prize Laureates
-      link: https://github.com/orsinium/nobel
+      link: https://github.com/orsinium-labs/nobel
     - name: hh.ru
       info: hh.ru vacancies analyze by different params
-      link: https://github.com/orsinium/hh
+      link: https://github.com/orsinium-archive/hh
 
 - name: Misc
   items:
     - name: Generated Awesomeness
       info: List of autogenerated awesome lists.
-      link: https://github.com/orsinium/generated-awesomeness
+      link: https://github.com/orsinium-labs/generated-awesomeness
     - name: python-syslog-logstash
       info: Python Logger + RSysLog + Logstash. Demo over docker containers.
-      link: https://github.com/orsinium/python-syslog-logstash
+      link: https://github.com/orsinium-labs/python-syslog-logstash
       tags:
         - docker
         - rsyslog
         - elastic
     - name: ElastAlert Configuring
       info: ElastAlert daemonizing and some rules for filebeat and metricbeat
-      link: https://github.com/orsinium/elastalert-configuring
+      link: https://github.com/orsinium-labs/elastalert-configuring
       tags:
         - elasic
         - monitoring
     - name: USATU CTF
       info: tasks, files, write-ups from my university CTF.
-      link: https://github.com/orsinium/usatu-ctf
+      link: https://github.com/orsinium-archive/usatu-ctf
       tags:
         - security
