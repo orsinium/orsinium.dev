@@ -1,17 +1,20 @@
-
+- name: Python etc
+  lang: eng
+  link: https://t.me/s/pythonetc
+  info: "Everything about Python."
 - name: ITGram
   lang: rus
   link: https://t.me/s/itgram_channel
   info: "All about development: best practice, articles, useful tools, libs etc."
+- name: Jokes++
+  lang: eng
+  link: https://t.me/s/jokespp
+  info: "Jokes about C++ because why not."
 - name: RPG Dump
   lang: eng
   link: https://t.me/s/rpgdump
-  info: Pathfinder, board games
+  info: "Pathfinder and board games."
 - name: I am sterdam
   lang: rus
   link: https://t.me/s/iam_sterdam
-  info: How I see Amsterdam
-- name: OpenDevCast
-  lang: rus
-  link: https://t.me/s/opendevcast
-  info: Crowd powered feed about IT
+  info: "How I see Amsterdam."
