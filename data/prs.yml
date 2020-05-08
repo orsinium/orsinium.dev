@@ -1,3 +1,15 @@
+- name: coverage-conditional-plugin
+  info: Environment markers support (PEP-496).
+  date: 2020-05-08
+  link: https://github.com/wemake-services/coverage-conditional-plugin/pull/3
+- name: wemake-python-styleguide
+  info: Fix a lot of misspelled words.
+  date: 2020-04-29
+  link: https://github.com/wemake-services/wemake-python-styleguide/pull/1374
+- name: awesome-go
+  info: WebAssembly category.
+  date: 2020-04-08
+  link: https://github.com/avelino/awesome-go/pull/3030
 - name: warehouse
   info: More stable and maintainable URLs parsing for pypi.org.
   date: 2020-03-19
