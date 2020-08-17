@@ -9,6 +9,7 @@
     - Build OpenAPI system and documentation for all endpoints.
     - Discover, report, and fix vulnerabilities in the platform.
     - Create CI/CD pipeline on Gitlab CI.
+    - Research and develop new REST API (based on JSON:API).
 
 - name: 5. Cindicator
   image: cnd.jpg

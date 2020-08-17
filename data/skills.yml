@@ -16,7 +16,7 @@
       cert: https://www.testdome.com/cert/ca9b6d75b87c4be9bda30a00b68c70b7
       info: >
         I'm in love with Go. It has quite a different philosophy
-        rather than Python, and it's great. I've started to use it about a year ago
+        rather than Python, and it's great. I've started to use it about 2 years ago
         but already have [a few projects](projects.html#go).
     - name: PHP
       icon:
