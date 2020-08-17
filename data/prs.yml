@@ -1,16 +1,28 @@
+- name: wemake-python-styleguide
+  bg: https://github.com/wemake-services/wemake-python-styleguide/raw/master/docs/_static/logo.png
+  info: Handle empty strings for annotations complexity metric (and add more tests).
+  date: 2020-06-29
+  link: https://github.com/wemake-services/coverage-conditional-plugin/pull/3
 - name: coverage-conditional-plugin
   info: Environment markers support (PEP-496).
   date: 2020-05-08
   link: https://github.com/wemake-services/coverage-conditional-plugin/pull/3
 - name: wemake-python-styleguide
+  bg: https://github.com/wemake-services/wemake-python-styleguide/raw/master/docs/_static/logo.png
   info: Fix a lot of misspelled words.
   date: 2020-04-29
   link: https://github.com/wemake-services/wemake-python-styleguide/pull/1374
+- name: returns
+  bg: https://github.com/dry-python/brand/raw/master/logo/returns.png
+  info: Currying.
+  date: 2020-04-23
+  link: https://github.com/wemake-services/coverage-conditional-plugin/pull/3
 - name: awesome-go
   info: WebAssembly category.
   date: 2020-04-08
   link: https://github.com/avelino/awesome-go/pull/3030
 - name: warehouse
+  bg: ./assets/pypi.png
   info: More stable and maintainable URLs parsing for pypi.org.
   date: 2020-03-19
   link: https://github.com/pypa/warehouse/pull/7565
