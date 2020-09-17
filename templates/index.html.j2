@@ -13,7 +13,7 @@
       <div class="col-md-6">
         {% for item in items['links'] %}
           {% if 'home' in item['pages'] %}
-            <a class="btn col-md-5 btn-light btn-lg" href="{{ item['link'] }}" target="=_blank">
+            <a class="btn col-md-5 btn-light btn-lg text-left" href="{{ item['link'] }}" target="=_blank">
               <i class="{{ item['icon'] }}"></i>
               {{ item['name'] }}
             </a>
