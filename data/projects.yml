@@ -143,6 +143,12 @@
       # bg: https://raw.githubusercontent.com/life4/genesis/master/gopher.png
       info: "Typesafe concurrent generic functions for Go: map, filter, reduce, shuffle etc."
       link: https://github.com/life4/genesis
+    - name: flakehell-online
+      info: >
+        Online client-side playground for FlakeHell.
+        Powers [flakehell.orsinium.dev](https://flakehell.orsinium.dev/)
+        using GWeb and pyodide.
+      link: https://github.com/life4/flakehell-online
     - name: TelloWerk
       info: "Experiments with DJI Tello drone: navigation, voice synthesization and recognition, face detection"
       link: https://github.com/orsinium-labs/tellowerk
