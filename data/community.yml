@@ -1,0 +1,49 @@
+flakehell:
+  - name: Useful Flake8 Plugins for Python Linting
+    date: 2020-08-30
+    author: Jonathan Bowman
+    link: https://dev.to/bowmanjd/some-flake8-plugins-for-python-linting-107h
+  - name: Using Flake8 and pyproject.toml with FlakeHell
+    date: 2020-08-17
+    author: Jonathan Bowman
+    link: https://dev.to/bowmanjd/using-flake8-and-pyproject-toml-with-flakehell-1cn1
+  - name: FlakeHell
+    date: 2020
+    author: Nikita Sobolev
+    link: https://wemake-python-stylegui.de/en/latest/pages/usage/integrations/flakehell.html
+
+dephell:
+  - name: Installing CLI Tools Using ‘dephell’
+    date: 2020-03-13
+    author: Jürgen Hermann
+    link: https://jhermann.github.io/blog/python/deployment/2020/03/03/install_tools_with_dephell.html
+  - name: Auto Generate requirements.txt from Your Python Code
+    date: 2020-03-13
+    author: Kojima Takahiro
+    link: https://dev.to/515hikaru/auto-generate-requirements-txt-from-your-python-code-9jl
+  - name: Auto Generate requirements.txt from Your Python Code
+    date: 2020-03-13
+    author: Kojima Takahiro
+    link: https://dev.to/515hikaru/auto-generate-requirements-txt-from-your-python-code-9jl
+
+textdistance:
+  - name: How to Build an Autocorrect in Python
+    date: 2020-10-01
+    author: George Pipis
+    link: https://medium.com/swlh/how-to-build-an-autocorrect-in-python-7545338a1320
+  - name: Guide to Fuzzy Matching with Python
+    date: 2019-11-13
+    author: Andrew Treadway
+    link: http://theautomatic.net/2019/11/13/guide-to-fuzzy-matching-with-python/
+  - name: String similarity — the basic know your algorithms guide!
+    date: 2019-02-02
+    author: Mohit Mayank
+    link: https://itnext.io/string-similarity-the-basic-know-your-algorithms-guide-3de3d7346227
+  - name: Interactive Pattern Analysis of Multiple T-Maze Data
+    date: 2019
+    author: VRVis Research Center in Vienna
+    link: https://diglib.eg.org/bitstream/handle/10.2312/eurova20191125/055-059.pdf
+  - name: More science articles
+    date: 2019
+    author: scholar.google.com
+    link: https://scholar.google.com/scholar?q="textdistance"
