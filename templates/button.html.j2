@@ -1,5 +1,5 @@
 <a
-  class="btn col-lg-4 {{ item['class'] or "btn-light" }}"
+  class="btn col-lg-4 {{ item['class'] or 'btn-light' }}"
   href="{{ item['link'] }}"
   {% if 'https:' in item['link'] %}target="_blank"{% endif %}
 >
