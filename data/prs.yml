@@ -8,10 +8,6 @@
       info: Flag to force or disable colored output
       date: 2019-07-31
       link: https://github.com/Arkweid/lefthook/pull/36
-    - name: Opened PRs
-      info: Some of my PRs aren't accepted yet.
-      class: text-white bg-dark
-      link: https://github.com/search?q=is%3Apr+author%3Aorsinium+is%3Aopen
 
 - name: Python
   icon:
@@ -102,3 +98,7 @@
       info: Updated CC-BY license name.
       date: 2018-04-18
       link: https://github.com/github/choosealicense.com/pull/583
+    - name: Opened PRs
+      info: Some of my PRs aren't accepted yet.
+      class: text-white bg-dark
+      link: https://github.com/search?q=is%3Apr+author%3Aorsinium+is%3Aopen

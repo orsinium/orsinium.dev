@@ -45,6 +45,13 @@
       </p>
     {% endif %}
 
+    {% if item['author'] %}
+      <p style="margin-bottom: 0px">
+        <i class="far fa-user"></i>
+        {{ item['author'] }}
+      </p>
+    {% endif %}
+
     {% if item['date'] %}
       <p>
         <i class="far fa-calendar-alt"></i>
