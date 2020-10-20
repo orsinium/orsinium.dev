@@ -129,7 +129,14 @@
             {% for item in items %}
               {% if 'items' in item %}
                 </div>
-                <h2>{{ item['name'] }}</h2>
+                <h2>
+                  {% if 'mn' in item['icon'] %}
+                    <i class="text-muted icon-{{ item['icon']['mn'] }}"></i>
+                  {% elif 'fa' in item['icon'] %}
+                    <i class="text-muted {{ item['icon']['fa'] }}"></i>
+                  {% endif %}
+                  {{ item['name'] }}
+                </h2>
                 <div class="row">
                 {% for subitem in item['items'] %}
                   {% set item = subitem %}

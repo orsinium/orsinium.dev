@@ -1,4 +1,7 @@
 - name: Python
+  icon:
+    fa: fab fa-python
+    mn: python
   items:
     - name: DepHell
       bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
@@ -93,6 +96,8 @@
         - django
 
 - name: DepHell ecosystem
+  icon:
+    fa: fas fa-fire
   items:
     - name: dephell_changelogs
       info: Find and parse changelog for a given python package.
@@ -135,6 +140,9 @@
       link: https://github.com/dephell/dephell_argparse
 
 - name: Go
+  icon:
+    fa: fas fa-running
+    # mn: go
   items:
     - name: GWeb
       info: "Interact with browser from Go. Manually-crafted WebAPI interoperation library."
@@ -175,6 +183,8 @@
         - awesome
 
 - name: DS and ML
+  icon:
+    fa: fas fa-robot
   items:
     - name: MovieLens
       info: Estimators and selectors for MovieLens dataset.
@@ -187,6 +197,8 @@
       link: https://github.com/orsinium-archive/hh
 
 - name: Misc
+  icon:
+    fa: fas fa-box
   items:
     - name: Awesome Python Typing
       info: List of stubs, plugins, and tools to work with typing in Python.
