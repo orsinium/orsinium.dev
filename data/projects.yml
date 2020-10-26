@@ -97,6 +97,9 @@
     - name: lefthook
       info: Lefthook wrapper to make it installable from pip.
       link: https://github.com/orsinium-archive/lefthook
+    - name: dethklok
+      info: The most uncompromising Python code formatter ever
+      link: https://github.com/orsinium-labs/dethklok
 
 - name: DepHell ecosystem
   icon:
