@@ -3,9 +3,19 @@
     fa: fas fa-running
     # mn: go
   items:
+    - name: go-ruleguard
+      bg: https://github.com/quasilyte/go-ruleguard/raw/master/docs/logo2.png
+      info: A few linting rules.
+      date: 2020-10-23
+      link: https://github.com/quasilyte/go-ruleguard/pulls?q=is%3Apr+author%3Aorsinium
+    - name: beehive
+      bg: https://github.com/muesli/beehive/raw/master/assets/logo.png
+      info: YAML and Starlark support, improved template engine and telegram integration.
+      date: 2020-10-02
+      link: https://github.com/muesli/beehive/pulls?q=is%3Apr+author%3Aorsinium
     - name: lefthook
       bg: ./assets/lefthook.png
-      info: Flag to force or disable colored output
+      info: Flag to force or disable colored output.
       date: 2019-07-31
       link: https://github.com/Arkweid/lefthook/pull/36
 
