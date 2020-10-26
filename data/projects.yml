@@ -26,7 +26,7 @@
       info: Design by contract and property-based testing with static analysis.
     - name: DjBrut
       bg: https://github.com/life4/django-bruteforce-protection/raw/master/logo.png
-      link: https://github.com/life4/django-bruteforce-protection
+      link: https://github.com/orsinium-archive/django-bruteforce-protection
       info: Bruteforce protection for Django projects based on Redis.
       tags:
         - django
@@ -94,6 +94,9 @@
       link: https://github.com/orsinium-archive/djchoices
       tags:
         - django
+    - name: lefthook
+      info: Lefthook wrapper to make it installable from pip.
+      link: https://github.com/orsinium-archive/lefthook
 
 - name: DepHell ecosystem
   icon:
