@@ -1,6 +1,8 @@
+from datetime import datetime, timedelta
+from pathlib import Path
+
 import yaml
 from jinja2 import Environment, FileSystemLoader
-from pathlib import Path
 
 
 env = Environment(
@@ -8,6 +10,7 @@ env = Environment(
     extensions=['jinja2.ext.loopcontrols', 'jinja2_markdown.MarkdownExtension'],
 )
 
+threshold = (datetime.now() - timedelta(days=450)).isoformat()
 buttons = yaml.safe_load(Path('data', 'buttons.yml').open())
 menu = yaml.safe_load(Path('data', 'names.yml').open())
 meta = yaml.safe_load(Path('data', 'meta.yml').open())
@@ -31,6 +34,7 @@ for data_path in Path('data').iterdir():
         buttons=buttons,
         menu=menu,
         meta=meta,
+        threshold=threshold,
         title=titles[name] if name != 'index' else None,
     )
     Path('public', name).with_suffix('.html').write_text(content)
