@@ -47,7 +47,7 @@
     {% endif %}
 
 
-    {% set info = item.get('info') or meta.get(item['link'])['description'] %}
+    {% set info = item.get('info', '').rstrip() or meta.get(item['link'])['description'] %}
     {% if info %}
       {% if info[-1] != '.' %}
         {% set info = info + '.' %}
