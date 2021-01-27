@@ -10,6 +10,7 @@ env = Environment(
 
 buttons = yaml.safe_load(Path('data', 'buttons.yml').open())
 menu = yaml.safe_load(Path('data', 'names.yml').open())
+stars = yaml.safe_load(Path('data', 'stars.yml').open())
 titles = {item['slug']: item['name'] for item in menu}
 for item in menu:
     if 'link' not in item:
@@ -17,7 +18,7 @@ for item in menu:
 
 for data_path in Path('data').iterdir():
     name = data_path.stem
-    if name in {'buttons', 'names'}:
+    if name in {'buttons', 'names', 'stars'}:
         continue
     template_path = Path('templates', name).with_suffix('.html.j2')
     if not template_path.exists():
@@ -28,6 +29,7 @@ for data_path in Path('data').iterdir():
         items=data,
         buttons=buttons,
         menu=menu,
+        stars=stars,
         title=titles[name] if name != 'index' else None,
     )
     Path('public', name).with_suffix('.html').write_text(content)

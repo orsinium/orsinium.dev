@@ -25,15 +25,21 @@
       {% else %}
         {{ item['name'] }}
       {% endif %}
-
     </h5>
 
-    {% if 'tags' in item %}
+    {% if 'tags' in item or (item['link'] in stars and stars[item['link']] > 20) %}
       <h6 class="card-subtitle text-muted">
+
+        {% if item['link'] in stars and stars[item['link']] > 20 %}
+          <i class="fas fa-star"></i>
+          {{ stars[item['link']] }}
+        {% endif %}
+
         {% for tag in item['tags'] %}
           #{{ tag }}
         {% endfor %}
-        </h6>
+
+      </h6>
     {% endif %}
 
     {% if 'info' in item %}
