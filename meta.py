@@ -18,7 +18,13 @@ for org in ORGS:
     response = requests.get(URL.format(org=org), headers=HEADERS)
     response.raise_for_status()
     for project in response.json():
-        result[project['html_url']] = project['stargazers_count']
+        result[project['html_url']] = dict(
+            stars=project['stargazers_count'],
+            archived=project['archived'],
+            description=project['description'],
+            language=project['language'],
+            license=project['license'],
+        )
 
-with Path('data', 'stars.yml').open('w') as stream:
+with Path('data', 'meta.yml').open('w') as stream:
     yaml.dump(data=result, stream=stream)

@@ -16,7 +16,7 @@
       {% endif %}
 
       {% if item['link'] %}
-        {% if 'orsinium-archive' in item['link'] or item['archived'] %}
+        {% if meta.get(item['link'])['archived'] %}
           <i class="text-muted fas fa-archive" title="archived"></i>
         {% elif 'orsinium-labs' in item['link'] %}
           <i class="text-muted fas fa-flask" title="experimental"></i>
@@ -27,12 +27,12 @@
       {% endif %}
     </h5>
 
-    {% if 'tags' in item or (item['link'] in stars and stars[item['link']] > 20) %}
+    {% set stars = meta.get(item['link'])['stars'] or 0 %}
+    {% if 'tags' in item or stars > 20 %}
       <h6 class="card-subtitle text-muted">
 
-        {% if item['link'] in stars and stars[item['link']] > 20 %}
-          <i class="fas fa-star"></i>
-          {{ stars[item['link']] }}
+        {% if stars > 20 %}
+          <i class="fas fa-star"></i> {{ stars }}
         {% endif %}
 
         {% for tag in item['tags'] %}

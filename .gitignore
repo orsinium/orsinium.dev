@@ -2,4 +2,4 @@
 __pycache__/
 .pytest_cache/
 .mypy_cache/
-data/stars.yml
+data/meta.yml
