@@ -3,10 +3,8 @@
     fa: fas fa-running
     # mn: go
   items:
-    - info: CLI tool to handle JSON logs.
-      link: https://github.com/life4/logit
+    - link: https://github.com/life4/logit
     - name: GWeb
-      info: "Interact with browser from Go. Manually-crafted WebAPI interoperation library."
       link: https://github.com/life4/gweb
     - name: Genesis
       # bg: https://raw.githubusercontent.com/life4/genesis/master/gopher.png
@@ -39,7 +37,6 @@
       link: https://github.com/orsinium-archive/likeforce
     - name: Awesome Generator
       # bg: https://github.com/orsinium-labs/awesome-generator/raw/master/logo.png
-      info: Generate awesome list over Github API
       link: https://github.com/orsinium-labs/awesome-generator
       tags:
         - awesome
@@ -56,10 +53,8 @@
         Compute the distance between sequences.
         30+ algorithms, pure python implementation,
         common interface, optional external libs usage.
-    - name: Deal
-      bg: https://github.com/life4/deal/raw/master/logo.png
+    - bg: https://github.com/life4/deal/raw/master/logo.png
       link: https://github.com/life4/deal
-      info: Design by contract and property-based testing with static analysis.
     - name: Homoglyphs
       bg: https://github.com/life4/homoglyphs/raw/master/logo.png
       link: https://github.com/life4/homoglyphs
@@ -67,7 +62,6 @@
       tags:
         - security
     - link: https://github.com/orsinium-labs/eff
-      info: Python library to work with algebraic effects.
     - name: AOP
       link: https://github.com/orsinium-labs/aop
       info: Aspect oriented programming for Python.
