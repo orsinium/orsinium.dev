@@ -3,6 +3,8 @@
     fa: fas fa-running
     # mn: go
   items:
+    - info: CLI tool to handle JSON logs.
+      link: https://github.com/life4/logit
     - name: GWeb
       info: "Interact with browser from Go. Manually-crafted WebAPI interoperation library."
       link: https://github.com/life4/gweb
@@ -10,12 +12,13 @@
       # bg: https://raw.githubusercontent.com/life4/genesis/master/gopher.png
       info: "Typesafe concurrent generic functions for Go: map, filter, reduce, shuffle etc."
       link: https://github.com/life4/genesis
-    - name: flakehell-online
-      info: >
+    - info: >
         Online client-side playground for FlakeHell.
         Powers [flakehell.orsinium.dev](https://flakehell.orsinium.dev/)
         using GWeb and pyodide.
       link: https://github.com/life4/flakehell-online
+    - info: Online playground for [go-ruleguard](https://github.com/quasilyte/go-ruleguard).
+      link: https://github.com/life4/ruleguard-playground
     - name: TelloWerk
       info: "Experiments with DJI Tello drone: navigation, voice synthesization and recognition, face detection"
       link: https://github.com/orsinium-labs/tellowerk
@@ -63,12 +66,15 @@
       info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
       tags:
         - security
-    - name: python-lambda-calculus
-      bg: https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png
+    - link: https://github.com/orsinium-labs/eff
+      info: Python library to work with algebraic effects.
+    - name: AOP
+      link: https://github.com/orsinium-labs/aop
+      info: Aspect oriented programming for Python.
+    - bg: https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png
       link: https://github.com/orsinium-labs/python-lambda-calculus
       info: Lambda Calculus functions implementation on Python.
-    - name: vaa
-      info: Validators Adapter. The common interface for all Python validators.
+    - info: Validators Adapter. The common interface for all Python validators.
       link: https://github.com/life4/vaa
     - name: Send File Bot
       info: Telegram bot for sending files to chat or channel by cron.
@@ -92,8 +98,7 @@
     - name: Pathfinder Dice
       info: A library for evaluating dice notation for Pathfinder RPG.
       link: https://github.com/life4/pathfinder_dice
-    - name: dethklok
-      info: The most uncompromising Python code formatter ever
+    - info: The most uncompromising Python code formatter ever
       link: https://github.com/orsinium-labs/dethklok
 
 - name: Python Archive
@@ -126,17 +131,14 @@
     - name: RuTimeParser
       link: https://github.com/orsinium-archive/rutimeparser
       info: Recognize date and time in Russian text and return datetime.datetime.
-    - name: dcrtrs
-      link: https://github.com/orsinium-archive/dcrtrs
+    - link: https://github.com/orsinium-archive/dcrtrs
       info: Collection of useful Python decorators.
-    - name: poetry-setup
-      bg: https://github.com/orsinium-archive/poetry-setup/raw/master/assets/logo.png
+    - bg: https://github.com/orsinium-archive/poetry-setup/raw/master/assets/logo.png
       info: Generate setup.py (setuptools) from pyproject.toml (poetry).
       link: https://github.com/orsinium-archive/poetry-setup
       tags:
         - packaging
-    - name: install-requires
-      info: Convert requirements between formats.
+    - info: Convert requirements between formats.
       link: https://github.com/orsinium-archive/install-requires
       tags:
         - packaging
@@ -145,53 +147,41 @@
       link: https://github.com/orsinium-archive/djchoices
       tags:
         - django
-    - name: lefthook
-      info: Lefthook wrapper to make it installable from pip.
+    - info: Lefthook wrapper to make it installable from pip.
       link: https://github.com/orsinium-archive/lefthook
 
 - name: DepHell ecosystem
   icon:
     fa: fas fa-fire
   items:
-    - name: dephell_changelogs
-      info: Find and parse changelog for a given python package.
+    - info: Find and parse changelog for a given python package.
       link: https://github.com/dephell/dephell_changelogs
-    - name: dephell_venvs
-      info: Manage virtual environments.
+    - info: Manage virtual environments.
       link: https://github.com/dephell/dephell_venvs
-    - name: dephell_versioning
-      info: Bump project version like a pro.
+    - info: Bump project version like a pro.
       link: https://github.com/dephell/dephell_versioning
-    - name: dephell_pythons
-      info: Work with python versions.
+    - info: Work with python versions.
       link: https://github.com/dephell/dephell_pythons
-    - name: dephell_specifier
-      info: Work with version specifiers (can parse PEP-440, SemVer, Ruby, NPM, Maven).
+    - info: Work with version specifiers (can parse PEP-440, SemVer, Ruby, NPM, Maven).
       link: https://github.com/dephell/dephell_specifier
-    - name: dephell_discover
-      info: Find project modules and data files (packages and package_data for setup.py).
+    - info: Find project modules and data files (packages and package_data for setup.py).
       link: https://github.com/dephell/dephell_discover
-    - name: dephell_markers
-      info: Work with environment markers (PEP-496).
+    - info: Work with environment markers (PEP-496).
       link: https://github.com/dephell/dephell_markers
-    - name: dephell_shells
-      info: Activate virtual environment for current shell.
+    - info: Activate virtual environment for current shell.
       link: https://github.com/dephell/dephell_shells
-    - name: dephell_links
-      info: Parse dependency links.
+    - info: Parse dependency links.
       link: https://github.com/dephell/dephell_links
-    - name: dephell_licenses
-      info: Get info about OSS licenses.
+    - info: Get info about OSS licenses.
       link: https://github.com/dephell/dephell_licenses
-    - name: dephell_archive
-      info: Pathlib for archives.
+    - info: Pathlib for archives.
       link: https://github.com/dephell/dephell_archive
-    - name: dephell_setuptools
-      info: Read setup.py (static and dynamic parsers).
+    - info: Read setup.py (static and dynamic parsers).
       link: https://github.com/dephell/dephell_setuptools
-    - name: dephell_argparse
-      info: Argparse with groups, commands, colors, and fuzzy matching.
+    - info: Argparse with groups, commands, colors, and fuzzy matching.
       link: https://github.com/dephell/dephell_argparse
+    - info: GitHub Action for dephell_archive.
+      link: https://github.com/dephell/dephell_action
 
 - name: DS and ML
   icon:
@@ -221,13 +211,20 @@
       link: https://github.com/life4/awesome-python-code-formatters
       tags:
         - awesome
+    - name: Awesome Go Code Formatters
+      info: List of cool auto code formatters for Go (like gofmt).
+      link: https://github.com/life4/awesome-go-code-formatters
+      tags:
+        - awesome
+    - name: Dependency Injectors
+      info: Tests and comparison of Python dependency injection libraries.
+      link: https://github.com/orsinium-labs/dependency_injectors
     - name: Generated Awesomeness
       info: List of autogenerated awesome lists.
       link: https://github.com/orsinium-labs/generated-awesomeness
       tags:
         - awesome
-    - name: python-syslog-logstash
-      info: Python Logger + RSysLog + Logstash. Demo over docker containers.
+    - info: Python Logger + RSysLog + Logstash. Demo over docker containers.
       link: https://github.com/orsinium-labs/python-syslog-logstash
       tags:
         - docker

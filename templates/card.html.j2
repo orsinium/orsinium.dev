@@ -15,15 +15,19 @@
         {% endfor %}
       {% endif %}
 
+      {% set name = item['name'] %}
       {% if item['link'] %}
+        {% if not name %}
+          {% set name = item['link'].split('/')[-1] %}
+        {% endif %}
         {% if meta.get(item['link'])['archived'] %}
           <i class="text-muted fas fa-archive" title="archived"></i>
         {% elif 'orsinium-labs' in item['link'] %}
           <i class="text-muted fas fa-flask" title="experimental"></i>
         {% endif %}
-        <a href="{{ item['link'] }}" target="_blank">{{ item['name'] }}</a>
+        <a href="{{ item['link'] }}" target="_blank">{{ name }}</a>
       {% else %}
-        {{ item['name'] }}
+        {{ name }}
       {% endif %}
     </h5>
 

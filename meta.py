@@ -10,6 +10,7 @@ ORGS = [
     'orgs/orsinium-archive',
     'orgs/life4',
     'orgs/dephell',
+    'orgs/typeddjango',
 ]
 
 result = dict()
@@ -23,7 +24,8 @@ for org in ORGS:
             archived=project['archived'],
             description=project['description'],
             language=project['language'],
-            license=project['license'],
+            updated_at=project['updated_at'],
+            license=(project['license'] or {}).get('spdx_id', ''),
         )
 
 with Path('data', 'meta.yml').open('w') as stream:
