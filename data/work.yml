@@ -1,6 +1,16 @@
+- name: 7. Nico-lab
+  image: nicolab.png
+  date: 2020-10 &mdash; now
+  info: Senior Software Engineer
+  link: https://www.nico-lab.com/
+  points:
+    - Develop python and Go components of the project.
+    - Ensure code quality.
+    - Redesign the project architecture.
+
 - name: 6. EclecticIQ
   image: eiq.jpg
-  date: 2019-05 &mdash; now
+  date: 2019-05 &mdash; 2020-10
   info: Senior Software Engineer
   link: https://www.eclecticiq.com/
   points:
