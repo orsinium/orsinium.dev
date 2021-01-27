@@ -16,7 +16,7 @@
       {% endif %}
 
       {% if item['link'] %}
-        {% if 'orsinium-archive' in item['link'] %}
+        {% if 'orsinium-archive' in item['link'] or item['archived'] %}
           <i class="text-muted fas fa-archive" title="archived"></i>
         {% elif 'orsinium-labs' in item['link'] %}
           <i class="text-muted fas fa-flask" title="experimental"></i>

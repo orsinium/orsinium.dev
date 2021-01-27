@@ -3,12 +3,6 @@
     fa: fab fa-python
     mn: python
   items:
-    - name: DepHell
-      bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
-      link: https://github.com/dephell/dephell
-      tags:
-        - packaging
-      info: The best Python project manager, all-in-one solution with a smart resolver.
     - name: TextDistance
       bg: https://github.com/life4/textdistance/raw/master/logo.png
       link: https://github.com/life4/textdistance
@@ -16,21 +10,10 @@
         Compute the distance between sequences.
         30+ algorithms, pure python implementation,
         common interface, optional external libs usage.
-    - name: FlakeHell
-      bg: https://raw.githubusercontent.com/life4/flakehell/master/assets/logo.png
-      link: https://github.com/life4/flakehell
-      info: Flake8 wrapper to make it nice, legacy-friendly, configurable.
     - name: Deal
       bg: https://github.com/life4/deal/raw/master/logo.png
       link: https://github.com/life4/deal
       info: Design by contract and property-based testing with static analysis.
-    - name: DjBrut
-      bg: https://github.com/life4/django-bruteforce-protection/raw/master/logo.png
-      link: https://github.com/orsinium-archive/django-bruteforce-protection
-      info: Bruteforce protection for Django projects based on Redis.
-      tags:
-        - django
-        - security
     - name: Homoglyphs
       bg: https://github.com/life4/homoglyphs/raw/master/logo.png
       link: https://github.com/life4/homoglyphs
@@ -41,12 +24,6 @@
       bg: https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png
       link: https://github.com/orsinium-labs/python-lambda-calculus
       info: Lambda Calculus functions implementation on Python.
-    - name: DjBurger
-      bg: https://github.com/orsinium-archive/djburger/raw/master/wiki/source/imgs/logo.png
-      link: https://github.com/orsinium-archive/djburger
-      info: Framework for safe and maintainable web-projects.
-      tags:
-        - django
     - name: vaa
       info: Validators Adapter. The common interface for all Python validators.
       link: https://github.com/life4/vaa
@@ -55,29 +32,12 @@
       link: https://github.com/orsinium-labs/send-file-bot
       tags:
         - telegram
-    - name: RuTimeParser
-      link: https://github.com/orsinium-archive/rutimeparser
-      info: Recognize date and time in Russian text and return datetime.datetime.
-    - name: dcrtrs
-      link: https://github.com/orsinium-archive/dcrtrs
-      info: Collection of useful Python decorators.
     - name: Zabbix Healthcheck
       info: Flask HealthCheck support for Zabbix.
       link: https://github.com/orsinium-labs/zabbix-healthcheck
       tags:
         - zabbix
         - monitoring
-    - name: poetry-setup
-      bg: https://github.com/orsinium-archive/poetry-setup/raw/master/assets/logo.png
-      info: Generate setup.py (setuptools) from pyproject.toml (poetry).
-      link: https://github.com/orsinium-archive/poetry-setup
-      tags:
-        - packaging
-    - name: install-requires
-      info: Convert requirements between formats.
-      link: https://github.com/orsinium-archive/install-requires
-      tags:
-        - packaging
     - name: Django Google Play permissions
       info: Django package for getting permissions for Android app from Google Play.
       link: https://github.com/orsinium-labs/django-google-play-permissions
@@ -89,6 +49,56 @@
     - name: Pathfinder Dice
       info: A library for evaluating dice notation for Pathfinder RPG.
       link: https://github.com/life4/pathfinder_dice
+    - name: dethklok
+      info: The most uncompromising Python code formatter ever
+      link: https://github.com/orsinium-labs/dethklok
+
+- name: Python Archive
+  icon:
+    fa: fas fa-archive
+  items:
+    - name: DepHell
+      bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
+      link: https://github.com/dephell/dephell
+      archived: true
+      tags:
+        - packaging
+      info: The best Python project manager, all-in-one solution with a smart resolver.
+    - name: FlakeHell
+      bg: https://raw.githubusercontent.com/life4/flakehell/master/assets/logo.png
+      link: https://github.com/life4/flakehell
+      archived: true
+      info: Flake8 wrapper to make it nice, legacy-friendly, configurable.
+    - name: DjBrut
+      bg: https://github.com/life4/django-bruteforce-protection/raw/master/logo.png
+      link: https://github.com/orsinium-archive/django-bruteforce-protection
+      info: Bruteforce protection for Django projects based on Redis.
+      tags:
+        - django
+        - security
+    - name: DjBurger
+      bg: https://github.com/orsinium-archive/djburger/raw/master/wiki/source/imgs/logo.png
+      link: https://github.com/orsinium-archive/djburger
+      info: Framework for safe and maintainable web-projects.
+      tags:
+        - django
+    - name: RuTimeParser
+      link: https://github.com/orsinium-archive/rutimeparser
+      info: Recognize date and time in Russian text and return datetime.datetime.
+    - name: dcrtrs
+      link: https://github.com/orsinium-archive/dcrtrs
+      info: Collection of useful Python decorators.
+    - name: poetry-setup
+      bg: https://github.com/orsinium-archive/poetry-setup/raw/master/assets/logo.png
+      info: Generate setup.py (setuptools) from pyproject.toml (poetry).
+      link: https://github.com/orsinium-archive/poetry-setup
+      tags:
+        - packaging
+    - name: install-requires
+      info: Convert requirements between formats.
+      link: https://github.com/orsinium-archive/install-requires
+      tags:
+        - packaging
     - name: DjChoices
       info: Good choices for Django
       link: https://github.com/orsinium-archive/djchoices
@@ -97,9 +107,6 @@
     - name: lefthook
       info: Lefthook wrapper to make it installable from pip.
       link: https://github.com/orsinium-archive/lefthook
-    - name: dethklok
-      info: The most uncompromising Python code formatter ever
-      link: https://github.com/orsinium-labs/dethklok
 
 - name: DepHell ecosystem
   icon:
