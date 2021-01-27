@@ -10,6 +10,12 @@
       # bg: https://raw.githubusercontent.com/life4/genesis/master/gopher.png
       info: "Typesafe concurrent generic functions for Go: map, filter, reduce, shuffle etc."
       link: https://github.com/life4/genesis
+    - name: MemFont
+      link: https://github.com/orsinium-labs/memfont
+    - link: https://github.com/orsinium-labs/reviewdog-gitlab-webhook
+      info: >
+        Trigger [reviewdog](https://github.com/reviewdog/reviewdog)
+        checks for GitLab repo using webhooks.
     - info: >
         Online client-side playground for FlakeHell.
         Powers [flakehell.orsinium.dev](https://flakehell.orsinium.dev/)
@@ -55,6 +61,8 @@
         common interface, optional external libs usage.
     - bg: https://github.com/life4/deal/raw/master/logo.png
       link: https://github.com/life4/deal
+      tags:
+        - flake8
     - name: Homoglyphs
       bg: https://github.com/life4/homoglyphs/raw/master/logo.png
       link: https://github.com/life4/homoglyphs
@@ -62,12 +70,20 @@
       tags:
         - security
     - link: https://github.com/orsinium-labs/eff
+    - link: https://github.com/orsinium-labs/flake8-codes
+      tags:
+        - flake8
+    - link: https://github.com/orsinium-labs/flake8-pylint
+      tags:
+        - flake8
+    - link: https://github.com/orsinium-labs/flake8-todos
+      tags:
+        - flake8
     - name: AOP
       link: https://github.com/orsinium-labs/aop
       info: Aspect oriented programming for Python.
     - bg: https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png
       link: https://github.com/orsinium-labs/python-lambda-calculus
-      info: Lambda Calculus functions implementation on Python.
     - info: Validators Adapter. The common interface for all Python validators.
       link: https://github.com/life4/vaa
     - name: Send File Bot
@@ -94,6 +110,8 @@
       link: https://github.com/life4/pathfinder_dice
     - info: The most uncompromising Python code formatter ever
       link: https://github.com/orsinium-labs/dethklok
+    - link: https://github.com/orsinium-labs/publishing
+    - link: https://github.com/orsinium-labs/requests-connection
 
 - name: Python Archive
   icon:
@@ -109,6 +127,8 @@
       bg: https://raw.githubusercontent.com/life4/flakehell/master/assets/logo.png
       link: https://github.com/life4/flakehell
       info: Flake8 wrapper to make it nice, legacy-friendly, configurable.
+      tags:
+        - flake8
     - name: DjBrut
       bg: https://github.com/life4/django-bruteforce-protection/raw/master/logo.png
       link: https://github.com/orsinium-archive/django-bruteforce-protection
@@ -210,6 +230,7 @@
       link: https://github.com/life4/awesome-go-code-formatters
       tags:
         - awesome
+    - link: https://github.com/orsinium/notes
     - name: Dependency Injectors
       info: Tests and comparison of Python dependency injection libraries.
       link: https://github.com/orsinium-labs/dependency_injectors
@@ -235,3 +256,10 @@
       link: https://github.com/orsinium-archive/usatu-ctf
       tags:
         - security
+    - info: Cards with wise words.
+      link: https://github.com/orsinium-labs/gram-cards
+    - name: pathfinder DB
+      link: https://github.com/orsinium-labs/pathfinder_db
+    - name: English
+      info: My English learning notes and cheat sheets.
+      link: https://github.com/orsinium/english
