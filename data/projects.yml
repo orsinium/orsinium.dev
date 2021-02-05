@@ -70,6 +70,12 @@
       tags:
         - security
     - link: https://github.com/orsinium-labs/eff
+    - link: https://github.com/orsinium-labs/buggy
+    - link: https://github.com/orsinium-labs/deferred-import
+    - link: https://github.com/orsinium-labs/vpypi
+    - link: https://github.com/orsinium-labs/flake8-length
+      tags:
+        - flake8
     - link: https://github.com/orsinium-labs/flake8-codes
       tags:
         - flake8
@@ -251,6 +257,8 @@
       tags:
         - elasic
         - monitoring
+    - link: https://github.com/orsinium-labs/luigi-example
+    - link: https://github.com/orsinium-labs/such-many-nothing
     - name: USATU CTF
       info: tasks, files, write-ups from my university CTF.
       link: https://github.com/orsinium-archive/usatu-ctf
