@@ -16,7 +16,11 @@ ORGS = [
 result = dict()
 for org in ORGS:
     print(org)
-    response = requests.get(URL.format(org=org), headers=HEADERS)
+    response = requests.get(
+        URL.format(org=org),
+        params=dict(per_page=100),
+        headers=HEADERS,
+    )
     response.raise_for_status()
     for project in response.json():
         result[project['html_url']] = dict(
