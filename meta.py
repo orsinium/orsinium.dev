@@ -28,7 +28,7 @@ for org in ORGS:
             archived=project['archived'],
             description=project['description'],
             language=project['language'],
-            updated_at=project['pushed_at'],
+            updated_at=project['pushed_at'].split('T')[0],
             license=(project['license'] or {}).get('spdx_id', ''),
         )
 

@@ -20,9 +20,10 @@
         {% if not name %}
           {% set name = item['link'].split('/')[-1] %}
         {% endif %}
+        {% set updated_at = meta.get(item['link'], {}).get('updated_at', '') %}
         {% if meta.get(item['link'])['archived'] %}
           <i class="text-muted fas fa-archive" title="archived"></i>
-        {% elif meta.get(item['link'], {}).get('updated_at', '') < threshold %}
+        {% elif updated_at and updated_at < threshold %}
           <i class="text-muted fas fa-snowflake" title="stale"></i>
         {% elif 'orsinium-labs' in item['link'] %}
           <i class="text-muted fas fa-flask" title="experimental"></i>
@@ -69,10 +70,11 @@
       </p>
     {% endif %}
 
-    {% if item['date'] %}
+    {% set date = meta.get(item['link'])['updated_at'] or item['date'] %}
+    {% if date %}
       <p>
         <i class="far fa-calendar-alt"></i>
-        {{ item['date'] }}
+        {{ date }}
       </p>
     {% endif %}
 
