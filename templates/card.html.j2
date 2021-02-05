@@ -23,7 +23,7 @@
         {% if meta.get(item['link'])['archived'] %}
           <i class="text-muted fas fa-archive" title="archived"></i>
         {% elif meta.get(item['link'], {}).get('updated_at', '') < threshold %}
-          <i class="text-muted fas fa-clock" title="stale"></i>
+          <i class="text-muted fas fa-snowflake" title="stale"></i>
         {% elif 'orsinium-labs' in item['link'] %}
           <i class="text-muted fas fa-flask" title="experimental"></i>
         {% endif %}

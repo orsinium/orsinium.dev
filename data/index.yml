@@ -56,11 +56,6 @@ links:
     pages:
       - cv
       - home
-  - name: twitter
-    icon: fab fa-twitter
-    link: https://twitter.com/orsinium
-    pages:
-      - home
   - name: stack overflow
     icon: fab fa-stack-overflow
     link: https://stackoverflow.com/users/8704691/gram
