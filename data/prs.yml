@@ -3,10 +3,6 @@
     fa: fas fa-running
     # mn: go
   items:
-    - name: pip-tools
-      info: PEP-517 (pyproject.toml) support.
-      date: 2021-03-22
-      link: https://github.com/jazzband/pip-tools/pull/1356
     - name: go-ruleguard
       bg: https://github.com/quasilyte/go-ruleguard/raw/master/docs/logo2.png
       info: A few linting rules.
@@ -28,6 +24,10 @@
     fa: fab fa-python
     mn: python
   items:
+    - name: pip-tools
+      info: PEP-517 (pyproject.toml) support.
+      date: 2021-03-22
+      link: https://github.com/jazzband/pip-tools/pull/1356
     - name: wemake-python-styleguide
       bg: https://github.com/wemake-services/wemake-python-styleguide/raw/master/docs/_static/logo.png
       info: Handle empty strings for annotations complexity metric (and add more tests).
