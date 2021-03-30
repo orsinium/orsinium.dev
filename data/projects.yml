@@ -69,7 +69,9 @@
       info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
       tags:
         - security
+    - link: https://github.com/orsinium-labs/deal-solver
     - link: https://github.com/orsinium-labs/eff
+    - link: https://github.com/orsinium-labs/eng
     - link: https://github.com/orsinium-labs/buggy
     - link: https://github.com/orsinium-labs/deferred-import
     - link: https://github.com/orsinium-labs/vpypi
