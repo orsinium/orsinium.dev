@@ -6,7 +6,9 @@
 
     <h5 class="card-title">
       {% if item['cert'] %}
-        <a href="{{ item['cert'] }}" title="see certificate" target="_blank"><i class="fas fa-check"></i></a>
+        <a href="{{ item['cert'] }}" title="show the certificate" target="_blank">
+          <i class="fas fa-check"></i>
+        </a>
       {% endif %}
       {% if 'mn' in item['icon'] %}
         <i class="text-muted icon-{{ item['icon']['mn'] }}"></i>

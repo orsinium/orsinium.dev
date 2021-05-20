@@ -27,6 +27,7 @@
         I know it well, can read a code, understand what's going on.
         And explain why PHP is bad.
     - name: HTML, CSS & LESS
+      cert: https://app.testdome.com/cert/9d8039b38e384002805977ef3a220ec4
       icon:
         fa: fab fa-html5
         mn: html-five
@@ -223,6 +224,7 @@
 - name: Soft skills
   content:
     - name: Scrum
+      cert: https://app.testdome.com/cert/0ab70dac1a26480f854fcbaa08cc7077
       icon:
         fa: fab fa-jira
       info: >
@@ -238,6 +240,7 @@
         team by Kanban and use Trello board to order my personal tasks.
         And it works great!
     - name: Leadership
+      cert: https://app.testdome.com/cert/84d2d278b12b4e7fab716ddeaa0c733f
       info: >
         I made my own web studio, [CTF team](https://ctftime.org/team/24077),
         patronized newbies in Smena, built and coordinate software
