@@ -43,16 +43,16 @@
 
 - name: Hard skills
   content:
-    - name: Linux
-      icon:
-        fa: fab fa-linux
-        mn: linux
-      cert: https://www.testdome.com/cert/eb426eb5ffe243bab4e78c92c31e531f
+    - name: Quality Assurance
+      cert: https://app.testdome.com/cert/54d8c8c8957f43fe9b9f0f505c9cf479
       info: >
-        I live in Linux for 8 years, can solve any issue from a terminal.
-        I've worked with different Linux distros (Ubuntu, Debian, CentOS),
-        set up physical servers, VPS, Raspberry Pi, Orange Pi.
+        Automated testing (unit, integration, acceptance, regression),
+        static code analysis, formal verification,
+        contract programming, mutation tests, type theory.
+        I like to push boundaries of my code to see how it performs in extreme
+        situations, to find interesting corner-cases, to dig math behind programming.
     - name: Security
+      cert: https://app.testdome.com/cert/95979e76c01f42c6afd8305f89d0af3d
       icon:
         fa: fas fa-shield-alt
       info: >
@@ -82,6 +82,15 @@
         I know design patterns, antipatterns, refactoring techniques, 12 factors, SOLID principles.
         In Cindicator a was the architect for the trading platform
         from the first lines of code to the successful launch.
+    - name: Linux
+      icon:
+        fa: fab fa-linux
+        mn: linux
+      cert: https://www.testdome.com/cert/eb426eb5ffe243bab4e78c92c31e531f
+      info: >
+        I live in Linux for 8 years, can solve any issue from a terminal.
+        I've worked with different Linux distros (Ubuntu, Debian, CentOS),
+        set up physical servers, VPS, Raspberry Pi, Orange Pi.
     - name: Logic
       icon:
         fa: fas fa-brain
@@ -100,25 +109,6 @@
         I <i class="far fa-heart"></i> math! I watch Numberphile,
         solve riddles and equations for fun, know how to apply
         math in my work to make code faster and even nicer.
-
-- name: Testing
-  content:
-    - name: Unit testing
-      info: >
-        All my Open Source projects have a lot of tests. For example,
-        [deal](https://github.com/life4/deal) has 100% coverage
-        and has been checked through performance and mutational tests.
-    - name: Load testing
-      info: >
-        In Smena I did a lot of performance testing with Locust,
-        did continuous system monitoring, and was responsible
-        for the system stability.
-    - name: Regression testing
-      info: >
-        In Cindicator it was critical to have a reliable trading
-        platform because of operating with big money. The first
-        version was manually checked, and for every next release,
-        I made hard regression tests on a lot of data and states.
 
 - name: DevOps
   content:
