@@ -10,6 +10,7 @@
       # bg: https://raw.githubusercontent.com/life4/genesis/master/gopher.png
       info: "Typesafe concurrent generic functions for Go: map, filter, reduce, shuffle etc."
       link: https://github.com/life4/genesis
+    - link: https://github.com/orsinium-labs/gcserve
     - name: MemFont
       link: https://github.com/orsinium-labs/memfont
     - link: https://github.com/orsinium-labs/reviewdog-gitlab-webhook
@@ -73,6 +74,9 @@
     - link: https://github.com/orsinium-labs/eff
     - link: https://github.com/orsinium-labs/eng
     - link: https://github.com/orsinium-labs/buggy
+    - link: https://github.com/orsinium-labs/confs
+    - link: https://github.com/orsinium-labs/flitenv
+    - link: https://github.com/orsinium-labs/typeforce
     - link: https://github.com/orsinium-labs/deferred-import
     - link: https://github.com/orsinium-labs/vpypi
     - link: https://github.com/orsinium-labs/flake8-length
