@@ -72,13 +72,7 @@
         - security
     - link: https://github.com/orsinium-labs/deal-solver
     - link: https://github.com/orsinium-labs/eff
-    - link: https://github.com/orsinium-labs/eng
-    - link: https://github.com/orsinium-labs/buggy
-    - link: https://github.com/orsinium-labs/confs
-    - link: https://github.com/orsinium-labs/flitenv
-    - link: https://github.com/orsinium-labs/typeforce
     - link: https://github.com/orsinium-labs/deferred-import
-    - link: https://github.com/orsinium-labs/vpypi
     - link: https://github.com/orsinium-labs/flake8-length
       tags:
         - flake8
@@ -120,10 +114,20 @@
     - name: Pathfinder Dice
       info: A library for evaluating dice notation for Pathfinder RPG.
       link: https://github.com/life4/pathfinder_dice
+    - link: https://github.com/orsinium-labs/publishing
+
+- name: Python CLI tools
+  icon:
+    fa: fas fa-terminal
+  items:
+    - link: https://github.com/orsinium-labs/eng
+    - link: https://github.com/orsinium-labs/buggy
+    - link: https://github.com/orsinium-labs/confs
+    - link: https://github.com/orsinium-labs/flitenv
+    - link: https://github.com/orsinium-labs/typeforce
+    - link: https://github.com/orsinium-labs/vpypi
     - info: The most uncompromising Python code formatter ever
       link: https://github.com/orsinium-labs/dethklok
-    - link: https://github.com/orsinium-labs/publishing
-    - link: https://github.com/orsinium-labs/requests-connection
 
 - name: Python Archive
   icon:
@@ -157,6 +161,7 @@
     - name: RuTimeParser
       link: https://github.com/orsinium-archive/rutimeparser
       info: Recognize date and time in Russian text and return datetime.datetime.
+    - link: https://github.com/orsinium-archive/requests-connection
     - link: https://github.com/orsinium-archive/dcrtrs
       info: Collection of useful Python decorators.
     - bg: https://github.com/orsinium-archive/poetry-setup/raw/master/assets/logo.png
