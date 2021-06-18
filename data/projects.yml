@@ -10,6 +10,9 @@
       # bg: https://raw.githubusercontent.com/life4/genesis/master/gopher.png
       info: "Typesafe concurrent generic functions for Go: map, filter, reduce, shuffle etc."
       link: https://github.com/life4/genesis
+    - link: https://github.com/orsinium-labs/sourcemap
+    - link: https://github.com/orsinium-labs/gamepad
+    - link: https://github.com/orsinium-labs/imgshow
     - link: https://github.com/orsinium-labs/gcserve
     - name: MemFont
       link: https://github.com/orsinium-labs/memfont

@@ -54,5 +54,5 @@
       link: https://diglib.eg.org/bitstream/handle/10.2312/eurova20191125/055-059.pdf
     - name: More science articles
       author: scholar.google.com
-      link: https://scholar.google.com/scholar?q="textdistance"
+      link: https://scholar.google.com/scholar?q=%22textdistance%22
       class: text-white bg-dark

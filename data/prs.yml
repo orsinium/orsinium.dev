@@ -24,6 +24,16 @@
     fa: fab fa-python
     mn: python
   items:
+    - name: z3
+      bg: https://github.com/Z3Prover/z3/raw/master/resources/icon.jpg
+      info: Fix PEP-8 violations.
+      date: 2021-05-23
+      link: https://github.com/Z3Prover/z3/pull/5295
+    - name: flit
+      bg: https://github.com/takluyver/flit/raw/master/doc/_static/flit_logo_nobg_cropped.png
+      info: "Allow `Private :: Do Not Upload` classifier."
+      date: 2021-04-02
+      link: https://github.com/takluyver/flit/pull/390
     - name: pip-tools
       info: PEP-517 (pyproject.toml) support.
       date: 2021-03-22
