@@ -1,3 +1,12 @@
+- name: deal
+  icon:
+    fa: fas fa-file-contract
+  items:
+    - name: Make tests a part of your app
+      date: 2021-02-28
+      author: Nikita Sobolev
+      link: https://sobolevn.me/2021/02/make-tests-a-part-of-your-app
+
 - name: flakehell
   icon:
     fa: fas fa-snowflake
