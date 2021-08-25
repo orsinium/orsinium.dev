@@ -3,5 +3,8 @@
   href="{{ item['link'] }}"
   {% if 'https:' in item['link'] %}target="_blank"{% endif %}
 >
-    {{ item['name'] }}
+  {% if item['icon'] %}
+    <i class="{{ item['icon'] }}"></i>
+  {% endif %}
+  {{ item['name'] }}
 </a>

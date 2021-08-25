@@ -1,16 +1,27 @@
 - name: "Links"
   slug: "index"
+  icon: fas fa-home
 - name: "Projects"
   slug: "projects"
+  icon: fas fa-tools
 - name: "Pull Requests"
   slug: "prs"
+  icon: fas fa-hands-helping
 - name: "Talks"
   slug: "talks"
+  icon: fas fa-microphone
 - name: "Channels"
   slug: "channels"
+  icon: fas fa-bullhorn
 - name: "Skills"
   slug: "skills"
+  icon: fas fa-brain
 - name: "Work"
   slug: "work"
+  icon: fas fa-briefcase
 - name: "Community"
   slug: "community"
+  icon: fas fa-newspaper
+- name: "Donate"
+  link: "https://github.com/sponsors/orsinium"
+  icon: far fa-heart

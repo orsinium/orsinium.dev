@@ -15,7 +15,7 @@ buttons = yaml.safe_load(Path('data', 'buttons.yml').open())
 menu = yaml.safe_load(Path('data', 'names.yml').open())
 meta = yaml.safe_load(Path('data', 'meta.yml').open())
 
-titles = {item['slug']: item['name'] for item in menu}
+titles = {item['slug']: item['name'] for item in menu if 'slug' in item}
 for item in menu:
     if 'link' not in item:
         item['link'] = './{}.html'.format(item['slug'])
