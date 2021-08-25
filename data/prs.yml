@@ -71,6 +71,11 @@
       info: Code examples for documentation
       date: 2019-01-28
       link: https://github.com/has2k1/plotnine-examples/pulls?q=is%3Apr+is%3Aclosed+author%3Aorsinium
+    - name: bandit
+      bg: https://raw.githubusercontent.com/PyCQA/bandit/master/logo/logomark.png
+      info: PEP-518 (pyproject.toml) support
+      date: 2018-10-08
+      link: https://github.com/PyCQA/bandit/pull/401
     - name: delorean
       bg: https://github.com/myusuf3/delorean/raw/master/docs/_static/delorean.png
       info: Fixed ISO date parsing

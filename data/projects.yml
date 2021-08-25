@@ -73,21 +73,12 @@
       info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
       tags:
         - security
-    - link: https://github.com/orsinium-labs/deal-solver
+    - link: https://github.com/life4/deal-solver
+    - link: https://github.com/orsinium-labs/bux
+      info: Python SDK and CLI for [BUX Zero](http://getbux.com/)
     - link: https://github.com/orsinium-labs/eff
+    - link: https://github.com/orsinium-labs/mypy-test
     - link: https://github.com/orsinium-labs/deferred-import
-    - link: https://github.com/orsinium-labs/flake8-length
-      tags:
-        - flake8
-    - link: https://github.com/orsinium-labs/flake8-codes
-      tags:
-        - flake8
-    - link: https://github.com/orsinium-labs/flake8-pylint
-      tags:
-        - flake8
-    - link: https://github.com/orsinium-labs/flake8-todos
-      tags:
-        - flake8
     - name: AOP
       link: https://github.com/orsinium-labs/aop
       info: Aspect oriented programming for Python.
@@ -118,6 +109,20 @@
       info: A library for evaluating dice notation for Pathfinder RPG.
       link: https://github.com/life4/pathfinder_dice
     - link: https://github.com/orsinium-labs/publishing
+    - link: https://github.com/orsinium-labs/huispedia
+      info: Crawler for [huispedia.nl](https://huispedia.nl/)
+    - link: https://github.com/orsinium-labs/pararius
+      info: Crawler for [pararius.nl](https://pararius.nl/)
+
+- name: Flake8 plugins
+  icon:
+    fa: fas fa-check
+  items:
+    - link: https://github.com/orsinium-labs/flake8-length
+    - link: https://github.com/orsinium-labs/flake8-codes
+    - link: https://github.com/orsinium-labs/flake8-pylint
+    - link: https://github.com/orsinium-labs/flake8-todos
+    - link: https://github.com/orsinium-labs/flake8-comments
 
 - name: Python CLI tools
   icon:
