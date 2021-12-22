@@ -3,13 +3,11 @@
     fa: fas fa-running
     # mn: go
   items:
+    - link: https://github.com/life4/gweb
+    - link: https://github.com/life4/genesis
+      info: >
+        Generic functions for Go 1.18: Filter, Map, Reduce, Min, Sort, etc.
     - link: https://github.com/life4/logit
-    - name: GWeb
-      link: https://github.com/life4/gweb
-    - name: Genesis
-      # bg: https://raw.githubusercontent.com/life4/genesis/master/gopher.png
-      info: "Typesafe concurrent generic functions for Go: map, filter, reduce, shuffle etc."
-      link: https://github.com/life4/genesis
     - link: https://github.com/orsinium-labs/sourcemap
     - link: https://github.com/orsinium-labs/gamepad
     - link: https://github.com/orsinium-labs/imgshow
@@ -74,6 +72,7 @@
       tags:
         - security
     - link: https://github.com/life4/deal-solver
+    - link: https://github.com/orsinium-labs/svg.py
     - link: https://github.com/orsinium-labs/bux
       info: Python SDK and CLI for [BUX Zero](http://getbux.com/)
     - link: https://github.com/orsinium-labs/eff
@@ -109,6 +108,8 @@
       info: A library for evaluating dice notation for Pathfinder RPG.
       link: https://github.com/life4/pathfinder_dice
     - link: https://github.com/orsinium-labs/publishing
+    - link: https://github.com/orsinium-labs/marktplaats
+      info: A script for [marktplaats.nl](https://www.marktplaats.nl/) search notifications.
     - link: https://github.com/orsinium-labs/huispedia
       info: Crawler for [huispedia.nl](https://huispedia.nl/)
     - link: https://github.com/orsinium-labs/pararius

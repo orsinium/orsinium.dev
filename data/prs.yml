@@ -24,6 +24,11 @@
     fa: fab fa-python
     mn: python
   items:
+    - name: CrossHair
+      bg: https://raw.githubusercontent.com/pschanely/CrossHair/master/doc/source/logo.png
+      info: Deal integration.
+      date: 2021-10-07
+      link: https://github.com/pschanely/CrossHair/pull/117
     - name: z3
       bg: https://github.com/Z3Prover/z3/raw/master/resources/icon.jpg
       info: Fix PEP-8 violations.

@@ -3,21 +3,25 @@ import yaml
 
 IGNORE = {
     'https://github.com/dephell/dephell_homepage',
+
+    'https://github.com/orsinium-archive/bowler-py35',
     'https://github.com/orsinium-archive/djcore',
+    'https://github.com/orsinium-archive/fissix-py35',
     'https://github.com/orsinium-archive/kaspersky-ctf-scada-write-up',
     'https://github.com/orsinium-archive/likes',
+    'https://github.com/orsinium-archive/mlcourse',
+    'https://github.com/orsinium-archive/my-go',
     'https://github.com/orsinium-archive/requests-connection',
     'https://github.com/orsinium-archive/skyeng',
     'https://github.com/orsinium-archive/vksploit',
     'https://github.com/orsinium-archive/workout',
     'https://github.com/orsinium-labs/memcached',
     'https://github.com/orsinium-labs/turtle',
-    'https://github.com/orsinium/bowler-py35',
-    'https://github.com/orsinium/fissix-py35',
+
     'https://github.com/orsinium/forks',
-    'https://github.com/orsinium/mlcourse',
-    'https://github.com/orsinium/my-go',
     'https://github.com/orsinium/orsinium.dev',
+    'https://github.com/orsinium/orsinium',
+
     'https://github.com/typeddjango/django-mypy-plugin',
     'https://github.com/typeddjango/django-stubs',
     'https://github.com/typeddjango/djangorestframework-stubs',

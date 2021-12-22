@@ -52,7 +52,7 @@
 
     {% set info = item.get('info', '').rstrip() or meta.get(item['link'])['description'] %}
     {% if info %}
-      {% if info[-1] != '.' %}
+      {% if info[-1] not in '.?!' %}
         {% set info = info + '.' %}
       {% endif %}
       <p class="card-text">
