@@ -1,4 +1,8 @@
-<div class="card col {{ item['class'] }}">
+<div
+  class="card col {{ item['class'] }}"
+  x-data="{ tag_ids: {{ item.tag_ids }} }"
+  x-show="all_enabled(tag_ids)"
+>
   <div class="card-body">
     {% if 'image' in item %}
       <img class="card-img-top" src="./assets/{{ item['image'] }}" />

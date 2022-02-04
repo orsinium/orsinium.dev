@@ -3,12 +3,26 @@
 {% block content %}
   <div class="container">
     <h1 id="Projects">Projects</h1>
-    <div class="row">
-      <form class="col-2">
+    <div
+      class="row"
+      x-data="{
+        enabled_tags: [],
+        all_enabled(tag_ids) {
+          if (this.enabled_tags.length == 0) {
+            return true
+          }
+          if (tag_ids.length == 0) {
+            return false
+          }
+          return this.enabled_tags.every(t => tag_ids.includes(t))
+        }
+      }"
+    >
+      <form class="col-sm-12 col-md-3 col-lg-2">
         {% for tag in items.tags %}
           {% if tag.count > 1 %}
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="{{ tag.id }}">
+              <input class="form-check-input" type="checkbox" value="{{ tag.id }}" id="{{ tag.id }}" x-model="enabled_tags">
               <label class="form-check-label" for="{{ tag.id }}">
                 {{ tag.name }} ({{ tag.count }})
               </label>

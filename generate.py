@@ -6,6 +6,7 @@ from collections import Counter
 
 import yaml
 from jinja2 import Environment, FileSystemLoader
+from cached_property import cached_property
 
 
 env = Environment(
@@ -26,14 +27,35 @@ class Tag:
 
     @property
     def id(self):
-        return 'tag-' + self.name
+        return 'tag_' + self.name
+
+
+@dataclass
+class Project:
+    data: Dict[str, Any]
+
+    def __getitem__(self, name):
+        return self.data[name]
+
+    def __getattr__(self, name):
+        return getattr(self.data, name)
+
+    def __contains__(self, name):
+        return name in self.data
+
+    @property
+    def tag_ids(self):
+        ids = []
+        for t in self.data.get('tags', []):
+            ids.append(Tag(name=t, count=0).id)
+        return ids
 
 
 @dataclass
 class Projects:
     items: List[Dict[str, Any]]
 
-    @property
+    @cached_property
     def tags(self) -> Iterator[Tag]:
         tags: Counter[str] = Counter()
         for item in self.items:
@@ -42,7 +64,8 @@ class Projects:
             yield Tag(name=name, count=count)
 
     def __iter__(self):
-        yield from self.items
+        for item in self.items:
+            yield Project(item)
 
 
 WRAPPERS = dict(
