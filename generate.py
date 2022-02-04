@@ -98,6 +98,14 @@ class Project:
     @cached_property
     def tags(self) -> List[Tag]:
         tags: List[Tag] = []
+
+        if 'lang' in self.data:
+            tags.append(Tag(self.data['lang'], show=False))
+        if 'https://t.me/s/' in self.data.get('link', ''):
+            tags.append(Tag('channel'))
+        if 'https://github.com/' in self.data.get('link', ''):
+            tags.append(Tag('oss'))
+
         if self.meta:
             lang = self.meta['language']
             if lang:
@@ -110,8 +118,7 @@ class Project:
                 tags.append(Tag('stale', show=False))
             if self.cli:
                 tags.append(Tag('cli'))
-        if 'lang' in self.data:
-            tags.append(Tag(self.data['lang'], show=False))
+
         tag_names = {t.name for t in tags}
         for t in self.data.get('tags', []):
             if t in tag_names:
