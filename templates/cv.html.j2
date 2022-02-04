@@ -73,15 +73,13 @@
       <hr/>
       <h2>Projects</h2>
       <div class="row">
-        {% for group in (projects[0]['items'][:4], projects[2]['items'][:1]) %}
-          {% for item in group %}
+        {% for item in projects[:5] %}
           <div class="col-md-4">
             <h4>
               <a href="{{ item['link'] }}" target="_blank">{{ item['name'] }}</a>
             </h4>
             <p>{{ item['info'] }}</p>
           </div>
-          {% endfor %}
         {% endfor %}
         <div class="col-md-4">
           <h4>More!</h4>

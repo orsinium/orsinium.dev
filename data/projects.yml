@@ -1,293 +1,296 @@
-- name: Go
-  icon:
-    fa: fas fa-running
-    # mn: go
-  items:
-    - link: https://github.com/life4/gweb
-    - link: https://github.com/life4/genesis
-      info: >
-        Generic functions for Go 1.18: Filter, Map, Reduce, Min, Sort, etc.
-    - link: https://github.com/life4/logit
-    - link: https://github.com/orsinium-labs/sourcemap
-    - link: https://github.com/orsinium-labs/gamepad
-    - link: https://github.com/orsinium-labs/imgshow
-    - link: https://github.com/orsinium-labs/gcserve
-    - name: MemFont
-      link: https://github.com/orsinium-labs/memfont
-    - link: https://github.com/orsinium-labs/reviewdog-gitlab-webhook
-      info: >
-        Trigger [reviewdog](https://github.com/reviewdog/reviewdog)
-        checks for GitLab repo using webhooks.
-    - info: >
-        Online client-side playground for FlakeHell.
-        Powers [flakehell.orsinium.dev](https://flakehell.orsinium.dev/)
-        using GWeb and pyodide.
-      link: https://github.com/life4/flakehell-online
-    - info: Online playground for [go-ruleguard](https://github.com/quasilyte/go-ruleguard).
-      link: https://github.com/life4/ruleguard-playground
-    - name: TelloWerk
-      info: "Experiments with DJI Tello drone: navigation, voice synthesization and recognition, face detection"
-      link: https://github.com/orsinium-labs/tellowerk
-    - name: Chameleon
-      bg: https://raw.githubusercontent.com/orsinium/chameleon/master/assets/mstile-144x144.png
-      info: >
-        Make blog from markdown files on Github.
-        Powers [articles.orsinium.dev](https://articles.orsinium.dev/).
-      link: https://github.com/life4/chameleon
-    - name: graphql.orsinium.dev
-      info: >
-        A simple GraphQL API for my website.
-        Powers [graphql.orsinium.dev](https://graphql.orsinium.dev/).
-      link: https://github.com/orsinium-labs/graphql.orsinium.dev
-    - name: LikeForce
-      bg: https://raw.githubusercontent.com/kmddd59/emojis/master/blob%20Emojis/googleblueheart.png
-      info: Telegram bot to have likes and rating in chats.
-      link: https://github.com/orsinium-archive/likeforce
-    - name: Awesome Generator
-      # bg: https://github.com/orsinium-labs/awesome-generator/raw/master/logo.png
-      link: https://github.com/orsinium-labs/awesome-generator
-      tags:
-        - awesome
+- link: https://github.com/life4/gweb
+- link: https://github.com/life4/genesis
+  info: >
+    Generic functions for Go 1.18: Filter, Map, Reduce, Min, Sort, etc.
+- link: https://github.com/life4/logit
+- link: https://github.com/orsinium-labs/sourcemap
+- link: https://github.com/orsinium-labs/gamepad
+- link: https://github.com/orsinium-labs/imgshow
+- link: https://github.com/orsinium-labs/gcserve
+- name: MemFont
+  link: https://github.com/orsinium-labs/memfont
+- link: https://github.com/orsinium-labs/reviewdog-gitlab-webhook
+  info: >
+    Trigger [reviewdog](https://github.com/reviewdog/reviewdog)
+    checks for GitLab repo using webhooks.
+- info: >
+    Online client-side playground for FlakeHell.
+    Powers [flakehell.orsinium.dev](https://flakehell.orsinium.dev/)
+    using GWeb and pyodide.
+  link: https://github.com/life4/flakehell-online
+- info: Online playground for [go-ruleguard](https://github.com/quasilyte/go-ruleguard).
+  link: https://github.com/life4/ruleguard-playground
+- name: TelloWerk
+  info: "Experiments with DJI Tello drone: navigation, voice synthesization and recognition, face detection"
+  link: https://github.com/orsinium-labs/tellowerk
+- name: Chameleon
+  bg: https://raw.githubusercontent.com/orsinium/chameleon/master/assets/mstile-144x144.png
+  info: >
+    Make blog from markdown files on Github.
+    Powers [articles.orsinium.dev](https://articles.orsinium.dev/).
+  link: https://github.com/life4/chameleon
+- name: graphql.orsinium.dev
+  info: >
+    A simple GraphQL API for my website.
+    Powers [graphql.orsinium.dev](https://graphql.orsinium.dev/).
+  link: https://github.com/orsinium-labs/graphql.orsinium.dev
+- name: LikeForce
+  bg: https://raw.githubusercontent.com/kmddd59/emojis/master/blob%20Emojis/googleblueheart.png
+  info: Telegram bot to have likes and rating in chats.
+  link: https://github.com/orsinium-archive/likeforce
+- name: Awesome Generator
+  # bg: https://github.com/orsinium-labs/awesome-generator/raw/master/logo.png
+  link: https://github.com/orsinium-labs/awesome-generator
+  tags:
+    - awesome
 
-- name: Python
-  icon:
-    fa: fab fa-python
-    mn: python
-  items:
-    - name: TextDistance
-      bg: https://github.com/life4/textdistance/raw/master/logo.png
-      link: https://github.com/life4/textdistance
-      info: >
-        Compute the distance between sequences.
-        30+ algorithms, pure python implementation,
-        common interface, optional external libs usage.
-    - bg: https://github.com/life4/deal/raw/master/logo.png
-      link: https://github.com/life4/deal
-      tags:
-        - flake8
-    - name: Homoglyphs
-      bg: https://github.com/life4/homoglyphs/raw/master/logo.png
-      link: https://github.com/life4/homoglyphs
-      info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
-      tags:
-        - security
-    - link: https://github.com/life4/deal-solver
-    - link: https://github.com/orsinium-labs/svg.py
-    - link: https://github.com/orsinium-labs/bux
-      info: Python SDK and CLI for [BUX Zero](http://getbux.com/)
-    - link: https://github.com/orsinium-labs/eff
-    - link: https://github.com/orsinium-labs/mypy-test
-    - link: https://github.com/orsinium-labs/deferred-import
-    - name: AOP
-      link: https://github.com/orsinium-labs/aop
-      info: Aspect oriented programming for Python.
-    - bg: https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png
-      link: https://github.com/orsinium-labs/python-lambda-calculus
-    - info: Validators Adapter. The common interface for all Python validators.
-      link: https://github.com/life4/vaa
-    - name: Send File Bot
-      info: Telegram bot for sending files to chat or channel by cron.
-      link: https://github.com/orsinium-labs/send-file-bot
-      tags:
-        - telegram
-    - name: Zabbix Healthcheck
-      info: Flask HealthCheck support for Zabbix.
-      link: https://github.com/orsinium-labs/zabbix-healthcheck
-      tags:
-        - zabbix
-        - monitoring
-    - name: Django Google Play permissions
-      info: Django package for getting permissions for Android app from Google Play.
-      link: https://github.com/orsinium-labs/django-google-play-permissions
-      tags:
-        - docker
-    - name: Swag
-      info: "ᙏáḱє ‡ɘχτ !η ẃɨŧ¢н-ħ∅υѕé ѕ†ɏƖε (Ɛñ9ĺïś♄ & Řᵾśѕ!áη)"
-      link: https://github.com/orsinium-labs/swag
-    - name: Pathfinder Dice
-      info: A library for evaluating dice notation for Pathfinder RPG.
-      link: https://github.com/life4/pathfinder_dice
-    - link: https://github.com/orsinium-labs/publishing
-    - link: https://github.com/orsinium-labs/marktplaats
-      info: A script for [marktplaats.nl](https://www.marktplaats.nl/) search notifications.
-    - link: https://github.com/orsinium-labs/huispedia
-      info: Crawler for [huispedia.nl](https://huispedia.nl/)
-    - link: https://github.com/orsinium-labs/pararius
-      info: Crawler for [pararius.nl](https://pararius.nl/)
+- name: TextDistance
+  bg: https://github.com/life4/textdistance/raw/master/logo.png
+  link: https://github.com/life4/textdistance
+  info: >
+    Compute the distance between sequences.
+    30+ algorithms, pure python implementation,
+    common interface, optional external libs usage.
+- bg: https://github.com/life4/deal/raw/master/logo.png
+  link: https://github.com/life4/deal
+  tags:
+    - flake8
+- name: Homoglyphs
+  bg: https://github.com/life4/homoglyphs/raw/master/logo.png
+  link: https://github.com/life4/homoglyphs
+  info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
+  tags:
+    - security
+- link: https://github.com/life4/deal-solver
+- link: https://github.com/orsinium-labs/svg.py
+- link: https://github.com/orsinium-labs/bux
+  info: Python SDK and CLI for [BUX Zero](http://getbux.com/)
+- link: https://github.com/orsinium-labs/eff
+- link: https://github.com/orsinium-labs/mypy-test
+- link: https://github.com/orsinium-labs/deferred-import
+- name: AOP
+  link: https://github.com/orsinium-labs/aop
+  info: Aspect oriented programming for Python.
+- bg: https://wiki.haskell.org/wikiupload/4/4a/HaskellLogoStyPreview-1.png
+  link: https://github.com/orsinium-labs/python-lambda-calculus
+- info: Validators Adapter. The common interface for all Python validators.
+  link: https://github.com/life4/vaa
+- name: Send File Bot
+  info: Telegram bot for sending files to chat or channel by cron.
+  link: https://github.com/orsinium-labs/send-file-bot
+  tags:
+    - telegram
+- name: Zabbix Healthcheck
+  info: Flask HealthCheck support for Zabbix.
+  link: https://github.com/orsinium-labs/zabbix-healthcheck
+  tags:
+    - zabbix
+    - monitoring
+- name: Django Google Play permissions
+  info: Django package for getting permissions for Android app from Google Play.
+  link: https://github.com/orsinium-labs/django-google-play-permissions
+  tags:
+    - docker
+- name: Swag
+  info: "ᙏáḱє ‡ɘχτ !η ẃɨŧ¢н-ħ∅υѕé ѕ†ɏƖε (Ɛñ9ĺïś♄ & Řᵾśѕ!áη)"
+  link: https://github.com/orsinium-labs/swag
+- name: Pathfinder Dice
+  info: A library for evaluating dice notation for Pathfinder RPG.
+  link: https://github.com/life4/pathfinder_dice
+- link: https://github.com/orsinium-labs/publishing
+- link: https://github.com/orsinium-labs/marktplaats
+  info: A script for [marktplaats.nl](https://www.marktplaats.nl/) search notifications.
+- link: https://github.com/orsinium-labs/huispedia
+  info: Crawler for [huispedia.nl](https://huispedia.nl/)
+- link: https://github.com/orsinium-labs/pararius
+  info: Crawler for [pararius.nl](https://pararius.nl/)
 
-- name: Flake8 plugins
-  icon:
-    fa: fas fa-check
-  items:
-    - link: https://github.com/orsinium-labs/flake8-length
-    - link: https://github.com/orsinium-labs/flake8-codes
-    - link: https://github.com/orsinium-labs/flake8-pylint
-    - link: https://github.com/orsinium-labs/flake8-todos
-    - link: https://github.com/orsinium-labs/flake8-comments
+- link: https://github.com/orsinium-labs/flake8-length
+  tags:
+    - python
+    - flake8
+- link: https://github.com/orsinium-labs/flake8-codes
+  tags:
+    - python
+    - flake8
+- link: https://github.com/orsinium-labs/flake8-pylint
+  tags:
+    - python
+    - flake8
+- link: https://github.com/orsinium-labs/flake8-todos
+  tags:
+    - python
+    - flake8
+- link: https://github.com/orsinium-labs/flake8-comments
 
-- name: Python CLI tools
-  icon:
-    fa: fas fa-terminal
-  items:
-    - link: https://github.com/orsinium-labs/eng
-    - link: https://github.com/orsinium-labs/buggy
-    - link: https://github.com/orsinium-labs/confs
-    - link: https://github.com/orsinium-labs/flitenv
-    - link: https://github.com/orsinium-labs/typeforce
-    - link: https://github.com/orsinium-labs/vpypi
-    - info: The most uncompromising Python code formatter ever
-      link: https://github.com/orsinium-labs/dethklok
+- link: https://github.com/orsinium-labs/eng
+  tags:
+    - python
+    - cli
+- link: https://github.com/orsinium-labs/buggy
+  tags:
+    - python
+    - cli
+- link: https://github.com/orsinium-labs/confs
+  tags:
+    - python
+    - cli
+- link: https://github.com/orsinium-labs/flitenv
+  tags:
+    - python
+    - cli
+- link: https://github.com/orsinium-labs/typeforce
+  tags:
+    - python
+    - cli
+- link: https://github.com/orsinium-labs/vpypi
+  tags:
+    - python
+    - cli
+- info: The most uncompromising Python code formatter ever
+  link: https://github.com/orsinium-labs/dethklok
+  tags:
+    - python
+    - cli
 
-- name: Python Archive
-  icon:
-    fa: fas fa-archive
-  items:
-    - name: DepHell
-      bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
-      link: https://github.com/dephell/dephell
-      tags:
-        - packaging
-      info: The best Python project manager, all-in-one solution with a smart resolver.
-    - name: FlakeHell
-      bg: https://raw.githubusercontent.com/life4/flakehell/master/assets/logo.png
-      link: https://github.com/life4/flakehell
-      info: Flake8 wrapper to make it nice, legacy-friendly, configurable.
-      tags:
-        - flake8
-    - name: DjBrut
-      bg: https://github.com/life4/django-bruteforce-protection/raw/master/logo.png
-      link: https://github.com/orsinium-archive/django-bruteforce-protection
-      info: Bruteforce protection for Django projects based on Redis.
-      tags:
-        - django
-        - security
-    - name: DjBurger
-      bg: https://github.com/orsinium-archive/djburger/raw/master/wiki/source/imgs/logo.png
-      link: https://github.com/orsinium-archive/djburger
-      info: Framework for safe and maintainable web-projects.
-      tags:
-        - django
-    - name: RuTimeParser
-      link: https://github.com/orsinium-archive/rutimeparser
-      info: Recognize date and time in Russian text and return datetime.datetime.
-    - link: https://github.com/orsinium-archive/requests-connection
-    - link: https://github.com/orsinium-archive/dcrtrs
-      info: Collection of useful Python decorators.
-    - bg: https://github.com/orsinium-archive/poetry-setup/raw/master/assets/logo.png
-      info: Generate setup.py (setuptools) from pyproject.toml (poetry).
-      link: https://github.com/orsinium-archive/poetry-setup
-      tags:
-        - packaging
-    - info: Convert requirements between formats.
-      link: https://github.com/orsinium-archive/install-requires
-      tags:
-        - packaging
-    - name: DjChoices
-      info: Good choices for Django
-      link: https://github.com/orsinium-archive/djchoices
-      tags:
-        - django
-    - info: Lefthook wrapper to make it installable from pip.
-      link: https://github.com/orsinium-archive/lefthook
+# python archived
+- name: DepHell
+  bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
+  link: https://github.com/dephell/dephell
+  tags:
+    - packaging
+  info: The best Python project manager, all-in-one solution with a smart resolver.
+- name: FlakeHell
+  bg: https://raw.githubusercontent.com/life4/flakehell/master/assets/logo.png
+  link: https://github.com/life4/flakehell
+  info: Flake8 wrapper to make it nice, legacy-friendly, configurable.
+  tags:
+    - flake8
+- name: DjBrut
+  bg: https://github.com/life4/django-bruteforce-protection/raw/master/logo.png
+  link: https://github.com/orsinium-archive/django-bruteforce-protection
+  info: Bruteforce protection for Django projects based on Redis.
+  tags:
+    - django
+    - security
+- name: DjBurger
+  bg: https://github.com/orsinium-archive/djburger/raw/master/wiki/source/imgs/logo.png
+  link: https://github.com/orsinium-archive/djburger
+  info: Framework for safe and maintainable web-projects.
+  tags:
+    - django
+- name: RuTimeParser
+  link: https://github.com/orsinium-archive/rutimeparser
+  info: Recognize date and time in Russian text and return datetime.datetime.
+- link: https://github.com/orsinium-archive/requests-connection
+- link: https://github.com/orsinium-archive/dcrtrs
+  info: Collection of useful Python decorators.
+- bg: https://github.com/orsinium-archive/poetry-setup/raw/master/assets/logo.png
+  info: Generate setup.py (setuptools) from pyproject.toml (poetry).
+  link: https://github.com/orsinium-archive/poetry-setup
+  tags:
+    - packaging
+- info: Convert requirements between formats.
+  link: https://github.com/orsinium-archive/install-requires
+  tags:
+    - packaging
+- name: DjChoices
+  info: Good choices for Django
+  link: https://github.com/orsinium-archive/djchoices
+  tags:
+    - django
+- info: Lefthook wrapper to make it installable from pip.
+  link: https://github.com/orsinium-archive/lefthook
 
-- name: DepHell ecosystem
-  icon:
-    fa: fas fa-fire
-  items:
-    - info: Find and parse changelog for a given python package.
-      link: https://github.com/dephell/dephell_changelogs
-    - info: Manage virtual environments.
-      link: https://github.com/dephell/dephell_venvs
-    - info: Bump project version like a pro.
-      link: https://github.com/dephell/dephell_versioning
-    - info: Work with python versions.
-      link: https://github.com/dephell/dephell_pythons
-    - info: Work with version specifiers (can parse PEP-440, SemVer, Ruby, NPM, Maven).
-      link: https://github.com/dephell/dephell_specifier
-    - info: Find project modules and data files (packages and package_data for setup.py).
-      link: https://github.com/dephell/dephell_discover
-    - info: Work with environment markers (PEP-496).
-      link: https://github.com/dephell/dephell_markers
-    - info: Activate virtual environment for current shell.
-      link: https://github.com/dephell/dephell_shells
-    - info: Parse dependency links.
-      link: https://github.com/dephell/dephell_links
-    - info: Get info about OSS licenses.
-      link: https://github.com/dephell/dephell_licenses
-    - info: Pathlib for archives.
-      link: https://github.com/dephell/dephell_archive
-    - info: Read setup.py (static and dynamic parsers).
-      link: https://github.com/dephell/dephell_setuptools
-    - info: Argparse with groups, commands, colors, and fuzzy matching.
-      link: https://github.com/dephell/dephell_argparse
-    - info: GitHub Action for dephell_archive.
-      link: https://github.com/dephell/dephell_action
+# dephell
+- info: Find and parse changelog for a given python package.
+  link: https://github.com/dephell/dephell_changelogs
+- info: Manage virtual environments.
+  link: https://github.com/dephell/dephell_venvs
+- info: Bump project version like a pro.
+  link: https://github.com/dephell/dephell_versioning
+- info: Work with python versions.
+  link: https://github.com/dephell/dephell_pythons
+- info: Work with version specifiers (can parse PEP-440, SemVer, Ruby, NPM, Maven).
+  link: https://github.com/dephell/dephell_specifier
+- info: Find project modules and data files (packages and package_data for setup.py).
+  link: https://github.com/dephell/dephell_discover
+- info: Work with environment markers (PEP-496).
+  link: https://github.com/dephell/dephell_markers
+- info: Activate virtual environment for current shell.
+  link: https://github.com/dephell/dephell_shells
+- info: Parse dependency links.
+  link: https://github.com/dephell/dephell_links
+- info: Get info about OSS licenses.
+  link: https://github.com/dephell/dephell_licenses
+- info: Pathlib for archives.
+  link: https://github.com/dephell/dephell_archive
+- info: Read setup.py (static and dynamic parsers).
+  link: https://github.com/dephell/dephell_setuptools
+- info: Argparse with groups, commands, colors, and fuzzy matching.
+  link: https://github.com/dephell/dephell_argparse
+- info: GitHub Action for dephell_archive.
+  link: https://github.com/dephell/dephell_action
 
-- name: DS and ML
-  icon:
-    fa: fas fa-robot
-  items:
-    - name: MovieLens
-      info: Estimators and selectors for MovieLens dataset.
-      link: https://github.com/orsinium-labs/MovieLens
-    - name: nobel
-      info: Analyze Nobel Prize Laureates
-      link: https://github.com/orsinium-labs/nobel
-    - name: hh.ru
-      info: hh.ru vacancies analyze by different params
-      link: https://github.com/orsinium-archive/hh
+# DS and ML
+- name: MovieLens
+  info: Estimators and selectors for MovieLens dataset.
+  link: https://github.com/orsinium-labs/MovieLens
+- name: nobel
+  info: Analyze Nobel Prize Laureates
+  link: https://github.com/orsinium-labs/nobel
+- name: hh.ru
+  info: hh.ru vacancies analyze by different params
+  link: https://github.com/orsinium-archive/hh
 
-- name: Misc
-  icon:
-    fa: fas fa-box
-  items:
-    - name: Awesome Python Typing
-      info: List of stubs, plugins, and tools to work with typing in Python.
-      link: https://github.com/typeddjango/awesome-python-typing
-      tags:
-        - awesome
-    - name: Awesome Python Code Formatters
-      info: List of cool auto code formatters for Python.
-      link: https://github.com/life4/awesome-python-code-formatters
-      tags:
-        - awesome
-    - name: Awesome Go Code Formatters
-      info: List of cool auto code formatters for Go (like gofmt).
-      link: https://github.com/life4/awesome-go-code-formatters
-      tags:
-        - awesome
-    - link: https://github.com/orsinium/notes
-    - name: Dependency Injectors
-      info: Tests and comparison of Python dependency injection libraries.
-      link: https://github.com/orsinium-labs/dependency_injectors
-    - name: Generated Awesomeness
-      info: List of autogenerated awesome lists.
-      link: https://github.com/orsinium-labs/generated-awesomeness
-      tags:
-        - awesome
-    - info: Python Logger + RSysLog + Logstash. Demo over docker containers.
-      link: https://github.com/orsinium-labs/python-syslog-logstash
-      tags:
-        - docker
-        - rsyslog
-        - elastic
-    - name: ElastAlert Configuring
-      info: ElastAlert daemonizing and some rules for filebeat and metricbeat
-      link: https://github.com/orsinium-labs/elastalert-configuring
-      tags:
-        - elasic
-        - monitoring
-    - link: https://github.com/orsinium-labs/luigi-example
-    - link: https://github.com/orsinium-labs/such-many-nothing
-    - name: USATU CTF
-      info: tasks, files, write-ups from my university CTF.
-      link: https://github.com/orsinium-archive/usatu-ctf
-      tags:
-        - security
-    - info: Cards with wise words.
-      link: https://github.com/orsinium-labs/gram-cards
-    - name: pathfinder DB
-      link: https://github.com/orsinium-labs/pathfinder_db
-    - name: English
-      info: My English learning notes and cheat sheets.
-      link: https://github.com/orsinium/english
+# non-code
+- name: Awesome Python Typing
+  info: List of stubs, plugins, and tools to work with typing in Python.
+  link: https://github.com/typeddjango/awesome-python-typing
+  tags:
+    - awesome
+- name: Awesome Python Code Formatters
+  info: List of cool auto code formatters for Python.
+  link: https://github.com/life4/awesome-python-code-formatters
+  tags:
+    - awesome
+- name: Awesome Go Code Formatters
+  info: List of cool auto code formatters for Go (like gofmt).
+  link: https://github.com/life4/awesome-go-code-formatters
+  tags:
+    - awesome
+- link: https://github.com/orsinium/notes
+- name: Dependency Injectors
+  info: Tests and comparison of Python dependency injection libraries.
+  link: https://github.com/orsinium-labs/dependency_injectors
+- name: Generated Awesomeness
+  info: List of autogenerated awesome lists.
+  link: https://github.com/orsinium-labs/generated-awesomeness
+  tags:
+    - awesome
+- info: Python Logger + RSysLog + Logstash. Demo over docker containers.
+  link: https://github.com/orsinium-labs/python-syslog-logstash
+  tags:
+    - docker
+    - rsyslog
+    - elastic
+- name: ElastAlert Configuring
+  info: ElastAlert daemonizing and some rules for filebeat and metricbeat
+  link: https://github.com/orsinium-labs/elastalert-configuring
+  tags:
+    - elastic
+    - monitoring
+- link: https://github.com/orsinium-labs/luigi-example
+- link: https://github.com/orsinium-labs/such-many-nothing
+- name: USATU CTF
+  info: tasks, files, write-ups from my university CTF.
+  link: https://github.com/orsinium-archive/usatu-ctf
+  tags:
+    - security
+- info: Cards with wise words.
+  link: https://github.com/orsinium-labs/gram-cards
+- name: pathfinder DB
+  link: https://github.com/orsinium-labs/pathfinder_db
+- name: English
+  info: My English learning notes and cheat sheets.
+  link: https://github.com/orsinium/english
