@@ -18,6 +18,7 @@ threshold = (datetime.now() - timedelta(days=450)).isoformat()
 buttons = yaml.safe_load(Path('data', 'buttons.yml').open())
 menu = yaml.safe_load(Path('data', 'names.yml').open())
 meta = yaml.safe_load(Path('data', 'meta.yml').open())
+TAGS = yaml.safe_load(Path('data', 'tags.yml').open())
 
 
 @dataclass
@@ -25,6 +26,8 @@ class Tag:
     name: str
     count: int = 0
     show: bool = True
+    icon_fa: str = ''
+    icon_mn: str = ''
 
     @property
     def id(self):
@@ -142,7 +145,8 @@ class Projects:
         for item in self:
             tags.update(tag.name for tag in item.tags)
         for name, count in tags.most_common():
-            yield Tag(name=name, count=count)
+            tag_info = TAGS.get(name, {})
+            yield Tag(name=name, count=count, **tag_info)
 
     def __iter__(self):
         for item in self.items:
@@ -162,7 +166,7 @@ def generate_website() -> None:
 
     for data_path in Path('data').iterdir():
         name = data_path.stem
-        if name in {'buttons', 'names', 'meta'}:
+        if name in {'buttons', 'names', 'meta', 'tags'}:
             continue
         template_path = Path('templates', name).with_suffix('.html.j2')
         if not template_path.exists():

@@ -1,0 +1,37 @@
+python:
+  icon_fa: fab fa-python
+  icon_mn: python
+channel:
+  icon_fa: fab fa-telegram-plane
+oss:
+  icon_fa: fas fa-code-branch
+stale:
+  icon_fa: far fa-snowflake
+popular:
+  icon_fa: fas fa-star
+archived:
+  icon_fa: fas fa-archive
+talk:
+  icon_fa: fas fa-microphone
+cli:
+  icon_fa: fas fa-terminal
+go:
+  icon_fa: fas fa-running
+flake8:
+  icon_fa: far fa-snowflake
+security:
+  icon_fa: fas fa-shield-alt
+packaging:
+  icon_fa: fas fa-box-open
+monitoring:
+  icon_fa: fas fa-eye
+rus:
+  icon_fa: fas fa-flag
+eng:
+  icon_fa: fas fa-flag
+docker:
+  icon_fa: fab fa-docker
+javascript:
+  icon_fa: fab fa-js
+awesome:
+  icon_fa: fas fa-list
