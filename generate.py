@@ -53,7 +53,7 @@ class Project:
 
     @cached_property
     def meta(self) -> Optional[Dict[str, Any]]:
-        return meta.get(self.data['link'])
+        return meta.get(self.data.get('link'))
 
     @property
     def stars(self):
@@ -110,6 +110,8 @@ class Project:
                 tags.append(Tag('stale', show=False))
             if self.cli:
                 tags.append(Tag('cli'))
+        if 'lang' in self.data:
+            tags.append(Tag(self.data['lang'], show=False))
         tag_names = {t.name for t in tags}
         for t in self.data.get('tags', []):
             if t in tag_names:

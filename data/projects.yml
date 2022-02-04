@@ -1,3 +1,5 @@
+# GOLANG
+
 - link: https://github.com/life4/gweb
 - link: https://github.com/life4/genesis
   info: >
@@ -43,6 +45,8 @@
   link: https://github.com/orsinium-labs/awesome-generator
   tags:
     - awesome
+
+# PYTHON
 
 - name: TextDistance
   bg: https://github.com/life4/textdistance/raw/master/logo.png
@@ -153,7 +157,8 @@
     - python
     - cli
 
-# python archived
+# PYTHON ARCHIVED
+
 - name: DepHell
   bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
   link: https://github.com/dephell/dephell
@@ -202,7 +207,8 @@
 - info: Lefthook wrapper to make it installable from pip.
   link: https://github.com/orsinium-archive/lefthook
 
-# dephell
+# DEPHELL
+
 - info: Find and parse changelog for a given python package.
   link: https://github.com/dephell/dephell_changelogs
 - info: Manage virtual environments.
@@ -232,7 +238,8 @@
 - info: GitHub Action for dephell_archive.
   link: https://github.com/dephell/dephell_action
 
-# DS and ML
+# DS AND ML
+
 - name: MovieLens
   info: Estimators and selectors for MovieLens dataset.
   link: https://github.com/orsinium-labs/MovieLens
@@ -243,7 +250,8 @@
   info: hh.ru vacancies analyze by different params
   link: https://github.com/orsinium-archive/hh
 
-# non-code
+# NON-CODE OPEN-SOURCE
+
 - name: Awesome Python Typing
   info: List of stubs, plugins, and tools to work with typing in Python.
   link: https://github.com/typeddjango/awesome-python-typing
@@ -294,3 +302,108 @@
 - name: English
   info: My English learning notes and cheat sheets.
   link: https://github.com/orsinium/english
+
+# TALKS
+
+- name: "Be a Rockstar"
+  lang: rus
+  date: 2019-03-12
+  info: "How to hire a Rockstar and be hired in a cool team."
+  tags:
+    - talk
+  links:
+    - https://youtu.be/uEz4p9YjPlo
+    - https://www.meetup.com/piterpy/events/259242277/
+- name: "The bees, the trees, the types, the typing"
+  lang: rus
+  date: 2018-12-11
+  info: "An interactive presentation about data structures in Python's stdlib."
+  tags:
+    - talk
+    - python
+  links:
+    - https://youtu.be/zD-qBcvBSik
+    - https://piterpy.timepad.ru/event/863647/
+    - https://www.mentimeter.com/s/524cf910db99dcf99fa10c8f6decce9c/dc4f32062aa8/edit
+    - ./assets/types.pdf
+- name: "Logging!"
+  lang: eng
+  date: 2018-12-06
+  info: "My first English talk. Sorry about that."
+  tags:
+    - talk
+    - python
+  links:
+    - https://youtu.be/4NEAwhgZkU4
+    - https://piterpy.timepad.ru/event/804746/
+- name: "Luigi: let's build perfect pipeline"
+  lang: rus
+  date: 2018-10-27
+  info: "Presentation about Spotify's framework Luigi."
+  tags:
+    - talk
+    - python
+  links:
+    - https://youtu.be/VeDXCWTH9j8?t=7590
+    - https://www.canva.com/design/DADG59zIK2E/gQMnnLb_xW3zQ0BVuHDN8w/view
+    - https://www.meetup.com/PyData-SPb/events/255421042/
+- name: "OSS: why and how?"
+  date: 2018-10-20
+  info: "Presentation about Open Source from Hacktoberfest 2018."
+  tags:
+    - talk
+  links:
+    - https://www.canva.com/design/DADGaghkaAQ/akZAdzE6mBEh6xTfsMrTDw/view
+    - https://piterpy.timepad.ru/event/826118/
+- name: Python packaging
+  date: 2018-06-29
+  info: "Presentation from PiterPy Meetup #6."
+  tags:
+    - talk
+    - python
+    - packaging
+  links:
+    - https://youtu.be/JtdZyLfSNS8
+    - https://www.canva.com/design/DAC7K2hLOBE/F2qhLJ1TFh1WghlH2PyZXQ/view
+    - https://github.com/orsinium/notes/blob/master/notes-en/python-packaging.md
+    - https://piterpy.timepad.ru/event/666491/
+- name: Code, Burgers & Magic
+  lang: rus
+  date: 2018-01-18
+  info: Presentation from UfaPy.
+  tags:
+    - talk
+    - python
+  links:
+    - https://youtu.be/Htg3FE3GbJ4
+    - https://www.canva.com/design/DACstli23Jk/JRUrOHV6sY3jX4QsZR8TOg/view
+- name: Farfor Monitoring
+  lang: rus
+  date: 2017-10-14
+  info: Presentation from UfaDevConf about monitoring ecosystem in Smena Team.
+  tags:
+    - talk
+    - monitoring
+  links:
+    - https://youtu.be/uSVu1Z7fKw4
+    - ./assets/devconf.pdf
+    - http://dc.ufacoder.com/
+- name: Vulner
+  date: 2016-07-22
+  info: >
+    Presentation for FSTEC about my security platform.
+    This platform is similar to vulners.com, but more powerful and useful.
+    The project is frozen now.
+  tags:
+    - talk
+    - security
+  links:
+    - https://www.canva.com/design/DAB2LyB3Pi8/DBb-0AxC0s7-SUn5YERQ2w/view
+- name: Blockchain
+  date: 2017-07
+  info: Internal presentation for Smena Team about blockchain technology.
+  tags:
+    - talk
+    - crypto
+  links:
+    - https://www.canva.com/design/DACc9aAGyTw/SlVeFsCFODCv6LsmPUx98A/view
