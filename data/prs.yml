@@ -4,7 +4,7 @@
     # mn: go
   items:
     - name: go-ruleguard
-      bg: https://github.com/quasilyte/go-ruleguard/raw/master/docs/logo2.png
+      bg: https://github.com/quasilyte/go-ruleguard/raw/master/_docs/logo2.png
       info: A few linting rules.
       date: 2020-10-23
       link: https://github.com/quasilyte/go-ruleguard/pulls?q=is%3Apr+author%3Aorsinium
