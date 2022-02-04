@@ -24,7 +24,7 @@
   info: "Experiments with DJI Tello drone: navigation, voice synthesization and recognition, face detection"
   link: https://github.com/orsinium-labs/tellowerk
 - name: Chameleon
-  bg: https://raw.githubusercontent.com/orsinium/chameleon/master/assets/mstile-144x144.png
+  bg: https://raw.githubusercontent.com/orsinium/chameleon/master/chameleon/assets/mstile-144x144.png
   info: >
     Make blog from markdown files on Github.
     Powers [articles.orsinium.dev](https://articles.orsinium.dev/).

@@ -1,4 +1,4 @@
-from typing import Any, Dict, Iterator, List
+from typing import Any, Dict, Iterator, List, Optional
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -23,7 +23,8 @@ meta = yaml.safe_load(Path('data', 'meta.yml').open())
 @dataclass
 class Tag:
     name: str
-    count: int
+    count: int = 0
+    show: bool = True
 
     @property
     def id(self):
@@ -43,12 +44,83 @@ class Project:
     def __contains__(self, name):
         return name in self.data
 
+    @cached_property
+    def name(self):
+        name = self.data.get('name')
+        if name:
+            return name
+        return self.data['link'].split('/')[-1]
+
+    @cached_property
+    def meta(self) -> Optional[Dict[str, Any]]:
+        return meta.get(self.data['link'])
+
+    @property
+    def stars(self):
+        if self.meta is None:
+            return 0
+        return self.meta['stars']
+
+    @property
+    def archived(self):
+        if self.meta is None:
+            return False
+        return self.meta['archived']
+
+    @property
+    def experimental(self):
+        if self.meta is None:
+            return False
+        return 'orsinium-labs' in self.data['link']
+
+    @property
+    def stale(self):
+        if self.archived or self.meta is None:
+            return False
+        return self.meta['updated_at'] < threshold
+
+    @property
+    def popular(self):
+        return self.stars > 20
+
+    @property
+    def cli(self):
+        if 'cli' in self.data.get('tags', []):
+            return True
+        desc = self.meta['description'] or ''
+        if 'CLI' in desc:
+            return True
+        desc = self.data.get('description', '')
+        if 'CLI' in desc:
+            return True
+        return False
+
+    @cached_property
+    def tags(self) -> List[Tag]:
+        tags: List[Tag] = []
+        if self.meta:
+            lang = self.meta['language']
+            if lang:
+                tags.append(Tag(lang.lower()))
+            if self.popular:
+                tags.append(Tag('popular', show=False))
+            if self.archived:
+                tags.append(Tag('archived', show=False))
+            if self.stale:
+                tags.append(Tag('stale', show=False))
+            if self.cli:
+                tags.append(Tag('cli'))
+        tag_names = {t.name for t in tags}
+        for t in self.data.get('tags', []):
+            if t in tag_names:
+                continue
+            tag_names.add(t)
+            tags.append(Tag(t))
+        return tags
+
     @property
     def tag_ids(self):
-        ids = []
-        for t in self.data.get('tags', []):
-            ids.append(Tag(name=t, count=0).id)
-        return ids
+        return [tag.id for tag in self.tags]
 
 
 @dataclass
@@ -58,8 +130,8 @@ class Projects:
     @cached_property
     def tags(self) -> Iterator[Tag]:
         tags: Counter[str] = Counter()
-        for item in self.items:
-            tags.update(item.get('tags', []))
+        for item in self:
+            tags.update(tag.name for tag in item.tags)
         for name, count in tags.most_common():
             yield Tag(name=name, count=count)
 
