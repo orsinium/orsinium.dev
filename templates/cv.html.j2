@@ -27,14 +27,17 @@
       <h1>Hi, I'm Gram</h1>
     	<div class="row">
     		<div class="col-md-6">
-          <ul class="list-group list-group-horizontal">
+          <ul class="list-group">
             {% for point in index['points'] %}
-              <li class="list-group-item">{{ point }}</li>
+              <li class="list-group-item">
+                <i class="{{ point['icon'] }} fa-fw"></i>
+                {{ point['text'] }}
+              </li>
             {% endfor %}
           </ul>
     		</div>
     		<div class="col-md-6">
-          <ul class="list-group list-group-horizontal">
+          <ul class="list-group">
             {% for item in index['links'] %}
               {% if 'cv' in item['pages'] %}
                 <li class="list-group-item">
@@ -73,15 +76,17 @@
       <hr/>
       <h2>Projects</h2>
       <div class="row">
-        {% for group in (projects[0]['items'][:4], projects[2]['items'][:1]) %}
-          {% for item in group %}
-          <div class="col-md-4">
-            <h4>
-              <a href="{{ item['link'] }}" target="_blank">{{ item['name'] }}</a>
-            </h4>
-            <p>{{ item['info'] }}</p>
-          </div>
-          {% endfor %}
+        {% for item in projects %}
+          {% if item['cv'] %}
+            <div class="col-md-4">
+              <h4>
+                <a href="{{ item['link'] }}" target="_blank">
+                  {{ item.name }}
+                </a>
+              </h4>
+              <p>{{ item.info }}</p>
+            </div>
+          {% endif %}
         {% endfor %}
         <div class="col-md-4">
           <h4>More!</h4>

@@ -1,11 +1,52 @@
 points:
-  - An adventurer from Amsterdam.
-  - Python, Go, Security.
-  - Public speaker.
-  - A lot of Open Source.
-  - Always smarter than yesterday.
+  - text: Senior Software Engineer from Netherlands.
+    icon: fas fa-laptop
+  - text: Python, Go, Web, Security.
+    icon: fab fa-python
+  - text: Passionate about my craft.
+    icon: fas fa-tools
+  - text: Public speaker and teacher.
+    icon: fas fa-bullhorn
+  - text: A lot of Open Source.
+    icon: fas fa-code-branch
+  - text: Constantly tinkering and experimenting.
+    icon: fas fa-flask
+  - text: Always smarter than yesterday.
+    icon: fas fa-brain
 
 links:
+
+  - name: "Projects"
+    link: ./projects.html
+    icon: fas fa-tools
+    pages:
+      - home
+  - name: "Pull Requests"
+    link: ./prs.html
+    icon: fas fa-hands-helping
+    pages:
+      - home
+  - name: "Skills"
+    link: ./skills.html
+    icon: fas fa-brain
+    pages:
+      - home
+  - name: "Work"
+    link: ./work.html
+    icon: fas fa-briefcase
+    pages:
+      - home
+  - name: "Community"
+    link: ./community.html
+    icon: fas fa-newspaper
+    pages:
+      - home
+  - name: "Donate"
+    link: "https://github.com/sponsors/orsinium"
+    icon: far fa-heart
+    pages:
+      - home
+
   - name: homepage
     icon: fas fa-home
     link: https://orsinium.dev/
@@ -18,7 +59,6 @@ links:
     short: articles.orsinium.dev
     pages:
       - cv
-      - home
   - name: github
     icon: fab fa-github
     link: https://github.com/orsinium
@@ -28,18 +68,7 @@ links:
       - home
   - name: CV
     icon: fas fa-user
-    link: https://orsinium.dev/cv.html
-    pages:
-      - home
-  - name: youtube
-    icon: fab fa-youtube
-    link: https://www.youtube.com/channel/UCR0aFxunk1fhbSqbnJuiosA
-    pages:
-      - home
-  - name: telegram
-    icon: fab fa-telegram
-    link: https://t.me/orsinium
-    short: t.me/orsinium
+    link: ./cv.html
     pages:
       - home
   - name: email
@@ -55,9 +84,4 @@ links:
     short: linkedin.com/in/orsinium
     pages:
       - cv
-      - home
-  - name: stack overflow
-    icon: fab fa-stack-overflow
-    link: https://stackoverflow.com/users/8704691/gram
-    pages:
       - home

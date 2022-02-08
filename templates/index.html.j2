@@ -4,23 +4,31 @@
   <div class="container">
     <div class="row" style="margin-top: 10px">
 
-      <div class="col-md-6">
-        <ul class="list-group list-group-horizontal">
-          {% for point in items['points'] %}
-            <li class="list-group-item">{{ point }}</li>
+
+      <aside class="col">
+        <div class="row row-cols-md-2 g-2">
+          {% for item in items['links'] %}
+            {% if 'home' in item['pages'] %}
+              <div class="col">
+                <a class="btn btn-dark menu-btn" href="{{ item['link'] }}">
+                  <i class="{{ item['icon'] }} fa-fw"></i>
+                  {{ item['name'].lower() }}
+                </a>
+              </div>
+            {% endif %}
           {% endfor %}
-        </ul>
-      </div>
+        </div>
+      </aside>
 
       <div class="col-md-6">
-        {% for item in items['links'] %}
-          {% if 'home' in item['pages'] %}
-            <a class="btn col-md-5 btn-light btn-lg text-left" href="{{ item['link'] }}" target="=_blank">
-              <i class="{{ item['icon'] }}"></i>
-              {{ item['name'] }}
-            </a>
-          {% endif %}
-        {% endfor %}
+        <ul class="list-group">
+          {% for point in items['points'] %}
+            <li class="list-group-item">
+              <i class="{{ point['icon'] }} fa-fw"></i>
+              {{ point['text'] }}
+            </li>
+          {% endfor %}
+        </ul>
       </div>
 
     </div>

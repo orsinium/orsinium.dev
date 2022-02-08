@@ -4,7 +4,7 @@
     # mn: go
   items:
     - name: go-ruleguard
-      bg: https://github.com/quasilyte/go-ruleguard/raw/master/docs/logo2.png
+      bg: https://github.com/quasilyte/go-ruleguard/raw/master/_docs/logo2.png
       info: A few linting rules.
       date: 2020-10-23
       link: https://github.com/quasilyte/go-ruleguard/pulls?q=is%3Apr+author%3Aorsinium
@@ -24,6 +24,16 @@
     fa: fab fa-python
     mn: python
   items:
+    - name: nats.py
+      bg: https://avatars.githubusercontent.com/u/10203055
+      info: Multiple changes for JetStream support and typing.
+      date: 2022-01-24
+      link: https://github.com/nats-io/nats.py/pulls?q=+is%3Apr+author%3Aorsinium
+    - name: SimpleITK
+      bg: https://avatars.githubusercontent.com/u/476215
+      info: Type annotations.
+      date: 2022-01-19
+      link: https://github.com/SimpleITK/SimpleITK/pull/1568
     - name: CrossHair
       bg: https://raw.githubusercontent.com/pschanely/CrossHair/master/doc/source/logo.png
       info: Deal integration.
@@ -35,7 +45,7 @@
       date: 2021-05-23
       link: https://github.com/Z3Prover/z3/pull/5295
     - name: flit
-      bg: https://github.com/takluyver/flit/raw/master/doc/_static/flit_logo_nobg_cropped.png
+      bg: https://raw.githubusercontent.com/pypa/flit/main/doc/_static/flit_logo_nobg_cropped.png
       info: "Allow `Private :: Do Not Upload` classifier."
       date: 2021-04-02
       link: https://github.com/takluyver/flit/pull/390

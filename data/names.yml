@@ -7,12 +7,6 @@
 - name: "Pull Requests"
   slug: "prs"
   icon: fas fa-hands-helping
-- name: "Talks"
-  slug: "talks"
-  icon: fas fa-microphone
-- name: "Channels"
-  slug: "channels"
-  icon: fas fa-bullhorn
 - name: "Skills"
   slug: "skills"
   icon: fas fa-brain

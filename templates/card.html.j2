@@ -1,4 +1,8 @@
-<div class="card col-sm-12 col-md-6 col-lg-4 {{ item['class'] }}">
+<article
+  class="card col {{ item['class'] }}"
+  x-data="{ tag_ids: {{ item.tag_ids or [] }} }"
+  x-show="all_enabled(tag_ids)"
+>
   <div class="card-body">
     {% if 'image' in item %}
       <img class="card-img-top" src="./assets/{{ item['image'] }}" />
@@ -15,50 +19,43 @@
         {% endfor %}
       {% endif %}
 
-      {% set name = item['name'] %}
       {% if item['link'] %}
-        {% if not name %}
-          {% set name = item['link'].split('/')[-1] %}
-        {% endif %}
-        {% set updated_at = meta.get(item['link'], {}).get('updated_at', '') %}
-        {% if meta.get(item['link'])['archived'] %}
+        {% if item.archived %}
           <i class="text-muted fas fa-archive" title="archived"></i>
-        {% elif updated_at and updated_at < threshold %}
+        {% elif item.stale %}
           <i class="text-muted fas fa-snowflake" title="stale"></i>
-        {% elif 'orsinium-labs' in item['link'] %}
+        {% elif item.experimental %}
           <i class="text-muted fas fa-flask" title="experimental"></i>
+        {% elif item['icon'] %}
+          <i class="{{ item['icon'] }}"></i>
         {% endif %}
-        <a href="{{ item['link'] }}" target="_blank">{{ name }}</a>
+        <a href="{{ item['link'] }}" target="_blank">{{ item.name }}</a>
       {% else %}
-        {{ name }}
+        {{ item.name }}
       {% endif %}
     </h5>
 
-    {% set stars = meta.get(item['link'])['stars'] or 0 %}
-    {% if 'tags' in item or stars > 20 %}
+    {% if item.tags or item.popular %}
       <h6 class="card-subtitle text-muted">
 
-        {% if stars > 20 %}
-          <i class="fas fa-star"></i> {{ stars }}
+        {% if item.popular %}
+          <i class="fas fa-star"></i> {{ item.stars }}
         {% endif %}
 
-        {% for tag in item['tags'] %}
-          #{{ tag }}
+        {% for tag in item.tags %}
+          {% if tag.show %}
+            #{{ tag.name }}
+          {% endif %}
         {% endfor %}
 
       </h6>
     {% endif %}
 
-
-    {% set info = item.get('info', '').rstrip() or meta.get(item['link'])['description'] %}
-    {% if info %}
-      {% if info[-1] not in '.?!' %}
-        {% set info = info + '.' %}
-      {% endif %}
+    {% if item.info %}
       <p class="card-text">
         <div class="card-bg"><img src="{{ item['bg'] }}" /></div>
         {% markdown %}
-          {{ info }}
+          {{ item.info }}
         {% endmarkdown %}
       </p>
     {% endif %}
@@ -94,4 +91,4 @@
       {% endfor %}
     </div>
   {% endif %}
-</div>
+</article>

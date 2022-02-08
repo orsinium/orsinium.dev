@@ -1,14 +1,9 @@
 {% extends "base.html.j2" %}
 
 {% block content %}
-  <div class="container-fluid">
-    <div class="container">
-      <h1 id="skills">Work</h1>
-      {% for item in items %}
-        <div class="row" style="margin-bottom: 4px">
-          {% include "widecard.html.j2" with context %}
-        </div>
-      {% endfor %}
+  {% for item in items %}
+    <div class="row" style="margin-bottom: 4px">
+      {% include "widecard.html.j2" with context %}
     </div>
-  </div>
+  {% endfor %}
 {% endblock %}
