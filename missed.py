@@ -15,6 +15,7 @@ IGNORE = {
     'https://github.com/orsinium-archive/skyeng',
     'https://github.com/orsinium-archive/vksploit',
     'https://github.com/orsinium-archive/workout',
+
     'https://github.com/orsinium-labs/memcached',
     'https://github.com/orsinium-labs/turtle',
 
