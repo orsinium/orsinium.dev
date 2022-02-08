@@ -8,7 +8,7 @@
     <meta name="keywords" content="developer, portfolio, python, golang">
     <meta name="author" content="Gram (@orsinium)">
     {% if title %}
-      <title>Gram's {{ title.lower() }}</title>
+      <title>Gram / {{ title }}</title>
     {% else %}
       <title>Hi, I'm Gram</title>
     {% endif %}
@@ -21,26 +21,11 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     <style>
-      .header {
-        background: url('./assets/bg.jpg') center;
-        background-size: cover;
-        padding: 150px 0px;
-        margin-bottom: 0px;
-      }
-
       a {
         text-decoration: none;
       }
       a:hover {
         text-decoration: underline;
-      }
-
-      #logo a {
-        color: inherit;
-      }
-      #logo a:hover {
-        color: black;
-        text-decoration: none;
       }
 
       .lang {
@@ -86,73 +71,62 @@
         color: #ffffff;
       }
 
-      .header .btn, .header .alert {
-        border-radius: 0px;
-      }
+      [x-cloak] { display: none !important; }
     </style>
   </head>
 
-  <body>
-    <div class="header">
-      <div class="container">
+  <body x-data="{ showed_projects: 0 }">
+    <header class="header container">
+      {% block header %}
+        <h1>
+          {% if title %}
+            <a href="./index.html">Gram</a> / {{ title }}
+            <span class="text-muted" x-cloak x-show="showed_projects != 0">
+              (<span x-text="showed_projects"></span>/{{ items.count }})
+            </span>
+          {% else %}
+            Hi, I'm Gram
+          {% endif %}
+        </h1>
+      {% endblock %}
+    </header>
+
+    <main class="container">
+      {% block content %}
         <div class="row">
-            <div id="logo" class="alert alert-light col-lg-8 col-md-12">
-              <a href="./">
-                <h1>Hi, I'm Gram</h1>
-              </a>
-            </div>
-        </div>
-        <div class="row ">
-          <div class="col-lg-8 col-md-12">
-            <div class="row">
-              {% for item in menu[1:] %}
-                {% include "button.html.j2" with context %}
+          {% for item in items %}
+            {% if 'items' in item %}
+              </div>
+              <h2>
+                {% if 'mn' in item['icon'] %}
+                  <i class="text-muted icon-{{ item['icon']['mn'] }}"></i>
+                {% elif 'fa' in item['icon'] %}
+                  <i class="text-muted {{ item['icon']['fa'] }}"></i>
+                {% endif %}
+                {{ item['name'] }}
+              </h2>
+              <div  class="row row-cols-sm-1 row-cols-lg-2 row-cols-xl-3 g-2" x-data="{
+                all_enabled(tag_ids) {
+                  return true
+                }
+              }">
+              {% for subitem in item['items'] %}
+                {% set item = subitem %}
+                {% include "card.html.j2" with context %}
               {% endfor %}
-            </div>
-          </div>
+            {% else %}
+                {% include "card.html.j2" with context %}
+            {% endif %}
+          {% endfor %}
         </div>
-      </div>
-    </div>
+      {% endblock %}
+    </main>
 
-    {% block content %}
-      <div class="container-fluid">
-        <div class="container">
-          <h1>{{ title }}</h1>
-          <div class="row">
-            {% for item in items %}
-              {% if 'items' in item %}
-                </div>
-                <h2>
-                  {% if 'mn' in item['icon'] %}
-                    <i class="text-muted icon-{{ item['icon']['mn'] }}"></i>
-                  {% elif 'fa' in item['icon'] %}
-                    <i class="text-muted {{ item['icon']['fa'] }}"></i>
-                  {% endif %}
-                  {{ item['name'] }}
-                </h2>
-                <div  class="row row-cols-sm-1 row-cols-lg-2 row-cols-xl-3 g-2" x-data="{
-                  all_enabled(tag_ids) {
-                    return true
-                  }
-                }">
-                {% for subitem in item['items'] %}
-                  {% set item = subitem %}
-                  {% include "card.html.j2" with context %}
-                {% endfor %}
-              {% else %}
-                  {% include "card.html.j2" with context %}
-              {% endif %}
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    {% endblock %}
-
-    <div class="footer container-fluid text-white bg-dark" style="margin-top: 10px">
-      <h1 style="text-align: center">
+    <footer class="footer container-fluid text-white bg-dark p-3 my-3">
+      <p class="fs-1 text-center">
         <i class="far fa-heart"></i>
-      </h1>
-    </div>
+      </p>
+    </footer>
 
     <!-- https://www.bryanbraun.com/anchorjs/ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js"></script>

@@ -1,4 +1,4 @@
-<div
+<article
   class="card col {{ item['class'] }}"
   x-data="{ tag_ids: {{ item.tag_ids or [] }} }"
   x-show="all_enabled(tag_ids)"
@@ -96,4 +96,4 @@
       {% endfor %}
     </div>
   {% endif %}
-</div>
+</article>

@@ -8,7 +8,7 @@
       info: >
         This is my favorite language, I'm in it about 6 years.
         I know source code of almost all stdlib, have many Python-based
-        Open Source [projects](./projects.html) and [public talks](./talks.html).
+        Open Source [projects](./projects.html) and public talks.
     - name: Go
       icon:
         fa: fas fa-running
@@ -206,7 +206,7 @@
         and know everything about how it works.
         I've made all ML pipeline in Cindicator based on Luigi, and it still works
         on production without any issues.
-        Also, I have [public talk](./talks.html) about it.
+        Also, I have [public talk](./projects.html) about it.
     - name: SQLAlchemy
       info: >
         It can't scare me. In Cindicator and EclecticIQ we have tons
@@ -255,5 +255,5 @@
     - name: Public talks
       info: >
         I like to talk to people about my tasks and knowledges, spread cool ideas.
-        You can discover some of my talks [here](./talks.html). Most of them on Russian,
+        You can discover some of my talks [here](./projects.html). Most of them on Russian,
         but I'm going to fix it.

@@ -1,31 +1,24 @@
 {% extends "base.html.j2" %}
 
 {% block content %}
-  <div class="container-fluid">
-    <div class="container">
-      <h1 id="skills">Skills and technologies</h1>
+  <ul class="nav nav-pills nav-fill bg-light justify-content-center">
+    {% for item in items %}
+      <li class="nav-item">
+        <a class="nav-link btn-light" href="#{{ item['name'].lower().replace(' ', '_') }}">
+          {{ item['name'] }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 
-      <ul class="nav nav-pills nav-fill bg-light justify-content-center">
-        {% for item in items %}
-          <li class="nav-item">
-            <a class="nav-link btn-light" href="#{{ item['name'].lower().replace(' ', '_') }}">
-              {{ item['name'] }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-
-      {% for group in items %}
-        <h2 id="{{ group['name'].lower().replace(' ', '_') }}">
-          {{ group['name'] }}
-        </h2>
-        <div class="row">
-          {% for item in group['content'] %}
-            {% include "minicard.html.j2" with context %}
-          {% endfor %}
-        </div>
+  {% for group in items %}
+    <h2 id="{{ group['name'].lower().replace(' ', '_') }}">
+      {{ group['name'] }}
+    </h2>
+    <div class="row">
+      {% for item in group['content'] %}
+        {% include "minicard.html.j2" with context %}
       {% endfor %}
-
     </div>
-  </div>
+  {% endfor %}
 {% endblock %}
