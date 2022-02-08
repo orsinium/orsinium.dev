@@ -1,11 +1,43 @@
 points:
-  - An adventurer from Amsterdam.
-  - Python, Go, Security.
+  - Senior Software Engineer from Netherlands.
+  - Python, Go, Web, Security.
   - Public speaker.
   - A lot of Open Source.
   - Always smarter than yesterday.
 
 links:
+
+  - name: "Projects"
+    link: ./projects.html
+    icon: fas fa-tools
+    pages:
+      - home
+  - name: "Pull Requests"
+    link: ./prs.html
+    icon: fas fa-hands-helping
+    pages:
+      - home
+  - name: "Skills"
+    link: ./skills.html
+    icon: fas fa-brain
+    pages:
+      - home
+  - name: "Work"
+    link: ./work.html
+    icon: fas fa-briefcase
+    pages:
+      - home
+  - name: "Community"
+    link: ./community.html
+    icon: fas fa-newspaper
+    pages:
+      - home
+  - name: "Donate"
+    link: "https://github.com/sponsors/orsinium"
+    icon: far fa-heart
+    pages:
+      - home
+
   - name: homepage
     icon: fas fa-home
     link: https://orsinium.dev/
