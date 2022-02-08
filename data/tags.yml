@@ -35,3 +35,7 @@ javascript:
   icon_fa: fab fa-js
 awesome:
   icon_fa: fas fa-list
+django:
+  icon_fa: fas fa-hat-cowboy-side
+website:
+  icon_fa: fas fa-globe

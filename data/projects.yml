@@ -26,6 +26,21 @@
   link: https://t.me/s/iam_sterdam
   info: "How I see Amsterdam."
 
+# WEBSITES
+
+- name: articles.orsinium.dev
+  icon: far fa-newspaper
+  link: https://articles.orsinium.dev/p/
+  info: My notes about Python, Go, IT.
+  tags:
+    - website
+- name: Stack Overflow
+  icon: fab fa-stack-overflow
+  link: https://stackoverflow.com/users/8704691/gram
+  info: When I'm bored, I answer random questions on Stack Overflow.
+  tags:
+    - website
+
 # GOLANG
 
 - link: https://github.com/life4/gweb
@@ -48,8 +63,12 @@
     Powers [flakehell.orsinium.dev](https://flakehell.orsinium.dev/)
     using GWeb and pyodide.
   link: https://github.com/life4/flakehell-online
+  tags:
+    - website
 - info: Online playground for [go-ruleguard](https://github.com/quasilyte/go-ruleguard).
   link: https://github.com/life4/ruleguard-playground
+  tags:
+    - website
 - name: TelloWerk
   info: "Experiments with DJI Tello drone: navigation, voice synthesization and recognition, face detection"
   link: https://github.com/orsinium-labs/tellowerk
@@ -59,11 +78,15 @@
     Make blog from markdown files on Github.
     Powers [articles.orsinium.dev](https://articles.orsinium.dev/).
   link: https://github.com/life4/chameleon
+  tags:
+    - website
 - name: graphql.orsinium.dev
   info: >
     A simple GraphQL API for my website.
     Powers [graphql.orsinium.dev](https://graphql.orsinium.dev/).
   link: https://github.com/orsinium-labs/graphql.orsinium.dev
+  tags:
+    - website
 - name: LikeForce
   bg: https://raw.githubusercontent.com/kmddd59/emojis/master/blob%20Emojis/googleblueheart.png
   info: Telegram bot to have likes and rating in chats.

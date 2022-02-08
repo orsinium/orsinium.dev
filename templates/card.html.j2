@@ -26,6 +26,8 @@
           <i class="text-muted fas fa-snowflake" title="stale"></i>
         {% elif item.experimental %}
           <i class="text-muted fas fa-flask" title="experimental"></i>
+        {% elif item['icon'] %}
+          <i class="{{ item['icon'] }}"></i>
         {% endif %}
         <a href="{{ item['link'] }}" target="_blank">{{ item.name }}</a>
       {% else %}

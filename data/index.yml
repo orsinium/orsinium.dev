@@ -18,7 +18,6 @@ links:
     short: articles.orsinium.dev
     pages:
       - cv
-      - home
   - name: github
     icon: fab fa-github
     link: https://github.com/orsinium
@@ -29,17 +28,6 @@ links:
   - name: CV
     icon: fas fa-user
     link: https://orsinium.dev/cv.html
-    pages:
-      - home
-  - name: youtube
-    icon: fab fa-youtube
-    link: https://www.youtube.com/channel/UCR0aFxunk1fhbSqbnJuiosA
-    pages:
-      - home
-  - name: telegram
-    icon: fab fa-telegram
-    link: https://t.me/orsinium
-    short: t.me/orsinium
     pages:
       - home
   - name: email
@@ -55,9 +43,4 @@ links:
     short: linkedin.com/in/orsinium
     pages:
       - cv
-      - home
-  - name: stack overflow
-    icon: fab fa-stack-overflow
-    link: https://stackoverflow.com/users/8704691/gram
-    pages:
       - home
