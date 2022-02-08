@@ -107,7 +107,7 @@ class Project:
         if 'https://t.me/s/' in self.data.get('link', ''):
             tags.append(Tag('channel'))
         if 'https://github.com/' in self.data.get('link', ''):
-            tags.append(Tag('oss'))
+            tags.append(Tag('oss', show=False))
 
         if self.meta:
             lang = self.meta['language']
@@ -151,6 +151,10 @@ class Projects:
     def __iter__(self):
         for item in self.items:
             yield Project(item)
+
+    @property
+    def count(self):
+        return len(self.items)
 
 
 WRAPPERS = dict(

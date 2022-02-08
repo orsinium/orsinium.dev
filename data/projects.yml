@@ -9,10 +9,6 @@
   lang: eng
   link: https://t.me/s/itgram_channel
   info: "All about development: best practice, articles, useful tools, libs etc."
-- name: Type safe talks
-  lang: rus
-  link: https://t.me/s/type_safe
-  info: "Podcast about programming languages and types."
 - name: RPGram
   lang: eng
   link: https://t.me/s/rpgram_channel
@@ -24,7 +20,7 @@
 - name: RPG Dump
   lang: eng
   link: https://t.me/s/rpgdump
-  info: "Pathfinder and board games."
+  info: "TTRPGs and board games."
 - name: I am sterdam
   lang: rus
   link: https://t.me/s/iam_sterdam

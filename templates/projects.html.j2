@@ -1,13 +1,25 @@
 {% extends "base.html.j2" %}
 
 {% block content %}
-  <div class="container">
-    <h1 id="Projects">Projects</h1>
+  <div class="container" x-data="{ showed_projects: 0 }">
+    <h1 id="Projects">
+      Projects
+      <span class="text-muted">
+        (<span x-text="showed_projects"></span>/{{ items.count }})
+      </span>
+    </h1>
     <div
       class="row"
       x-data="{
         enabled_tags: [],
         all_enabled(tag_ids) {
+          if (this._all_enabled(tag_ids)) {
+            showed_projects += 1
+            return true
+          }
+          return false
+        },
+        _all_enabled(tag_ids) {
           if (this.enabled_tags.length == 0) {
             return true
           }
@@ -22,7 +34,14 @@
         {% for tag in items.tags %}
           {% if tag.count > 1 %}
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="{{ tag.id }}" id="{{ tag.id }}" x-model="enabled_tags">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="{{ tag.id }}"
+                id="{{ tag.id }}"
+                x-model="enabled_tags"
+                x-on:change="showed_projects = 0"
+              />
               <label class="form-check-label" for="{{ tag.id }}">
                 {% if tag.icon_fa %}
                   <i class="{{ tag.icon_fa }} fa-fw"></i>
