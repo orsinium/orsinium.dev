@@ -27,14 +27,17 @@
       <h1>Hi, I'm Gram</h1>
     	<div class="row">
     		<div class="col-md-6">
-          <ul class="list-group list-group-horizontal">
+          <ul class="list-group">
             {% for point in index['points'] %}
-              <li class="list-group-item">{{ point }}</li>
+              <li class="list-group-item">
+                <i class="{{ point['icon'] }} fa-fw"></i>
+                {{ point['text'] }}
+              </li>
             {% endfor %}
           </ul>
     		</div>
     		<div class="col-md-6">
-          <ul class="list-group list-group-horizontal">
+          <ul class="list-group">
             {% for item in index['links'] %}
               {% if 'cv' in item['pages'] %}
                 <li class="list-group-item">

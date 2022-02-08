@@ -1,9 +1,18 @@
 points:
-  - Senior Software Engineer from Netherlands.
-  - Python, Go, Web, Security.
-  - Public speaker.
-  - A lot of Open Source.
-  - Always smarter than yesterday.
+  - text: Senior Software Engineer from Netherlands.
+    icon: fas fa-laptop
+  - text: Python, Go, Web, Security.
+    icon: fab fa-python
+  - text: Passionate about my craft.
+    icon: fas fa-tools
+  - text: Public speaker and teacher.
+    icon: fas fa-bullhorn
+  - text: A lot of Open Source.
+    icon: fas fa-code-branch
+  - text: Constantly tinkering and experimenting.
+    icon: fas fa-flask
+  - text: Always smarter than yesterday.
+    icon: fas fa-brain
 
 links:
 
@@ -59,7 +68,7 @@ links:
       - home
   - name: CV
     icon: fas fa-user
-    link: https://orsinium.dev/cv.html
+    link: ./cv.html
     pages:
       - home
   - name: email
