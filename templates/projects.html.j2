@@ -12,21 +12,27 @@
       class="row"
       x-data="{
         enabled_tags: [],
-        all_enabled(tag_ids) {
-          if (this._all_enabled(tag_ids)) {
+        available_tags: [],
+        reset() {
+          this.showed_projects = 0
+          this.available_tags = []
+        },
+        all_enabled(project_tags) {
+          if (this._all_enabled(project_tags)) {
             showed_projects += 1
+            this.available_tags.push(...project_tags)
             return true
           }
           return false
         },
-        _all_enabled(tag_ids) {
+        _all_enabled(project_tags) {
           if (this.enabled_tags.length == 0) {
             return true
           }
-          if (tag_ids.length == 0) {
+          if (project_tags.length == 0) {
             return false
           }
-          return this.enabled_tags.every(t => tag_ids.includes(t))
+          return this.enabled_tags.every(t => project_tags.includes(t))
         }
       }"
     >
@@ -40,9 +46,13 @@
                 value="{{ tag.id }}"
                 id="{{ tag.id }}"
                 x-model="enabled_tags"
-                x-on:change="showed_projects = 0"
+                x-on:change="reset()"
+                x-bind:disabled="!available_tags.includes('{{ tag.id }}')"
               />
-              <label class="form-check-label" for="{{ tag.id }}">
+              <label
+                class="form-check-label"
+                for="{{ tag.id }}"
+              >
                 {% if tag.icon_fa %}
                   <i class="{{ tag.icon_fa }} fa-fw"></i>
                 {% endif %}
