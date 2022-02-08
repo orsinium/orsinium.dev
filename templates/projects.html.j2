@@ -51,7 +51,7 @@
               {% endif %}
               {{ tag.name }}
               <span class="text-muted">
-                (<span x-text="available_tags.filter(t => t == '{{tag.id}}').length"></span>)
+                (<span x-text="available_tags.filter(t => t == '{{tag.id}}').length">{{ tag.count }}</span>)
               </span>
             </label>
           </div>
