@@ -34,6 +34,10 @@
   info: My notes about Python, Go, IT.
   tags:
     - website
+- link: https://github.com/orsinium/orsinium.dev
+  info: The source code for [orsinium.dev](https://orsinium.dev/) (you are here).
+  tags:
+    - website
 - name: Stack Overflow
   icon: fab fa-stack-overflow
   link: https://stackoverflow.com/users/8704691/gram
@@ -164,6 +168,12 @@
 - link: https://github.com/orsinium-labs/pararius
   info: Crawler for [pararius.nl](https://pararius.nl/)
 
+# FLAKE8
+
+- link: https://github.com/orsinium-labs/flake8-ruler
+  tags:
+    - python
+    - flake8
 - link: https://github.com/orsinium-labs/flake8-length
   tags:
     - python
@@ -182,6 +192,17 @@
     - flake8
 - link: https://github.com/orsinium-labs/flake8-comments
 
+# PYTHON CLI TOOLS
+
+- link: https://github.com/orsinium-labs/telegram-stat
+  tags:
+    - python
+    - telegram
+    - cli
+- link: https://github.com/orsinium-labs/git-time-report
+  tags:
+    - python
+    - cli
 - link: https://github.com/orsinium-labs/eng
   tags:
     - python

@@ -39,3 +39,7 @@ django:
   icon_fa: fas fa-hat-cowboy-side
 website:
   icon_fa: fas fa-globe
+jupyter notebook:
+  icon_fa: fas fa-book-open
+elastic:
+  icon_fa: fas fa-search

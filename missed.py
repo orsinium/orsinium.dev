@@ -26,6 +26,7 @@ IGNORE = {
     'https://github.com/typeddjango/django-stubs',
     'https://github.com/typeddjango/djangorestframework-stubs',
     'https://github.com/typeddjango/pytest-mypy-plugins',
+    'https://github.com/typeddjango/.github',
 }
 
 with Path('data', 'meta.yml').open('r') as stream:
@@ -34,8 +35,7 @@ with Path('data', 'meta.yml').open('r') as stream:
 
 listed_links = IGNORE
 with Path('data', 'projects.yml').open('r') as stream:
-    for lang in yaml.safe_load(stream):
-        for item in lang['items']:
-            listed_links.add(item['link'])
+    for item in yaml.safe_load(stream):
+        listed_links.add(item.get('link', ''))
 
 print(*sorted(all_links - listed_links), sep='\n')
