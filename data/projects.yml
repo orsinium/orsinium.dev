@@ -44,7 +44,9 @@
 # GOLANG
 
 - link: https://github.com/life4/gweb
+  cv: true
 - link: https://github.com/life4/genesis
+  cv: true
   info: >
     Generic functions for Go 1.18: Filter, Map, Reduce, Min, Sort, etc.
 - link: https://github.com/life4/logit
@@ -100,6 +102,7 @@
 # PYTHON
 
 - name: TextDistance
+  cv: true
   bg: https://github.com/life4/textdistance/raw/master/logo.png
   link: https://github.com/life4/textdistance
   info: >
@@ -108,6 +111,7 @@
     common interface, optional external libs usage.
 - bg: https://github.com/life4/deal/raw/master/logo.png
   link: https://github.com/life4/deal
+  cv: true
   tags:
     - flake8
 - name: Homoglyphs
@@ -211,6 +215,7 @@
 # PYTHON ARCHIVED
 
 - name: DepHell
+  cv: true
   bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
   link: https://github.com/dephell/dephell
   tags:

@@ -51,16 +51,11 @@
       </h6>
     {% endif %}
 
-
-    {% set info = item.get('info', '').rstrip() or meta.get(item['link'])['description'] %}
-    {% if info %}
-      {% if info[-1] not in '.?!' %}
-        {% set info = info + '.' %}
-      {% endif %}
+    {% if item.info %}
       <p class="card-text">
         <div class="card-bg"><img src="{{ item['bg'] }}" /></div>
         {% markdown %}
-          {{ info }}
+          {{ item.info }}
         {% endmarkdown %}
       </p>
     {% endif %}

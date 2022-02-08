@@ -48,11 +48,20 @@ class Project:
         return name in self.data
 
     @cached_property
-    def name(self):
+    def name(self) -> str:
         name = self.data.get('name')
         if name:
             return name
         return self.data['link'].split('/')[-1]
+
+    @cached_property
+    def info(self):
+        info = self.data.get('info', '').rstrip()
+        if not info and self.meta:
+            info = self.meta.get('description', '')
+        if info and info[-1] not in '.?!':
+            info = info + '.'
+        return info
 
     @cached_property
     def meta(self) -> Optional[Dict[str, Any]]:
@@ -199,7 +208,11 @@ def generate_cv() -> None:
         name = data_path.stem
         if name in {'buttons', 'names'}:
             continue
-        context[name] = yaml.safe_load(data_path.open())
+        data = yaml.safe_load(data_path.open())
+        wrapper = WRAPPERS.get(name)
+        if wrapper is not None:
+            data = wrapper(data)
+        context[name] = data
     content = template.render(**context)
     Path('public', output_name).write_text(content)
 
