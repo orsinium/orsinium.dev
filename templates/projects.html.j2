@@ -56,7 +56,10 @@
                 {% if tag.icon_fa %}
                   <i class="{{ tag.icon_fa }} fa-fw"></i>
                 {% endif %}
-                {{ tag.name }} ({{ tag.count }})
+                {{ tag.name }}
+                <span class="text-muted">
+                  (<span x-text="available_tags.filter(t => t == '{{tag.id}}').length"></span>)
+                </span>
               </label>
             </div>
           {% endif %}
