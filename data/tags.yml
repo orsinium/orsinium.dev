@@ -43,3 +43,5 @@ jupyter notebook:
   icon_fa: fas fa-book-open
 elastic:
   icon_fa: fas fa-search
+telegram:
+  icon_fa: fas fa-paper-plane

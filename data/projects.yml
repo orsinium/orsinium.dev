@@ -44,6 +44,13 @@
   info: When I'm bored, I answer random questions on Stack Overflow.
   tags:
     - website
+- name: gweb.orsinium.dev
+  link: https://gweb.orsinium.dev/
+  info: >
+    Demos for [gweb](https://github.com/life4/gweb),
+    including [a browser game](https://gweb.orsinium.dev/breakout/).
+  tags:
+    - website
 
 # GOLANG
 
@@ -55,6 +62,9 @@
     Generic functions for Go 1.18: Filter, Map, Reduce, Min, Sort, etc.
 - link: https://github.com/life4/logit
 - link: https://github.com/orsinium-labs/sourcemap
+  tags:
+    - js
+    - security
 - link: https://github.com/orsinium-labs/gamepad
 - link: https://github.com/orsinium-labs/imgshow
 - link: https://github.com/orsinium-labs/gcserve
@@ -345,6 +355,9 @@
   tags:
     - awesome
 - link: https://github.com/orsinium/notes
+  info: >
+    Articles about Python and Go, snippets, cheatsheets.
+    The articles are served on [articles.orsinium.dev](https://articles.orsinium.dev/).
 - name: Dependency Injectors
   info: Tests and comparison of Python dependency injection libraries.
   link: https://github.com/orsinium-labs/dependency_injectors
