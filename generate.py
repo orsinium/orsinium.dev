@@ -117,6 +117,8 @@ class Project:
             tags.append(Tag('channel'))
         if 'https://github.com/' in self.data.get('link', ''):
             tags.append(Tag('oss', show=False))
+        if 'flake8' in self.name:
+            tags.append(Tag('flake8'))
 
         if self.meta:
             lang = self.meta['language']

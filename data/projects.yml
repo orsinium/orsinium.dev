@@ -180,26 +180,12 @@
 
 # FLAKE8
 
+- link: https://github.com/orsinium-labs/flake8-warnings
 - link: https://github.com/orsinium-labs/flake8-ruler
-  tags:
-    - python
-    - flake8
 - link: https://github.com/orsinium-labs/flake8-length
-  tags:
-    - python
-    - flake8
 - link: https://github.com/orsinium-labs/flake8-codes
-  tags:
-    - python
-    - flake8
 - link: https://github.com/orsinium-labs/flake8-pylint
-  tags:
-    - python
-    - flake8
 - link: https://github.com/orsinium-labs/flake8-todos
-  tags:
-    - python
-    - flake8
 - link: https://github.com/orsinium-labs/flake8-comments
 
 # PYTHON CLI TOOLS
