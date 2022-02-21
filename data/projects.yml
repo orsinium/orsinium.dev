@@ -182,6 +182,8 @@
 
 - link: https://github.com/orsinium-labs/flake8-warnings
 - link: https://github.com/orsinium-labs/flake8-ruler
+  tags:
+    - cli
 - link: https://github.com/orsinium-labs/flake8-length
 - link: https://github.com/orsinium-labs/flake8-codes
 - link: https://github.com/orsinium-labs/flake8-pylint
