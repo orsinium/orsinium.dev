@@ -24,6 +24,16 @@
     fa: fab fa-python
     mn: python
   items:
+    - name: pydicom
+      bg: https://raw.githubusercontent.com/pydicom/pydicom/master/doc/assets/img/logo.png
+      info: Add download flag for get_testdata_file.
+      date: 2022-03-16
+      link: https://github.com/pydicom/pydicom/pull/1617
+    - name: gcloud-aio
+      bg: https://avatars.githubusercontent.com/u/2810941
+      info: Allow to specify timeout as aiohttp.ClientTimeout.
+      date: 2022-02-16
+      link: https://github.com/talkiq/gcloud-aio/pull/429
     - name: nats.py
       bg: https://avatars.githubusercontent.com/u/10203055
       info: Multiple changes for JetStream support and typing.

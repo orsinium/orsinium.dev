@@ -134,6 +134,8 @@
   info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
   tags:
     - security
+- link: https://github.com/orsinium-labs/benchmark-imports
+- link: https://github.com/orsinium-labs/dimutex
 - link: https://github.com/life4/deal-solver
 - link: https://github.com/orsinium-labs/svg.py
 - link: https://github.com/orsinium-labs/bux
