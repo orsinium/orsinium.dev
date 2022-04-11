@@ -1,6 +1,4 @@
 #!/bin/bash
-echo "# install deps"
-python3 -m pip install -r requirements.txt
 echo "# update meta"
 python3 meta.py
 echo "# show missed"

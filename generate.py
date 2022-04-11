@@ -6,7 +6,7 @@ from collections import Counter
 
 import yaml
 from jinja2 import Environment, FileSystemLoader
-from cached_property import cached_property
+from functools import cached_property
 
 
 env = Environment(
