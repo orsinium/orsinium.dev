@@ -19,3 +19,7 @@
 - name: "Donate"
   link: "https://github.com/sponsors/orsinium"
   icon: far fa-heart
+
+- name: "Page not found"
+  slug: "404"
+  hidden: true
