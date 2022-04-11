@@ -78,7 +78,7 @@
     Online client-side playground for FlakeHell.
     Powers [flakehell.orsinium.dev](https://flakehell.orsinium.dev/)
     using GWeb and pyodide.
-  link: https://github.com/life4/flakehell-online
+  link: https://github.com/orsinium-archive/flakehell-online
   tags:
     - website
 - name: TelloWerk
