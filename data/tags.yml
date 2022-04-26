@@ -45,3 +45,7 @@ elastic:
   icon_fa: fas fa-search
 telegram:
   icon_fa: fas fa-paper-plane
+art:
+  icon_fa: fas fa-palette
+wasm:
+  icon_fa: fab fa-internet-explorer
