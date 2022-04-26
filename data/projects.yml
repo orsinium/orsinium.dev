@@ -56,6 +56,8 @@
 
 - link: https://github.com/life4/gweb
   cv: true
+  tags:
+    - wasm
 - link: https://github.com/life4/genesis
   cv: true
   info: >
@@ -70,6 +72,13 @@
 - link: https://github.com/orsinium-labs/gcserve
 - name: MemFont
   link: https://github.com/orsinium-labs/memfont
+- link: https://github.com/orsinium-labs/wps-playground
+  tags:
+    - website
+    - wasm
+  info: >
+    Playground for [WPS](https://github.com/wemake-services/wemake-python-styleguide) flake8 plugin.
+    Hosted on [wps.orsinium.dev](https://wps.orsinium.dev/).
 - link: https://github.com/orsinium-labs/reviewdog-gitlab-webhook
   info: >
     Trigger [reviewdog](https://github.com/reviewdog/reviewdog)
@@ -81,6 +90,7 @@
   link: https://github.com/orsinium-archive/flakehell-online
   tags:
     - website
+    - wasm
 - name: TelloWerk
   info: "Experiments with DJI Tello drone: navigation, voice synthesization and recognition, face detection"
   link: https://github.com/orsinium-labs/tellowerk
@@ -134,6 +144,12 @@
   info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
   tags:
     - security
+- link: https://github.com/orsinium-labs/generative-art
+  tags:
+    - art
+- link: https://github.com/orsinium-labs/pencils
+  tags:
+    - art
 - link: https://github.com/orsinium-labs/benchmark-imports
 - link: https://github.com/orsinium-labs/dimutex
 - link: https://github.com/life4/deal-solver
