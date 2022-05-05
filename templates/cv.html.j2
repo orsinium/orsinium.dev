@@ -55,8 +55,8 @@
       <hr/>
       <h2>Experience</h2>
     	<div class="row work">
-        {% for item in work %}
-      		<div class="col-md-1">
+        {% for item in work[:3] %}
+      		<div class="col-md-1 d-print-none">
             <img src="./assets/{{ item['image'] }}" />
       		</div>
       		<div class="col-md-3">
@@ -97,8 +97,8 @@
         </div>
       </div>
 
-      <hr/>
-      {% for group in skills %}
+      <hr style="page-break-after: always"/>
+      {% for group in skills[:2] %}
         <h2>{{ group['name'] }}</h2>
       	<div class="row">
           {% for item in group['content'] %}
