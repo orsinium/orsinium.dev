@@ -1,12 +1,15 @@
-- name: 7. Nico-lab
+- name: 7. Nicolab
   image: nicolab.png
   date: 2020-10 &mdash; now
   info: Senior Software Engineer
-  link: https://www.nico-lab.com/
+  link: https://www.nicolab.com/
   points:
-    - Develop Python and Go components of the project.
+    - Develop and maintain most of Python and Go components of the project.
     - Ensure code quality.
     - Redesign the project architecture.
+    - Design, deploy, and maintain GitLab CI pipelines.
+    - Do numerous knowledge sharing sessions, mostly on advanced Python.
+    - Research and introduce new services, like Nats, Argo Workflow, Fluentd, StatsD.
 
 - name: 6. EclecticIQ
   image: eiq.jpg

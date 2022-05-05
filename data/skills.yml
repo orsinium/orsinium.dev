@@ -6,7 +6,7 @@
         mn: python
       cert: https://www.testdome.com/cert/4e8bba06a5c1430aa6a15b799ee39933
       info: >
-        This is my favorite language, I'm in it about 6 years.
+        This is my favorite language, I'm in it about 8 years (since Python 3.4).
         I know source code of almost all stdlib, have many Python-based
         Open Source [projects](./projects.html) and public talks.
     - name: Go
@@ -15,31 +15,42 @@
         # mn: go
       cert: https://www.testdome.com/cert/ca9b6d75b87c4be9bda30a00b68c70b7
       info: >
-        I'm in love with Go. It has quite a different philosophy
-        rather than Python, and it's great. I've started to use it about 2 years ago
-        but already have [a few projects](projects.html#go).
-    - name: PHP
+        I'm quite proficient with Go. I reach to it when I need a good performance:
+        games, small systems (thanks to TinyGo), small but important APIs.
+        Oh, and of course I have [some open-source projects](./projects.html) on Go.
+        At the moment, I have 4 years of experience (since Go 1.11).
+    - name: Elixir
       icon:
-        fa: fab fa-php
-        mn: php
+        fa: fas fa-flask
       info: >
-        It is my first web programming language.
-        I know it well, can read a code, understand what's going on.
-        And explain why PHP is bad.
-    - name: HTML, CSS & LESS
+        I enjoy Elixir and believe it's the best functional language.
+        I know some good of chunk of Erlang, had experience with a basic web app on
+        Phoenix with LiveView, understand Erlang concurency, know some parts of OTP,
+        and eager to dive deeper in this beautiful ecosystem.
+    - name: HTML & CSS
       cert: https://app.testdome.com/cert/9d8039b38e384002805977ef3a220ec4
       icon:
         fa: fab fa-html5
         mn: html-five
       info: >
-        Yeah, they are not a programming languages but so.
-        I can make a simple layout, inspect, fix, design.
-        And also I can use Bootstrap 4 to make the site you're looking at.
+        I'm pretty fluent with HTML, CSS, and even quirks of WebAPI.
+        I might miss on some modern features like flexbox, though.
+        Mostly, because Bootstrap is sufficient for my personal projects and it
+        abstracts away some markup complexity.
+    - name: Frontend (JS)
+      cert: https://app.testdome.com/cert/9d8039b38e384002805977ef3a220ec4
+      icon:
+        fa: fab fa-js
+      info: >
+        With modern JS I'm less familiar.
+        Mostly, I use for my projects AlpineJS, WASM, and LiveView.
+        If you need a frontend developer, it's not me. But if you need from me just
+        a good understanding of your frontend, I can easily crack it.
     - name: More!
       info: >
         I like to learn new things and conceptions.
         I have experience with Haskell, Idris, RPython, Pony, Nim,
-        Crystal, Elixir, Clojure, Scala, JS, Ruby. I'm not afraid
+        Crystal, Clojure, Scala, JS, Ruby. I'm not afraid
         to read and fix code on any language.
 
 - name: Hard skills
