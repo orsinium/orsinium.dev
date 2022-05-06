@@ -28,6 +28,14 @@
 
 # WEBSITES
 
+- name: itj
+  icon: far fa-newspaper
+  link: https://github.com/orsinium-labs/itj
+  info: >
+    My first Elixir+Phoenix project, job aggreagator.
+    Powers [itj.orsinium.dev](https://itj.orsinium.dev/).
+  tags:
+    - website
 - name: articles.orsinium.dev
   icon: far fa-newspaper
   link: https://articles.orsinium.dev/p/
