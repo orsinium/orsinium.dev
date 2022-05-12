@@ -49,7 +49,11 @@
               {% if tag.icon_fa %}
                 <i class="{{ tag.icon_fa }} fa-fw"></i>
               {% endif %}
-              {{ tag.name }}
+              {% if tag.important %}
+                <span class="text-primary">{{ tag.name }}</span>
+              {% else %}
+                {{ tag.name }}
+              {% endif %}
               <span class="text-muted">
                 (<span x-text="available_tags.filter(t => t == '{{tag.id}}').length">{{ tag.count }}</span>)
               </span>

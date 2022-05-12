@@ -28,6 +28,7 @@ class Tag:
     show: bool = True
     icon_fa: str = ''
     icon_mn: str = ''
+    important: bool = False
 
     @property
     def id(self):

@@ -28,14 +28,6 @@
 
 # WEBSITES
 
-- name: itj
-  icon: far fa-newspaper
-  link: https://github.com/orsinium-labs/itj
-  info: >
-    My first Elixir+Phoenix project, job aggreagator.
-    Powers [itj.orsinium.dev](https://itj.orsinium.dev/).
-  tags:
-    - website
 - name: articles.orsinium.dev
   icon: far fa-newspaper
   link: https://articles.orsinium.dev/p/
@@ -57,6 +49,17 @@
   info: >
     Demos for [gweb](https://github.com/life4/gweb),
     including [a browser game](https://gweb.orsinium.dev/breakout/).
+  tags:
+    - website
+
+# ELIXIR
+
+- link: https://github.com/orsinium-labs/re
+- name: itj
+  link: https://github.com/orsinium-labs/itj
+  info: >
+    My first Elixir+Phoenix project, job aggreagator.
+    Powers [itj.orsinium.dev](https://itj.orsinium.dev/).
   tags:
     - website
 
