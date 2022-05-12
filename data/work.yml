@@ -10,6 +10,7 @@
     - Design, deploy, and maintain GitLab CI pipelines.
     - Do numerous knowledge sharing sessions, mostly on advanced Python.
     - Research and introduce new services, like Nats, Argo Workflow, Fluentd, StatsD.
+    - Colaborate with AI engineers to ensure we deliver safe and reliable ML models.
 
 - name: 6. EclecticIQ
   image: eiq.jpg
