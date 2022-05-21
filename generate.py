@@ -97,16 +97,21 @@ class Project:
         return self.stars > 20
 
     @property
-    def cli(self):
+    def cli(self) -> bool:
         if 'cli' in self.data.get('tags', []):
             return True
-        desc = self.meta['description'] or ''
-        if 'CLI' in desc:
-            return True
+        if self.meta:
+            desc = self.meta['description'] or ''
+            if 'CLI' in desc:
+                return True
         desc = self.data.get('description', '')
         if 'CLI' in desc:
             return True
         return False
+
+    @property
+    def oss(self) -> bool:
+        return 'https://github.com/' in self.data.get('link', '')
 
     @cached_property
     def tags(self) -> List[Tag]:
@@ -116,7 +121,7 @@ class Project:
             tags.append(Tag(self.data['lang'], show=False))
         if 'https://t.me/s/' in self.data.get('link', ''):
             tags.append(Tag('channel'))
-        if 'https://github.com/' in self.data.get('link', ''):
+        if self.oss:
             tags.append(Tag('oss', show=False))
         if 'flake8' in self.name:
             tags.append(Tag('flake8'))
@@ -167,6 +172,10 @@ class Projects:
     @property
     def count(self):
         return len(self.items)
+
+    @property
+    def oss_count(self) -> int:
+        return sum(item.oss for item in self)
 
 
 WRAPPERS = dict(
