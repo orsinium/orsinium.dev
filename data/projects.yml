@@ -92,6 +92,7 @@
   link: https://github.com/orsinium-labs/memfont
 - link: https://github.com/orsinium-labs/wps-playground
   tags:
+    - flake8
     - website
     - wasm
   info: >
@@ -217,6 +218,13 @@
 
 # FLAKE8
 
+- link: https://github.com/orsinium-labs/flakes
+  info: >
+    Web list of flake8 plugins and their codes. Powers
+    [flakes.orsinium.dev](https://flakes.orsinium.dev/).
+  tags:
+    - website
+    - flake8
 - link: https://github.com/orsinium-labs/flake8-warnings
 - link: https://github.com/orsinium-labs/flake8-ruler
   tags:
