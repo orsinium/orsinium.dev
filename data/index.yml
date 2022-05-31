@@ -16,6 +16,11 @@ points:
 
 links:
 
+  - name: "Hire me"
+    link: ./hire.html
+    icon: fas fa-plus
+    pages:
+      - home
   - name: "Projects"
     link: ./projects.html
     icon: fas fa-tools

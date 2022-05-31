@@ -1,0 +1,14 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+  <div class="row g-2" style="margin-top: 10px">
+    <p>{{ items['text'] }}</p>
+  </div>
+
+  <div class="row">
+    {% for item in items['items'] %}
+      {% include "minicard.html.j2" with context %}
+    {% endfor %}
+  </div>
+
+{% endblock %}

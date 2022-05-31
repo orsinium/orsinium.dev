@@ -1,6 +1,9 @@
 - name: "Links"
   slug: "index"
   icon: fas fa-home
+- name: "Hire me"
+  slug: "hire"
+  icon: fas fa-plus
 - name: "Projects"
   slug: "projects"
   icon: fas fa-tools
