@@ -74,6 +74,9 @@
 
 - link: https://github.com/life4/gweb
   cv: true
+  links:
+    - https://www.canva.com/design/DAFCPuYjbS8/MoEdD6m-mT86wui1CM9kkg/view
+    - ./assets/gweb.pdf
   tags:
     - wasm
 - link: https://github.com/life4/genesis
