@@ -7,7 +7,7 @@ text: >
 items:
   - name: visa
     info: >
-      I need Dutch visa sponsorship. Check if your company is in
+      I need **Dutch visa sponsorship**. Check if your company is in
       [the public registry](https://ind.nl/en/Documents/Public_Register_Regular_Labour_and_Highly_Skilled_Migrants.pdf).
       If it's not, I can't work for you.
   - name: knowledge domain
@@ -18,16 +18,16 @@ items:
       I'll be bored, and you will pay for a more expensive engineer than you actually need.
   - name: languages
     info: >
-      I write in Python, Go, and Elixir. I can time-to-time dig into codebase in any language
+      I write in **Python, Go, and Elixir**. I can time-to-time dig into codebase in any language
       you have but I won't enjoy writing on PHP or JS regularly.
   - name: values
     info: >
-      The things I value the most are passionate and smart software engineers around me,
+      The things I value the most are **passionate and smart software engineers** around me,
       who know the cost of complexity and want to deliver a high-quality product.
   - name: English
     info: >
       I'm not a native speaker and you might see some grammar mistakes on my website and CV.
-      But don't be deceived, I'm fluent enough to be able to explain and understand anything.
+      But don't be deceived, **I'm fluent enough** to be able to explain and understand anything.
   - name: test assignment
     info: >
       I'll do a test assignment **only if you pay for it** with a rate matching what you pay
@@ -43,10 +43,10 @@ items:
       as a recruiter. The market changes rapidly, so no, I don't know yet how much I'm worth.
   - name: learn more
     info: >
-      The best place to learn about me is my website ([orsinium.dev](https://orsinium.dev/))
+      The best place to learn about me is **my website** ([orsinium.dev](https://orsinium.dev/))
       which lists most of my open-source projects, skills, and work experience.
   - name: contact
     info: >
       Now, you know a bit about what I expect. Do you think you know a place where I fit?
-      Then let's talk about you! The best way to contact me is by email:
+      Then let's talk about you! The best way to contact me is **by email**:
       [gram@orsinium.dev](mailto:gram@orsinium.dev). I'll be waiting for you <3
