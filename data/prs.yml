@@ -1,3 +1,13 @@
+- name: Elixir
+  icon:
+    fa: fas fa-flask
+  items:
+    - name: elixir-type_check
+      bg: https://github.com/Qqwy/elixir-type_check/raw/master/media/type_check_logo_icon.png
+      info: Support for built-in @type and @spec.
+      date: 2022-05-27
+      link: https://github.com/Qqwy/elixir-type_check/pull/113
+
 - name: Go
   icon:
     fa: fas fa-running
@@ -81,7 +91,7 @@
       bg: https://github.com/dry-python/brand/raw/master/logo/returns.png
       info: Currying.
       date: 2020-04-23
-      link: https://github.com/wemake-services/coverage-conditional-plugin/pull/3
+      link: https://github.com/dry-python/returns/pull/350
     - name: awesome-go
       info: WebAssembly category.
       date: 2020-04-08
@@ -152,6 +162,20 @@
       info: Updated CC-BY license name.
       date: 2018-04-18
       link: https://github.com/github/choosealicense.com/pull/583
+
+- name: Misc
+  icon:
+    fa: fa-solid fa-face-thinking
+  items:
+    - name: terraform-google-gitlab-runner
+      info: Explicitly specify google-machine-image.
+      date: 2022-04-28
+      link: https://github.com/digio/terraform-google-gitlab-runner/pull/8
+    - name: rmfakecloud
+      info: Improve installation docs.
+      date: 2022-04-07
+      link: https://github.com/ddvk/rmfakecloud/pull/168
+
     - name: Opened PRs
       info: Some of my PRs aren't accepted yet.
       class: text-white bg-dark

@@ -380,16 +380,26 @@
   link: https://github.com/typeddjango/awesome-python-typing
   tags:
     - awesome
+    - python
 - name: Awesome Python Code Formatters
   info: List of cool auto code formatters for Python.
   link: https://github.com/life4/awesome-python-code-formatters
   tags:
     - awesome
+    - python
 - name: Awesome Go Code Formatters
   info: List of cool auto code formatters for Go (like gofmt).
   link: https://github.com/life4/awesome-go-code-formatters
   tags:
     - awesome
+    - go
+- name: Awesome Flake8 Extensions
+  info: List of flake8 plugins and extensions. I'm not the author but a maintainer.
+  link: https://github.com/DmytroLitvinov/awesome-flake8-extensions
+  tags:
+    - awesome
+    - flake8
+    - python
 - link: https://github.com/orsinium/notes
   info: >
     Articles about Python and Go, snippets, cheatsheets.
