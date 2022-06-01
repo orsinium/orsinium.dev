@@ -24,10 +24,12 @@ items:
     info: >
       The things I value the most are **passionate and smart software engineers** around me,
       who know the cost of complexity and want to deliver a high-quality product.
-  - name: English
+  - name: office vs remote
     info: >
-      I'm not a native speaker and you might see some grammar mistakes on my website and CV.
-      But don't be deceived, **I'm fluent enough** to be able to explain and understand anything.
+      I prefer a flexible approach with a **focus on the remote**. I come into the office
+      when I know I need to talk to someone in person. In all other cases, I work from home.
+      At home, I'm more productive, and focused, save a lot of time and energy on my commute,
+      and still can call people if needed.
   - name: test assignment
     info: >
       I'll do a test assignment **only if you pay for it** with a rate matching what you pay
