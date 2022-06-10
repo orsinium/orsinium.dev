@@ -2,27 +2,21 @@
 # TELEGRAM CHANNELS
 
 - name: Python etc
-  lang: eng
   link: https://t.me/s/pythonetc
   info: "Everything about Python."
 - name: ITGram
-  lang: eng
   link: https://t.me/s/itgram_channel
   info: "All about development: best practice, articles, useful tools, libs etc."
 - name: LaserGram
-  lang: eng
   link: https://t.me/s/laser_gram
   info: "Little things I do out of wood on my laser cutter."
 - name: RPGram
-  lang: eng
   link: https://t.me/s/rpgram_channel
   info: "The process of development rogue-like RPG."
 - name: Jokes++
-  lang: eng
   link: https://t.me/s/jokespp
   info: "Jokes about C++ because why not."
 - name: RPG Dump
-  lang: eng
   link: https://t.me/s/rpgdump
   info: "TTRPGs and board games."
 - name: I am sterdam
@@ -441,6 +435,17 @@
 
 # TALKS
 
+- name: "WebAssembly"
+  date: TBA
+  info: "Guide on writing frontend apps in Go"
+  link: https://github.com/orsinium-labs/golang-wasm
+  tags:
+    - talk
+    - wasm
+    - go
+  links:
+    - https://www.canva.com/design/DAFCzup8ZuU/bAdnsADxPAs6t2kJrCBHjA/view
+    - https://github.com/orsinium-labs/golang-wasm
 - name: "Be a Rockstar"
   lang: rus
   date: 2019-03-12
@@ -463,7 +468,6 @@
     - https://www.mentimeter.com/s/524cf910db99dcf99fa10c8f6decce9c/dc4f32062aa8/edit
     - ./assets/types.pdf
 - name: "Logging!"
-  lang: eng
   date: 2018-12-06
   info: "My first English talk. Sorry about that."
   tags:

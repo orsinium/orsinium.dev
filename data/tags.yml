@@ -14,6 +14,9 @@ channel:
 website:
   important: true
   icon_fa: fas fa-globe
+talk:
+  important: true
+  icon_fa: fas fa-microphone
 
 oss:
   icon_fa: fas fa-code-branch
@@ -23,8 +26,6 @@ popular:
   icon_fa: fas fa-star
 archived:
   icon_fa: fas fa-archive
-talk:
-  icon_fa: fas fa-microphone
 cli:
   icon_fa: fas fa-terminal
 flake8:
@@ -36,8 +37,6 @@ packaging:
 monitoring:
   icon_fa: fas fa-eye
 rus:
-  icon_fa: fas fa-flag
-eng:
   icon_fa: fas fa-flag
 docker:
   icon_fa: fab fa-docker

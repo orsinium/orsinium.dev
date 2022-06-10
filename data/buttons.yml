@@ -12,7 +12,7 @@
 
 - trigger: "github.com"
   icon: fab fa-github
-  text: repository
+  text: source
 
 - trigger: "/itgram_channel/"
   icon: fab fa-telegram
