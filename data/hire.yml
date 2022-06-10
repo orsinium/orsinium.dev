@@ -47,6 +47,8 @@ items:
     info: >
       The best place to learn about me is **my website** ([orsinium.dev](https://orsinium.dev/))
       which lists most of my open-source projects, skills, and work experience.
+      I also have [CV](./cv.html) but it's just an abridged version of the website.
+      Press `ctrl+P` to generate PDF.
   - name: contact
     info: >
       Now, you know a bit about what I expect. Do you think you know a place where I fit?

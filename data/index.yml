@@ -48,7 +48,7 @@ links:
       - home
   - name: "Donate"
     link: "https://github.com/sponsors/orsinium"
-    icon: far fa-heart
+    icon: fas fa-heart
     pages:
       - home
 
@@ -89,4 +89,9 @@ links:
     short: linkedin.com/in/orsinium
     pages:
       - cv
+      - home
+  - name: public key
+    icon: fas fa-key
+    link: ./assets/publickey.asc
+    pages:
       - home
