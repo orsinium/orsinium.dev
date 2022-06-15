@@ -56,3 +56,5 @@ art:
   icon_fa: fas fa-palette
 wasm:
   icon_fa: fab fa-internet-explorer
+jinja:
+  icon_fa: fas fa-synagogue
