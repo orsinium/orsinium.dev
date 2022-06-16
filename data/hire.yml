@@ -29,13 +29,7 @@ items:
       I prefer a flexible approach with a **focus on the remote**. I come into the office
       when I know I need to talk to someone in person. In all other cases, I work from home.
       At home, I'm more productive, and focused, save a lot of time and energy on my commute,
-      and still can call people if needed.
-  - name: test assignment
-    info: >
-      I'll do a test assignment **only if you pay for it** with a rate matching what you pay
-      your engineers. I'm a senior engineer, I have a full-time job, and I value my personal time.
-      If you want to see my code, I have [100+ open-source projects](./projects.html).
-      If you want to see something specific, ask me on an interview.
+      and still can call people if needed. I'm open for 100% remote positions too.
   - name: salary
     info: >
       I want to earn as much as possible, and my financial goals are far from being exhausted.
@@ -43,6 +37,11 @@ items:
       Fair compensation is **how much other companies are ready to pay for my skills**.
       To know my skills, you have interviews. To know the market, you have your experience
       as a recruiter. The market changes rapidly, so no, I don't know yet how much I'm worth.
+  - name: recruiting agencies
+    info: >
+      I can work with third-party agencies, but please, **tell me upfront** what companies
+      you hire for. Even before we had the first call. Let's value our time. I promise not
+      to apply to them past you and not sell this sacred knowledge to anyone.
   - name: learn more
     info: >
       The best place to learn about me is **my website** ([orsinium.dev](https://orsinium.dev/))
