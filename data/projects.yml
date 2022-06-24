@@ -439,17 +439,31 @@
 
 # TALKS
 
-- name: "WebAssembly"
-  date: TBA
-  info: "Guide on writing frontend apps in Go"
+- name: WebAssembly
+  date: 2022-06-23
+  info: >
+    A guide on writing frontend apps in Go.
+    Features [gweb](https://github.com/life4/gweb).
   link: https://github.com/orsinium-labs/golang-wasm
   tags:
     - talk
     - wasm
     - go
   links:
-    - https://www.canva.com/design/DAFCzup8ZuU/bAdnsADxPAs6t2kJrCBHjA/view
     - https://github.com/orsinium-labs/golang-wasm
+    - https://www.canva.com/design/DAFCzup8ZuU/bAdnsADxPAs6t2kJrCBHjA/view
+    - ./assets/wasm.pdf
+- name: Writing bug-free Python code
+  date: 2022-06-22
+  info: >
+    A talk about [deal](https://github.com/life4/deal),
+    why it exists, and what it does. From tests to formal verification.
+  tags:
+    - talk
+    - python
+  links:
+    - https://www.canva.com/design/DAFDeuKwoY4/H51IEx1zyNMNUwe5phvD7Q/view
+    - ./assets/deal.pdf
 - name: "Be a Rockstar"
   lang: rus
   date: 2019-03-12
@@ -473,7 +487,7 @@
     - ./assets/types.pdf
 - name: "Logging!"
   date: 2018-12-06
-  info: "My first English talk. Sorry about that."
+  info: "My first English talk. That could be worse >.<"
   tags:
     - talk
     - python
