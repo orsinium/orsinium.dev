@@ -1,3 +1,11 @@
+- name: 8. Sendcloud
+  image: sendcloud.png
+  date: 2022-08 &mdash; now
+  info: Senior Software Engineer
+  link: https://www.nicolab.com/
+  points:
+    - Develop and maintain the Django monolith.
+
 - name: 7. Nicolab
   image: nicolab.png
   date: 2020-10 &mdash; 2022-08
