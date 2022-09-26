@@ -1,4 +1,3 @@
-
 # TELEGRAM CHANNELS
 
 - name: Python etc
@@ -87,6 +86,15 @@
 - link: https://github.com/orsinium-labs/gcserve
 - name: MemFont
   link: https://github.com/orsinium-labs/memfont
+- link: https://github.com/orsinium-labs/svg-playground
+  tags:
+    - art
+    - website
+    - wasm
+  info: >
+    Playground for [svg.py](https://github.com/orsinium-labs/svg.py).
+    Hosted on [svg.orsinium.dev](https://svg.orsinium.dev/).
+    Draw SVG images with Python online!
 - link: https://github.com/orsinium-labs/wps-playground
   tags:
     - flake8
@@ -168,6 +176,7 @@
 - link: https://github.com/orsinium-labs/generative-art
   tags:
     - art
+- link: https://github.com/orsinium-labs/astypes
 - link: https://github.com/orsinium-labs/pencils
   tags:
     - art
@@ -209,7 +218,7 @@
   link: https://github.com/orsinium-labs/swag
 - name: Pathfinder Dice
   info: A library for evaluating dice notation for Pathfinder RPG.
-  link: https://github.com/life4/pathfinder_dice
+  link: https://github.com/orsinium-labs/pathfinder_dice
 - link: https://github.com/orsinium-labs/publishing
 - link: https://github.com/orsinium-labs/marktplaats
   info: A script for [marktplaats.nl](https://www.marktplaats.nl/) search notifications.
@@ -239,6 +248,14 @@
 
 # PYTHON CLI TOOLS
 
+- link: https://github.com/orsinium-labs/mypy-baseline
+  tags:
+    - python
+    - cli
+- link: https://github.com/orsinium-labs/infer-types
+  tags:
+    - python
+    - cli
 - link: https://github.com/orsinium-labs/telegram-stat
   tags:
     - python
@@ -399,6 +416,7 @@
     - awesome
     - flake8
     - python
+- link: https://github.com/orsinium-labs/python-testing
 - link: https://github.com/orsinium/notes
   info: >
     Articles about Python and Go, snippets, cheatsheets.

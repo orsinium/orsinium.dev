@@ -11,7 +11,8 @@ from functools import cached_property
 
 env = Environment(
     loader=FileSystemLoader('templates'),
-    extensions=['jinja2.ext.loopcontrols', 'jinja2_markdown.MarkdownExtension'],
+    extensions=['jinja2.ext.loopcontrols',
+                'jinja2_markdown.MarkdownExtension'],
 )
 
 threshold = (datetime.now() - timedelta(days=450)).isoformat()
@@ -127,9 +128,10 @@ class Project:
             tags.append(Tag('flake8'))
 
         if self.meta:
-            lang = self.meta['language']
+            lang: str = self.meta['language']
             if lang:
-                tags.append(Tag(lang.lower()))
+                lang = lang.lower().replace('jupyter notebook', 'jupyter')
+                tags.append(Tag(lang))
             if self.popular:
                 tags.append(Tag('popular', show=False))
             if self.archived:
