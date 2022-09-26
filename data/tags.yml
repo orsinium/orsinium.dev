@@ -46,7 +46,7 @@ awesome:
   icon_fa: fas fa-list
 django:
   icon_fa: fas fa-hat-cowboy-side
-jupyter notebook:
+jupyter:
   icon_fa: fas fa-book-open
 elastic:
   icon_fa: fas fa-search
@@ -58,3 +58,5 @@ wasm:
   icon_fa: fab fa-internet-explorer
 jinja:
   icon_fa: fas fa-synagogue
+mypy:
+  icon_fa: fas fa-surprise
