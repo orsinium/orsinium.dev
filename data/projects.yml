@@ -159,12 +159,8 @@
   cv: true
   tags:
     - flake8
-- name: Homoglyphs
-  bg: https://github.com/life4/homoglyphs/raw/master/logo.png
-  link: https://github.com/life4/homoglyphs
-  info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
-  tags:
-    - security
+- link: https://github.com/orsinium-labs/svg.py
+- link: https://github.com/orsinium-labs/true-north
 - link: https://github.com/orsinium-labs/punchline
   tags:
     - music
@@ -183,7 +179,6 @@
 - link: https://github.com/orsinium-labs/benchmark-imports
 - link: https://github.com/orsinium-labs/dimutex
 - link: https://github.com/life4/deal-solver
-- link: https://github.com/orsinium-labs/svg.py
 - link: https://github.com/orsinium-labs/bux
   info: Python SDK and CLI for [BUX Zero](http://getbux.com/)
 - link: https://github.com/orsinium-labs/eff
@@ -314,6 +309,12 @@
   info: Flake8 wrapper to make it nice, legacy-friendly, configurable.
   tags:
     - flake8
+- name: Homoglyphs
+  bg: https://github.com/life4/homoglyphs/raw/master/logo.png
+  link: https://github.com/life4/homoglyphs
+  info: Get similar letters, convert to ASCII, detect possible languages and UTF-8 group.
+  tags:
+    - security
 - name: DjBrut
   bg: https://github.com/life4/django-bruteforce-protection/raw/master/logo.png
   link: https://github.com/orsinium-archive/django-bruteforce-protection
