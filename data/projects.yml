@@ -161,11 +161,17 @@
     - flake8
 - link: https://github.com/orsinium-labs/svg.py
 - link: https://github.com/orsinium-labs/true-north
+- link: https://github.com/orsinium-labs/docked
+  tags:
+    - docker
 - link: https://github.com/orsinium-labs/punchline
   tags:
     - music
     - art
 - link: https://github.com/life4/l10n
+- link: https://github.com/orsinium-labs/pyrformance
+  tags:
+    - cli
 - link: https://github.com/orsinium-labs/generative-art
   tags:
     - art
@@ -426,6 +432,14 @@
   info: >
     Articles about Python and Go, snippets, cheatsheets.
     The articles are served on [articles.orsinium.dev](https://articles.orsinium.dev/).
+- link: https://github.com/life4/pythonetc
+  tags:
+    - python
+    - website
+  info: >
+    The source code and articles for
+    [pythonetc.orsinium.dev](https://pythonetc.orsinium.dev/) and
+    [t.me/pythonetc](https://t.me/s/pythonetc).
 - name: Dependency Injectors
   info: Tests and comparison of Python dependency injection libraries.
   link: https://github.com/orsinium-labs/dependency_injectors
