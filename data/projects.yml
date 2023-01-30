@@ -65,6 +65,13 @@
 
 # GOLANG
 
+- link: https://github.com/life4/enc
+  bg: https://raw.githubusercontent.com/life4/enc/master/logo-light.svg
+  info: >
+    A modern and friendly CLI alternative to GnuPG.
+  tags:
+    - security
+    - cli
 - link: https://github.com/life4/gweb
   cv: true
   links:
@@ -160,6 +167,7 @@
   tags:
     - flake8
 - link: https://github.com/orsinium-labs/svg.py
+- link: https://github.com/orsinium-labs/walnats
 - link: https://github.com/orsinium-labs/true-north
 - link: https://github.com/orsinium-labs/docked
   tags:
@@ -440,6 +448,7 @@
     The source code and articles for
     [pythonetc.orsinium.dev](https://pythonetc.orsinium.dev/) and
     [t.me/pythonetc](https://t.me/s/pythonetc).
+- link: https://github.com/orsinium-labs/simple-tla
 - name: Dependency Injectors
   info: Tests and comparison of Python dependency injection libraries.
   link: https://github.com/orsinium-labs/dependency_injectors

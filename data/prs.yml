@@ -34,6 +34,15 @@
     fa: fab fa-python
     mn: python
   items:
+    - name: dramatiq
+      bg: https://raw.githubusercontent.com/Bogdanp/dramatiq/master/artwork/logo.png
+      info: Type annotations and mypy support.
+      date: 2022-12-08
+      link: https://github.com/Bogdanp/dramatiq/pulls?q=is%3Apr+author%3Aorsinium
+    - name: pip-audit
+      info: Add VulnerabilityResult.published field.
+      date: 2022-11-05
+      link: https://github.com/pypa/pip-audit/pull/404
     - name: pydicom
       bg: https://raw.githubusercontent.com/pydicom/pydicom/master/doc/assets/img/logo.png
       info: Add download flag for get_testdata_file.
