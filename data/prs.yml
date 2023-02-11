@@ -7,6 +7,11 @@
       info: Support for built-in @type and @spec.
       date: 2022-05-27
       link: https://github.com/Qqwy/elixir-type_check/pull/113
+    - name: phoenix_live_dashboard
+      bg: https://raw.githubusercontent.com/phoenixframework/phoenix/master/priv/static/phoenix.png
+      info: Support for ecto_sqlite3_extras.
+      date: 2023-02-02
+      link: https://github.com/phoenixframework/phoenix_live_dashboard/pull/400
 
 - name: Go
   icon:

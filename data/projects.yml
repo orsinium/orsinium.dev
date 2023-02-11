@@ -51,6 +51,11 @@
 
 # ELIXIR
 
+- link: https://github.com/orsinium-labs/ecto_sqlite3_extras
+  info: >
+    Helpful queries and
+    [Phoenix Live Dashboard](https://github.com/phoenixframework/phoenix_live_dashboard)
+    integration for SQLite.
 - link: https://github.com/orsinium-labs/re
   links:
     - ./assets/re.pdf
