@@ -63,7 +63,7 @@
 - name: itj
   link: https://github.com/orsinium-labs/itj
   info: >
-    My first Elixir+Phoenix project, job aggreagator.
+    My first Elixir+Phoenix project, a job aggregator.
     Powers [itj.orsinium.dev](https://itj.orsinium.dev/).
   tags:
     - website
