@@ -22,6 +22,9 @@
 - name: "Donate"
   link: "https://github.com/sponsors/orsinium"
   icon: far fa-heart
+- name: "Stargazers"
+  slug: "stars"
+  icon: fas fa-star
 
 - name: "Page not found"
   slug: "404"

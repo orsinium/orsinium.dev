@@ -1,0 +1,40 @@
+{% extends "base.html.j2" %} {% block content %}
+  <div class="row">
+    {% for user in items.top_users %}
+      <div class="card col-sm-12 col-md-4 col-lg-3">
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="{{ user.url }}">
+              {{ user.name }}
+            </a>
+            <span class="text-muted" title="followers">
+              <i class="fas fa-eye"></i>
+              {{ user.followers }}
+            </span>
+          </h5>
+          <p class="card-text">
+            {% if user.top_repo %}
+              the author of
+              <a href="{{ user.top_repo.url }}">
+                {{ user.top_repo.name }}
+              </a>
+              <span class="text-muted" title="stargazers">
+                <i class="fas fa-star"></i>
+                {{ user.top_repo.stars }}
+              </span>
+            {% endif %}
+          </p>
+        </div>
+
+        <div class="card-footer bg-transparent">
+          {% for repo in user.stars %}
+            <a href="{{ repo.url }}" class="btn btn-light" target="_blank">
+              {{ repo.name }}
+            </a>
+          {% endfor %}
+        </div>
+
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
