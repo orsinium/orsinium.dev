@@ -13,10 +13,14 @@ query getStargazers(
   $number_of_stargazers: Int!
   $org_name: String!
   $repo_name: String!
+  $cursor: String
 ) {
   repository(name: $repo_name, owner: $org_name) {
-    stargazers(last: $number_of_stargazers) {
+    stargazers(first: $number_of_stargazers, after: $cursor) {
       totalCount
+      edges {
+        cursor
+      }
       nodes {
         login
         followers {

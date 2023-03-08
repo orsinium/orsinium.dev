@@ -31,17 +31,35 @@ def query_org(org_name: str) -> dict[str, dict]:
 
 
 def query_repo(org_name, repo_name) -> dict[str, dict[str, object]]:
+    result = {}
+    cursor = None
+    for pageno in range(1, 30):
+        print('    page', pageno)
+        page_content, cursor = query_repo_page(org_name, repo_name, cursor)
+        result.update(page_content)
+        if cursor is None:
+            break
+    return result
+
+
+def query_repo_page(
+    org_name: str,
+    repo_name: str,
+    cursor: str | None,
+) -> tuple[dict[str, dict[str, object]], str | None]:
     resp = client.execute(
         document=gql(raw_query),
         variable_values={
             'number_of_stargazers': 100,
             'org_name': org_name,
             'repo_name': repo_name,
+            'cursor': cursor,
         },
         operation_name='getStargazers',
     )
+    stargazers = resp['repository']['stargazers']
     users = {}
-    for user in resp['repository']['stargazers']['nodes']:
+    for user in stargazers['nodes']:
         if user['followers']['totalCount'] < 100:
             continue
 
@@ -75,7 +93,14 @@ def query_repo(org_name, repo_name) -> dict[str, dict[str, object]]:
             repos=repos,
             pins=pins,
         )
-    return users
+
+    new_cursor = None
+    if len(users) < stargazers['totalCount']:
+        edges = stargazers['edges']
+        if edges:
+            new_cursor = edges[-1]['cursor']
+
+    return users, new_cursor
 
 
 def main():

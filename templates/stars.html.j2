@@ -16,7 +16,7 @@
           </h6>
           <p class="card-text">
             {% if user.top_repo %}
-              the author of
+              author of
               <a href="{{ user.top_repo.url }}">
                 {{ user.top_repo.name }}
               </a>
@@ -25,7 +25,7 @@
                 {{ user.top_repo.stars }}
               </span>
             {% elif user.top_pin %}
-              the maintainer of
+              maintainer of
               <a href="{{ user.top_pin.url }}">
                 {{ user.top_pin.name }}
               </a>
@@ -40,6 +40,7 @@
         <div class="card-footer bg-transparent">
           {% for repo in user.stars %}
             <a href="{{ repo.url }}" class="btn btn-light" target="_blank">
+              <i class="fas fa-star"></i>
               {{ repo.name }}
             </a>
           {% endfor %}
