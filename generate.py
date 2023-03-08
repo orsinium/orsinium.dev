@@ -13,8 +13,10 @@ from functools import cached_property
 
 env = Environment(
     loader=FileSystemLoader('templates'),
-    extensions=['jinja2.ext.loopcontrols',
-                'jinja2_markdown.MarkdownExtension'],
+    extensions=[
+        'jinja2.ext.loopcontrols',
+        'jinja2_markdown.MarkdownExtension',
+    ],
 )
 
 threshold = (datetime.now() - timedelta(days=450)).isoformat()
@@ -197,14 +199,24 @@ class Repo:
 class User:
     name: str
     followers: int
-    repos: list[Repo]  # top repos of the user
-    stars: list[Repo]  # repos that the user starred
+    repos: list[Repo]   # top repos owned by the user
+    pins: list[Repo]    # repos pinned by the user
+    stars: list[Repo]   # repos that the user starred
 
     @cached_property
     def top_repo(self) -> Repo | None:
         if not self.repos:
             return None
         repo = self.repos[0]
+        if repo.stars < 1000:
+            return None
+        return repo
+
+    @cached_property
+    def top_pin(self) -> Repo | None:
+        if not self.pins:
+            return None
+        repo = max(self.pins, key=lambda r: r.stars)
         if repo.stars < 1000:
             return None
         return repo
@@ -252,6 +264,10 @@ class Stars:
                         repos=[
                             Repo(**r, owner=user_name)
                             for r in user_info['repos']
+                        ],
+                        pins=[
+                            Repo(**r)
+                            for r in user_info['pins']
                         ],
                         stars=[],
                     )

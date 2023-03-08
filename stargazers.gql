@@ -36,6 +36,18 @@ query getStargazers(
             }
           }
         }
+        # pinned repositories
+        pinnedItems(first: 6) {
+          nodes {
+            ... on Repository {
+              name
+              owner {
+                login
+              }
+              stargazerCount
+            }
+          }
+        }
       }
     }
   }

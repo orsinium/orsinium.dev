@@ -45,6 +45,7 @@ def query_repo(org_name, repo_name) -> dict[str, dict[str, object]]:
         if user['followers']['totalCount'] < 100:
             continue
 
+        # parse top repositories of the user
         repos = []
         for subrepo in user['repositories']['nodes']:
             if subrepo['stargazerCount'] < 100:
@@ -56,9 +57,23 @@ def query_repo(org_name, repo_name) -> dict[str, dict[str, object]]:
                 stars=subrepo['stargazerCount'],
             ))
 
+        # parse pinned repositories of the user
+        pins = []
+        for subrepo in user['pinnedItems']['nodes']:
+            if not subrepo:
+                continue
+            if subrepo['stargazerCount'] < 100:
+                continue
+            pins.append(dict(
+                name=subrepo['name'],
+                owner=subrepo['owner']['login'],
+                stars=subrepo['stargazerCount'],
+            ))
+
         users[user['login']] = dict(
             followers=user['followers']['totalCount'],
             repos=repos,
+            pins=pins,
         )
     return users
 

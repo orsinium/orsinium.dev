@@ -1,17 +1,19 @@
 {% extends "base.html.j2" %} {% block content %}
   <div class="row">
     {% for user in items.top_users %}
-      <div class="card col-sm-12 col-md-4 col-lg-3">
+      <div class="card col-sm-12 col-md-6 col-lg-4">
         <div class="card-body">
           <h5 class="card-title">
             <a href="{{ user.url }}">
               {{ user.name }}
             </a>
+          </h5>
+          <h6 class="card-subtitle text-muted">
             <span class="text-muted" title="followers">
-              <i class="fas fa-eye"></i>
+              <i class="fas fa-users"></i>
               {{ user.followers }}
             </span>
-          </h5>
+          </h6>
           <p class="card-text">
             {% if user.top_repo %}
               the author of
@@ -21,6 +23,15 @@
               <span class="text-muted" title="stargazers">
                 <i class="fas fa-star"></i>
                 {{ user.top_repo.stars }}
+              </span>
+            {% elif user.top_pin %}
+              the maintainer of
+              <a href="{{ user.top_pin.url }}">
+                {{ user.top_pin.name }}
+              </a>
+              <span class="text-muted" title="stargazers">
+                <i class="fas fa-star"></i>
+                {{ user.top_pin.stars }}
               </span>
             {% endif %}
           </p>
