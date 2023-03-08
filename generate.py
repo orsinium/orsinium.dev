@@ -216,7 +216,7 @@ class User:
         if not self.repos:
             return None
         repo = self.repos[0]
-        if repo.stars < 1000:
+        if repo.stars < 2000:
             return None
         return repo
 
@@ -225,7 +225,7 @@ class User:
         if not self.pins:
             return None
         repo = max(self.pins, key=lambda r: r.stars)
-        if repo.stars < 1000:
+        if repo.stars < 2000:
             return None
         if repo.owner == self.name:
             return None

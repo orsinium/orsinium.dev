@@ -1,14 +1,18 @@
 {% extends "base.html.j2" %} {% block content %}
+  <p class="lead">
+    These are some famous people that starred my GitHub projects.
+  </p>
   <div class="row">
     {% for user in items.top_users %}
       <div class="card col-sm-12 col-md-6 col-lg-4">
         <div class="card-body">
-          <h5 class="card-title">
+          <h5 class="card-title" style="display: inline-block">
+            <img src="https://github.com/{{ user.name }}.png?size=40" class="avatar" />
             <a href="{{ user.url }}">
               {{ user.name }}
             </a>
           </h5>
-          <h6 class="card-subtitle text-muted">
+          <h6 class="card-subtitle text-muted" style="display: inline-block; margin-left: 5px">
             <span class="text-muted" title="followers">
               <i class="fas fa-users"></i>
               {{ user.followers }}
@@ -40,7 +44,15 @@
         <div class="card-footer bg-transparent">
           {% for repo in user.stars[:3] %}
             <a href="{{ repo.url }}" class="btn btn-light" target="_blank">
-              <i class="fas fa-star"></i>
+              {% if repo.name == 'flakehell' %}
+                <i class="fas fa-fire"></i>
+              {% elif repo.name == 'textdistance' %}
+                <i class="fas fa-ruler"></i>
+              {% elif repo.name == 'deal' %}
+                <i class="fas fa-handshake"></i>
+              {% else %}
+                <i class="far fa-star"></i>
+              {% endif %}
               {{ repo.name }}
             </a>
           {% endfor %}
