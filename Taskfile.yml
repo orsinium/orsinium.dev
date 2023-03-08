@@ -1,7 +1,10 @@
 # https://taskfile.dev/
-version: '3'
-tasks:
+version: "3"
 
+dotenv:
+  - .env
+
+tasks:
   install:
     sources:
       - requirements.txt
@@ -16,3 +19,9 @@ tasks:
       - templates/*.html.j2
     cmds:
       - python3 generate.py
+
+  stargazers:
+    deps:
+      - install
+    cmds:
+      - python3 stargazers.py
