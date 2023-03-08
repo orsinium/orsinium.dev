@@ -1,3 +1,4 @@
+import asyncio
 import os
 from pathlib import Path
 from gql import Client, gql
@@ -13,41 +14,59 @@ client = Client(transport=transport, fetch_schema_from_transport=True)
 raw_query = Path('stargazers.gql').read_text()
 
 
-def query_org(org_name: str) -> dict[str, dict]:
-    resp = client.execute(
-        document=gql(raw_query),
-        variable_values={'org_name': org_name},
-        operation_name='getRepos',
-    )
-    assert resp['organization']['repositories']['totalCount'] <= 100
-    repos = resp['organization']['repositories']['nodes']
-    result = {}
-    for repo in repos:
-        repo_name = repo['name']
-        print(' ', repo_name)
-        repo_info = query_repo(org_name, repo_name)
-        result[repo_name] = repo_info
-    return result
+async def query_org(org_name: str) -> dict[str, dict]:
+    async with client as session:
+        print(f'querying {org_name}')
+        resp = await session.execute(
+            document=gql(raw_query),
+            variable_values={'org_name': org_name},
+            operation_name='getRepos',
+        )
+        assert resp['organization']['repositories']['totalCount'] <= 100
+        repos = resp['organization']['repositories']['nodes']
+
+        # concurrently query info about all repos
+        result = {}
+        tasks = []
+        for repo in repos:
+            tasks.append(query_repo(session, org_name, repo['name']))
+        print(f'awaiting additional info for {org_name} repositories')
+        star_infos = await asyncio.gather(*tasks)
+        for repo, stars in zip(repos, star_infos):
+            result[repo['name']] = stars
+
+        return result
 
 
-def query_repo(org_name, repo_name) -> dict[str, dict[str, object]]:
+async def query_repo(
+    session,
+    org_name: str,
+    repo_name: str,
+) -> dict[str, dict[str, object]]:
     result = {}
     cursor = None
     for pageno in range(1, 30):
-        print('    page', pageno)
-        page_content, cursor = query_repo_page(org_name, repo_name, cursor)
+        if pageno >= 4:
+            print(f'querying page {pageno} for {org_name}/{repo_name}')
+        page_content, cursor = await query_repo_page(
+            session=session,
+            org_name=org_name,
+            repo_name=repo_name,
+            cursor=cursor,
+        )
         result.update(page_content)
         if cursor is None:
             break
     return result
 
 
-def query_repo_page(
+async def query_repo_page(
+    session,
     org_name: str,
     repo_name: str,
     cursor: str | None,
 ) -> tuple[dict[str, dict[str, object]], str | None]:
-    resp = client.execute(
+    resp = await session.execute(
         document=gql(raw_query),
         variable_values={
             'number_of_stargazers': 100,
@@ -103,14 +122,15 @@ def query_repo_page(
     return users, new_cursor
 
 
-def main():
+async def main() -> None:
     result = {}
-    for org_name in ['life4', 'orsinium-labs']:
+    orgs = ['life4', 'orsinium-labs']
+    for org_name in orgs:
         print(org_name)
-        result[org_name] = query_org(org_name)
+        result[org_name] = await query_org(org_name)
     with Path('data', 'stars.yml').open('w') as stream:
         yaml.dump(data=result, stream=stream)
 
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())

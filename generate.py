@@ -203,6 +203,14 @@ class User:
     pins: list[Repo]    # repos pinned by the user
     stars: list[Repo]   # repos that the user starred
 
+    @property
+    def is_notable(self) -> bool:
+        if self.followers < 200:
+            return False
+        if self.followers > 2000:
+            return True
+        return bool(self.top_repo or self.top_pin)
+
     @cached_property
     def top_repo(self) -> Repo | None:
         if not self.repos:
@@ -219,6 +227,8 @@ class User:
         repo = max(self.pins, key=lambda r: r.stars)
         if repo.stars < 1000:
             return None
+        if repo.owner == self.name:
+            return None
         return repo
 
     @property
@@ -233,9 +243,8 @@ class Stars:
     @property
     def top_users(self) -> Iterator[User]:
         for user in self.users:
-            if user.followers < 400:
-                continue
-            yield user
+            if user.is_notable:
+                yield user
 
     @cached_property
     def users(self) -> list[User]:

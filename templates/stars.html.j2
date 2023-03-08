@@ -38,7 +38,7 @@
         </div>
 
         <div class="card-footer bg-transparent">
-          {% for repo in user.stars %}
+          {% for repo in user.stars[:3] %}
             <a href="{{ repo.url }}" class="btn btn-light" target="_blank">
               <i class="fas fa-star"></i>
               {{ repo.name }}
