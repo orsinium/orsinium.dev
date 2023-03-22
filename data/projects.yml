@@ -48,6 +48,13 @@
     including [a browser game](https://gweb.orsinium.dev/breakout/).
   tags:
     - website
+- name: stars.orsinium.dev
+  link: https://stars.orsinium.dev/
+  info: >
+    Most notable stargazers of my GitHub projects.
+    Powered by [ghstars](https://github.com/orsinium-labs/ghstars).
+  tags:
+    - website
 
 # ELIXIR
 
@@ -273,6 +280,10 @@
     - python
     - cli
     - mypy
+- link: https://github.com/orsinium-labs/owners
+  tags:
+    - python
+    - cli
 - link: https://github.com/orsinium-labs/telegram-stat
   tags:
     - python
@@ -441,6 +452,14 @@
     - flake8
     - python
 - link: https://github.com/orsinium-labs/python-testing
+- link: https://github.com/orsinium-labs/top-reddit-languages
+  info: >
+    Generate the top of programming languages based on subreddit subscribers.
+    Powers [languages.orsinium.dev](https://languages.orsinium.dev/).
+- link: https://github.com/orsinium-labs/ghstars
+  info: >
+    Generate a list of most notable stargazers for GitHub repositories of an organization.
+    Powers [stars.orsinium.dev](https://stars.orsinium.dev/).
 - link: https://github.com/orsinium/notes
   info: >
     Articles about Python and Go, snippets, cheatsheets.
