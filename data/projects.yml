@@ -180,10 +180,12 @@
     - flake8
 - link: https://github.com/orsinium-labs/svg.py
 - link: https://github.com/orsinium-labs/walnats
+- link: https://github.com/orsinium-labs/pytypest
 - link: https://github.com/orsinium-labs/true-north
 - link: https://github.com/orsinium-labs/docked
   tags:
     - docker
+- link: https://github.com/orsinium-labs/pydantic-translations
 - link: https://github.com/orsinium-labs/punchline
   tags:
     - music

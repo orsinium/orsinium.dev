@@ -99,7 +99,7 @@ class Project:
 
     @property
     def popular(self):
-        return self.stars > 20
+        return self.stars > 30
 
     @property
     def cli(self) -> bool:
