@@ -56,8 +56,12 @@
   tags:
     - website
 
-# ELIXIR
+# ELIXIR & RUST
 
+- link: https://github.com/life4/textdistance.rs
+  info: >
+    Rust library to compare strings (or any sequences).
+    A younger sibling of Python textdistance.
 - link: https://github.com/orsinium-labs/ecto_sqlite3_extras
   info: >
     Helpful queries and
@@ -190,7 +194,8 @@
   tags:
     - music
     - art
-- link: https://github.com/life4/l10n
+- link: https://github.com/orsinium-labs/l10n
+- link: https://github.com/orsinium-labs/gcp-log
 - link: https://github.com/orsinium-labs/pyrformance
   tags:
     - cli
@@ -509,6 +514,14 @@
 - name: English
   info: My English learning notes and cheat sheets.
   link: https://github.com/orsinium/english
+
+# VIDEOS
+
+- name: Hacking DVWS with Burp Suite
+  info: A small video course on penetration testing using Burp Suite.
+  link: https://www.youtube.com/playlist?list=PLz_SG4MKcA4m1p-QPvkLaX6gVrCIHwkCj
+  tags:
+    - security
 
 # TALKS
 
