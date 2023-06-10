@@ -196,6 +196,8 @@
     - art
 - link: https://github.com/orsinium-labs/l10n
 - link: https://github.com/orsinium-labs/gcp-log
+- link: https://github.com/orsinium-labs/cardaio
+  info: A Python library for adjustable delays.
 - link: https://github.com/orsinium-labs/pyrformance
   tags:
     - cli
