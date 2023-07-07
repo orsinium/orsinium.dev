@@ -2,26 +2,26 @@
 
 - name: Python etc
   link: https://t.me/s/pythonetc
+  icon: fab fa-python
   info: "Everything about Python."
 - name: ITGram
   link: https://t.me/s/itgram_channel
   info: "All about development: best practice, articles, useful tools, libs etc."
 - name: LaserGram
+  icon: fas fa-hammer
   link: https://t.me/s/laser_gram
   info: "Little things I do out of wood on my laser cutter."
-- name: RPGram
-  link: https://t.me/s/rpgram_channel
-  info: "The process of development rogue-like RPG."
+- name: NoiseGram
+  icon: fas fa-music
+  link: https://t.me/noise_gram
+  info: "Music I create on PO-33, stylophone, kalimba, and music box."
 - name: Jokes++
   link: https://t.me/s/jokespp
   info: "Jokes about C++ because why not."
 - name: RPG Dump
+  icon: fas fa-hat-wizard
   link: https://t.me/s/rpgdump
   info: "TTRPGs and board games."
-- name: I am sterdam
-  lang: rus
-  link: https://t.me/s/iam_sterdam
-  info: "How I see Amsterdam."
 
 # WEBSITES
 
@@ -57,6 +57,7 @@
   tags:
     - website
 - name: stars.orsinium.dev
+  icon: fas fa-star
   link: https://stars.orsinium.dev/
   info: >
     Most notable stargazers of my GitHub projects.
