@@ -57,10 +57,10 @@ links:
     short: orsinium.dev
     pages:
       - cv
-  - name: articles
+  - name: blog
     icon: far fa-newspaper
-    link: https://articles.orsinium.dev/
-    short: articles.orsinium.dev
+    link: https://blog.orsinium.dev/
+    short: blog.orsinium.dev
     pages:
       - cv
   - name: github

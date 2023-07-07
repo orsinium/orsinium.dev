@@ -25,10 +25,18 @@
 
 # WEBSITES
 
+- name: blog.orsinium.dev
+  icon: far fa-newspaper
+  link: https://blog.orsinium.dev/
+  info: My blog about Python, Go, and other software stuff.
+  tags:
+    - website
 - name: articles.orsinium.dev
   icon: far fa-newspaper
   link: https://articles.orsinium.dev/p/
-  info: My notes about Python, Go, IT.
+  info: >
+    My old blog. Everything worthy is moved to
+    [blog.orsinium.dev](https://blog.orsinium.dev/)
   tags:
     - website
 - link: https://github.com/orsinium/orsinium.dev
@@ -469,6 +477,10 @@
   info: >
     Generate a list of most notable stargazers for GitHub repositories of an organization.
     Powers [stars.orsinium.dev](https://stars.orsinium.dev/).
+- link: https://github.com/orsinium/blog
+  info: >
+    The source code for [blog.orsinium.dev](https://blog.orsinium.dev/),
+    including markdown files for all posts. Powered by [Hugo](https://gohugo.io/).
 - link: https://github.com/orsinium/notes
   info: >
     Articles about Python and Go, snippets, cheatsheets.
