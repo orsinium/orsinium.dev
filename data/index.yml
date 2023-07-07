@@ -1,7 +1,7 @@
 points:
   - text: Senior Software Engineer from Netherlands.
     icon: fas fa-laptop
-  - text: Python, Go, Elixir, Web, Security.
+  - text: Python, Go, Elixir, Rust, Web, Security.
     icon: fab fa-python
   - text: Passionate about my craft.
     icon: fas fa-tools

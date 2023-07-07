@@ -70,6 +70,10 @@
   info: >
     Rust library to compare strings (or any sequences).
     A younger sibling of Python textdistance.
+- link: https://github.com/orsinium-labs/rlci
+  info: >
+    Overly-documented Rust-powered Lambda Calculus Interpreter.
+    A real programming language in a small box.
 - link: https://github.com/orsinium-labs/ecto_sqlite3_extras
   info: >
     Helpful queries and
@@ -249,7 +253,7 @@
     - monitoring
 - name: Django Google Play permissions
   info: Django package for getting permissions for Android app from Google Play.
-  link: https://github.com/orsinium-labs/django-google-play-permissions
+  link: https://github.com/orsinium-archive/django-google-play-permissions
   tags:
     - docker
 - name: Swag

@@ -5,6 +5,9 @@ python:
 go:
   important: true
   icon_fa: fas fa-running
+rust:
+  important: true
+  icon_fa: fab fa-rust
 elixir:
   important: true
   icon_fa: fas fa-flask
