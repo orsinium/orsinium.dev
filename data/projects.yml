@@ -30,6 +30,7 @@
   tags:
     - website
   links:
+    - https://blog.orsinium.dev/index.xml
     - https://github.com/orsinium/blog
 - name: TextDistance
   badge: ⭐️ most popular
