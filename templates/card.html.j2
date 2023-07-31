@@ -8,6 +8,11 @@
       <img class="card-img-top" src="./assets/{{ item['image'] }}" />
     {% endif %}
 
+    {% if item.badge %}
+      <div class="badge bg-dark">
+        {{ item.badge }}
+      </div>
+    {% endif %}
 
     <h5 class="card-title">
 

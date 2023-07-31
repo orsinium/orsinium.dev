@@ -4,6 +4,7 @@
   link: https://pythonetc.orsinium.dev/
   icon: fab fa-python
   info: Posts about Python stdlib, syntax, and internals.
+  badge: 🔥 quality content
   tags:
     - python
     - website
@@ -30,6 +31,52 @@
     - website
   links:
     - https://github.com/orsinium/blog
+- name: TextDistance
+  badge: ⭐️ most popular
+  cv: true
+  bg: https://github.com/life4/textdistance/raw/master/logo.png
+  link: https://github.com/life4/textdistance
+  info: >
+    Compute the distance between sequences.
+    30+ algorithms, pure python implementation,
+    common interface, optional external libs usage.
+- bg: https://github.com/life4/deal/raw/master/logo.png
+  link: https://github.com/life4/deal
+  badge: 🐍 python highlight
+  cv: true
+  tags:
+    - flake8
+- name: itj.orsinium.dev
+  badge: 🧪 elixir highlight
+  link: https://itj.orsinium.dev/
+  links:
+    - https://github.com/orsinium-labs/itj
+  tags:
+    - elixir
+    - website
+  info: >
+    Decentralized job aggregator written in Elixir (Phoenix Framework)
+- link: https://github.com/life4/textdistance.rs
+  badge: 🦀 rust highlight
+  info: >
+    Rust library to compare strings (or any sequences).
+    A younger sibling of Python textdistance.
+- link: https://github.com/life4/enc
+  badge: 🏃 golang highlight
+  bg: https://raw.githubusercontent.com/life4/enc/master/logo-light.svg
+  info: >
+    A modern and friendly CLI alternative to GnuPG.
+  tags:
+    - security
+    - cli
+- name: DepHell
+  badge: 🧠 most complex
+  cv: true
+  bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
+  link: https://github.com/dephell/dephell
+  tags:
+    - packaging
+  info: The best Python project manager, all-in-one solution with a smart resolver.
 
 # TELEGRAM CHANNELS
 
@@ -77,22 +124,9 @@
     Powered by [ghstars](https://github.com/orsinium-labs/ghstars).
   tags:
     - website
-- name: itj.orsinium.dev
-  link: https://itj.orsinium.dev/
-  links:
-    - https://github.com/orsinium-labs/itj
-  tags:
-    - elixir
-    - website
-  info: >
-    Decentralized job aggregator written in Elixir (Phoenix Framework)
 
 # ELIXIR & RUST
 
-- link: https://github.com/life4/textdistance.rs
-  info: >
-    Rust library to compare strings (or any sequences).
-    A younger sibling of Python textdistance.
 - link: https://github.com/orsinium-labs/rlci
   info: >
     Overly-documented Rust-powered Lambda Calculus Interpreter.
@@ -109,13 +143,6 @@
 
 # GOLANG
 
-- link: https://github.com/life4/enc
-  bg: https://raw.githubusercontent.com/life4/enc/master/logo-light.svg
-  info: >
-    A modern and friendly CLI alternative to GnuPG.
-  tags:
-    - security
-    - cli
 - link: https://github.com/life4/gweb
   cv: true
   links:
@@ -205,19 +232,6 @@
 
 # PYTHON
 
-- name: TextDistance
-  cv: true
-  bg: https://github.com/life4/textdistance/raw/master/logo.png
-  link: https://github.com/life4/textdistance
-  info: >
-    Compute the distance between sequences.
-    30+ algorithms, pure python implementation,
-    common interface, optional external libs usage.
-- bg: https://github.com/life4/deal/raw/master/logo.png
-  link: https://github.com/life4/deal
-  cv: true
-  tags:
-    - flake8
 - link: https://github.com/orsinium-labs/svg.py
 - link: https://github.com/orsinium-labs/walnats
 - link: https://github.com/orsinium-labs/pytypest
@@ -368,13 +382,6 @@
 
 # PYTHON ARCHIVED
 
-- name: DepHell
-  cv: true
-  bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
-  link: https://github.com/dephell/dephell
-  tags:
-    - packaging
-  info: The best Python project manager, all-in-one solution with a smart resolver.
 - name: FlakeHell
   bg: https://raw.githubusercontent.com/life4/flakehell/master/assets/logo.png
   link: https://github.com/life4/flakehell

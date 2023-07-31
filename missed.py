@@ -20,7 +20,6 @@ IGNORE = {
     'https://github.com/orsinium-labs/turtle',
 
     'https://github.com/orsinium/forks',
-    'https://github.com/orsinium/orsinium.dev',
     'https://github.com/orsinium/orsinium',
 
     'https://github.com/typeddjango/django-mypy-plugin',
@@ -36,7 +35,9 @@ with Path('data', 'meta.yml').open('r') as stream:
 
 listed_links = IGNORE
 with Path('data', 'projects.yml').open('r') as stream:
+    item: dict
     for item in yaml.safe_load(stream):
         listed_links.add(item.get('link', ''))
+        listed_links.update(item.get('links', []))
 
 print(*sorted(all_links - listed_links), sep='\n')

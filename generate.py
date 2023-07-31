@@ -47,10 +47,10 @@ class Project:
     def __getitem__(self, name):
         return self.data[name]
 
-    def __getattr__(self, name):
+    def __getattr__(self, name: str):
         return getattr(self.data, name)
 
-    def __contains__(self, name):
+    def __contains__(self, name: str) -> bool:
         return name in self.data
 
     @cached_property
@@ -61,7 +61,7 @@ class Project:
         return self.data['link'].split('/')[-1]
 
     @cached_property
-    def info(self):
+    def info(self) -> str:
         info = self.data.get('info', '').rstrip()
         if not info and self.meta:
             info = self.meta.get('description', '')
@@ -74,31 +74,31 @@ class Project:
         return meta.get(self.data.get('link'))
 
     @property
-    def stars(self):
+    def stars(self) -> int:
         if self.meta is None:
             return 0
         return self.meta['stars']
 
     @property
-    def archived(self):
+    def archived(self) -> bool:
         if self.meta is None:
             return False
         return self.meta['archived']
 
     @property
-    def experimental(self):
+    def experimental(self) -> bool:
         if self.meta is None:
             return False
         return 'orsinium-labs' in self.data['link']
 
     @property
-    def stale(self):
+    def stale(self) -> bool:
         if self.archived or self.meta is None:
             return False
         return self.meta['updated_at'] < threshold
 
     @property
-    def popular(self):
+    def popular(self) -> bool:
         return self.stars > 30
 
     @property
