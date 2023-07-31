@@ -1,12 +1,38 @@
-# TELEGRAM CHANNELS
+# PINNED
 
 - name: Python etc
-  link: https://t.me/s/pythonetc
+  link: https://pythonetc.orsinium.dev/
   icon: fab fa-python
-  info: "Everything about Python."
+  info: Posts about Python stdlib, syntax, and internals.
+  tags:
+    - python
+    - website
+    - channel
+  links:
+    - https://t.me/s/pythonetc
+    - https://pythonetc.orsinium.dev/index.xml
+    - https://github.com/life4/pythonetc
 - name: ITGram
-  link: https://t.me/s/itgram_channel
+  link: https://itgram.orsinium.dev/
   info: "All about development: best practice, articles, useful tools, libs etc."
+  tags:
+    - website
+    - channel
+  links:
+    - https://t.me/s/itgram_channel
+    - https://itgram.orsinium.dev/index.xml
+    - https://github.com/orsinium/itgram
+- name: blog.orsinium.dev
+  icon: far fa-newspaper
+  link: https://blog.orsinium.dev/
+  info: My blog about Python, Go, and other software stuff.
+  tags:
+    - website
+  links:
+    - https://github.com/orsinium/blog
+
+# TELEGRAM CHANNELS
+
 - name: LaserGram
   icon: fas fa-hammer
   link: https://t.me/s/laser_gram
@@ -25,12 +51,6 @@
 
 # WEBSITES
 
-- name: blog.orsinium.dev
-  icon: far fa-newspaper
-  link: https://blog.orsinium.dev/
-  info: My blog about Python, Go, and other software stuff.
-  tags:
-    - website
 - name: articles.orsinium.dev
   icon: far fa-newspaper
   link: https://articles.orsinium.dev/p/
@@ -49,13 +69,6 @@
   info: When I'm bored, I answer random questions on Stack Overflow.
   tags:
     - website
-- name: gweb.orsinium.dev
-  link: https://gweb.orsinium.dev/
-  info: >
-    Demos for [gweb](https://github.com/life4/gweb),
-    including [a browser game](https://gweb.orsinium.dev/breakout/).
-  tags:
-    - website
 - name: stars.orsinium.dev
   icon: fas fa-star
   link: https://stars.orsinium.dev/
@@ -64,6 +77,15 @@
     Powered by [ghstars](https://github.com/orsinium-labs/ghstars).
   tags:
     - website
+- name: itj.orsinium.dev
+  link: https://itj.orsinium.dev/
+  links:
+    - https://github.com/orsinium-labs/itj
+  tags:
+    - elixir
+    - website
+  info: >
+    Decentralized job aggregator written in Elixir (Phoenix Framework)
 
 # ELIXIR & RUST
 
@@ -84,13 +106,6 @@
   links:
     - ./assets/re.pdf
 - link: https://github.com/orsinium-labs/exp
-- name: itj
-  link: https://github.com/orsinium-labs/itj
-  info: >
-    My first Elixir+Phoenix project, a job aggregator.
-    Powers [itj.orsinium.dev](https://itj.orsinium.dev/).
-  tags:
-    - website
 
 # GOLANG
 
@@ -104,10 +119,18 @@
 - link: https://github.com/life4/gweb
   cv: true
   links:
+    - https://gweb.orsinium.dev/
     - https://www.canva.com/design/DAFCPuYjbS8/MoEdD6m-mT86wui1CM9kkg/view
     - ./assets/gweb.pdf
   tags:
     - wasm
+    - website
+    - go
+- name: Breakout
+  link: https://gweb.orsinium.dev/breakout/
+  info: >
+    A browser game written in Go and WASM and powered by
+    [gweb](https://github.com/life4/gweb)
 - link: https://github.com/life4/genesis
   cv: true
   info: >
@@ -331,15 +354,12 @@
   tags:
     - python
     - cli
+    - packaging
 - link: https://github.com/orsinium-labs/typeforce
   tags:
     - python
     - cli
     - mypy
-- link: https://github.com/orsinium-labs/vpypi
-  tags:
-    - python
-    - cli
 - info: The most uncompromising Python code formatter ever
   link: https://github.com/orsinium-labs/dethklok
   tags:
@@ -377,9 +397,13 @@
 - name: DjBurger
   bg: https://github.com/orsinium-archive/djburger/raw/master/wiki/source/imgs/logo.png
   link: https://github.com/orsinium-archive/djburger
-  info: Framework for safe and maintainable web-projects.
+  info: Django-powered framework for safe and maintainable web-projects.
   tags:
     - django
+- link: https://github.com/orsinium-archive/vpypi
+  tags:
+    - python
+    - cli
 - name: RuTimeParser
   link: https://github.com/orsinium-archive/rutimeparser
   info: Recognize date and time in Russian text and return datetime.datetime.
@@ -482,22 +506,10 @@
   info: >
     Generate a list of most notable stargazers for GitHub repositories of an organization.
     Powers [stars.orsinium.dev](https://stars.orsinium.dev/).
-- link: https://github.com/orsinium/blog
-  info: >
-    The source code for [blog.orsinium.dev](https://blog.orsinium.dev/),
-    including markdown files for all posts. Powered by [Hugo](https://gohugo.io/).
 - link: https://github.com/orsinium/notes
   info: >
     Articles about Python and Go, snippets, cheatsheets.
     The articles are served on [articles.orsinium.dev](https://articles.orsinium.dev/).
-- link: https://github.com/life4/pythonetc
-  tags:
-    - python
-    - website
-  info: >
-    The source code and articles for
-    [pythonetc.orsinium.dev](https://pythonetc.orsinium.dev/) and
-    [t.me/pythonetc](https://t.me/s/pythonetc).
 - link: https://github.com/orsinium-labs/simple-tla
 - name: Dependency Injectors
   info: Tests and comparison of Python dependency injection libraries.

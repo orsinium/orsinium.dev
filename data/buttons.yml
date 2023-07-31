@@ -34,10 +34,6 @@
   icon: fas fa-eye
   text: slides
 
-- trigger: "life4web.ru/"
-  icon: fas fa-info-circle
-  text: info
-
 - trigger: "timepad.ru/"
   icon: fas fa-map-marker-alt
   text: event
@@ -49,6 +45,14 @@
 - trigger: ".pdf"
   icon: fas fa-file-pdf
   text: slides
+
+- trigger: "/index.xml"
+  icon: fas fa-rss
+  text: rss
+
+- trigger: "gweb.orsinium.dev"
+  icon: fas fa-globe-americas
+  text: demo
 
 - trigger: ""
   icon: fas fa-globe-americas
