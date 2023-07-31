@@ -267,6 +267,8 @@
 - link: https://github.com/orsinium-labs/bux
   info: Python SDK and CLI for [BUX Zero](http://getbux.com/)
 - link: https://github.com/orsinium-labs/eff
+- link: https://github.com/orsinium-labs/gpcc
+  info: Python library and CLI tool to fetch information from GCP Browser.
 - link: https://github.com/orsinium-labs/mypy-test
   tags:
     - mypy
