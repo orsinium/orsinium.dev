@@ -83,6 +83,11 @@
   </div>
   {% if 'links' in item %}
     <div class="card-footer bg-transparent">
+      {% if item['link'] %}
+        <a href="{{ item['link'] }}" class="btn btn-light" target="_blank">
+          <i class="fas fa-link"></i>
+        </a>
+      {% endif %}
       {% for link in item['links'] %}
         <a href="{{ link }}" class="btn btn-light" target="_blank">
           {% for button in buttons %}
