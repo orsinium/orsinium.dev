@@ -163,11 +163,14 @@
   cv: true
   info: >
     Generic functions for Go 1.18: Filter, Map, Reduce, Min, Sort, etc.
+- link: https://github.com/orsinium-labs/enum
 - link: https://github.com/life4/logit
 - link: https://github.com/orsinium-labs/sourcemap
   tags:
     - js
     - security
+- link: https://github.com/orsinium-labs/arguard
+- link: https://github.com/orsinium-labs/cliff
 - link: https://github.com/orsinium-labs/gamepad
 - link: https://github.com/orsinium-labs/imgshow
 - link: https://github.com/orsinium-labs/gcserve
