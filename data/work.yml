@@ -1,11 +1,12 @@
 - name: 8. Sendcloud
   image: sendcloud.png
   date: 2022-08 &mdash; now
-  info: Senior Software Engineer
+  info: Principal Software Engineer
   link: https://www.nicolab.com/
   points:
-    - Maintain and empower the Django monolith.
-    - Plan and lead the way to microservices.
+    - Maintain and empower the Django monolith
+    - Plan and lead the way to microservices
+    - Lead lots of initiatives about code safety and maintainability
 
 - name: 7. Nicolab
   image: nicolab.png
@@ -13,13 +14,13 @@
   info: Senior Software Engineer
   link: https://www.nicolab.com/
   points:
-    - Develop and maintain most of Python and Go components of the project.
-    - Ensure code quality.
-    - Redesign the project architecture.
-    - Design, deploy, and maintain GitLab CI pipelines.
-    - Do numerous knowledge sharing sessions, mostly on advanced Python.
-    - Research and introduce new services, like Nats, Argo Workflow, Fluentd, StatsD.
-    - Colaborate with AI engineers to ensure we deliver safe and reliable ML models.
+    - Develop and maintain most of Python and Go components of the project
+    - Ensure code quality
+    - Redesign the project architecture
+    - Design, deploy, and maintain GitLab CI pipelines
+    - Do numerous knowledge sharing sessions, mostly on advanced Python
+    - Research and introduce new services, like Nats, Argo Workflow, Fluentd, StatsD
+    - Colaborate with AI engineers to ensure we deliver safe and reliable ML models
 
 - name: 6. EclecticIQ
   image: eiq.jpg
@@ -27,12 +28,12 @@
   info: Senior Software Engineer
   link: https://www.eclecticiq.com/
   points:
-    - Research and develop text processing solutions (OCR, NER).
-    - Apply AWS solution (SageMaker, Textract, Comprehend).
-    - Build OpenAPI system and documentation for all endpoints.
-    - Discover, report, and fix vulnerabilities in the platform.
-    - Create CI/CD pipeline on Gitlab CI.
-    - Research and develop new REST API (based on JSON:API).
+    - Research and develop text processing solutions (OCR, NER)
+    - Apply AWS solution (SageMaker, Textract, Comprehend)
+    - Build OpenAPI system and documentation for all endpoints
+    - Discover, report, and fix vulnerabilities in the platform
+    - Create CI/CD pipeline on Gitlab CI
+    - Research and develop new REST API (based on JSON:API)
 
 - name: 5. Cindicator
   image: cnd.jpg
@@ -40,14 +41,14 @@
   info: Senior Python developer, architect
   link: https://cindicator.com/
   points:
-    - Create Spotify's Luigi based ML pipeline.
+    - Create Spotify's Luigi based ML pipeline
     - >
       Rewrite trading platform that retrieves information from cryptocurrency
       exchanges, pass it into strategies, get a prediction
-      about cryptocurrencies prices and make trades.
-    - Make simple trading strategies.
-    - Improve testing practice, write a lot of tests.
-    - Integrate code quality solutions on CI, create style guides.
+      about cryptocurrencies prices and make trades
+    - Make simple trading strategies
+    - Improve testing practice, write a lot of tests
+    - Integrate code quality solutions on CI, create style guides
 
 - name: 4. Smena
   image: smena.jpg
@@ -55,11 +56,11 @@
   info: Django web developer (Python)
   link: http://smena.space/
   points:
-    - Build monitoring system.
-    - Refactor report service (performance is increased from 12 hours to 90 seconds).
-    - Develop Flask-based microservices.
-    - Support and improve big Django-based monolith.
-    - Analyze customers' data for marketing purposes.
+    - Build monitoring system
+    - Refactor report service (performance is increased from 12 hours to 90 seconds)
+    - Develop Flask-based microservices
+    - Support and improve big Django-based monolith
+    - Analyze customers' data for marketing purposes
 
 - name: 3. Frodex
   image: frodex.png
@@ -67,19 +68,19 @@
   info: Internship
   link: http://www.frodex.ru/index_en
   points:
-    - Integrate Postres-XL.
-    - Build JS obfuscator on Python (my dark past).
-    - Work with phisycal servers on CentOS.
+    - Integrate Postres-XL
+    - Build JS obfuscator on Python (my dark past)
+    - Work with phisycal servers on CentOS
 
 - name: 2. Life4Web
   image: life4.png
   date: 2016-01 &mdash; 2017-05
   info: Founder, Django web developer (Python)
   points:
-    - Organize a team, manage tasks.
-    - Discuss projects details with clients.
-    - Choose technical stack for projects.
-    - Develop Django-based backend.
+    - Organize a team, manage tasks
+    - Discuss projects details with clients
+    - Choose technical stack for projects
+    - Develop Django-based backend
 
 - name: 1. USATU
   image: usatu.png
@@ -87,9 +88,9 @@
   info: Researcher in Department of Linguistic Communication and Psycholinguistics.
   link: https://www.ugatu.su/en/
   points:
-    - Research language influence measurement.
-    - Apply Claude Shannon's information theory to natural language analysis.
-    - Build programs and web services for text analysis.
+    - Research language influence measurement
+    - Apply Claude Shannon's information theory to natural language analysis
+    - Build programs and web services for text analysis
 
 - name: 0. USATU (education)
   image: usatu.png
@@ -97,8 +98,8 @@
   info: Bachelor of Information Security.
   link: https://www.ugatu.su/en/
   points:
-    - Participate in CTFs as a team lead.
+    - Participate in CTFs as a team lead
     - >
       My graduate thesis is about building automatic vulnerabilities aggregation
-      system and matching them with installed packages on a server.
+      system and matching them with installed packages on a server
     - Have a red diploma (almost all marks are "excellent")
