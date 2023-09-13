@@ -5,51 +5,51 @@ text: >
   So, let's try to learn about each other as much as we can before any commitments.
   Below are some of my expectations from my job, current or future.
 items:
-  - name: visa
+  - name: 🇳🇱 visa
     info: >
       I need **Dutch visa sponsorship**. Check if your company is in
       [the public registry](https://ind.nl/en/documents/06-2022/publicregisterregularlabourandhighlyskilledmigrants.pdf).
       If it's not, I can't work for you.
-  - name: knowledge domain
+  - name: 🧠 knowledge domain
     info: >
       I'm a senior software engineer and my career is focused on **solving difficult
       technical issues**, like distributed, real-time, high-scale, and high-complexity systems.
       If all you have is a small web application, I won't fit into your team.
       I'll be bored, and you will pay for a more expensive engineer than you actually need.
-  - name: languages
+  - name: 🔧 languages
     info: >
       I write in **Python, Go, and Elixir**. I can time-to-time dig into codebase in any language
       you have but I won't enjoy writing on PHP or JS regularly.
-  - name: values
+  - name: 💎 values
     info: >
       The thing I value the most is **passionate and smart software engineers** around me,
       who know the cost of complexity and want to deliver a high-quality product.
-  - name: office vs remote
+  - name: 🏢 office vs remote
     info: >
       I prefer a flexible approach with a **focus on the remote**. I come into the office
       when I know I need to talk to someone in person. In all other cases, I work from home.
       At home, I'm more productive, and focused, save a lot of time and energy on my commute,
       and still can call people if needed. I'm open for 100% remote positions too.
-  - name: salary
+  - name: 💵 salary
     info: >
       I want to earn as much as possible, and my financial goals are far from being exhausted.
       So, it doesn't make sense to ask how much I want. Let's talk about how much is fair.
       Fair compensation is **how much other companies are ready to pay for my skills**.
       To know my skills, you have interviews. To know the market, you have your experience
       as a recruiter. The market changes rapidly, so no, I don't know yet how much I'm worth.
-  - name: recruiting agencies
+  - name: 🤝 recruiting agencies
     info: >
       I can work with third-party agencies, but please, **tell me upfront** what companies
       you hire for. Even before we had the first call. Let's value our time. I promise not
       to apply to them past you and not sell this sacred knowledge to anyone.
-  - name: learn more
+  - name: 🕵 learn more
     info: >
       The best place to learn about me is **my website** ([orsinium.dev](https://orsinium.dev/))
       which lists most of my open-source projects, skills, and work experience.
       I also have [CV](./cv.html) but it's just an abridged version of the website.
       Press `ctrl+P` to generate PDF.
-  - name: contact
+  - name: 📞 contact
     info: >
       Now, you know a bit about what I expect. Do you think you know a place where I fit?
       Then let's talk about you! The best way to contact me is **by email**:
-      [gram@orsinium.dev](mailto:gram@orsinium.dev). I'll be waiting for you <3
+      [gram@orsinium.dev](mailto:gram@orsinium.dev). I'll be waiting for you ♥️
