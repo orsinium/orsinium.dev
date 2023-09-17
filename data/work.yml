@@ -2,11 +2,12 @@
   image: sendcloud.png
   date: 2022-08 &mdash; now
   info: Principal Software Engineer
-  link: https://www.nicolab.com/
+  link: https://www.sendcloud.nl/
   points:
     - Maintain and empower the Django monolith
     - Plan and lead the way to microservices
     - Lead lots of initiatives about code safety and maintainability
+    - Design and optimize high-load components of the system
 
 - name: 7. Nicolab
   image: nicolab.png
