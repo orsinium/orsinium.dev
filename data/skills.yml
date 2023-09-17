@@ -6,8 +6,8 @@
         mn: python
       cert: https://www.testdome.com/cert/4e8bba06a5c1430aa6a15b799ee39933
       info: >
-        This is my favorite language, I'm in it since version 3.4 (2014).
-        I know source code of almost all stdlib, have many Python-based
+        This is my favorite language, I've been in it since version 3.4 (2014).
+        I know the source code of almost all stdlib, have many Python-based
         Open Source [projects](./projects.html) and public talks, always
         can pick the best library for any task.
     - name: Go
@@ -17,7 +17,7 @@
       cert: https://www.testdome.com/cert/ca9b6d75b87c4be9bda30a00b68c70b7
       info: >
         I'm quite proficient with Go. I reach to it when I need a good performance:
-        games, small systems (thanks to TinyGo), CLI tools, small but important APIs.
+        games, small systems (thanks to TinyGo), CLI tools, and small but important APIs.
         Oh, and of course I have [some open-source projects](./projects.html) on Go.
         I work with Go since version 1.11 (2018).
     - name: Elixir
@@ -25,18 +25,18 @@
         fa: fas fa-flask
       info: >
         I enjoy Elixir and believe it's the best functional language.
-        I know some good of chunk of Erlang, had experience with a basic web app on
-        Phoenix with LiveView, understand Erlang concurency, know some parts of OTP,
-        and eager to dive deeper in this beautiful ecosystem.
+        I know some good of chunk of Erlang, have experience with a basic web app on
+        Phoenix with LiveView, understand Erlang concurrency, know some parts of OTP,
+        and eager to dive deeper into this beautiful ecosystem.
     - name: HTML & CSS
       cert: https://app.testdome.com/cert/9d8039b38e384002805977ef3a220ec4
       icon:
         fa: fab fa-html5
         mn: html-five
       info: >
-        I'm pretty fluent with HTML, CSS, and even quirks of WebAPI.
-        I might miss on some modern features like flexbox, though.
-        Mostly, because Bootstrap is sufficient for my personal projects and it
+        I'm pretty fluent with HTML, CSS, and even the quirks of WebAPI.
+        I might miss some modern features like flexbox, though.
+        Mostly, because Bootstrap is sufficient for my projects and it
         abstracts away some markup complexity.
     - name: Frontend (JS)
       cert: https://app.testdome.com/cert/9d8039b38e384002805977ef3a220ec4
@@ -52,7 +52,7 @@
         I believe that every programming language has some beautiful ideas,
         and I like learning new ones. I have experience with Rust, Haskell, Gleam,
         Idris, RPython, Pony, Nim, Crystal, Clojure, Scala, JS, Ruby, and many other
-        languages. I'm not afraid to read and fix code written on any language.
+        languages. I'm not afraid to read and fix code written in any language.
 
 - name: Hard skills
   content:
@@ -60,12 +60,12 @@
       icon:
         fa: fas fa-network-wired
       info: >
-        Distributed systems are hard because of very nature of our world
+        Distributed systems are hard because of the very nature of our world
         (damn you, speed of light!), and I enjoy cracking this complexity.
         I'm familiar with fundamental problems, design patterns, algorithms,
         formal verification techniques and tools (TLA+ and Alloy 6),
         and just in general can design reliable solutions and consider
-        all possible corner-cases.
+        all possible corner cases.
     - name: Quality Assurance
       cert: https://app.testdome.com/cert/54d8c8c8957f43fe9b9f0f505c9cf479
       icon:
@@ -73,9 +73,9 @@
       info: >
         Automated testing (unit, integration, acceptance, regression),
         static code analysis, formal verification,
-        contract programming, mutation tests, type theory.
-        I like to push boundaries of my code to see how it performs in extreme
-        situations, to find interesting corner-cases, to dive into math behind programming.
+        contract programming, mutation tests, and type theory.
+        I like to push the boundaries of my code to see how it performs in extreme
+        situations, to find interesting corner cases, and to dive into the math behind programming.
     - name: Security
       cert: https://app.testdome.com/cert/95979e76c01f42c6afd8305f89d0af3d
       icon:
@@ -85,10 +85,10 @@
         interested in practical aspects of security,
         have many publications on different topics,
         visited some security conferences.
-        I was a founder and leader of the CTF team that have gotten
-        6th place on an [international contest](https://ctftime.org/event/360)
+        I was a founder and leader of the CTF team that has gotten
+        6th place in an [international contest](https://ctftime.org/event/360)
         ([alert1](https://ctftime.org/team/24077) team).
-        In Smena team I've made global security audit, fixed many security issues,
+        In the Smena team I've made global security audit, fixed many security issues,
         integrated some security systems like
         [brute force protection](https://github.com/orsinium/django-bruteforce-protection)
         and intrusion detection.
@@ -96,12 +96,12 @@
       icon:
         fa: fas fa-robot
       info: >
-        At the university, I worked in the linguistic department
+        At the university, I worked in the linguistics department
         where I researched language and text influence,
         adopted Claude Shannon's information theory to natural languages.
         In Cindicator I wrote simple trading strategies that get
         information from crypto exchanges and make predictions
-        about cryptocurrencies prices. On free time I learn
+        about cryptocurrencies prices. In my free time I learn
         Machine Learning and build different cool models.
         See [my projects](projects.html#ds-and-ml) for examples.
     - name: Software Architecture
@@ -117,7 +117,7 @@
         mn: linux
       cert: https://www.testdome.com/cert/eb426eb5ffe243bab4e78c92c31e531f
       info: >
-        I live in Linux for 8 years, can solve any issue from a terminal.
+        I live in Linux for 8 years and can solve any issue from a terminal.
         I've worked with different Linux distros (Ubuntu, Debian, CentOS),
         set up physical servers, VPS, Raspberry Pi, Orange Pi.
     - name: Logic
@@ -146,9 +146,9 @@
         fa: fab fa-docker
         mn: docker
       info: >
-        I've packed in Docker all infrastructure of Farfor (when I worked in Smena),
+        I've packed in Docker all the infrastructure of Farfor (when I worked in Smena),
         the ML pipeline and the trading platform in Cindicator.
-        All it still works perfectly on all environments from development to production.
+        All of it still works perfectly in all environments from development to production.
     - name: Docker Compose
       icon:
         fa: fab fa-docker
@@ -162,7 +162,7 @@
         mn: ansible
       info: >
         All my websites (including this one) are hosted on my VPS and deployed
-        by Ansible. Also, we had Ansible-based deployment in Smena.
+        by Ansible. Also, we had an Ansible-based deployment in Smena.
 
 - name: Storages
   content:
@@ -193,14 +193,14 @@
         mn: mongodb
       info: >
         I know how to set up and use it for the best security and performance,
-        how to build good documents structure. In Cindicator we had an ML pipeline
+        how to build good document structure. In Cindicator we had an ML pipeline
         heavily tightened with MongoDB. Also, I'm
         [mongoengine contributor](https://github.com/MongoEngine/mongoengine/pull/1825).
     - name: Elastic Stack
       icon:
         mn: elasticsearch
       info: >
-        Elastic Stack (ex. ELK) is the huge monitoring system to aggregate
+        Elastic Stack (ex. ELK) is a huge monitoring system to aggregate
         logs, messages, and state from all parts of the system. It includes
         Elastic Search, Logstash, Kibana, MetricBeat, FileBeat etc.
         I can monitor with it all infrastructure.
@@ -222,7 +222,7 @@
         mn: flask
       info: >
         This is the most popular web framework. An old, a little bit slow, but beautiful.
-        So I know it very good, but I prefer to use more fast alternatives like
+        So I know it is very good, but I prefer to use faster alternatives like
         [Sanic](https://github.com/huge-success/sanic). It's more modern and fast.
     - name: Django REST Framework
       info: >
@@ -232,22 +232,22 @@
       info: >
         I'm [Luigi contributor](https://github.com/spotify/luigi/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Aorsinium)
         and know everything about how it works.
-        I've made all ML pipeline in Cindicator based on Luigi, and it still works
+        I've made all ML pipelines in Cindicator based on Luigi, and it still works
         on production without any issues.
         Also, I have [public talk](./projects.html) about it.
     - name: SQLAlchemy
       info: >
         It can't scare me. In Cindicator and EclecticIQ we have tons
-        of queries, requests, sessions management logic.
+        of queries, requests, and sessions management logic.
         I can handle it, debug and optimize queries, work with
         Flask-SQLAlchemy and SQLAlchemy-mixins.
     - name: Pandas
       info: >
-        In Smena I built really fast and effective report system
+        In Smena I built a really fast and effective report system
         on the top of pandas. In Cindicator I wrote the trading platform
-        and strategies that processes all the data using the pandas power.
-        At my free time I do [data analysis](projects.html#ds-and-ml)
-        and it always first of all means work with pandas and charts.
+        and strategies that process all the data using the pandas power.
+        In my free time, I do [data analysis](projects.html#ds-and-ml)
+        and it always first of all means working with pandas and charts.
 
 - name: Soft skills
   content:
@@ -258,8 +258,8 @@
       info: >
         I'm working with it every day, know how to estimate tasks,
         make informative descriptions and track progress most effectively.
-        Also, I'm familiar to Jira and know how to use filters, dashboards, boards,
-        search queries. In my hometown, I was a part of Atlassian User Group.
+        Also, I'm familiar with Jira and know how to use filters, dashboards, boards,
+        and search queries. In my hometown, I was a part of Atlassian User Group.
     - name: Kanban
       icon:
         fa: fab fa-trello
@@ -282,6 +282,6 @@
         In Smena and Cindicator I built perfect standups: fast and informative.
     - name: Public talks
       info: >
-        I like to talk to people about my tasks and knowledges, spread cool ideas.
-        You can discover some of my talks [here](./projects.html). Most of them on Russian,
+        I like to talk to people about my tasks and knowledge, spread cool ideas.
+        You can discover some of my talks [here](./projects.html). Most of them in Russian,
         but I'm going to fix it.
