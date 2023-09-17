@@ -6,9 +6,10 @@
         mn: python
       cert: https://www.testdome.com/cert/4e8bba06a5c1430aa6a15b799ee39933
       info: >
-        This is my favorite language, I'm in it about 8 years (since Python 3.4).
+        This is my favorite language, I'm in it since version 3.4 (2014).
         I know source code of almost all stdlib, have many Python-based
-        Open Source [projects](./projects.html) and public talks.
+        Open Source [projects](./projects.html) and public talks, always
+        can pick the best library for any task.
     - name: Go
       icon:
         fa: fas fa-running
@@ -16,9 +17,9 @@
       cert: https://www.testdome.com/cert/ca9b6d75b87c4be9bda30a00b68c70b7
       info: >
         I'm quite proficient with Go. I reach to it when I need a good performance:
-        games, small systems (thanks to TinyGo), small but important APIs.
+        games, small systems (thanks to TinyGo), CLI tools, small but important APIs.
         Oh, and of course I have [some open-source projects](./projects.html) on Go.
-        At the moment, I have 4 years of experience (since Go 1.11).
+        I work with Go since version 1.11 (2018).
     - name: Elixir
       icon:
         fa: fas fa-flask
@@ -48,21 +49,33 @@
         a good understanding of your frontend, I can easily crack it.
     - name: More!
       info: >
-        I like to learn new things and conceptions.
-        I have experience with Haskell, Idris, RPython, Pony, Nim,
-        Crystal, Clojure, Scala, JS, Ruby. I'm not afraid
-        to read and fix code on any language.
+        I believe that every programming language has some beautiful ideas,
+        and I like learning new ones. I have experience with Rust, Haskell, Gleam,
+        Idris, RPython, Pony, Nim, Crystal, Clojure, Scala, JS, Ruby, and many other
+        languages. I'm not afraid to read and fix code written on any language.
 
 - name: Hard skills
   content:
+    - name: Distributed Systems
+      icon:
+        fa: fas fa-network-wired
+      info: >
+        Distributed systems are hard because of very nature of our world
+        (damn you, speed of light!), and I enjoy cracking this complexity.
+        I'm familiar with fundamental problems, design patterns, algorithms,
+        formal verification techniques and tools (TLA+ and Alloy 6),
+        and just in general can design reliable solutions and consider
+        all possible corner-cases.
     - name: Quality Assurance
       cert: https://app.testdome.com/cert/54d8c8c8957f43fe9b9f0f505c9cf479
+      icon:
+        fa: fas fa-check-double
       info: >
         Automated testing (unit, integration, acceptance, regression),
         static code analysis, formal verification,
         contract programming, mutation tests, type theory.
         I like to push boundaries of my code to see how it performs in extreme
-        situations, to find interesting corner-cases, to dig math behind programming.
+        situations, to find interesting corner-cases, to dive into math behind programming.
     - name: Security
       cert: https://app.testdome.com/cert/95979e76c01f42c6afd8305f89d0af3d
       icon:
@@ -80,6 +93,8 @@
         [brute force protection](https://github.com/orsinium/django-bruteforce-protection)
         and intrusion detection.
     - name: DS and ML
+      icon:
+        fa: fas fa-robot
       info: >
         At the university, I worked in the linguistic department
         where I researched language and text influence,
@@ -90,9 +105,11 @@
         Machine Learning and build different cool models.
         See [my projects](projects.html#ds-and-ml) for examples.
     - name: Software Architecture
+      icon:
+        fa: fas fa-diagram-project
       info: >
         I know design patterns, antipatterns, refactoring techniques, 12 factors, SOLID principles.
-        In Cindicator a was the architect for the trading platform
+        In Cindicator, I was the architect for the trading platform
         from the first lines of code to the successful launch.
     - name: Linux
       icon:
