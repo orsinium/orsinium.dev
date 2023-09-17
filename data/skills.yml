@@ -208,47 +208,6 @@
         [python-syslog-logstash](https://github.com/orsinium/python-syslog-logstash)
         repository.
 
-- name: Libraries
-  content:
-    - name: Django
-      icon:
-        mn: django
-      info: >
-        In Smena we had a huge Django monolith. I know Django's source code
-        better than the birthdays of my relatives. However Django has some
-        issues for big projects, so I've made [DjBurger](https://github.com/orsinium/djburger).
-    - name: Flask
-      icon:
-        mn: flask
-      info: >
-        This is the most popular web framework. An old, a little bit slow, but beautiful.
-        So I know it is very good, but I prefer to use faster alternatives like
-        [Sanic](https://github.com/huge-success/sanic). It's more modern and fast.
-    - name: Django REST Framework
-      info: >
-        I like to work with DRF. This framework has some disadvantages,
-        but also it's quite simple and popular.
-    - name: Luigi
-      info: >
-        I'm [Luigi contributor](https://github.com/spotify/luigi/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Aorsinium)
-        and know everything about how it works.
-        I've made all ML pipelines in Cindicator based on Luigi, and it still works
-        on production without any issues.
-        Also, I have [public talk](./projects.html) about it.
-    - name: SQLAlchemy
-      info: >
-        It can't scare me. In Cindicator and EclecticIQ we have tons
-        of queries, requests, and sessions management logic.
-        I can handle it, debug and optimize queries, work with
-        Flask-SQLAlchemy and SQLAlchemy-mixins.
-    - name: Pandas
-      info: >
-        In Smena I built a really fast and effective report system
-        on the top of pandas. In Cindicator I wrote the trading platform
-        and strategies that process all the data using the pandas power.
-        In my free time, I do [data analysis](projects.html#ds-and-ml)
-        and it always first of all means working with pandas and charts.
-
 - name: Soft skills
   content:
     - name: Scrum
