@@ -47,11 +47,15 @@
   cv: true
   tags:
     - flake8
+  info: >
+    Design by contract for Python. Write bug-free code.
+    Add a few decorators, get static analysis and tests for free.
 - name: itj.orsinium.dev
   badge: 🧪 elixir highlight
   link: https://itj.orsinium.dev/
   links:
     - https://github.com/orsinium-labs/itj
+  cv: true
   tags:
     - elixir
     - website
@@ -59,12 +63,14 @@
     Decentralized job aggregator written in Elixir (Phoenix Framework)
 - link: https://github.com/life4/textdistance.rs
   badge: 🦀 rust highlight
+  cv: true
   info: >
     Rust library to compare strings (or any sequences).
     A younger sibling of Python textdistance.
 - link: https://github.com/life4/enc
   badge: 🏃 golang highlight
   bg: https://raw.githubusercontent.com/life4/enc/master/logo-light.svg
+  cv: true
   info: >
     A modern and friendly CLI alternative to GnuPG.
   tags:
@@ -72,7 +78,6 @@
     - cli
 - name: DepHell
   badge: 🧠 most complex
-  cv: true
   bg: https://github.com/dephell/dephell/raw/master/assets/logo.png
   link: https://github.com/dephell/dephell
   tags:
@@ -145,7 +150,6 @@
 # GOLANG
 
 - link: https://github.com/life4/gweb
-  cv: true
   links:
     - https://gweb.orsinium.dev/
     - https://www.canva.com/design/DAFCPuYjbS8/MoEdD6m-mT86wui1CM9kkg/view
@@ -160,7 +164,6 @@
     A browser game written in Go and WASM and powered by
     [gweb](https://github.com/life4/gweb)
 - link: https://github.com/life4/genesis
-  cv: true
   info: >
     Generic functions for Go 1.18: Filter, Map, Reduce, Min, Sort, etc.
 - link: https://github.com/orsinium-labs/enum

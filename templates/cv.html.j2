@@ -55,7 +55,7 @@
       <hr/>
       <h2>Experience</h2>
     	<div class="row work">
-        {% for item in work[:4] %}
+        {% for item in work[:3] %}
       		<div class="col-md-1 d-print-none">
             <img src="./assets/{{ item['image'] }}" />
       		</div>
@@ -79,6 +79,11 @@
         {% for item in projects %}
           {% if item['cv'] %}
             <div class="col-md-4">
+              {% if item.badge %}
+                <div class="badge bg-dark text-light">
+                  {{ item.badge }}
+                </div>
+              {% endif %}
               <h4>
                 <a href="{{ item['link'] }}" target="_blank">
                   {{ item.name }}
