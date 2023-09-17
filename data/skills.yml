@@ -1,4 +1,4 @@
-- name: Languages
+- name: 🐍 Languages
   content:
     - name: Python
       icon:
@@ -54,7 +54,7 @@
         Idris, RPython, Pony, Nim, Crystal, Clojure, Scala, JS, Ruby, and many other
         languages. I'm not afraid to read and fix code written in any language.
 
-- name: Hard skills
+- name: 🧠 Hard skills
   content:
     - name: Distributed Systems
       icon:
@@ -139,7 +139,7 @@
         solve riddles and equations for fun, know how to apply
         math in my work to make code faster and even nicer.
 
-- name: DevOps
+- name: 🐋 DevOps
   content:
     - name: Docker
       icon:
@@ -164,7 +164,7 @@
         All my websites (including this one) are hosted on my VPS and deployed
         by Ansible. Also, we had an Ansible-based deployment in Smena.
 
-- name: Storages
+- name: 💾 Storages
   content:
     - name: PostgreSQL
       icon:
@@ -208,7 +208,7 @@
         [python-syslog-logstash](https://github.com/orsinium/python-syslog-logstash)
         repository.
 
-- name: Soft skills
+- name: 🤝 Soft skills
   content:
     - name: Scrum
       cert: https://app.testdome.com/cert/0ab70dac1a26480f854fcbaa08cc7077
