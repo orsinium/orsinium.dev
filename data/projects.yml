@@ -122,6 +122,14 @@
   info: When I'm bored, I answer random questions on Stack Overflow.
   tags:
     - website
+- name: stickers.orsinium.dev
+  link: https://stickers.orsinium.dev/
+  info: >
+    Some stickers I made. I do them for fun and give them away for free.
+  tags:
+    - website
+  links:
+    - https://github.com/orsinium-labs/stickers.orsinium.dev
 - name: stars.orsinium.dev
   icon: fas fa-star
   link: https://stars.orsinium.dev/
@@ -133,6 +141,12 @@
 
 # ELIXIR & RUST
 
+- link: https://github.com/orsinium-labs/gamgee
+  info: >
+    Run WebAssembly (WASM-4) games on PyBadge and other small devices.
+  tags:
+    - rust
+    - wasm
 - link: https://github.com/orsinium-labs/rlci
   info: >
     Overly-documented Rust-powered Lambda Calculus Interpreter.
@@ -165,8 +179,19 @@
     [gweb](https://github.com/life4/gweb)
 - link: https://github.com/life4/genesis
   info: >
-    Generic functions for Go 1.18: Filter, Map, Reduce, Min, Sort, etc.
+    Generic functions for Go: Filter, Map, Reduce, Min, Sort, etc.
 - link: https://github.com/orsinium-labs/enum
+- link: https://github.com/orsinium-labs/wasm4go
+  tags:
+    - go
+    - wasm
+- link: https://github.com/orsinium-labs/tinytest
+- link: https://github.com/orsinium-labs/wypes
+  info: >
+    Define type-safe host functions in wazero and other WebAssembly runtimes.
+  tags:
+    - go
+    - wasm
 - link: https://github.com/life4/logit
 - link: https://github.com/orsinium-labs/sourcemap
   tags:
@@ -174,6 +199,9 @@
     - security
 - link: https://github.com/orsinium-labs/arguard
 - link: https://github.com/orsinium-labs/cliff
+- link: https://github.com/orsinium-labs/intover
+  info: >
+    Integer arithmetic with overflow detection.
 - link: https://github.com/orsinium-labs/gamepad
 - link: https://github.com/orsinium-labs/imgshow
 - link: https://github.com/orsinium-labs/gcserve
@@ -243,6 +271,8 @@
 - link: https://github.com/orsinium-labs/walnats
 - link: https://github.com/orsinium-labs/pytypest
 - link: https://github.com/orsinium-labs/true-north
+  info: >
+    Powerful and Pythonic framework for reproducible benchmarks.
 - link: https://github.com/orsinium-labs/docked
   tags:
     - docker
@@ -252,6 +282,9 @@
     - music
     - art
 - link: https://github.com/orsinium-labs/l10n
+- link: https://github.com/orsinium-labs/jockey
+  info: >
+    Generic Python library for running asynchronous workers.
 - link: https://github.com/orsinium-labs/gcp-log
 - link: https://github.com/orsinium-labs/cardaio
   info: A Python library for adjustable delays.
