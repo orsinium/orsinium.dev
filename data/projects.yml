@@ -185,7 +185,13 @@
   tags:
     - go
     - wasm
+- link: https://github.com/orsinium-labs/tinymath
+  tags:
+    - go
+    - wasm
+- link: https://github.com/orsinium-labs/josh
 - link: https://github.com/orsinium-labs/tinytest
+- link: https://github.com/orsinium-labs/opsgenie-reminder
 - link: https://github.com/orsinium-labs/wypes
   info: >
     Define type-safe host functions in wazero and other WebAssembly runtimes.
