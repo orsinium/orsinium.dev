@@ -1,6 +1,25 @@
+- name: 10. OurMind
+  image: ourmind.png
+  date: 2024-09 &mdash; now
+  info: Principal Software Engineer
+  link: https://www.ourmind.ai/
+  points:
+    - Build the Go-powered backend from scratch as the first employee.
+
+- name: 9. Firefly Zero
+  image: firefly.png
+  date: 2024-03 &mdash; now
+  info: Co-Founder
+  link: https://fireflyzero.com/
+  points:
+    - "Do what startup founders do: basically, everything."
+    - Write embedded firmware in Rust.
+    - Write all software and SDKs in Go, Python, C, C++, Zig, JS, etc.
+    - Do marketing, build community, hire contractors, plan work.
+
 - name: 8. Sendcloud
   image: sendcloud.png
-  date: 2022-08 &mdash; now
+  date: 2022-08 &mdash; 2024-08
   info: Principal Software Engineer
   link: https://www.sendcloud.nl/
   points:
