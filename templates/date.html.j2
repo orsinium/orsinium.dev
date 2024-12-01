@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Hi, I'm Gram">
+    <meta name="keywords" content="date, dating, love, amsterdam">
+    <meta name="author" content="Gram (@orsinium)">
+    <title>Hi, I'm Gram</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/icons/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Hi, I'm Gram</h1>
+    	<div class="row">
+        <div class="col-md-6 lead">
+          <p class="lead">
+            Dating for a woman is like shopping. Dating for a man is like job interview.
+            So, why shouldn't I make a CV?
+          </p>
+          <ul>
+            {% for p in points %}
+              <li>
+                <b>{{ p['name'] }}:</b>
+                {{ p['desc'] }}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="assets/me.jpg" style="width: 100%"/>
+        </div>
+      </div>
+
+      <h2 style="text-align: center">
+        <i class="far fa-heart"></i>
+      </h2>
+
+    </div>
+  </body>
+</html>
