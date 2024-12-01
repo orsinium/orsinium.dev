@@ -27,7 +27,10 @@
           </p>
           <dl class="row">
             {% for p in points %}
-              <dt>{{ p['name'] }}</dt>
+              <dt>
+                <i class="{{ p['icon'] }} text-muted"></i>
+                {{ p['name'] }}
+              </dt>
               <dd>
                 {% markdown %}
                   {{ p['desc'] }}

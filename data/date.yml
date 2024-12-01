@@ -1,16 +1,19 @@
 points:
   - name: Generalist
+    icon: fa-solid fa-brain
     desc: >
       I do a bit of everything. I play piano, write music, listen to music,
       doodle sketches, cut things from wood, go to gym, go bouldering, read books,
       watch movies, play games, write games, play board games and TTRPGs,
       speak at conferences, and much more. My day is 48 hours long.
   - name: Adventurer
+    icon: fa-solid fa-location-dot
     desc: >
       I go to places, I see people, and I'm not afraid to try new things.
       I'm not a club guy, though: I'd always pick a one-to-one deep conversation
       with a signle person rather than a crowded party.
   - name: Tinkerer
+    icon: fa-solid fa-gear
     desc: >
       I'm a software engineer. I'm very good at it and I enjoy doing it.
       I read techy books, create lots of programs and tools, automate boring stuff,
@@ -18,12 +21,14 @@ points:
       If I see a mechanism I've never seen before (like a drawbridge),
       I must know how it works.
   - name: Risk taker
+    icon: fa-solid fa-hand-fist
     desc: >
       I left a boring steady income job to join a friend's startup
       ([OurMind](https://ourmind.ai/)) and to start my own
       ([Firefly Zero](https://fireflyzero.com/)). Life isn't about earning as much money
       as possible. Life is about being remembered for great things.
   - name: Mentalist
+    icon: fa-solid fa-brain
     desc: >
       Magic is real and telepathy exists. I'm fascinated about human brain, body,
       and psychology. Every person to me is a universe. I read books, go through courses,
@@ -31,6 +36,7 @@ points:
       and I can tell about you more than you know yourself.
       I want to help everyone to discover themselves and their purpose in life.
   - name: Reliable
+    icon: fa-solid fa-shield
     desc: >
       I've been with the same partner for 11 years. And I never betrayed her trust.
       I won't lie to you and I will keep all your secrets.
