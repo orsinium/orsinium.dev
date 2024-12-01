@@ -301,7 +301,7 @@ def generate_website() -> None:
 
     for data_path in Path('data').iterdir():
         name = data_path.stem
-        if name in {'buttons', 'names', 'meta', 'tags', 'date'}:
+        if name in {'buttons', 'names', 'meta', 'tags', 'personal'}:
             continue
         template_path = Path('templates', name).with_suffix('.html.j2')
         if not template_path.exists():
@@ -339,10 +339,10 @@ def generate_cv() -> None:
     Path('public', output_name).write_text(content)
 
 
-def generate_date() -> None:
-    output_name = 'date.html'
+def generate_personal() -> None:
+    output_name = 'personal.html'
     template = env.get_template(output_name + '.j2')
-    data_path = Path("data", "date.yml")
+    data_path = Path("data", "personal.yml")
     data = yaml.safe_load(data_path.open())
     content = template.render(**data)
     Path('public', output_name).write_text(content)
@@ -351,4 +351,4 @@ def generate_date() -> None:
 if __name__ == '__main__':
     generate_website()
     generate_cv()
-    generate_date()
+    generate_personal()
