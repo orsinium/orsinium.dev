@@ -19,20 +19,22 @@
   <body>
     <div class="container">
       <h1>Hi, I'm Gram</h1>
-    	<div class="row">
+    	<div class="row" style="text-align: justify">
         <div class="col-md-6 lead">
           <p class="lead">
             Dating for a woman is like shopping. Dating for a man is like job interview.
             So, why shouldn't I make a CV?
           </p>
-          <ul>
+          <dl class="row">
             {% for p in points %}
-              <li>
-                <b>{{ p['name'] }}:</b>
-                {{ p['desc'] }}
-              </li>
+              <dt>{{ p['name'] }}</dt>
+              <dd>
+                {% markdown %}
+                  {{ p['desc'] }}
+                {% endmarkdown %}
+              </dd>
             {% endfor %}
-          </ul>
+          </dl>
         </div>
         <div class="col-md-6">
           <img src="assets/me.jpg" style="width: 100%"/>
