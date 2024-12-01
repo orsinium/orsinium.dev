@@ -160,6 +160,7 @@
   links:
     - ./assets/re.pdf
 - link: https://github.com/orsinium-labs/exp
+- link: https://github.com/orsinium-labs/chamber
 
 # GOLANG
 
@@ -181,6 +182,11 @@
   info: >
     Generic functions for Go: Filter, Map, Reduce, Min, Sort, etc.
 - link: https://github.com/orsinium-labs/enum
+- link: https://github.com/orsinium-labs/jsony
+- link: https://github.com/orsinium-labs/valdo
+- link: https://github.com/orsinium-labs/ddlite
+- link: https://github.com/orsinium-labs/anonymizer
+- link: https://github.com/orsinium-labs/stopwords
 - link: https://github.com/orsinium-labs/wasm4go
   tags:
     - go
