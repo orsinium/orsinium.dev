@@ -26,10 +26,24 @@
             and skydiving. When I say I want to try everything,
             I mean making a game console, visiting Iceland, and writing a book.
           </p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-unstyled">
+            {% for h in highlights %}
+              <li>
+                <i class="{{ h['icon'] }} fa-fw text-muted"></i>
+                {{ h['text'] }}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    	<div class="row" style="text-align: justify">
+        <div class="col-md-6">
           <dl class="row">
             {% for p in points %}
               <dt>
-                <i class="{{ p['icon'] }} text-muted"></i>
+                <i class="{{ p['icon'] }} fa-fw text-muted"></i>
                 {{ p['name'] }}
               </dt>
               <dd>
@@ -42,6 +56,15 @@
         </div>
         <div class="col-md-6">
           <img src="assets/me.jpg" style="width: 100%"/>
+        </div>
+      </div>
+
+    	<div class="row" style="text-align: justify">
+        <div class="col-md-12">
+          <p class="lead">
+            If you'd like to meet and get to know each other,
+            drop me a message in Telegram: <a href="https://t.me/orsinium">@orsinium</a>.
+          </p>
         </div>
       </div>
 

@@ -1,3 +1,12 @@
+highlights:
+  - text: live in Amsterdam
+    icon: fa-solid fa-location-dot
+  - text: he/him, hetero
+    icon: fa-solid fa-venus-mars
+  - text: don't smoke, don't drink, don't do drugs
+    icon: fa-solid fa-ban-smoking
+  - text: 30 y/o looking 20
+    icon: fa-solid fa-calendar
 points:
   - name: Generalist
     icon: fa-solid fa-brain
@@ -38,5 +47,6 @@ points:
   - name: Reliable
     icon: fa-solid fa-shield
     desc: >
-      I've been with the same partner for 11 years. And I never betrayed her trust.
-      I won't lie to you and I will keep all your secrets.
+      I've been with the same partner for 11 years and I never betrayed her trust.
+      I won't lie to you and I will keep all your secrets. I don't have many friends
+      but the ones I do are friends for life.
