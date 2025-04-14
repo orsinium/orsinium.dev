@@ -89,6 +89,8 @@ class Project:
     def experimental(self) -> bool:
         if self.meta is None:
             return False
+        if self.popular:
+            return False
         return 'orsinium-labs' in self.data['link']
 
     @property

@@ -160,6 +160,7 @@
   links:
     - ./assets/re.pdf
 - link: https://github.com/orsinium-labs/exp
+- link: https://github.com/orsinium-labs/cirque-pinnacle
 - link: https://github.com/orsinium-labs/chamber
 
 # GOLANG
@@ -187,6 +188,11 @@
 - link: https://github.com/orsinium-labs/ddlite
 - link: https://github.com/orsinium-labs/anonymizer
 - link: https://github.com/orsinium-labs/stopwords
+- link: https://github.com/orsinium-labs/configenv
+- link: https://github.com/orsinium-labs/openapi
+- link: https://github.com/orsinium-labs/pgxtester
+- link: https://github.com/orsinium-labs/piper
+- link: https://github.com/orsinium-labs/regexer
 - link: https://github.com/orsinium-labs/wasm4go
   tags:
     - go

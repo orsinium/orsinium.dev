@@ -9,7 +9,7 @@ tasks:
     sources:
       - requirements.txt
     cmds:
-      - python3 -m pip install --user -U -r requirements.txt
+      - python3 -m pip install --break-system-packages -U -r requirements.txt
 
   generate:
     deps:
