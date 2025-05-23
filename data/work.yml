@@ -4,7 +4,8 @@
   info: Principal Software Engineer
   link: https://www.ourmind.ai/
   points:
-    - Build the Go-powered backend from scratch as the first employee.
+    - Build the Go-powered backend and infra from scratch as the first employee.
+    - Do a bit of everything else, from security to UI. That's how startups work!
 
 - name: 9. Firefly Zero
   image: firefly.png
@@ -12,7 +13,7 @@
   info: Co-Founder
   link: https://fireflyzero.com/
   points:
-    - "Do what startup founders do: basically, everything."
+    - "Do what startup founders do: everything."
     - Write embedded firmware in Rust.
     - Write all software and SDKs in Go, Python, C, C++, Zig, JS, etc.
     - Do marketing, build community, hire contractors, plan work.

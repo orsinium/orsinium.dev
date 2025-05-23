@@ -1,7 +1,12 @@
 {% extends "base.html.j2" %}
 
 {% block content %}
-  {% for item in items %}
+  <p class="lead">
+    This page used to list every places I ever worked at, which is a lot,
+    but who cares, really? So, here is the only thing that matters: what
+    I'm doing right now.
+  </p>
+  {% for item in items[:2] %}
     <div class="row" style="margin-bottom: 4px">
       {% include "widecard.html.j2" with context %}
     </div>
