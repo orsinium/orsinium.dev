@@ -1,12 +1,10 @@
 points:
-  - text: Principal Software Engineer from Netherlands.
+  - text: Principal Software Engineer from Amsterdam.
     icon: fas fa-laptop
-  - text: Python, Go, Elixir, Rust, Web, Security.
+  - text: Go, Rust, Python, Elixir, Web, Security.
     icon: fab fa-python
   - text: Passionate about my craft.
     icon: fas fa-tools
-  - text: Public speaker and teacher.
-    icon: fas fa-bullhorn
   - text: A lot of Open Source.
     icon: fas fa-code-branch
   - text: Constantly tinkering and experimenting.
@@ -15,24 +13,14 @@ points:
     icon: fas fa-brain
 
 links:
-  - name: "Hire me"
-    link: ./hire.html
-    icon: fas fa-plus
+  - name: "Firefly Zero"
+    link: https://fireflyzero.com/
+    icon: fas fa-lightbulb
     pages:
       - home
   - name: "Projects"
     link: ./projects.html
     icon: fas fa-tools
-    pages:
-      - home
-  - name: "Pull Requests"
-    link: ./prs.html
-    icon: fas fa-hands-helping
-    pages:
-      - home
-  - name: "Skills"
-    link: ./skills.html
-    icon: fas fa-brain
     pages:
       - home
   - name: "Work"
@@ -70,11 +58,6 @@ links:
     pages:
       - cv
       - home
-  - name: CV
-    icon: fas fa-user
-    link: ./cv.html
-    pages:
-      - home
   - name: email
     icon: fas fa-envelope
     link: mailto:gram@orsinium.dev
@@ -88,7 +71,6 @@ links:
     short: linkedin.com/in/orsinium
     pages:
       - cv
-      - home
   - name: public key
     icon: fas fa-key
     link: ./assets/publickey.asc
