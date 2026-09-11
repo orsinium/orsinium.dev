@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Hi, I'm Gram, here is my CV">
+    <meta name="keywords" content="developer, portfolio, python, golang">
+    <meta name="author" content="Gram (@orsinium)">
+    <title>Gram / CV</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+    <style>
+      body {
+        background-color: #EFE9DD;
+      }
+
+      .container {
+        max-width: 600px;
+        justify-content: left;
+      }
+
+      .header {
+        background-color: #03604E;
+        color: white;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 8px;
+      }
+
+      .subheader {
+        width: 600px;
+        justify-content: left;
+        padding-left: 8px;
+      }
+
+      h1 {
+        margin-bottom: 0px;
+      }
+
+      .header p {
+        margin-top: 0px;
+        margin-left: 50px;
+      }
+
+      .bubble {
+        color: #2c3e50;
+        margin-bottom: 5px;
+        padding: 0px 8px;
+        min-width: 50px;
+        display: inline-block;
+      }
+
+      .me {
+        background-color: #FEFEFB;
+        border-radius: 8px 8px 8px 0px;
+      }
+
+      .friend {
+        background-color: #DFFFC5;
+        border-radius: 8px 8px 0px 8px;
+        position: relative;
+        right: 0;
+        float: inline-end;
+      }
+
+      a {
+        text-decoration: none;
+        color: #2980b9;
+      }
+    </style>
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="subheader">
+        <h1>⬅️ Gram</h1>
+        <p>Last time seen today at 9:01 AM</p>
+      </div>
+    </header>
+    <div style="justify-content: center; display: flex;">
+      <div class="container">
+        {% for item in items %}
+          <article style="min-height: 62px">
+            {% if 'm' in item %}
+              <div class="bubble me">
+                {% markdown %}
+                  {{ item['m'] }}
+                {% endmarkdown %}
+              </div>
+            {% else %}
+              <div class="bubble friend">
+                {% markdown %}
+                  {{ item['f'] }}
+                {% endmarkdown %}
+              </div>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>

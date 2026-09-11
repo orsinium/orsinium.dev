@@ -1,0 +1,124 @@
+- m: >
+    Hey buddy. I'm working on a new CV and I need your help.
+    Could you ask me questions to make sure I don't miss anything?
+- f: Sure man. Start with the **intro**, I guess.
+- m: >
+    Hi, I'm [Gram](https://orsinium.dev/). 👋 I'm a **principal software engineer** from Amsterdam ✖️✖️✖️.
+    I've been doing it for work and fun all my long adult life (15 years? Jeez I'm old)
+    and I still find it incredibly fun. I had all kinds of titles and responsibilities
+    in my career, from mindless bugfixing to designing sprouting distributed systems.
+    And I daresay I'm damn good at all of that.
+- f: Ahaha, nice. Do you have a **motto**?
+- m: >
+    "Always smarter than yesterday." 🧠 I like learning new things.
+    And because I do it a lot, I'm a quick learner. I always enjoyed
+    joining companies in a totally new field (medicine, finance, etc)
+    because that always means an opportunity to learn lots of new thing
+    from experts. And I always did.
+- f: You're also doing it in your **free time**, right?
+- m: >
+    True. I'm reading about new technologies every day but also
+    learning as many skills in life as possible. For instance,
+    I'm a certified skipper ⛵️, actor 🎭, and climber 🧗.
+- f: What **programming languages** do you know?
+- m: >
+    I use Golang 🏃 at work, **Rust** 🦀 at my own startup, used **Python** 🐍
+    for all my career, and had a lot of exposure to JS
+    (**React** and React Native ⚛️), including a few pet projects.
+    I also find Elixir 🧪 quite neat and had a few pet projects on it
+    (with Phoenix framework 🐦‍🔥). And I wrote in recent years some code in C, C++,
+    Zig, Odin, MoonBit, Lua, Prolog, LISP, Clojure...
+- f: Do you have any **projects** to show?
+- m: >
+    A lot! I have [180 projects](https://orsinium.dev/projects) list on my website
+    and the list is far from complete. In total my projects have more than 30k stars
+    on GitHub, I'm kind of a celebrity online 😎. Let me pick some highlights.
+- m: >
+    🏃🔒 [enc](https://github.com/life4/enc) is an encryption tool written in Go.
+- m: >
+    🐍🤝 [deal](https://github.com/life4/deal) is a design-by-contract framework for Python.
+- m: >
+    🦀💡 [Firefly Zero](https://github.com/firefly-zero/firefly-runtime) is a game console
+    written in Rust.
+- f: And where do you **work now**?
+- m: |
+    I'm the "everything engineer" at [OurMind](https://ourmind.ai/) *(2024-now)*,
+    an AI startup in medicine.
+
+    I joined them from day one as "the first employee"
+    and now we have 17 people and hiring even more. All backend, all infra,
+    and some of the frontend are written by me and work like a charm.
+- m: |
+    I'm also working in my free time on [Firefly Zero](https://fireflyzero.com/) *(2024-now)*,
+    a WebAssembly-powered game console.
+
+    I'm a "founder" but it's hard to call it a startup just yet since
+    we're far from the release and it doesn't bring any money.
+    It's more of a hobby at this point. Still, good at impressing people at a bar.
+- f: If it's all so good, **why are you leaving**?
+- m: >
+    I'll keep working on Firefly Zero. It's damn fun but I still need a day job
+    to pay my bills. OurMind is fun but it's all-in on AI and my opinion on AI
+    changed a lot since we started. AI destroys our society and environment
+    and I don't want to support that.
+- f: And where did you **work before**?
+- m: |
+    🇳🇱 [Sendcloud](https://www.sendcloud.nl/) *(2022-2024)*:
+    Shipping company, principal software engineer.
+
+    Big corporation, a lot of Django services. I was in Tracking team, writing services
+    for sending SMS and emails, then in Core team, making standards and templates
+    for everyone else to use, in the infra team writing internal tooling in Go,
+    and later also helping the new small team (that we acquired)
+    to integrate their Go service into our system.
+- m: >
+    🇳🇱 [Nicolab](https://www.nicolab.com/) *(2020-2022)*:
+    Medical company, senior software engineer.
+- m: >
+    🇳🇱 [EclecticIQ](https://www.eclecticiq.com/) *(2019-2020)*:
+    Security company, senior software engineer.
+- m: >
+    🇷🇺 [Cindicator](https://cindicator.com/) *(2018-2019)*:
+    Cryptocurrency startup, senior software engineer and architect.
+- m: >
+    🇷🇺 [Smena](http://smena.space/) *(2017-2018)*:
+    Online restaurant, Django web developer.
+- m: >
+    Before that I freelanced (mostly making cheap websites on Wordpress and Django)
+    and worked in linguistics department at my university.
+    At some point, I even had a small team (3 people) to help me with it. Good times.
+- f: What's your **education**?
+- m: >
+    I graduated in 2017 as an all-excellent **Information Security**
+    bachelor from a Russian technical university
+    ([USATU](https://en.wikipedia.org/wiki/Ufa_State_Aviation_Technical_University)).
+    It's been a while ago but I'm still very "security-minded" (aka paranoid).
+- f: So, what are you **looking for**?
+- m: >
+    In recent years, I became more conscientious of how my personal choices
+    affect the world around me. I want a job that makes the world a better place.
+    No LLMs, no cryptocurrencies, no online casinos, no commercial satelites.
+    Just the real science, NGOs, open-source, all the good stuff.
+- f: Maybe add some keywords for LLMs and recruiters?
+- m: |
+    Easy! I worked with most of the technologies out there at some point.
+
+    * **DBs**: PostgreSQL, MySQL, Sqlite, ClickHouse.
+    * **Messaging**: Redis, NATS, Kafka, RabbitMQ, Google Cloud Pub/Sub.
+    * **Protocols**: OpenTelemetry, Statsd, Prometheus, Protobuf, XML, REST.
+    * **Standards**: OpenAPI, JSON:API, JSON Schema, FHIR, DICOM, ISO 127001.
+    * **Languages**: Python, Golang, Elixir, Rust, JavaScript, TypeScript.
+    * **Kinda languages**: SQL, HTML, CSS, Prolog, SVG, YAML, TOML.
+    * **Frameworks**: Django, FastAPI, Flask, Phoenix, Nerves.
+    * **Frontend**: React, React Native, Preact, NextJS, Tanstack Query.
+    * **Services**: Sendgrid, Twilio, CM, Sentry, Datadog, OpenAI, Gemini, PostNL, Binance, BUX.
+- m: >
+- f: Don't forget contact details and maybe a few links.
+- m: |
+    Right!
+
+    * 📨 email: [gram@orsinium.dev](mailto:gram@orsinium.dev)
+    * 🐙 github: [github.com/orsinium](https://github.com/orsinium)
+    * 📚 projects list: [orsinium.dev](https://orsinium.dev/)
+- f: Cool! I think that's it. Good luck with the job hunt.
+- m: Thanks buddy!

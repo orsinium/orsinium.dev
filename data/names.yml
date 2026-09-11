@@ -25,6 +25,9 @@
 - name: "Stargazers"
   slug: "stars"
   icon: fas fa-star
+- name: "CV"
+  slug: "cv2026"
+  icon: fas fa-user
 
 - name: "Page not found"
   slug: "404"
