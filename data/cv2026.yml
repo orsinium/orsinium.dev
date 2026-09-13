@@ -4,7 +4,7 @@
 - f: Sure man. Start with the **intro**, I guess.
 - m: >
     Hi, I'm [Gram](https://orsinium.dev/). 👋 I'm a **principal software engineer** from Amsterdam ✖️✖️✖️.
-    I've been doing it for work and fun all my long adult life (15 years? Jeez I'm old)
+    I've been doing it for work and fun for the most of my life (15 years? Jeez I'm old)
     and I still find it incredibly fun. I had all kinds of titles and responsibilities
     in my career, from mindless bugfixing to designing sprouting distributed systems.
     And I daresay I'm damn good at all of that.
@@ -99,7 +99,7 @@
     affect the world around me. I want a job that makes the world a better place.
     No LLMs, no cryptocurrencies, no online casinos, no commercial satelites.
     Just the real science, NGOs, open-source, all the good stuff.
-- f: Maybe add some keywords for LLMs and recruiters?
+- f: Maybe add some **keywords** for LLMs and recruiters?
 - m: |
     Easy! I worked with most of the technologies out there at some point.
 
@@ -111,9 +111,11 @@
     * **Kinda languages**: SQL, HTML, CSS, Prolog, SVG, YAML, TOML.
     * **Frameworks**: Django, FastAPI, Flask, Phoenix, Nerves.
     * **Frontend**: React, React Native, Preact, NextJS, Tanstack Query.
-    * **Services**: Sendgrid, Twilio, CM, Sentry, Datadog, OpenAI, Gemini, PostNL, Binance, BUX.
-- m: >
-- f: Don't forget contact details and maybe a few links.
+    * **Services**: Supabase, Metabase, Sendgrid, Twilio, CM, Sentry,
+      Datadog, OpenAI, Gemini, PostNL, Binance, BUX.
+    * **Infra**: Gitlab CI, GitHub Actions, Docker, Docker Compose, Linux.
+    * **Tools**: Postman, Gettext, VSCode, OpenSCAD, Inkscape, Canva.
+- f: Don't forget contact details and maybe a few **links**.
 - m: |
     Right!
 

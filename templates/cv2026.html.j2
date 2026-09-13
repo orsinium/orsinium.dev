@@ -70,18 +70,28 @@
         text-decoration: none;
         color: #2980b9;
       }
+
+      .disclaimer {
+        color: gray;
+        font-size: 0.8em;
+        margin-bottom: 8px;
+      }
     </style>
 
   </head>
-  <body>
+  <body style="margin: 0; padding: 0">
     <header class="header">
       <div class="subheader">
         <h1>⬅️ Gram</h1>
         <p>Last time seen today at 9:01 AM</p>
       </div>
     </header>
-    <div style="justify-content: center; display: flex;">
+    <main style="justify-content: center; display: flex;">
       <div class="container">
+        <div class="disclaimer">
+          <b>Disclaimer:</b> This CV is made <i>without AI</i> and it's not a real chat.
+          I just think it looks cool.
+        </div>
         {% for item in items %}
           <article style="min-height: 62px">
             {% if 'm' in item %}
@@ -100,6 +110,6 @@
           </article>
         {% endfor %}
       </div>
-    </div>
+    </main>
   </body>
 </html>
