@@ -30,7 +30,7 @@
     Zig, Odin, MoonBit, Lua, Prolog, LISP, Clojure...
 - f: Do you have any **projects** to show?
 - m: >
-    A lot! I have [180 projects](https://orsinium.dev/projects) list on my website
+    A lot! I have [180 projects](https://orsinium.dev/projects) listed on my website
     and the list is far from complete. In total my projects have more than 30k stars
     on GitHub, I'm kind of a celebrity online 😎. Let me pick some highlights.
 - m: >
@@ -55,12 +55,6 @@
     I'm a "founder" but it's hard to call it a startup just yet since
     we're far from the release and it doesn't bring any money.
     It's more of a hobby at this point. Still, good at impressing people at a bar.
-- f: If it's all so good, **why are you leaving**?
-- m: >
-    I'll keep working on Firefly Zero. It's damn fun but I still need a day job
-    to pay my bills. OurMind is fun but it's all-in on AI and my opinion on AI
-    changed a lot since we started. AI destroys our society and environment
-    and I don't want to support that.
 - f: And where did you **work before**?
 - m: |
     🇳🇱 [Sendcloud](https://www.sendcloud.nl/) *(2022-2024)*:
@@ -93,15 +87,9 @@
     bachelor from a Russian technical university
     ([USATU](https://en.wikipedia.org/wiki/Ufa_State_Aviation_Technical_University)).
     It's been a while ago but I'm still very "security-minded" (aka paranoid).
-- f: So, what are you **looking for**?
-- m: >
-    In recent years, I became more conscientious of how my personal choices
-    affect the world around me. I want a job that makes the world a better place.
-    No LLMs, no cryptocurrencies, no online casinos, no commercial satelites.
-    Just the real science, NGOs, open-source, all the good stuff.
-- f: Maybe add some **keywords** for LLMs and recruiters?
+- f: So, what **skills** do you have?
 - m: |
-    Easy! I worked with most of the technologies out there at some point.
+    A lot! I worked with most of the technologies out there at some point.
 
     * **DBs**: PostgreSQL, MySQL, Sqlite, ClickHouse.
     * **Messaging**: Redis, NATS, Kafka, RabbitMQ, Google Cloud Pub/Sub.
@@ -121,6 +109,7 @@
 
     * 📨 email: [gram@orsinium.dev](mailto:gram@orsinium.dev)
     * 🐙 github: [github.com/orsinium](https://github.com/orsinium)
+    * 💩 linkedin: [linkedin.com/in/orsinium](https://www.linkedin.com/in/orsinium/)
     * 📚 projects list: [orsinium.dev](https://orsinium.dev/)
 - f: Cool! I think that's it. Good luck with the job hunt.
 - m: Thanks buddy!

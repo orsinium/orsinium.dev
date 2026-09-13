@@ -48,9 +48,19 @@
       .bubble {
         color: #2c3e50;
         margin-bottom: 5px;
-        padding: 0px 8px;
+        padding: 8px;
         min-width: 50px;
         display: inline-block;
+      }
+
+      .bubble p, .bubble ul {
+        margin-top: 0px;
+        margin-bottom: 4px;
+      }
+
+      .name {
+        color: #03604E;
+        font-weight: bold;
       }
 
       .me {
@@ -89,13 +99,13 @@
     <main style="justify-content: center; display: flex;">
       <div class="container">
         <div class="disclaimer">
-          <b>Disclaimer:</b> This CV is made <i>without AI</i> and it's not a real chat.
-          I just think it looks cool.
+          This CV is handcrafted 🙌
         </div>
         {% for item in items %}
-          <article style="min-height: 62px">
+          <article style="min-height: 40px">
             {% if 'm' in item %}
               <div class="bubble me">
+                <p class="name">Gram</p>
                 {% markdown %}
                   {{ item['m'] }}
                 {% endmarkdown %}
